@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_starthingsheart",
+  "price" : 10000,
+  "inventoryIcon" : "srm_starthingsheart.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Chest",
+  "description" : "You feel much more powerful when synchronised to it's alien beat.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Star Thing's Heart^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

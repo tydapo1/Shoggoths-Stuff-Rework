@@ -1,0 +1,22 @@
+{
+  "modId" : 36547,
+  "modName" : "srm_shoggotheyepatch47",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=faf1c6fe;d0c8a0fe=d1c9a1fe;b8b188fe=b8b18dfe;a09976fe=a19a7cfe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// VANILLA+
+
+//	f9f0c5fe=faf1c6fe;
+//	d0c8a0fe=d1c9a1fe;
+//	b8b188fe=b8b18dfe;
+//	a09976fe=a19a7cfe

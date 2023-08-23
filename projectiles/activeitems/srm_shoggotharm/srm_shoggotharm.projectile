@@ -1,0 +1,24 @@
+{
+  "projectileName" : "srm_shoggotharm",
+  "image" : "srm_shoggotharm.png", 
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [ ],
+  "power" : 0.0,
+  "speed" : 60,
+  "damageKind" : "hidden",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "physics" : "ballisticgrapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 9999,
+  "renderLayer" : "Player+1",
+  
+  "damagePoly" : [ [8, 0], [5.5, -5.5], [0, -8], [-5.5, -5.5], [-8, 0], [-5.5, 5.5], [0, 8], [5.5, 5.5] ],
+  
+  "onlyHitTerrain" : false,
+
+  "scripts" : [ "srm_shoggotharm.lua" ]
+}

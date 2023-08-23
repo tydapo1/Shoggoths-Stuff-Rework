@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : { 
+    "item" : "srm_shoggothskulllegs", 
+    "count" : 1 
+  },
+  "duration" : 0.0,
+  "groups" : [ "cosmetics", "t1organ" ]
+}

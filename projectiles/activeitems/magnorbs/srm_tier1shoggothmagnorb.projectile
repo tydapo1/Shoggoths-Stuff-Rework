@@ -1,0 +1,32 @@
+{
+  "projectileName" : "srm_tier1shoggothmagnorb",
+  "image" : "srm_tier1shoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/tar_hit_organic1.ogg",
+        "/sfx/projectiles/tar_hit_organic2.ogg",
+        "/sfx/projectiles/tar_hit_organic3.ogg",
+        "/sfx/projectiles/tar_hit_organic4.ogg",
+        "/sfx/projectiles/tar_hit_organic5.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

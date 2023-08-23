@@ -1,0 +1,8 @@
+{
+  "name" : "srm_brainfromafar",
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_brainfromafar.lua"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 36670,
+  "materialName" : "srm_shoggothplatformmelting0",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Melting Shoggoth Platform",
+  "description" : "The melting platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformmelting.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformmelting.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1810
+  }
+}

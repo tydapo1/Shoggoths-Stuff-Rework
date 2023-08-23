@@ -1,0 +1,118 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/shoggothHeaderMagnorb.png",
+    "fileBody" : "/interface/tooltips/shoggothBodyObjectMagnorb.png",
+    "fileFooter" : "/interface/tooltips/shoggothFooterMagnorb.png"
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [67, 148],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [38, 38],
+    "minSize" : [38, 38]
+  },
+  "hitDamageLabel" : {
+    "type" : "label",
+    "position" : [129, 111],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "hitDamageTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 111],
+    "hAnchor" : "left",
+    "value" : "Damage On Hit:"
+  },
+  "orbTotalLabel" : {
+    "type" : "label",
+    "position" : [129, 102],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "orbTotalTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 102],
+    "hAnchor" : "left",
+    "value" : "Orbs:"
+  },
+  "azSecondaryLabel" : {
+    "type" : "label",
+    "position" : [129, 93],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "azSecondaryTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 93],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "azSecondaryCostLabel" : {
+    "type" : "label",
+    "position" : [129, 84],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "azSecondaryCostTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 84],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "azSecondaryMagnitudeLabel" : {
+    "type" : "label",
+    "position" : [129, 75],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+  "azSecondaryMagnitudeTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 75],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [10, 68],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 124,
+    "lineSpacing" : 1.0,
+    "value" : ""
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [111, 24],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [98, 24],
+    "file" : "/interface/money.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [8, 24],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [129, 162],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [120, 136],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  }
+}

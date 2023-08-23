@@ -1,0 +1,48 @@
+{
+  "objectName" : "srm_shoggothteacup",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "A shoggoth tea cup. Fancy. Kind of.",
+  "shortdescription" : "Shoggoth Tea Cup",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "A warm cup of tea.",
+  "avianDescription" : "A hot, smelly drink.",
+  "floranDescription" : "Floran not sssure if Floran like drink. Perhapss it grow on Floran.",
+  "glitchDescription" : "Delighted. Tea is a joy to the taste sensors.",
+  "humanDescription" : "There's nothing quite like a nice cup of tea and a sit-down.",
+  "hylotlDescription" : "The Hylotl brew similar drinks from ocean flora.",
+  "novakidDescription" : "Never understood what everyone likes so much 'bout tea.",
+
+  "inventoryIcon" : "srm_shoggothteacupicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothteacup.png:<frame><color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaces" : [[0,0]],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothteacup.png:<frame><color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaces" : [[0,0]],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothteacup/srm_shoggothteacup.png:0",
+  "placementImagePosition" : [0, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

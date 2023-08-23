@@ -1,0 +1,15 @@
+{
+  "name" : "srm_cornallergy",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "srm_cornallergy.lua"
+  ],
+  
+  "animationConfig" : "srm_cornallergy.animation",
+
+  "label" : "Corn Allergy",
+  "icon" : "/interface/statuses/srm_cornallergy.png"
+}

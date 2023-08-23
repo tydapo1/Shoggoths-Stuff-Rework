@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "shoggothT3.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "shoggothT3lit.png",
+      "position" : [0, 0]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "shoggothT3blocks.png"
+}

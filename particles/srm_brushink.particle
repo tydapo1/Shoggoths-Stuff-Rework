@@ -1,0 +1,17 @@
+{
+  "kind" : "srm_brushink",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/srm_brushink.png",
+    "initialVelocity" : [0.0, 0.0],
+    "finalVelocity" : [0.0, 0.0],
+    "approach" : [0, 0],
+    "timeToLive" : 0.0,
+    "layer" : "middle",
+    "collidesForeground" : false,
+    "fullbright" : true,
+    "size" : 1.0,
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "srm_blockbuster",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_blockbuster.lua"
+  ]
+}

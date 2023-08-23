@@ -1,0 +1,30 @@
+{
+  "itemName" : "srm_giantbattery",
+  "price" : 250,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tradeGoods",
+  "description" : "Left click to fill with batteries/poison, right click to extract, hold to fill energy.",
+  "shortdescription" : "Giant Battery",
+  "twoHanded" : false,
+  
+  "energyAmount" : 0,
+
+  "inventoryIcon"   	: "srm_giantbattery.png:empty",
+
+  "inventoryIconEmpty"  : "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:empty",
+  "inventoryIcon10" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:10",
+  "inventoryIcon20" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:20",
+  "inventoryIcon30" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:30",
+  "inventoryIcon40" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:40",
+  "inventoryIcon50" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:50",
+  "inventoryIcon60" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:60",
+  "inventoryIcon70" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:70",
+  "inventoryIcon80" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:80",
+  "inventoryIcon90" 	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:90",
+  "inventoryIconFull"	: "/items/active/unsorted/srm_giantbattery/srm_giantbattery.png:full",
+
+  "scripts" : ["/items/active/unsorted/srm_giantbattery/srm_giantbattery.lua"],
+  "scriptDelta" : 3
+}

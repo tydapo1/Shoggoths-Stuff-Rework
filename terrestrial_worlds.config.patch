@@ -1,0 +1,117 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/srm_abyss",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [ 3, 4 ],
+      "layers": {
+	    "space" : {
+          "baseHeight" : 2500,
+          "layerLevel" : 2000
+        },
+        "atmosphere" : {
+          "baseHeight" : 1900,
+          "layerLevel" : 1700
+        },
+        "surface": {
+          "primaryRegion": [ "srm_abyssalbeaches" ],
+          "baseHeight": 1600,
+          "layerLevel": 1500,
+          "dungeons": [
+            [ 1.0, "hylotlcity" ]
+          ]
+        },
+        "subsurface": {
+          "primaryRegion": [ "srm_abyssalcaverns" ],
+          "baseHeight": 1400,
+          "layerLevel": 800,
+          "dungeons": [
+            [ 1.0, "srm_dungeonmarker" ]
+          ]
+        },
+        "underground1": {
+          "primaryRegion": [ "srm_abyssaloasis" ],
+          "baseHeight": 700,
+          "layerLevel": 400,
+          "dungeons": [
+            [ 1.0, "hylotloceancity" ],
+            [ 1.0, "hylotlruinedcity" ]
+          ]
+        },
+        "underground2" : {
+          "baseHeight" : 300,
+          "layerLevel" : 250
+        },
+        "underground3" : {
+          "baseHeight" : 200,
+          "layerLevel" : 150
+        },
+        "core" : {
+          "primaryRegion": [ "srm_abyssalcore" ],
+          "baseHeight" : 50,
+          "layerLevel" : 0
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/srm_abyssalbeaches",
+    "value": {
+      "oceanLiquid": [ "srm_styxwater" ],
+	  
+      "blockSelector": [ "remixedIslandsSurface" ],
+      "fgCaveSelector": [ "empty" ],
+      "bgCaveSelector": [ "empty" ],
+      "biome": [
+        [ 0, [ "srm_abyssalbeaches" ] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/srm_abyssalcaverns",
+    "value": {
+      "oceanLiquid": [ "srm_styxwater" ],
+      "oceanLevelOffset" : 1485,
+	  
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector": [ "abyssalcaverns" ],
+      "bgCaveSelector": [ "abyssalcavernsbg" ],
+      "biome": [
+        [ 0, [ "srm_abyssalcaverns" ] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/srm_abyssaloasis",
+    "value": {
+      "oceanLiquid": [ "srm_styxwater" ],
+      "oceanLevelOffset" : 785,
+
+      "blockSelector": [ "ledgesSurface" ],
+      "fgCaveSelector": [ "emptier" ],
+      "bgCaveSelector": [ "emptiest" ],
+      "biome": [
+        [ 0, [ "srm_abyssaloasis" ] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/srm_abyssalcore",
+    "value": {
+      "caveLiquid" : [ "srm_styxwater" ],
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
+      "oceanLiquid" : [ "srm_tarfrombeyond" ],
+      "oceanLevelOffset" : -20,
+      "fgCaveSelector" : [ "coreCaves" ],
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],
+      "biome" : [
+        [0, [ "srm_abyssalcore" ]]
+      ]
+    }
+  }
+]

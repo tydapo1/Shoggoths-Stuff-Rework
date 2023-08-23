@@ -1,0 +1,28 @@
+{
+  "itemName" : "srm_guroza",
+  "rarity" : "Common",
+  "price" : 35,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_guroza.png",
+  "description" : "A shoggoth traditional food made from innards of any living species.",
+  "shortdescription" : "Guroza",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 35
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

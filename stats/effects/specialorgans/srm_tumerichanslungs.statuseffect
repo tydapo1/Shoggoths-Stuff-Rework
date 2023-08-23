@@ -1,0 +1,11 @@
+{
+  "name" : "srm_tumerichanslungs",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_tumerichanslungs.animation",
+
+  "scripts" : [
+    "srm_tumerichanslungs.lua"
+  ]
+}

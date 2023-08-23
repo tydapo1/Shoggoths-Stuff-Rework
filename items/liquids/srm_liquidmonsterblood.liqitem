@@ -1,0 +1,15 @@
+{
+  "itemName" : "srm_liquidmonsterblood",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "srm_liquidmonsterbloodicon.png",
+  "shortdescription" : "Monster Blood",
+  "description" : "Monster blood!",
+  "learnBlueprintsOnPickup" : [
+    "srm_liquidblood"
+  ],
+
+  "liquid" : "srm_liquidmonsterblood",
+  
+  "price" : 0
+}

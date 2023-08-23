@@ -1,0 +1,39 @@
+{
+  "objectName" : "srm_shoggothtable",
+  "colonyTags" : ["shoggoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A tarry table.",
+  "shortdescription" : "Shoggoth Table",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 15,
+
+  "apexDescription" : "A very tarry table.",
+  "avianDescription" : "The goopiest of tables.",
+  "floranDescription" : "Tarrrrry table. Grossssss.",
+  "glitchDescription" : "Disgusted. A very tarry table.",
+  "humanDescription" : "An odd table.",
+  "hylotlDescription" : "A table, very tarry in every way.",
+  "novakidDescription" : "Just a table.",
+
+  "inventoryIcon" : "srm_shoggothtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothtable.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothtable/srm_shoggothtable.png",
+  "placementImagePosition" : [-20, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

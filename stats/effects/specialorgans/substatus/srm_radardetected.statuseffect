@@ -1,0 +1,11 @@
+{
+  "name" : "srm_radardetected",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_radardetected.lua"
+  ],
+
+  "animationConfig" : "srm_radardetected.animation"
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "srm_cursed",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "srm_cursed.lua"
+  ],
+
+  "animationConfig" : "srm_cursed.animation",
+
+  "label" : "Ygdar Ori Li Ox",
+  "icon" : "/interface/statuses/srm_cursed.png"
+}

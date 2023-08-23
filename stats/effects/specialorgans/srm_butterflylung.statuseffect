@@ -1,0 +1,11 @@
+{
+  "name" : "srm_butterflylung",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_butterflylung.animation",
+
+  "scripts" : [
+    "srm_butterflylung.lua"
+  ]
+}

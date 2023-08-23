@@ -1,0 +1,21 @@
+{
+  "projectileName" : "srm_hemophiliadarts",
+  "image" : "srm_hemophiliadarts.png",
+  "animationCycle" : 0.25,
+  "damageType" : "ignoresdef",
+  "physics" : "bullet",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "piercing" : true,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 0.0,
+  "damageKind" : "dagger",
+  "emitters" : [ "defaultred" ],
+  "statusEffects" : [ "srm_hemophilia" ]
+}

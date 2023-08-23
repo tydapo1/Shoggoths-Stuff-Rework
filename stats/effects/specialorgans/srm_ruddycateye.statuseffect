@@ -1,0 +1,9 @@
+{
+  "name" : "srm_ruddycateye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_ruddycateye.lua"
+  ]
+}

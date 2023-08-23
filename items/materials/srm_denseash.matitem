@@ -1,0 +1,14 @@
+{
+  "itemName" : "srm_denseash",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "srm_denseash.png",
+  "description" : "A pile of densely packed ash.",
+  "shortdescription" : "Dense Ash Pile",
+  "glitchdescription" : "Curious. A pile of packed ash.",
+  "florandescription" : "Big bunch of ashess.",
+  "novakiddescription" : "Big ol' pile of ash.",
+
+  "materialId" : 36999
+}

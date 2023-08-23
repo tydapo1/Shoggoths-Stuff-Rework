@@ -1,0 +1,103 @@
+{
+  "particleEmitters" : {
+    "stage0" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [0, 255, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1.2,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 2],
+            "approach" : [0, 10],
+            "timeToLive" : 0.1,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage1" : {
+      "enabled" : true,
+      "emissionRate" : 20.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [0, 255, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.6,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 4],
+            "approach" : [0, 10],
+            "timeToLive" : 0.1,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage2" : {
+      "enabled" : true,
+      "emissionRate" : 30.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [0, 255, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 8],
+            "approach" : [0, 10],
+            "timeToLive" : 0.1,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage3" : {
+      "enabled" : true,
+      "emissionRate" : 40.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [0, 255, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.15,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 16],
+            "approach" : [0, 10],
+            "timeToLive" : 0.1,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "beat" : [ "/sfx/statuseffects/beat.ogg" ]
+  }
+}

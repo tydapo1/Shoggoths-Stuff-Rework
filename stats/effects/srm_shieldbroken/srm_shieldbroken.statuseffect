@@ -1,0 +1,14 @@
+{
+  "name" : "srm_shieldbroken",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "srm_shieldbroken.lua"
+  ],
+
+  "animationConfig" : "srm_shieldbroken.animation",
+
+  "label" : "Shield Broken",
+  "icon" : "/interface/statuses/healblock.png"
+}

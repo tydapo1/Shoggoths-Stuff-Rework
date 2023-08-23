@@ -1,0 +1,67 @@
+{
+  "materialId" : 36609,
+  "materialName" : "srm_shoggothsmoothbrick29",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A smooth tar brick. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Smooth Brick",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothsmoothbrick.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothsmoothbrick.png?replace;515384=723f7e;41446f=5a2e6c;323660=462256;242952=361d46;5b4a7e=6e3066;503e70=5e2859;41325f=491945;35274e=3c1138;644078=6a214d;5f3770=59173e;4f2e5d=4c1034;45244a=41042a;bcbce0=E3BDEE;acacd2=D1AADB;8686aa=AD83B8;75759c=90639C;3f3f7d=c42b43;2f3465=a52436;242957=8a152b;1e2251=7e1428;3f3777=de3e43;302c5f=be363b;282454=9e2530;221f4d=801d26;3f2f70=f25149;33265b=d84941;2d2152=b33636;261c48=992e2e;c3c6df=e65c6f;b3b6d1=d7425b;8c8db2=c0354d;7a7ea1=ab2a3f",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1815
+  }
+}
+
+//
+
+//  Body Top 1
+//	515384=723f7e;
+//	41446f=5a2e6c;
+//	323660=462256;
+//	242952=361d46;
+//  Body Mid 1
+//	5b4a7e=6e3066;
+//	503e70=5e2859;
+//	41325f=491945;
+//	35274e=3c1138;
+//  Body Bottom 1
+//	644078=6a214d;
+//	5f3770=59173e;
+//	4f2e5d=4c1034;
+//	45244a=41042a;
+//  Face 1
+//	bcbce0=E3BDEE;
+//	acacd2=D1AADB;
+//	8686aa=AD83B8;
+//	75759c=90639C;
+//  Body Top 2
+//	3f3f7d=c42b43;
+//	2f3465=a52436;
+//	242957=8a152b;
+//	1e2251=7e1428;
+//  Body Mid 2
+//	3f3777=de3e43;
+//	302c5f=be363b;
+//	282454=9e2530;
+//	221f4d=801d26;
+//  Body Bottom 2
+//	3f2f70=f25149;
+//	33265b=d84941;
+//	2d2152=b33636;
+//	261c48=992e2e;
+//  Face 2
+//	c3c6df=e65c6f;
+//	b3b6d1=d7425b;
+//	8c8db2=c0354d;
+//	7a7ea1=ab2a3f

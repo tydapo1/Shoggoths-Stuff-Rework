@@ -1,0 +1,18 @@
+{
+  "name" : "srm_liquidremoval",
+  "effectConfig" : {
+	"bleedThreshold" : 50,
+	"procRate" : 1,
+	"dropCells" : false
+  },
+  "defaultDuration" : 0.001,
+
+  "scripts" : [
+    "srm_liquidremoval.lua"
+  ],
+
+  "animationConfig" : "srm_liquidremoval.animation",
+
+  "label" : "IV Leeching",
+  "icon" : "/interface/statuses/srm_liquidremoval.png"
+}

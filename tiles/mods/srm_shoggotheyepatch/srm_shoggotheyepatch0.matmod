@@ -1,0 +1,15 @@
+{
+  "modId" : 36500,
+  "modName" : "srm_shoggotheyepatch0",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}

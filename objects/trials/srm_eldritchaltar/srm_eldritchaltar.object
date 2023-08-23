@@ -1,0 +1,57 @@
+{
+  "objectName" : "srm_eldritchaltar",
+  "colonyTags" : ["shoggoth","trials"],
+  "rarity" : "Rare",
+  "description" : "Sacrifice some earthly possessions to attempt to obtain unique items.",
+  "shortdescription" : "^orange;Eldritch Altar^reset;",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 150,
+  "lightColor" : [153, 115, 116],
+  "printable" : false,
+
+  "apexDescription" : "This thing is taboo, best get rid of it before it gets found.",
+  "avianDescription" : "I hope Kluex doesn't see this...",
+  "floranDescription" : "Floran like sssssmell of blood...",
+  "glitchDescription" : "Nervous. This is none of my business.",
+  "humanDescription" : "Oh boy, this reeks of trouble! Let's see what happens.",
+  "hylotlDescription" : "Looking closely, a lot of strange inscriptions are marked upon these stones.",
+  "novakidDescription" : "Uhhh, yeah, I'm ain't cut out for that.",
+
+  "scripts" : [ "/objects/trials/srm_eldritchaltar/srm_eldritchaltar.lua" ],
+  "scriptDelta" : 2,
+
+  "inventoryIcon" : "srm_eldritchaltaricon.png",
+
+  "orientations" : [
+    {
+      "image" : "srm_eldritchaltar.png:<frame>",
+      "imagePosition" : [-36, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "srm_eldritchaltar.png:<frame>",
+      "imagePosition" : [-36, 0],
+      "direction" : "right",
+	  
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/npc/boss/tentacleboss_tentacle_loop.ogg",
+  "soundEffectRangeMultiplier" : 0.2
+}
+

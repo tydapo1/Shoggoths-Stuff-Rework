@@ -1,0 +1,20 @@
+{
+  "name" : "srm_organtech",
+  "type" : "body",
+
+  "scripts" : ["srm_organtech.lua"],
+  "animator" : "srm_organtech.animation",
+
+  "description" : "Organ Techs",
+  "shortDescription" : "Required for some organs to function properly.",
+  "rarity" : "Legendary",
+  "icon" : "/tech/srm_organtech.png",
+  
+  "techScripts" : {
+    "modroncore" : "srm_modroncore.lua",
+    "biomechanical" : "srm_biomechanical.lua",
+	"humansoul" : "srm_humansoul.lua"
+  },
+
+  "chipCost" : 99999999999
+}

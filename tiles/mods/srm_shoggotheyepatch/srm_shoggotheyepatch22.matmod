@@ -1,0 +1,22 @@
+{
+  "modId" : 36522,
+  "modName" : "srm_shoggotheyepatch22",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=df96d4fe;d0c8a0fe=ad50b9fe;b8b188fe=6c4082fe;a09976fe=42304bfe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// CHAOS BERRY
+
+//	f9f0c5fe=df96d4fe;
+//	d0c8a0fe=ad50b9fe;
+//	b8b188fe=6c4082fe;
+//	a09976fe=42304bfe

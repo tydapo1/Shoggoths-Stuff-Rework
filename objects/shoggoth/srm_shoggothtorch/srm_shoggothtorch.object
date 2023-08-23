@@ -1,0 +1,122 @@
+{
+  "objectName" : "srm_shoggothtorch",
+  "colonyTags" : ["light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 5,
+
+  "description" : "This torch blinks softly. Due to it's organic nature, it can provide light underwater.",
+  "shortdescription" : "Shoggoth Torch",
+  "race" : "shoggoth",
+
+  "apexDescription" : "An excellent survival tool.",
+  "avianDescription" : "Torches are essential.",
+  "floranDescription" : "Torch ssscare Floran, but Floran musst masster torch.",
+  "glitchDescription" : "Sentimental. Torches are indispensable.",
+  "humanDescription" : "A torch to light the way.",
+  "hylotlDescription" : "The humble torch, invaluable out in the wild.",
+  "novakidDescription" : "A torch. Can't live without 'em!",
+
+  "lightColor" : [250, 241, 198],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "srm_shoggothtorchicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothtorch.png:<frame><color>",
+      "imagePosition" : [1, 0],
+
+      "animationParts" : {
+        "bright" : "srm_shoggothtorchlit.png",
+        "notbright" : "srm_shoggothtorch.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "srm_shoggothtorchleft.png:<frame><color>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bright" : "srm_shoggothtorchleftlit.png",
+        "notbright" : "srm_shoggothtorchleft.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "srm_shoggothtorchright.png:<frame><color>",
+      "imagePosition" : [2, 0],
+
+      "animationParts" : {
+        "bright" : "srm_shoggothtorchrightlit.png",
+        "notbright" : "srm_shoggothtorchright.png"
+      },
+      "animationPosition" : [2, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "srm_shoggothtorch.png:<frame><color>",
+      "imagePosition" : [1, 0],
+
+      "animationParts" : {
+        "bright" : "srm_shoggothtorchlit.png",
+        "notbright" : "srm_shoggothtorch.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/dockingfield_idle_loop.ogg",
+  "soundEffectRangeMultiplier" : 0.4,
+
+  "animation" : "srm_shoggothtorch.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothtorchlit.png",
+    "notbright" : "srm_shoggothtorch.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  // "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothtorch/srm_shoggothtorch.png:1",
+  "placementImagePosition" : [1, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

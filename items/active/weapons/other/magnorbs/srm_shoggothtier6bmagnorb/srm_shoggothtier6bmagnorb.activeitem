@@ -1,0 +1,67 @@
+{
+  "itemName" : "srm_shoggothtier6bmagnorb",
+  "level" : 6,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Blast your foes with this extreme velocity plasma blaster.",
+  "shortdescription" : "Ultra Buster",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png",
+    "orb4" : "orb.png",
+    "orb5" : "orb.png",
+    "orb6" : "orb.png",
+    "orb7" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 7,
+  "orbitRate" : 1.2,
+
+  "projectileType" : "srm_tier6bshoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 10.0, // twice the hit damage
+    "knockback" : 5,
+    "speed" : 160,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 150,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 70,
+  "shieldKnockback" : 35,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

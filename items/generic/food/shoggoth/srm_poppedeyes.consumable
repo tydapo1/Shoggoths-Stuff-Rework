@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_poppedeyes",
+  "rarity" : "Common",
+  "price" : 35,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_poppedeyes.png",
+  "description" : "Freshly popped eyes, with a salty, sad coating.",
+  "shortdescription" : "Popped Eyes",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 70
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 140
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 140
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

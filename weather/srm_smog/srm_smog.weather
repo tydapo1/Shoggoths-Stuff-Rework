@@ -1,0 +1,22 @@
+{
+  "name" : "srm_smog",
+
+  "particles" : [
+    {
+      "density" : 0.05,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/fog/1.png",
+        "velocity" : [0, -3],
+        "timeToLive" : 60,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : true
+      }
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 0.0
+
+}

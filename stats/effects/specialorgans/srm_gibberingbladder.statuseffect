@@ -1,0 +1,11 @@
+{
+  "name" : "srm_gibberingbladder",
+  "effectConfig" : {
+    "bladderSpeech" : "/stats/effects/specialorgans/srm_gibberingbladder.config"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_gibberingbladder.lua"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "materialId" : 36542,
+  "materialName" : "srm_shoggothbrick12",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar brick. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Brick",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothbrick.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothbrick.png?replace;515384=61ffd0;41446f=29ba85;323660=1f875d;242952=00624a;5b4a7e=61ffd0;503e70=29ba85;41325f=1f875d;35274e=00624a;644078=61ffd0;5f3770=29ba85;4f2e5d=1f875d;45244a=00624a;bcbce0=61ffd0;acacd2=29ba85;8686aa=1f875d;75759c=00624a;3f3f7d=ffffff;2f3465=fd97dd;242957=f636b0;1e2251=bf2a89;3f3777=ffffff;302c5f=e79dff;282454=c43eff;221f4d=942ebf;3f2f70=ffffff;33265b=bcaeff;2d2152=7a71e4;261c48=6860bf;c3c6df=ffffff;b3b6d1=8ecaf4;8c8db2=458cff;7a7ea1=3469bf",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1895
+  }
+}
+
+// ABYSS FRUIT + DEATHBLOOM
+
+//  Body Top 1
+//	515384=61ffd0;
+//	41446f=29ba85;
+//	323660=1f875d;
+//	242952=00624a;
+//  Body Mid 1
+//	5b4a7e=61ffd0;
+//	503e70=29ba85;
+//	41325f=1f875d;
+//	35274e=00624a;
+//  Body Bottom 1
+//	644078=61ffd0;
+//	5f3770=29ba85;
+//	4f2e5d=1f875d;
+//	45244a=00624a;
+//  Face 1
+//	bcbce0=61ffd0;
+//	acacd2=29ba85;
+//	8686aa=1f875d;
+//	75759c=00624a;
+//  Body Top 2
+//	3f3f7d=ffffff;
+//	2f3465=fd97dd;
+//	242957=f636b0;
+//	1e2251=bf2a89;
+//  Body Mid 2
+//	3f3777=ffffff;
+//	302c5f=e79dff;
+//	282454=c43eff;
+//	221f4d=942ebf;
+//  Body Bottom 2
+//	3f2f70=ffffff;
+//	33265b=bcaeff;
+//	2d2152=7a71e4;
+//	261c48=6860bf;
+//  Face 2
+//	c3c6df=ffffff;
+//	b3b6d1=8ecaf4;
+//	8c8db2=458cff;
+//	7a7ea1=3469bf

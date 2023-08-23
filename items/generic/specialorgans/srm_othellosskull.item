@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_othellosskull",
+  "price" : 10000,
+  "inventoryIcon" : "srm_othellosskull.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Head",
+  "description" : "This fortress of a skull constantly reinvigorates your brain and thus, your body.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Othello's Skull^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

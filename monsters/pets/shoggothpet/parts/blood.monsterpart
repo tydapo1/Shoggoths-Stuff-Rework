@@ -1,0 +1,8 @@
+{
+  "name" : "blood",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "blood.png"
+  }
+}

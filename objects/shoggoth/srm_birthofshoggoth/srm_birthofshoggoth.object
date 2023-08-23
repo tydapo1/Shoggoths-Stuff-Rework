@@ -1,0 +1,37 @@
+{
+  "objectName" : "srm_birthofshoggoth",
+  "colonyTags" : ["shoggoth","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "A painting of a dark woman standing in some tar.",
+  "shortdescription" : "Beautiful Shoggoth Painting",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 700,
+  "printable" : false,
+
+  "apexDescription" : "Somehow, I feel that this isn't the original version of this painting.",
+  "avianDescription" : "Why is this Shoggoth in some tar? What is this?",
+  "floranDescription" : "Floran unnerved by painting...",
+  "glitchDescription" : "Horrified. I didn't need to see this.",
+  "humanDescription" : "Well this is horrifying.",
+  "hylotlDescription" : "This was almost beautiful, but fails horribly.",
+  "novakidDescription" : "Whoa now, I coulda done without seein' this.",
+
+  "inventoryIcon" : "srm_birthofshoggothicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_birthofshoggoth.png:<color>",
+      "imagePosition" : [-16, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_birthofshoggoth/srm_birthofshoggoth.png",
+  "placementImagePosition" : [-16, -24],
+  "shoggothColorable" : true,
+  "color" : ""
+}

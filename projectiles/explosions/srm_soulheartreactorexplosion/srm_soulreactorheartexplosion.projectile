@@ -1,0 +1,18 @@
+{
+  "projectileName" : "srm_soulreactorheartexplosion",
+  "image" : "srm_soulreactorheartexplosion.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 7,
+  "speed" : 0,
+  "power" : 5,
+  "pointLight" : true,
+  "lightColor" : [84, 17, 50],
+  "damagePoly" : [ [-75, 0], [-55, -55], [0, -75], [55, -55], [75, 0], [55, 55], [0, 75], [-55, 55] ],
+  "animationLoops" : false,
+  "emitters" : [ "electricplasma", "defaultpink" ],
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default",
+  "damageType" : "IgnoresDef",
+  "fullbright" : true
+}

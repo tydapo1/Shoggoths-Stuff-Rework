@@ -1,0 +1,9 @@
+{
+  "name" : "srm_modroncore",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_modroncore.lua"
+  ]
+}

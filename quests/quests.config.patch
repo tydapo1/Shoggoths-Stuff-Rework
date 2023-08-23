@@ -1,0 +1,47 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/shoggoth",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/shoggoth",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/mindflayer",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/mindflayer",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/nightgaunt",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/nightgaunt",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

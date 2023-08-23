@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "ironbar", "count" : 20 },
+	{ "item" : "srm_stemcell", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier1magnorb",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t1organ" ]
+}

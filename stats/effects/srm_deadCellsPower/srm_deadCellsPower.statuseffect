@@ -1,0 +1,10 @@
+{
+  "name" : "srm_deadCellsPower",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 999999,
+
+  "scripts" : [
+    "srm_deadCellsPower.lua"
+  ]
+}

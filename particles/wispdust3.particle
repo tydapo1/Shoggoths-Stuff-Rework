@@ -1,0 +1,19 @@
+{
+  "kind" : "wispdust3",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1.5,
+    "color" : [100, 255, 200, 255],
+    "fade" : 0.6,
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [0, 0],
+    "timeToLive" : 0.75,
+    "layer" : "back",
+    "variance" : {
+      "initialVelocity" : [0.5, 0.5],
+      "position" : [0.5, 0.5],
+      "size" : 0.5
+    }
+  }
+}

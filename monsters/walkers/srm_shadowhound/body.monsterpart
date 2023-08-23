@@ -1,0 +1,9 @@
+{
+  "name" : "srm_shadowhound",
+  "category" : "srm_shadowhound",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "srm_shadowhound.png"
+  }
+}

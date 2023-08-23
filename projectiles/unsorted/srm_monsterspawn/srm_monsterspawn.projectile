@@ -1,0 +1,14 @@
+{
+  "projectileName" : "srm_monsterspawn",
+  "image" : "srm_monsterspawn.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 3,
+  "damageKindImage" : "srm_monsterspawn.png",
+  "lightColor" : [17, 17, 74],
+  "power" : 0,
+  "timeToLive" : 1,
+  "speed" : 20,
+  "piercing" : true,
+  "damageKind" : "default",
+  "emitters" : [ "srm_portaltrail" ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_caviar",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_caviar.png",
+  "description" : "Fish eggs with lots of blood. Smells as bad as it looks.",
+  "shortdescription" : "Carrion Caviar",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 100
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 200
+    },
+    {
+        "effect" : "swimboostcola",
+        "duration" : 200
+    }
+  ] ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

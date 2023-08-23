@@ -1,0 +1,22 @@
+{
+  "modId" : 36538,
+  "modName" : "srm_shoggotheyepatch38",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=d86241fe;d0c8a0fe=a9401cfe;b8b188fe=892810fe;a09976fe=6d1709fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// CARAMEL FLAN
+
+//	f9f0c5fe=d86241fe;
+//	d0c8a0fe=a9401cfe;
+//	b8b188fe=892810fe;
+//	a09976fe=6d1709fe

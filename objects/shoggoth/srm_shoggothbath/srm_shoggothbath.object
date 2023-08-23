@@ -1,0 +1,65 @@
+{
+  "objectName" : "srm_shoggothbath",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "shortdescription" : "Shoggoth Bath",
+  "description" : "An eldritch bath.",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 70,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitStatusEffects" : [
+    "nude",
+    "srm_shoggothslimed"
+  ],
+
+  "apexDescription" : "A odd little bath. What is that purple liquid even?",
+  "avianDescription" : "A bath with a shower. I don't think I'd bathe myself in this, however.",
+  "floranDescription" : "Very big ssswimming thing.",
+  "glitchDescription" : "Concerned. This entire bath is very strange.",
+  "humanDescription" : "A lukewarm, tarry bath. this pink liquid is very thick.",
+  "hylotlDescription" : "Usually, these are for washing oneself, but I belive there may be health hazards within this one.",
+  "novakidDescription" : "Woah! Pre-bubbled water, sick!",
+  
+  "soundEffect" : "/sfx/objects/shoggothbath.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "inventoryIcon" : "srm_shoggothbathicon.png",
+  "orientations" : [
+    {
+	  "image" : "srm_shoggothbath.png:<frame><color>",
+      "imagePosition" : [-32, 0],
+      "direction" : "left",
+      "flipImages" : true,
+	  
+      "sitPosition": [4, 20],
+	  
+	  "frames" : 8,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "image" : "srm_shoggothbath.png:<frame><color>",
+      "imagePosition" : [-32, 0],
+      "direction" : "right",
+	  
+      "sitPosition": [4, 20],
+	  
+	  "frames" : 8,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "sitCoverImage": "/objects/shoggoth/srm_shoggothbath/srm_shoggothbathcover.png",
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothbath/srm_shoggothbath.png:0",
+  "placementImagePosition" : [-32, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

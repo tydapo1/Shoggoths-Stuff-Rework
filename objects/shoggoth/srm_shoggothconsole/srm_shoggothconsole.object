@@ -1,0 +1,70 @@
+{
+  "objectName" : "srm_shoggothconsole",
+  "colonyTags" : ["shoggoth","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 65,
+  "lightColor" : [59, 77, 41],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A tarry control console. Even the screen is organic.",
+  "shortdescription" : "Shoggoth Console",
+  "race" : "shoggoth",
+
+  "apexDescription" : "This console offers a large degree of control. How it works is beyond me.",
+  "avianDescription" : "A disgusting yet useful console.",
+  "floranDescription" : "Floran pop eyes. Make thingsss happen!",
+  "glitchDescription" : "Impressed. I have yet to see a more advanced biological console.",
+  "humanDescription" : "A control console. The buttons are rather twitchy.",
+  "hylotlDescription" : "This thing is comparable to a brain.",
+  "novakidDescription" : "Pushing the buttons feels rather strange...",
+
+  "inventoryIcon" : "srm_shoggothconsoleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothconsole.png:<frame><color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/shoggoth/srm_shoggothconsole/srm_shoggothconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/egg_hatch2.ogg" ],
+      "off" : [ "/sfx/objects/egg_hatch1.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "srm_shoggothconsole.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothconsole/srm_shoggothconsole.png:off",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

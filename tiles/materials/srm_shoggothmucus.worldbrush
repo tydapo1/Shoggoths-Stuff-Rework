@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothmucus",
+    "cleanName"		:	"^shadow;Shoggoth Mucus^reset;",
+	"type"			:	"tile",
+	"icon"			:	"/tiles/materials/srm_shoggothmucus.png",
+	"paletteType"	:	"flesh"
+}

@@ -1,0 +1,47 @@
+{
+  "id" : "srm_extraarmsquest",
+  "prerequisites" : [ "techscientist1" ],
+  "title" : "^green;Handy Machines.",
+  "text" : "In collaboration with my partner at the mech factory in the basement, I have created a tech that grants the user ^green;an additional pair of arms^reset;! I just can't afford the pieces right now, so could you fetch me ^green;20 Iron Bars^reset; and ^green;5 Core Fragments^reset;?",
+  "completionText" : "And... It's done!^green; I've taken the liberty to take you as it's live testing dummy^reset;, but you should now have a pair of arms hooked on your shoulders.",
+  "moneyRange" : [10, 100],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Deliver the goods to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type": "gatherItem",
+        "itemName": "ironbar",
+        "count": 20,
+        "consume": true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "corefragmentore",
+        "count" : 5,
+        "consume" : true
+      }
+    ],
+
+    "showTech": [
+      "srm_extraarmstech"
+    ],
+    "equipTech" : [
+      "srm_extraarmstech"
+    ]
+  }
+}

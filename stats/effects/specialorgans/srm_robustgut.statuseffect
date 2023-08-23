@@ -1,0 +1,11 @@
+{
+  "name" : "srm_robustgut",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "animationConfig" : "srm_robustgut.animation",
+
+  "scripts" : [
+    "srm_robustgut.lua"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "shoggothT1.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "shoggothT1lit.png",
+      "position" : [0, 0]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "shoggothT1blocks.png"
+}

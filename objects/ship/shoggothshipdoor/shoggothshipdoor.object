@@ -1,0 +1,53 @@
+{
+  "objectName" : "shoggothshipdoor",
+  "colonyTags" : ["shoggoth","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 125,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "Shoggoth Ship Door",
+  "race" : "shoggoth",
+  "apexDescription" : "These doors are used on all our ships.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic spaceship door.",
+  "novakidDescription" : "A door.",
+  "inventoryIcon" : "srm_shoggothshipdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothshipdoor.png:<frame><color>",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/ship/shoggothshipdoor/srm_shoggothshipdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "srm_shoggothshipdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "placementImage" : "/objects/ship/shoggothshipdoor/srm_shoggothshipdoor.png:closed",
+  "placementImagePosition" : [-20, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

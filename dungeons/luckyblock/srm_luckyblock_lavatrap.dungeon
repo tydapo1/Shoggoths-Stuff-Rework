@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "name": "srm_luckyblock_lavatrap",
+    "species": "dummy",
+    "rules": [
+	],
+    "anchor": [ "srm_luckyblock_lavatrap" ],
+    "maxRadius" : 2000,
+    "maxParts" : 100
+  },
+  "parts": [
+    {
+      "name": "srm_luckyblock_lavatrap",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "srm_luckyblock_lavatrap.json"
+      ]
+    }
+  ]
+}

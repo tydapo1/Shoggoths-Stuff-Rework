@@ -1,0 +1,10 @@
+{
+  "name" : "srm_warptoship",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_warptoship.lua"
+  ]
+}

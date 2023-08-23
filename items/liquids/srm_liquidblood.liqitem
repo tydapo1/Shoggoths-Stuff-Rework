@@ -1,0 +1,17 @@
+{
+  "itemName" : "srm_liquidblood",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "srm_liquidbloodicon.png",
+  "shortdescription" : "Blood",
+  "description" : "Blood!",
+  "learnBlueprintsOnPickup" : [
+    "srm_bloodbag",
+    "srm_giantbattery",
+	"srm_nutritivepastedispenser"
+  ],
+
+  "liquid" : "srm_liquidblood",
+  
+  "price" : 10
+}

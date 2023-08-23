@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_license1",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "license1.png",
+  "description" : "This is worth just barely enough food for a Sparrow class organism.",
+  "shortdescription" : "Sparrow Meal Ticket",
+
+  "pickupQuestTemplates" : ["srm_shipupgrade1"],
+  "consumeOnPickup" : true
+}

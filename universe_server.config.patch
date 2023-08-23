@@ -1,0 +1,47 @@
+[
+	{ 
+		"op" : "add",
+		"path" : "/speciesShips/shoggoth",
+		"value" : [
+		    "/ships/shoggoth/shoggotht0.structure",
+			"/ships/shoggoth/shoggotht1.structure",
+			"/ships/shoggoth/shoggotht2.structure",
+			"/ships/shoggoth/shoggotht3.structure",
+			"/ships/shoggoth/shoggotht4.structure",
+			"/ships/shoggoth/shoggotht5.structure",
+			"/ships/shoggoth/shoggotht6.structure",
+			"/ships/shoggoth/shoggotht7.structure",
+			"/ships/shoggoth/shoggotht8.structure"
+		]
+	},
+	{ 
+		"op" : "add",
+		"path" : "/speciesShips/mindflayer",
+		"value" : [
+		    "/ships/shoggoth/shoggotht0.structure",
+			"/ships/shoggoth/shoggotht1.structure",
+			"/ships/shoggoth/shoggotht2.structure",
+			"/ships/shoggoth/shoggotht3.structure",
+			"/ships/shoggoth/shoggotht4.structure",
+			"/ships/shoggoth/shoggotht5.structure",
+			"/ships/shoggoth/shoggotht6.structure",
+			"/ships/shoggoth/shoggotht7.structure",
+			"/ships/shoggoth/shoggotht8.structure"
+		]
+	},
+	{ 
+		"op" : "add",
+		"path" : "/speciesShips/nightgaunt",
+		"value" : [
+		    "/ships/shoggoth/shoggotht0.structure",
+			"/ships/shoggoth/shoggotht1.structure",
+			"/ships/shoggoth/shoggotht2.structure",
+			"/ships/shoggoth/shoggotht3.structure",
+			"/ships/shoggoth/shoggotht4.structure",
+			"/ships/shoggoth/shoggotht5.structure",
+			"/ships/shoggoth/shoggotht6.structure",
+			"/ships/shoggoth/shoggotht7.structure",
+			"/ships/shoggoth/shoggotht8.structure"
+		]
+	}
+]

@@ -1,0 +1,37 @@
+{
+  "itemName" : "srm_radiationlungs",
+  "price" : 750,
+  "inventoryIcon" : "/items/armors/organicons.png:lungs.t3",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Uncommon",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "These lungs provides ^yellow;underwater breathing and resistance to radiation^reset;.",
+  "shortdescription" : "T3 Filtering Lungs",
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "srm_energydrink",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "drink",
+  "inventoryIcon" : "srm_energydrink.png",
+  "description" : "The power of chaos gives your brain a small boost for a bit.",
+  "shortdescription" : "L'd Rich NRG",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

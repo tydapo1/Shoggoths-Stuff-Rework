@@ -1,0 +1,22 @@
+{
+  "itemName" : "srm_joy",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "srm_joy.png",
+  "description" : "I've got the joy in me.",
+  "shortdescription" : "Joy",
+  "effects" : [ [
+      {
+        "effect" : "srm_manager_joy" /* The status manager */
+      },
+      {
+        "effect" : "srm_consumption_joy" /* The trigger */
+      },
+      {
+        "effect" : "srm_buzz_joy" /* The buff */
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

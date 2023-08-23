@@ -1,0 +1,65 @@
+{
+  "materialId" : 36562,
+  "materialName" : "srm_shoggothglass2",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Cornea Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglass.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglass.png?replace;f9f0c59b=7b004d9b;d0c8a0=5f0041;b8b188=420035;a09976=26001f;faf1c69b=004e729b;d1c9a1=004058;b8b18d=003240;a19a7c=001e26;d5ff929b=a4d6169b;b4e87e=8dbf06;8ccc67=7da805;6dae4b=6c9104;c137c49b=a4d6169b;8622a4=8dbf06;5f1786=7da805;370d66=6c9104;ff4c5b9b=b34cd59b;cc3d49=822eb2;a1303a=68258f;80262e=4e1c6b;e316229b=b34cd59b;b81018=822eb2;9c0e15=68258f;800b11=4e1c6b;f4df589b=df96d49b;e5c649=ad50b9;d1b543=6c4082;bda33c=42304b;eed43e9b=fff5999b;d2b231=ffca38;b5992a=fa8a00;998123=da3800",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}
+
+//  MONSTERBLUD
+//	f9f0c59b=7b004d9b;
+//	d0c8a0=5f0041;
+//	b8b188=420035;
+//	a09976=26001f;
+//  ALIENBLUD
+//	faf1c69b=004e729b;
+//	d1c9a1=004058;
+//	b8b18d=003240;
+//	a19a7c=001e26;
+//  SNOWBERRY
+//	d5ff929b=a4d6169b;
+//	b4e87e=8dbf06;
+//	8ccc67=7da805;
+//	6dae4b=6c9104;
+//  GHOSTBERRY
+//	c137c49b=a4d6169b;
+//	8622a4=8dbf06;
+//	5f1786=7da805;
+//	370d66=6c9104;
+//  BLACKBERRY
+//	ff4c5b9b=b34cd59b;
+//	cc3d49=822eb2;
+//	a1303a=68258f;
+//	80262e=4e1c6b;
+//  DOOMBERRY
+//	e316229b=b34cd59b;
+//	b81018=822eb2;
+//	9c0e15=68258f;
+//	800b11=4e1c6b;
+//  CHAOS BERRY
+//	f4df589b=df96d49b;
+//	e5c649=ad50b9;
+//	d1b543=6c4082;
+//	bda33c=42304b;
+//  MAGMA ROOTS
+//	eed43e9b=fff5999b;
+//	d2b231=ffca38;
+//	b5992a=fa8a00;
+//	998123=da3800

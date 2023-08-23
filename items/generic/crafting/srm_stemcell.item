@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_stemcell",
+  "price" : 5,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_stemcell.png",
+  "description" : "A vial of stem cells extracted from biological matter, used for organ crafting.",
+  "shortdescription" : "Stem Cells",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "srm_saintathenabrysguts",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_saintathenabrysguts.lua"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedscythe",
+  "category" : "guardianboss",
+  "type" : "lefthand",
+
+  "frames" : {
+    "lefthand" : "scythe.png",
+    "lefthandfullbright" : "scythefullbright.png"
+  }
+}

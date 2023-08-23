@@ -1,0 +1,36 @@
+{
+  "objectName" : "srm_beatblock",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 100,
+  "description" : "This block come and goes at a set beat.",
+  "shortdescription" : "Beat Block",
+  "race" : "generic",
+  "health" : 0.1,
+
+  "inventoryIcon" : "srm_beatblockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_beatblock.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [  ]
+    }
+  ],
+
+  "scripts" : [ "/objects/trials/srm_beatblock/srm_beatblock.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/trials/srm_beatblock/srm_beatblock.animation",
+  "animationCustom" : {},
+  "animationParts" : {
+    "door" : "srm_beatblock.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "reversed" : false,
+  "swapRate" : 4
+}

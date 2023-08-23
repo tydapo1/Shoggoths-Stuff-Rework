@@ -1,0 +1,8 @@
+{
+  "name" : "srm_observereye",
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_observereye.lua"
+  ]
+}

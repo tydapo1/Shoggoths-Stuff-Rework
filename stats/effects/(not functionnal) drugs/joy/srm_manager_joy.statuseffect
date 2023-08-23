@@ -1,0 +1,19 @@
+{
+  "name" : "srm_manager_joy",
+  "effectConfig" : {
+    "addictionStatusProccer" : "srm_consumption_joy",
+	"addictionAmount" : 10, /* This is how much, in %, a single drug consumption increases the chance to get addicted. */
+	
+	"cycleDuration" : 1200, /* How long a full cycle lasts in seconds. Also the default duration. */
+	"buffDuration" : 180, /* How long the buff lasts in seconds. */
+	"addictionDuration" : 600, /* The cap for addiction stacks in seconds. */
+	"withdrawalDuration" : 600 /* The duration for the withdrawal debuff. Note that it starts recovering at it's halfway point. */
+	/* BBBGGGGGGGDDDDDRRRRR */
+	/* 15% Buff, 35% Grace, 25% Decayal, 25% Recovery */
+  },
+  "defaultDuration" : 1200,
+
+  "scripts" : [
+    "srm_manager_joy.lua"
+  ]
+}

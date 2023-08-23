@@ -1,0 +1,25 @@
+{
+  "id" : "srm_todolist",
+  "title" : "To-Do List",
+  "description" : "A small list I gave myself of stuff I need to do.",
+  "icon" : "srm_todolist.png",
+  "contentPages" : [
+
+"- Get Blood Bank at Inventor Table
+- Get Organ Lab at Inventor Table
+- Make organs (will need raw ore not bars)
+- Maybe make cool sword
+- Make house",
+
+"- Find cool stuff
+- Invest stonks
+- Go in spooky vault
+- Make cooler organs
+- Win"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 0
+  }
+}

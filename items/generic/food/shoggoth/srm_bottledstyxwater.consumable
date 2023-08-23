@@ -1,0 +1,21 @@
+{
+  "itemName" : "srm_bottledstyxwater",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "drink",
+  "inventoryIcon" : "srm_bottledstyxwater.png",
+  "description" : "This strange liquid seems oddly rejuvenating.",
+  "shortdescription" : "Bottled Styx Water",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+      "effect" : "bottledwaterheal",
+      "duration" : 20
+    }
+  ] ],
+  "blockingEffects" : [
+    "bottledwaterheal"
+  ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

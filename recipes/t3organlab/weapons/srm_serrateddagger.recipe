@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "srm_sacrificialdagger", "count" : 1 },
+	{ "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_serrateddagger",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t3organ" ]
+}

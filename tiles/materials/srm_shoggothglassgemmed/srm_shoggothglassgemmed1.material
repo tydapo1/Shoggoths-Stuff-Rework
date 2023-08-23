@@ -1,0 +1,65 @@
+{
+  "materialId" : 36571,
+  "materialName" : "srm_shoggothglassgemmed1",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid gem-shaped shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Gem Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglassgemmed.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglassgemmed.png?replace;f9f0c59b=c9faa09b;d0c8a0=a1db7b;b8b188=8bbd6a;a09976=749e59;faf1c69b=a3e1609b;d1c9a1=68be31;b8b18d=57a12a;a19a7c=458021;d5ff929b=3982d89b;b4e87e=3273be;8ccc67=195ba6;6dae4b=144a87;c137c49b=227ce39b;8622a4=1d6bc4;5f1786=195ba6;370d66=144a87;ff4c5b9b=ffc7ed9b;cc3d49=e5b3d6;a1303a=cc9fbf;80262e=b38ba7;e316229b=acd3f19b;b81018=9fc3de;9c0e15=91b1c9;800b11=829fb5;f4df589b=fafafa9b;e5c649=dfdfdf;d1b543=c2c2c2;bda33c=a6a6a6;eed43e9b=f07b309b;d2b231=e9652b;b5992a=cf5724;998123=bf4f20",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}
+
+//  LIME
+//	f9f0c59b=c9faa09b;
+//	d0c8a0=a1db7b;
+//	b8b188=8bbd6a;
+//	a09976=749e59;
+//  DUBBLE LIMEY
+//	faf1c69b=a3e1609b;
+//	d1c9a1=68be31;
+//	b8b18d=57a12a;
+//	a19a7c=458021;
+//  BLUEBERRY
+//	d5ff929b=3982d89b;
+//	b4e87e=3273be;
+//	8ccc67=195ba6;
+//	6dae4b=144a87;
+//  DUBBLE BLUWEY
+//	c137c49b=227ce39b;
+//	8622a4=1d6bc4;
+//	5f1786=195ba6;
+//	370d66=144a87;
+//  CREAMY STRAWBERRY
+//	ff4c5b9b=ffc7ed9b;
+//	cc3d49=e5b3d6;
+//	a1303a=cc9fbf;
+//	80262e=b38ba7;
+//  CREAMY BLUEBERRY
+//	e316229b=acd3f19b;
+//	b81018=9fc3de;
+//	9c0e15=91b1c9;
+//	800b11=829fb5;
+//  ROTTEN
+//	f4df589b=fafafa9b;
+//	e5c649=dfdfdf;
+//	d1b543=c2c2c2;
+//	bda33c=a6a6a6;
+//  SPICY
+//	eed43e9b=f07b309b;
+//	d2b231=e9652b;
+//	b5992a=cf5724;
+//	998123=bf4f20

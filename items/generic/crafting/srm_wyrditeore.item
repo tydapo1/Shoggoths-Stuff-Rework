@@ -1,0 +1,13 @@
+{
+  "itemName" : "srm_wyrditeore",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_wyrditeore.png",
+  "description" : "Skuldite threads. Can be sewn into weaves of fate.",
+  "shortdescription" : "Skuldite Threads",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "srm_wyrdite"
+  ]
+}

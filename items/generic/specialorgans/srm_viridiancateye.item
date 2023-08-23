@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_viridiancateye",
+  "price" : 10000,
+  "inventoryIcon" : "srm_viridiancateye.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Head",
+  "description" : "An eye that focuses on poison. It struggles to see electricity, however.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Viridian Cat Eye^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

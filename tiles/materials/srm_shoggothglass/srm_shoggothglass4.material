@@ -1,0 +1,65 @@
+{
+  "materialId" : 36564,
+  "materialName" : "srm_shoggothglass4",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Cornea Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglass.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglass.png?replace;f9f0c59b=e360969b;d0c8a0=c24e7c;b8b188=a14067;a09976=803352;faf1c69b=ef9a719b;d1c9a1=e37274;b8b18d=cc6668;a19a7c=b3595b;d5ff929b=fefefe9b;b4e87e=f0f0f0;8ccc67=e1e1e1;6dae4b=d2d2d2;c137c49b=0000009b;8622a4=0f0f0f;5f1786=1e1e1e;370d66=2d2d2d;ff4c5b9b=f2eebf9b;cc3d49=d7c877;a1303a=b1985e;80262e=8a6745;e316229b=6ef0d29b;b81018=41b694;9c0e15=277e5f;800b11=07594a;f4df589b=d862419b;e5c649=a9401c;d1b543=892810;bda33c=6d1709;eed43e9b=f82a809b;d2b231=bf1150;b5992a=930a38;998123=6a0625",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}
+
+//  GOTH PINK
+//	f9f0c59b=e360969b;
+//	d0c8a0=c24e7c;
+//	b8b188=a14067;
+//	a09976=803352;
+//  OBSIDIAN
+//	faf1c69b=ef9a719b;
+//	d1c9a1=e37274;
+//	b8b18d=cc6668;
+//	a19a7c=b3595b;
+//  LIMBO
+//	d5ff929b=fefefe9b;
+//	b4e87e=f0f0f0;
+//	8ccc67=e1e1e1;
+//	6dae4b=d2d2d2;
+//  HOLLOW
+//	c137c49b=0000009b;
+//	8622a4=0f0f0f;
+//	5f1786=1e1e1e;
+//	370d66=2d2d2d;
+//  MINT
+//	ff4c5b9b=f2eebf9b;
+//	cc3d49=d7c877;
+//	a1303a=b1985e;
+//	80262e=8a6745;
+//  FLOW KELP
+//	e316229b=6ef0d29b;
+//	b81018=41b694;
+//	9c0e15=277e5f;
+//	800b11=07594a;
+//  CARAMEL FLAN
+//	f4df589b=d862419b;
+//	e5c649=a9401c;
+//	d1b543=892810;
+//	bda33c=6d1709;
+//  GILDED TEQUILA
+//	eed43e9b=f82a809b;
+//	d2b231=bf1150;
+//	b5992a=930a38;
+//	998123=6a0625

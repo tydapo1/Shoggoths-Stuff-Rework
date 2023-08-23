@@ -1,0 +1,29 @@
+[
+	{
+		"op" : "add",
+		"path" : "/species/shoggoth",
+		"value" : {
+			"aiFrames" : "shoggothAI.png",
+			"portraitFrames" : "portraits/shoggothportrait.png",
+			"staticFrames" : "staticshoggoth.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/mindflayer",
+		"value" : {
+			"aiFrames" : "shoggothAI.png",
+			"portraitFrames" : "portraits/shoggothportrait.png",
+			"staticFrames" : "staticshoggoth.png"	
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/nightgaunt",
+		"value" : {
+			"aiFrames" : "shoggothAI.png",
+			"portraitFrames" : "portraits/shoggothportrait.png",
+			"staticFrames" : "staticshoggoth.png"	
+		}
+	}
+]

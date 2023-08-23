@@ -1,0 +1,115 @@
+{
+  "objectName" : "srm_shoggothbloodyfang",
+  "colonyTags" : ["bone","shoggoth"],
+  "rarity" : "Common",
+  "category" : "generic",
+  "price" : 50,
+
+  "description" : "A fang to decorate your fleshy entrance. Bloody Edition!",
+  "shortdescription" : "Bloody Shoggoth Fang",
+  "race" : "shoggoth",
+
+  "inventoryIcon" : "srm_shoggothbloodyfangicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothbloodyfangbottom.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1], [-1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangbottom.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1], [1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangbottom.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangbottom.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, -1] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangtop.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangtop.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangtop.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangtop.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangleft.png:<color>",
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangleft.png:<color>?flipy",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangright.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [1, 0] ]
+    },
+    {
+      "image" : "srm_shoggothbloodyfangright.png:<color>?flipy",
+      "direction" : "left",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [1, 0] ]
+    }
+  ]
+}

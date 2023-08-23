@@ -1,0 +1,16 @@
+{
+  "projectileName" : "srm_warpprojectile",
+  "image" : "srm_warpprojectile.png",
+  "frameNumber" : 1,
+  "speed" : 0,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageKind" : "hidden",
+  "damageType" : "IgnoresDef",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "timeToLive" : 1.0,
+  "power" : 0,
+  "piercing" : true,
+  "statusEffects" : [ "srm_warptoship" ]
+}

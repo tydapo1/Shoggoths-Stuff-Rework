@@ -1,0 +1,63 @@
+{
+  "objectName" : "srm_shoggothbackgrounddoor2",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "category" : "door",
+  "printable" : false,
+  "price" : 80,
+  "description" : "A special door that can be linked to other background doors. (Alt 1)",
+  "shortdescription" : "Shoggoth Background Door",
+  "race" : "shoggoth",
+
+  "apexDescription" : "I wonder where this door leads...",
+  "avianDescription" : "I wonder where this door leads...",
+  "floranDescription" : "Floran wondersss where door goesss...",
+  "glitchDescription" : "Curious. I wonder where this door leads...",
+  "humanDescription" : "I wonder where this door leads...",
+  "hylotlDescription" : "I wonder where this door leads...",
+  "novakidDescription" : "I wonder where this door leads...",
+
+  "inventoryIcon" : "srm_shoggothbackgrounddoor2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothbackgrounddoor2.png:<color>",
+      "imagePosition" : [-9, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/shoggoth/srm_shoggothbackgrounddoor2/srm_shoggothbackgrounddoor2.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  
+  "animationParts" : {
+    "door" : "srm_shoggothbackgrounddoor2.png"
+  },
+  "animationPosition" : [-9, 0],
+  
+  "scripts" : [ "/objects/shoggoth/srm_shoggothbackgrounddoor2/srm_shoggothbackgrounddoor2.lua" ],
+  "detectArea" : [ [-6, 0], [7, 6] ],
+  
+  "allowBackgroundDoorConnection" : true,
+  "mouthPosition" : [0, 1], //Used to determine the teleport position of the door
+  
+  "inputNodes" : [ [-1, 0], [-1, 2] ],
+  "outputNodes" : [ [0, 4] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothbackgrounddoor2/srm_shoggothbackgrounddoor2.png:open",
+  "placementImagePosition" : [-9, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

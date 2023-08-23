@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_opticgut",
+  "price" : 10000,
+  "inventoryIcon" : "srm_opticgut.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Gut",
+  "description" : "This fungal growth has been constantly emitting a gut-wrenching gas.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Optic Gut^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

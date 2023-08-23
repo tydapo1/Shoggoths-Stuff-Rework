@@ -1,0 +1,9 @@
+{
+  "name" : "srm_ennervatingbrain",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_ennervatingbrain.lua"
+  ]
+}

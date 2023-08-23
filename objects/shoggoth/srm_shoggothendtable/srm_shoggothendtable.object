@@ -1,0 +1,48 @@
+{
+  "objectName" : "srm_shoggothendtable",
+  "colonyTags" : ["shoggoth","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A scary tarry end table.",
+  "shortdescription" : "Shoggoth End Table",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 85,
+
+  "apexDescription" : "A gooey end table.",
+  "avianDescription" : "There's not much you would want to put in such furniture.",
+  "floranDescription" : "Sssmall mouths made of tarrr.",
+  "glitchDescription" : "Cautious. Normally, this would belong next to a bed, but I fear that it might absorb me.",
+  "humanDescription" : "A goopy end table with a couple of mouths.",
+  "hylotlDescription" : "Such eldritch furniture is an abomination to any honorable craftsman.",
+  "novakidDescription" : "Ooh! Scary table right there!",
+
+  "inventoryIcon" : "srm_shoggothendtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothendtable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothendtable/srm_shoggothendtable.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

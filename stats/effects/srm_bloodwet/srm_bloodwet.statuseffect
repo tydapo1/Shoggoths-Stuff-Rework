@@ -1,0 +1,15 @@
+{
+  "name" : "srm_bloodwet",
+  "blockingStat" : "wetImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "srm_bloodwet.lua"
+  ],
+
+  "animationConfig" : "srm_bloodwet.animation",
+
+  "label" : "Bloody",
+  "icon" : "/items/liquids/srm_liquidbloodicon.png"
+}

@@ -1,0 +1,56 @@
+{
+  "objectName" : "srm_shoggothdoor2",
+  "colonyTags" : ["shoggoth","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 95,
+  "description" : "A rather tarry door. (Alt 1)",
+  "shortdescription" : "Shoggoth Door",
+  "race" : "shoggoth",
+  "apexDescription" : "This tarry door was made by hand, but it remains pretty disgusting.",
+  "avianDescription" : "This door was produced by a shoggoth.",
+  "floranDescription" : "Floran not like door made sssticky.",
+  "glitchDescription" : "Repulsive. This door has a large eye.",
+  "humanDescription" : "A door made of tar.",
+  "hylotlDescription" : "Is this even a door?.",
+  "novakidDescription" : "An icky lookin' door.",
+  "inventoryIcon" : "srm_shoggothdoor2icon.png",
+  "tooltipKind" : "door",
+  
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothdoor2.png:<frame><color>",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaces" : [[0,0],[0,1],[0,2],[0,3],[0,4]],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/shoggoth/srm_shoggothdoor2/srm_shoggothdoor2.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "srm_shoggothdoor2.png"
+  },
+  "largeImage" : "srm_shoggothdoor2.png:right",
+  "animationPosition" : [-16, 0],
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothdoor2/srm_shoggothdoor2.png:closed",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

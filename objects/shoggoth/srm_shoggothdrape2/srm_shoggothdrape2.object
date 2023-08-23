@@ -1,0 +1,59 @@
+{
+  "objectName" : "srm_shoggothdrape2",
+  "colonyTags" : ["shoggoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "The classiest tarry drape. (Alt 1)",
+  "shortdescription" : "Classic Shoggoth Drape",
+  "race" : "shoggoth",
+
+  "apexDescription" : "Thick, heavy curtains.",
+  "avianDescription" : "Squishy to the touch.",
+  "floranDescription" : "Shoggoth make curtain from flessssh, Floran do the sssame.",
+  "glitchDescription" : "Grossed. Few objects are as unpleasurable to caress.",
+  "humanDescription" : "This feels like a page of the Necronomicon.",
+  "hylotlDescription" : "These curtains stick really hard to Hylotl skin.",
+  "novakidDescription" : "These curtains look uncanny, they move too much.",
+
+  "inventoryIcon" : "srm_shoggothdrape2icon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothdrape2.png:<color>",
+      "imagePosition" : [-16, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [	  
+		[-2, 2], [-1, 2], [0, 2], [1,  2],
+		[-2, 1], [-1, 1], [0, 1], [1,  1],
+								  [1,  0],
+								  [1, -1]
+	  ],
+      "bgAnchors" : [
+		[-2, 2], [-1, 2], [0, 2], [1,  2]
+	  ]
+    },
+    {
+      "image" : "srm_shoggothdrape2.png:<color>",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaces" : [	  
+		[-2, 2], [-1, 2], [0, 2], [1,  2],
+		[-2, 1], [-1, 1], [0, 1], [1,  1],
+		[-2, 0],
+		[-2,-1]
+	  ],
+      "bgAnchors" : [	  
+		[-2, 2], [-1, 2], [0, 2], [1,  2]
+	  ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothdrape2/srm_shoggothdrape2.png",
+  "placementImagePosition" : [-16, -8],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,60 @@
+{
+  "objectName" : "srm_shoggothcouch",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "A tarry two-seater couch.",
+  "shortdescription" : "Shoggoth Couch",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "This looks super squishy.",
+  "avianDescription" : "I could sit content here for all eternity.",
+  "floranDescription" : "Sssquishy.",
+  "glitchDescription" : "Amazed. Such squishyness.",
+  "humanDescription" : "A couch I can stretch out on and sink into.",
+  "hylotlDescription" : "Such comfort. I am able to achieve instant calm.",
+  "novakidDescription" : "There's such a thing as too squishy.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "srm_shoggothcouchicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothcouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-11, 20], // Right
+        [2, 20] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothcouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-3, 20], // Left
+        [10, 20] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "sitCoverImage" : "/objects/shoggoth/srm_shoggothcouch/srm_shoggothcouchcover.png",
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothcouch/srm_shoggothcouch.png",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

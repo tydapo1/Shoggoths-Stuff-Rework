@@ -1,0 +1,18 @@
+{
+  "projectileName" : "srm_observereyeradar",
+  "image" : "srm_observereyeradar.png",
+  "animationCycle" : 1.0,
+  "timeToLive" : 1.0,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "power" : 0,
+  "damagePoly" : [ [-225, 0], [-165, -165], [0, -225], [165, -165], [225, 0], [165, 165], [0, 225], [-165, 165] ],
+  "animationLoops" : false,
+  "statusEffects" : [ "srm_radardetected" ],
+  "emitters" : [  ],
+  "flippable" : true,
+  "piercing" : true,
+  "damageKind" : "hidden",
+  "damageType" : "IgnoresDef",
+  "fullbright" : true
+}

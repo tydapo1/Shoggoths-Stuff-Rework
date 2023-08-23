@@ -1,0 +1,64 @@
+{
+  "itemName" : "srm_shoggothtier6cmagnorb",
+  "level" : 6,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A single press of a button will do everything.",
+  "shortdescription" : "Tactical Annihilation",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "shieldRotateValue" : 1,
+  "shieldSpacingQ" : false,
+  "shieldLock" : false,
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 1,
+  "orbitRate" : 0.2,
+
+  "projectileType" : "srm_tier6cshoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 5.0, // twice the hit damage, half due to explosive
+    "knockback" : 5,
+    "speed" : 80,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 150,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 70,
+  "shieldKnockback" : 35,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

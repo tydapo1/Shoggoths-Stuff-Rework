@@ -1,0 +1,520 @@
+{
+  "id" : "srm_deathstateorganguide",
+  "title" : "Deathstate Organ Guide",
+  "description" : "This one brick of a book has an entry on every single unique alien organ.",
+  "icon" : "srm_deathstateorganguidecover.png",
+  "contentPages" : [
+
+
+
+"^#ffd700;Golden Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% Fire damage resistance 
+^#99CCFF;- Fire status effect immunity
+^#EBE2CA;
+A seemingly normal humanoid eye which seems slick and sweaty.
+^reset;",
+
+
+
+"^#ffd700;Golden Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% Fire damage resistance 
+^#FF4040;- 25% Ice damage weakness 
+^#99CCFF;- Fire status effect immunity
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness. Touching it fills you with breathlessness.
+^reset;",
+
+
+
+"^#ffd700;Golden Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% Fire damage resistance 
+^#FF4040;- 50% Ice damage weakness 
+^#99CCFF;- Fire status effect immunity
+^#99CCFF;- Upon being hit with Fire damage, heal for 25 health
+^#EBE2CA;
+The black eye of some far flung star thing. It has a bizarre cross shaped iris. It quivers with a high frequency vibration that numbs your fingertips.
+^reset;",
+
+
+
+"^#ffd700;Cyan Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% Ice damage resistance 
+^#99CCFF;- Ice status effect immunity
+^#EBE2CA;
+A seemingly normal humanoid eye which moves constantly, searching.
+^reset;",
+
+
+
+"^#ffd700;Cyan Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% Ice damage resistance 
+^#FF4040;- 25% Fire damage weakness 
+^#99CCFF;- Ice status effect immunity
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness. It searches desperately for something.
+^reset;",
+
+
+
+"^#ffd700;Cyan Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% Ice damage resistance 
+^#FF4040;- 50% Fire damage weakness 
+^#99CCFF;- Ice status effect immunity
+^#99CCFF;- Upon being hit with Ice damage, heal for 25 health
+^#EBE2CA;
+The black eye of some far flung star thing. It has a bizarre cross shaped iris. It seems to absorb extra light and information about the space surrounding it.
+^reset;",
+
+
+
+"^#ffd700;Magenta Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% Electric damage resistance 
+^#99CCFF;- Electric status effect immunity
+^#EBE2CA;
+A seemingly normal humanoid eye which is brittle and withered with age.
+^reset;",
+
+
+
+"^#ffd700;Magenta Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% Electric damage resistance 
+^#FF4040;- 25% Poison damage weakness 
+^#99CCFF;- Electric status effect immunity
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness. It is exceedingly ancient and brittle.
+^reset;",
+
+
+
+"^#ffd700;Magenta Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% Electric damage resistance 
+^#FF4040;- 50% Poison damage weakness 
+^#99CCFF;- Electric status effect immunity
+^#99CCFF;- Upon being hit with Electric damage, heal for 25 health
+^#EBE2CA;
+The black eye of some far flung star thing. It has a bizarre cross shaped iris. You get a sense of power, ancient beyond words.
+^reset;",
+
+
+
+"^#ffd700;Viridian Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% Poison damage resistance 
+^#99CCFF;- Poison status effect immunity
+^#EBE2CA;
+A seemingly normal humanoid eye, however, the optic nerve and connective tissues move of their own volition.
+^reset;",
+
+
+
+"^#ffd700;Viridian Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% Poison damage resistance 
+^#FF4040;- 25% Electric damage weakness 
+^#99CCFF;- Poison status effect immunity
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness. It twitches in your palm, of its own accord.
+^reset;",
+
+
+
+"^#ffd700;Viridian Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% Poison damage resistance 
+^#FF4040;- 50% Electric damage weakness 
+^#99CCFF;- Poison status effect immunity
+^#99CCFF;- Upon being hit with Poison damage, heal for 25 health
+^#EBE2CA;
+The black eye of some far flung star thing. It has a bizarre cross shaped iris. You can only guess at the purpose of such an alien organ.
+^reset;",
+
+
+
+"^#ffd700;Royal Blue Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% resistance to the basic four elemental damage types
+^#99CCFF;- Immunity to the basic four elemental status effects
+^#EBE2CA;
+A seemingly normal humanoid eye, with a pupil from which light flashes out.
+^reset;",
+
+
+
+"^#ffd700;Royal Blue Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% resistance to the basic four elemental damage types
+^#FF4040;- 33% Physical damage weakness
+^#99CCFF;- Immunity to the basic four elemental status effects
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness. You can catch sight of briefly appearing, glowing glyphs within its pupil.
+^reset;",
+
+
+
+"^#ffd700;Royal Blue Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% resistance to the basic four elemental damage types
+^#FF4040;- 100% Physical damage weakness
+^#99CCFF;- Immunity to the basic four elemental status effects
+^#EBE2CA;
+The black eye of some far flung star thing. It has an iris shaped in a bizarre facsimile of a dark run of power.
+^reset;",
+
+
+
+"^#ffd700;Ruddy Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 25% Physical damage resistance 
+^#EBE2CA;
+A thick, muscle bound humanoid eye which is, otherwise, seemingly normal.
+^reset;",
+
+
+
+"^#ffd700;Ruddy Cat Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 50% Physical damage resistance
+^#FF4040;- 33% weakness to the basic four elemental damage types
+^#EBE2CA;
+The eye of some large spectral feline. Its vertical iris allows it to see further in darkness and the powerful ligaments give it a thick, steady appearance.
+^reset;",
+
+
+
+"^#ffd700;Ruddy Starchild Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- 100% Physical damage resistance
+^#FF4040;- 100% weakness to the basic four elemental damage types
+^#EBE2CA;
+The black eye of some far flung star thing. It has a bizarre cross shaped iris. The iris beats in time like a heart.
+^reset;",
+
+
+
+"^#ffd700;Starchild Cataract Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Anything within a certain radius will glow bright green
+^#EBE2CA;
+A very old Starchild eye with a thick cataract in the center. While blind to the normal light spectrum, it may see unseen things...
+^reset;",
+
+
+
+"^#ffd700;Observer Eye^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- LASER EYES MOTHER HECKER
+^#EBE2CA;
+The light focusing eye of a powerful Observer. A blinding energy radiates outward from within.
+^reset;",
+
+
+
+"^#ffd700;Biomechanical Brain^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Part of a set
+^#EBE2CA;
+This brain optimises the primitive augmented brain to become one much more potent.
+^reset;",
+
+
+
+"^#ffd700;Aggravating Brain^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Allows you to bunnyhop
+^#EBE2CA;
+A bizarre brain with a mind of its own (albeit a weak one). It whispers inside your skull. You can feel your magic ability refocus on speed over power.
+^reset;",
+
+
+
+"^#ffd700;Ennervating Brain^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Substantially changes movement physics, rendering the player slippery on ground but very mobile airborne
+^#EBE2CA;
+A bizarre brain with a mind of its own. You feel your spirit body quicken rapidly, but your ability to project magic power has slowed...
+^reset;",
+
+
+
+"^#ffd700;Othello's Skull^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Regenerate 6 health a second regardless of anything
+^#EBE2CA;
+The jellied skull of the warlock, Othello. He was banished to the Fortress of Koth and was swallowed by the great beast trapped within. Rather than suffer a slow death by digestion, he focused his energies to his mind and was able to fortify a bastion of his being within. Little physically remains of his body except for a slimy shapeless skull.
+^reset;",
+
+
+
+"^#ffd700;Shadow Hound Fang^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Occasionally summon shadow hounds that fight for you
+^#EBE2CA;
+One of the large canines taken from a Shadow Hound, semi corporeal beasts bred by the Night Lords. Despite being bodily composed of shadow stuff, their teeth were undenaiably sharp.
+^reset;",
+
+
+
+"^#ffd700;The Brain of Duke Theris^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Regenerate energy upon being hit
+^#EBE2CA;
+The only remains of a despotic duke notorious for wielding ruthlessly brutal authority over the realms he controlled. His subjects eventually revolted and destroyed his body but kept his mind alive and imprisoned as punishment for his wicked reign.
+^reset;",
+
+
+
+"^#ffd700;Brain from Afar^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Spawns glowing wisps that enhance vision
+^#EBE2CA;
+A bizarre brain with a mind of its own (albeit a weak one). A small pineal gland reaches out on an extended tendril from within its fleshy coils.
+^reset;",
+
+
+
+"^#ffd700;Slimy Skull^reset;
+^#756B5E;Head Slot Organ^reset;
+^#99CCFF;- Killing a foe refreshes energy
+^#EBE2CA;
+A gelid skull surrounded by some slimy macro-cell. You can sense a faint consciousness emanating from within...
+^reset;",
+
+
+
+"^#ffd700;Butterfly Lung^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Allows you to charge up a jump by holding crouch and pressing jump on release of crouch
+^#EBE2CA;
+A strange alien organ that reminds you of a butterfly. It imbues your breath with a sweet pollen taste as it flaps rhythmically within your chest.
+^reset;",
+
+
+
+"^#ffd700;Tumerichan's Lungs^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Allows you to wind up an heal aura by holding crouch that will heal anyone in the vicinity
+^#EBE2CA;
+A sorceror and a spice merchant, Tumerichan was a legendary traveler of the outer realms. His life's work dealing in exotic trade goods left his lungs saturated and stained with psychoactive essence.
+^reset;",
+
+
+
+"^#ffd700;Vembrax's Lungs^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Allows you to become a statue by holding crouch, giving yourself full immunity to damage
+^#EBE2CA;
+The lungs of the arachnid demon witch, Vembrax. She enchanted her throat and lungs so that her breath was poison. She delighted in decimating foes with her demon song, her noxious breath and withering words working in double concert to guarantee the demise of her enemies.
+^reset;",
+
+
+
+"^#ffd700;The Brute's Lungs^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Gives you flame breath by holding crouch
+^#EBE2CA;
+The lungs of amphibious gladiator beast known only as The Brute. Undefeated for centuries, he lavished in a life full of excess. Legends say that his private residence halls were filled with blood and that he would submerge himself within for weeks on end.
+^reset;",
+
+
+
+"^#ffd700;A Human Spirit^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Gives the user fighting game-like abilities
+^#EBE2CA;
+Humans are very unremarkable in most regards, but what does define them is their overwhelming ability to survive despite the circumstances.
+^reset;",
+
+
+
+"^#ffd700;The Curse Of Greed^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Money heals
+^#FF4040;- Lose money upon getting hit
+^#EBE2CA;
+This curse, while mostly beneficial to the victim, thrives upon the wealth of others, ruining the victim's surroundings.
+^reset;",
+
+
+
+"^#ffd700;The Curse Of Gluttony^reset;
+^#756B5E;Back Slot Organ^reset;
+^#FF4040;- Immune to the well-fed buff
+^#99CCFF;- Each time the user overeats, give a stack of gluttony, which increases regen and damage while reducing speed.
+^#EBE2CA;
+One of the worst curses, the user is permanently famined, forcing them to consume all and everything they can get.
+^reset;",
+
+
+
+"^#ffd700;The Curse Of Gluttony^reset;
+^#756B5E;Back Slot Organ^reset;
+^#99CCFF;- Dealing damage builds up combo, lose combo upon not dealing damage for a certain amount of time
+^#99CCFF;- Combo multiplies damage dealt
+^#EBE2CA;
+This curse forces the victim into an endless frenzy, akin to that of a psychopath.
+^reset;",
+
+
+
+"^#ffd700;Biomechanical Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Part of a set
+^#EBE2CA;
+This heart optimises the primitive augmented heart to become one much more potent.
+^reset;",
+
+
+
+"^#ffd700;Soul Reactor^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Constantly pulse with a damaging aura
+^#EBE2CA;
+A heart split in two by a violent energetic reaction. It constantly forms, ruptures, and reforms again with each heartbeat.
+^reset;",
+
+
+
+"^#ffd700;Elinberg's Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Standing still gradually multiplies damage up to a certain amount
+^#EBE2CA;
+A heart torn from the battered husk of the Primal Id. A small portion of Professor Elinberg's essence is embedded inside. The final fate of the Professor is unknown, as this is the only physical remnant left behind.
+^reset;",
+
+
+
+"^#ffd700;Spice Fed Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Transforms energy to health
+^#EBE2CA;
+A heart saturated with exotic otherworld spices from centuries of exposure to strange trade between planes of existence. At some point it transcended normal organic function and began to hunger for the raw essences of magic.
+^reset;",
+
+
+
+"^#ffd700;Ice Pierced Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Freeze nearby enemies upon being hit
+^#EBE2CA;
+An ice impaled heart nearly frozen solid. Your magic power may cause foes to slow much like this weary heart.
+^reset;",
+
+
+
+"^#ffd700;Modron Core^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Replaces your jump by a short duration hover that lasts 3 seconds of movement
+^#EBE2CA;
+A strange organ from the core of a modron. It whirrs and pulses with impeccable regularity.
+^reset;",
+
+
+
+"^#ffd700;Star Thing's Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Attacking to the beat doubles damage while failing to do so halves damage
+^#EBE2CA;
+The strange heart of some star thing from the great beyond. Its organic function is completely beyond your understanding. It feels brimming with unstable power.
+^reset;",
+
+
+
+"^#ffd700;Caustic Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Taking too much damage detonates the user in a spectacular explosion, which won't harm the user
+^#EBE2CA;
+An acid filled heart, pumping caustic bile instead of blood. You feel your body burning as you bring it close but desire the power it may bring you.
+^reset;",
+
+
+
+"^#ffd700;Unstable Heart^reset;
+^#756B5E;Chest Slot Organ^reset;
+^#99CCFF;- Taking damage restores the user's position 3 seconds ago, as well as half the HP they used to have
+^#EBE2CA;
+An unstable beating heart. It causes your magic power to spray forth unbound by mortal focus.
+^reset;",
+
+
+
+"^#ffd700;Biomechanical Gut^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#99CCFF;- Part of a set
+^#EBE2CA;
+This gut optimises the primitive augmented gut to become one much more potent.
+^reset;",
+
+
+
+"^#ffd700;Bejeweled Spleen^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#99CCFF;- Drop money upon being hit
+^#EBE2CA;
+A returned heirloom of Queen Umvorax's lost life. Someone had been carefully gilding her bones and stuffing embalmed organs into her handsome frame!
+^reset;",
+
+
+
+"^#ffd700;Saint Athenabry's Guts^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#99CCFF;- Regenerate 30 energy a second regardless of whether you're currently using it or not
+^#EBE2CA;
+The stomach and vital organs of Saint Athenabry. He spent his life in an attempt to bring logic and reason to the outer worlds where madness reigns. He was captured by a brutal warlord and sentenced to death by being crushed by a stampeding horde.
+^reset;",
+
+
+
+"^#ffd700;Bilious Slimebag^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#99CCFF;- Leak poison and slime upon being hit
+^#99CCFF;- Immunity to slime and poison status effects
+^#EBE2CA;
+A foul sloshing sack of slime and rancid enzymes. You feel sick just looking at it, but somehow this pathetic looking stomach is a thriving, vital thing.
+^reset;",
+
+
+
+"^#ffd700;Brutal Gug Stomach^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#FF4040;- No random critical hits
+^#99CCFF;- Just kidding, random chance to deal 10x damage
+^#EBE2CA;
+A vile organ from a mighty gug champion. You feel it twisting violently inside you.
+^reset;",
+
+
+
+"^#ffd700;Gibbering Bladder^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#FF4040;- It talks alot
+^#EBE2CA;
+A fleshy, fluid filled sack covered in orifices. It tries to speak but chokes and leaks instead.
+^reset;",
+
+
+
+"^#ffd700;Robust Gut^reset;
+^#756B5E;Gut Slot Organ^reset;
+^#FF4040;- When health is above 1/2 of the max, consume overflow health
+^#99CCFF;- Overflow health is converted into temporary damage multiplier
+^#EBE2CA;
+A hearty organ. It seems to be thriving despite being separated from it's original owner. When you hold it close it begins to pulse greedily.
+^reset;"
+
+
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Essential",
+    "price" : 1000
+  }
+}

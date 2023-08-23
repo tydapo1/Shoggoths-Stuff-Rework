@@ -1,0 +1,71 @@
+{
+  "objectName" : "srm_vanishingtriangle",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 100,
+  "description" : "This is only visible when at a certain distance.",
+  "shortdescription" : "Vanishing Triangle",
+  "race" : "generic",
+  "health" : 0.1,
+
+  "inventoryIcon" : "srm_vanishingtriangleicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_vanishingtriangle.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "direction" : "left",
+      "flipImages" : false,
+	  
+      "spaces" : [[-2,3],
+				  [-2,2],[-1,2],
+				  [-2,1],[-1,1],[0,1],
+				  [-2,0],[-1,0],[0,0],[1,0]],
+      "anchors" : [  ]
+    },
+    {
+      "image" : "srm_vanishingtriangleflip.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "direction" : "right",
+	  
+      "spaces" : [[1,3],
+				  [1,2],[0,2],
+				  [1,1],[0,1],[-1,1],
+				  [1,0],[0,0],[-1,0],[-2,0]],
+      "anchors" : [  ]
+    }
+  ],
+
+  "scripts" : [ "/objects/trials/srm_vanishingblock/srm_vanishingblock.lua" ],
+  "scriptDelta" : 1,
+  
+  "sensorConfig" : {
+    "detectArea" : "vertical"
+  },
+
+  "animation" : "/objects/trials/srm_vanishingblock/srm_vanishingblock.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/isolated_platform_disappear.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/isolated_platform_appear.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "srm_vanishingtriangleflip.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [-1, 1] ],
+  "outputNodes" : [ [0, 0] ]
+}

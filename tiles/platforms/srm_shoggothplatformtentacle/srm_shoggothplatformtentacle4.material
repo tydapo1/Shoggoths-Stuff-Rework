@@ -1,0 +1,66 @@
+{
+  "materialId" : 36734,
+  "materialName" : "srm_shoggothplatformtentacle4",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Tentacled Shoggoth Platform",
+  "description" : "The tentacle platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformtentacle.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformtentacle.png?replace;515384=59af68;41446f=41985e;323660=358a51;242952=2d7e48;5b4a7e=47b754;503e70=359c49;41325f=2e8a40;35274e=29793b;644078=34bf3f;5f3770=2ba135;4f2e5d=288b31;45244a=25742d;bcbce0=91e5a9;acacd2=7fd598;8686aa=64b87f;75759c=51a26e;3f3f7d=268e33;2f3465=16712d;242957=106123;1e2251=0c521d;3f3777=2f9f20;302c5f=1a7d15;282454=156411;221f4d=134f13;3f2f70=38b00c;33265b=2d8b0a;2d2152=246a09;261c48=194b09;c3c6df=69c871;b3b6d1=51b45e;8c8db2=359748;7a7ea1=237f38",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1812
+  }
+}
+
+// LIME + DUBBLE LIMEY
+
+//  Body Top 1
+//	515384=59af68;
+//	41446f=41985e;
+//	323660=358a51;
+//	242952=2d7e48;
+//  Body Mid 1
+//	5b4a7e=47b754;
+//	503e70=359c49;
+//	41325f=2e8a40;
+//	35274e=29793b;
+//  Body Bottom 1
+//	644078=34bf3f;
+//	5f3770=2ba135;
+//	4f2e5d=288b31;
+//	45244a=25742d;
+//  Face 1
+//	bcbce0=91e5a9;
+//	acacd2=7fd598;
+//	8686aa=64b87f;
+//	75759c=51a26e;
+//  Body Top 2
+//	3f3f7d=268e33;
+//	2f3465=16712d;
+//	242957=106123;
+//	1e2251=0c521d;
+//  Body Mid 2
+//	3f3777=2f9f20;
+//	302c5f=1a7d15;
+//	282454=156411;
+//	221f4d=134f13;
+//  Body Bottom 2
+//	3f2f70=38b00c;
+//	33265b=2d8b0a;
+//	2d2152=246a09;
+//	261c48=194b09;
+//  Face 2
+//	c3c6df=69c871;
+//	b3b6d1=51b45e;
+//	8c8db2=359748;
+//	7a7ea1=237f38

@@ -1,0 +1,11 @@
+{
+  "name" : "srm_triggerbuffs",
+  "effectConfig" : {},
+  "defaultDuration" : 30,
+  
+  "animationConfig" : "srm_triggerbuffs.animation",
+
+  "scripts" : [
+    "srm_triggerbuffs.lua"
+  ]
+}

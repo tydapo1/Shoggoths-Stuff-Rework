@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_nightgauntplushie",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "race" : "nightgaunt",
+  "printable" : false,
+  "description" : "A cute little nightgaunt.",
+  "shortdescription" : "Ganny The Nightgaunt",
+
+  "apexDescription" : "An adorable cuddly nightgaunt.",
+  "avianDescription" : "A cute and cuddly toy nightgaunt.",
+  "floranDescription" : "Sssquisshy toy is ssstaring at Floran.",
+  "glitchDescription" : "Overjoyed. This nightgaunt is so squishy and fuzzy!",
+  "humanDescription" : "I just wanna cuddle this nightgaunt forever.",
+  "hylotlDescription" : "Eeee! A wonderful nightgaunt plushie. I love it!",
+  "novakidDescription" : "This lil' gal is pretty cute, I guess.",
+
+  "inventoryIcon" : "srm_nightgauntplushieicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_nightgauntplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_nightgauntplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/nightgaunt/srm_nightgauntplushie/srm_nightgauntplushie.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,17 @@
+{
+  "globalTagDefaults" : {
+    "species" : "shoggoth",
+    "animaFrame" : "3"
+  },
+  "animatedParts" : {
+    "parts" : {
+      "eye" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.5,0.5],
+          "image" : "srm_shoggotheye.png:<animaFrame><color>"
+        }
+      }
+    }
+  }
+}

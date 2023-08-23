@@ -1,0 +1,53 @@
+{
+  "objectName" : "srm_shoggothoven",
+  "rarity" : "Common",
+  "category" : "crafting",
+  "price" : 90,
+  "printable" : false,
+  
+  "description" : "Cooks food to an edible state. Don't count on it, however.",
+  "shortdescription" : "Shoggoth Oven",
+  "race" : "shoggoth",
+  "colonyTags" : ["shoggoth","cooking"],
+
+  "apexDescription" : "A terrifying oven, just about suitable for murder.",
+  "avianDescription" : "A device for heating food. It probably eats it too.",
+  "floranDescription" : "Floran not using thisss. Floran not ssstupid.",
+  "glitchDescription" : "Observant. This is one of those dangerous mimics, isn't it?",
+  "humanDescription" : "This oven feels like it'll eat whatever I cook using it.",
+  "hylotlDescription" : "An eldritch oven. It eats the cold to leave nothing but heat.",
+  "novakidDescription" : "It's for cookin' meals. I've baked three pies, yet I ended up with none. Wonder why.",
+
+  "inventoryIcon" : "srm_shoggothovenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothoven.png:<color>",
+	  
+      "imagePosition" : [-8, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Shoggoth Oven",
+        "subtitle" : " Cooks food to an edible state. Don't count on it, however."
+      }
+    }
+  },
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothoven/srm_shoggothoven.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

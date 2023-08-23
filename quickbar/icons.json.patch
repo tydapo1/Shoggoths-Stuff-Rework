@@ -1,0 +1,57 @@
+[
+  {
+    "op" : "add",
+    "path" : "/items/srm:magfeeding",
+	"value":{
+	  "label" : "^#0AF;Mag Feeding",
+	  "action" : [ "pane", "/interface/scripted/srm_magfeeding/srm_magfeeding.config" ],
+	  "weight" : -1149,
+	  "condition" : [ "statNegative", "noMatterManipulator" ], 
+	  "icon" : "/interface/scripted/srm_magfeeding/baricon.png"
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/items/srm:loadoutotron",
+	"value":{
+	  "label" : "^#0AF;Extra Arms Loadout",
+	  "action" : [ "pane", "/interface/scripted/srm_loadoutotron/srm_loadoutotron.config" ],
+	  "weight" : -1148,
+	  "condition" : [ "statNegative", "noMatterManipulator" ], 
+	  "icon" : "/interface/scripted/srm_loadoutotron/baricon.png"
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/items/srm:stockmarket",
+	"value":{
+	  "label" : "^#0AF;Stock Market",
+	  "action" : [ "pane", "/interface/scripted/srm_stockmarket/srm_stockmarket.config" ],
+	  "weight" : -1147,
+	  "condition" : [ "statNegative", "noMatterManipulator" ], 
+	  "icon" : "/interface/scripted/srm_stockmarket/baricon.png"
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/items/srm:organselection",
+	"value":{
+	  "label" : "^#04F;Organ Selection",
+	  "action" : [ "pane", "/interface/scripted/srm_organselection/srm_organselection.config" ],
+	  "weight" : -1146,
+	  "condition" : [ "admin" ], 
+	  "icon" : "/interface/scripted/srm_organselection/baricon.png"
+	}
+  },
+  {
+    "op" : "add",
+    "path" : "/items/srm:collectorssyringe",
+	"value":{
+	  "label" : "^#04F;Collector's Syringe",
+	  "action" : [ "pane", "/interface/scripted/srm_collectorssyringe/srm_collectorssyringe.config" ],
+	  "weight" : -1146,
+	  "condition" : [ "admin" ], 
+	  "icon" : "/interface/scripted/srm_collectorssyringe/baricon.png"
+	}
+  }
+]

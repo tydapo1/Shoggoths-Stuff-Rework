@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_license4",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "license4.png",
+  "description" : "Enough to feed an entire country, enough for an Eagle class organism.",
+  "shortdescription" : "Eagle Meal Ticket",
+
+  "pickupQuestTemplates" : ["srm_shipupgrade4"],
+  "consumeOnPickup" : true
+}

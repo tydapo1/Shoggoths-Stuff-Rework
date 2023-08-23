@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/srm_abyssalstalker",
+    "value": {
+      "unique": false,
+      "text": "A massive entity has been detected and is rapidly approaching our current location. You have probably breached it's natural habitat, and in doing so, angered it. Chances of survival in direct combat are esteemed to be below zero."
+    }
+  }
+]

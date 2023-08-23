@@ -1,0 +1,29 @@
+{
+  "kind" : "srm_tier6ashoggothmagnorb",
+  "definition" : {
+    "duration" : 0.1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "hellfiredust", "hellfireflames", "hellfireflames", "dust2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "burningdust2", "burningdust2", "burningdust2", "burningdust2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

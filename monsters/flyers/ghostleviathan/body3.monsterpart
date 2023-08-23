@@ -1,0 +1,9 @@
+{
+  "name" : "srm_ghostleviathanbody3",
+  "category" : "srm_ghostleviathanbody3",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body3.png"
+  }
+}

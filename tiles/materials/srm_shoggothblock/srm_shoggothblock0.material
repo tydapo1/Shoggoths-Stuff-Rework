@@ -1,0 +1,27 @@
+{
+  "materialId" : 36500,
+  "materialName" : "srm_shoggothblock0",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar block. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Block",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+  
+  "tillableMod" : 36998,
+  "soil" : true,
+
+  "renderTemplate" : "/tiles/srm_shoggothblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1790
+  }
+}

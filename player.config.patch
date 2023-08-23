@@ -1,0 +1,132 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultCodexes/shoggoth",
+    "value": [
+      "protectorate1",
+      "protectorate2",
+      "srm_shoggothdiary"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/defaultCodexes/mindflayer",
+    "value": [
+      "protectorate1",
+      "protectorate2",
+      "srm_shoggothdiary"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/defaultCodexes/nightgaunt",
+    "value": [
+      "protectorate1",
+      "protectorate2",
+      "srm_shoggothdiary"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_fistsyoufightwith"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "heartforge"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_bloodbank"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_recycleomatic"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_tableoftables"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_arcadeshop"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_torchgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "srm_tamagotchi"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/deploymentConfig/scripts/-",
+    "value": "/scripts/shoggothracemodextrautils.lua"
+  },
+  {
+    "op": "add",
+    "path": "/genericScriptContexts/shoggothScripts",
+    "value": "/scripts/player/shoggothracemodplayerscripts.lua"
+  },
+  {
+    "op": "add",
+    "path": "/deploymentConfig/speciesStarterMechBody/shoggoth",
+    "value": "srm_mechbodyshoggothproto"
+  },
+  {
+    "op": "add",
+    "path": "/deploymentConfig/speciesStarterMechBody/mindflayer",
+    "value": "srm_mechbodyshoggothproto"
+  },
+  {
+    "op": "add",
+    "path": "/deploymentConfig/speciesStarterMechBody/nightgaunt",
+    "value": "srm_mechbodyshoggothproto"
+  },
+  {
+    "op": "add",
+    "path": "/statusControllerSettings/stats/maxTechFuel",
+    "value": { "baseValue": 1.0 }
+  },
+  {
+    "op": "add",
+    "path": "/statusControllerSettings/resources/techFuel",
+    "value": {
+      "maxStat": "maxTechFuel",
+      "deltaValue": 0.0,
+      "initialPercentage": 100.0
+    }
+  },
+  {
+    "op": "add",
+    "path": "/statusControllerSettings/resources/srm_magPB",
+    "value": {
+      "maxValue": 1.0,
+      "initialPercentage": 0.0
+    }
+  }
+]

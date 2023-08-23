@@ -1,0 +1,30 @@
+
+{
+  "itemName" : "srm_coffee",
+  "rarity" : "Common",
+  "price" : 15,
+  "category" : "drink",
+  "inventoryIcon" : "srm_coffee.png",
+  "description" : "Freshly brewed shoggoffee. Not especially great. At all.",
+  "shortdescription" : "Shoggoffee",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 30
+    },
+	{
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

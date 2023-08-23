@@ -1,0 +1,101 @@
+{
+  "objectName" : "srm_shoggothvendingmachine",
+  "colonyTags" : ["shoggoth","commerce"],
+  "rarity" : "Common",
+  "description" : "Let's see what gross snacks this has.",
+  "shortdescription" : "Shoggoth Vending Machine",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 150,
+  "lightColor" : [153, 115, 116],
+  "printable" : false,
+
+  "apexDescription" : "A vending machine. No banana-flavoured snacks, sadly.",
+  "avianDescription" : "Perfect to stave off hunger.",
+  "floranDescription" : "Clever machine gives Floran treatsss.",
+  "glitchDescription" : "Indecisive. I can't decide what to buy.",
+  "humanDescription" : "Oh boy, it's the kind of vending machine where you win every time!",
+  "hylotlDescription" : "A vending machine for sugary drinks. They will have to do.",
+  "novakidDescription" : "A vendin' machine for sugary type drinks.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/srm_shoggothvendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Shoggoth Vending Machine",
+        "subtitle" : "Tastefully Gross Snacks",
+        "icon" : {
+          "file" : "/interface/merchant/merchanticon.png"
+        }
+      }
+    },
+    "filter" : [ "shoggothfood" ]
+  },
+
+  "inventoryIcon" : "srm_shoggothvendingmachineicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "srm_shoggothvendingmachine.png:<color>" }, { "image" : "srm_shoggothvendingmachinelit.png:<color>", "fullbright" : true } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "srm_shoggothvendingmachine.png:<color>" }, { "image" : "srm_shoggothvendingmachinelit.png:<color>", "fullbright" : true } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 1.0],
+    "preciseStandPositionRight" : [2.0, 1.0],
+    "maxNpcs" : 1
+  },
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "placementImage" : "/objects/crafting/srm_shoggothvendingmachine/srm_shoggothvendingmachine.png",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}
+

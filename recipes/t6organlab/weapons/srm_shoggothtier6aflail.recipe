@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "solariumstar", "count" : 20 },
+	{ "item" : "srm_shoggothtier5aflail", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier6aflail",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t6organ" ]
+}

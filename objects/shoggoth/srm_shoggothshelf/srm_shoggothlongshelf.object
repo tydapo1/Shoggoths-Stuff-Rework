@@ -1,0 +1,39 @@
+{
+  "objectName" : "srm_shoggothlongshelf",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 15,
+  "printable" : false,
+  "description" : "A long wall shelf made from tar.",
+  "shortdescription" : "Shoggoth Long Wall Shelf",
+  "race" : "shoggoth",
+
+  "apexDescription" : "It's a wall shelf made from tar.",
+  "avianDescription" : "A mounted tar wall shelf.",
+  "floranDescription" : "Hanging tar shelf.",
+  "glitchDescription" : "Observant. This wall shelf is made from tar.",
+  "humanDescription" : "It's a wall shelf crafted from tar.",
+  "hylotlDescription" : "A tar wall shelf of very basic design.",
+  "novakidDescription" : "A tar shelf hangin' on the wall.",
+
+  "inventoryIcon" : "srm_shoggothshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothlongshelf.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothshelf/srm_shoggothlongshelf.png",
+  "placementImagePosition" : [-32, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

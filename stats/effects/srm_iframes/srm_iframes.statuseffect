@@ -1,0 +1,9 @@
+{
+  "name" : "srm_iframes",
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "srm_iframes.lua"
+  ]
+}

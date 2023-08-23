@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_shardofknowledge",
+  "rarity" : "Essential",
+  "price" : 2500,
+  "learnBlueprintsOnPickup" : [ "srm_deathstateportal", "srm_eldritchaltar" ],
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_shardofknowledge.png",
+  "description" : "It feels like a whole world is revolving around itself in your palms.",
+  "shortdescription" : "^cyan;Shard Of Knowledge",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

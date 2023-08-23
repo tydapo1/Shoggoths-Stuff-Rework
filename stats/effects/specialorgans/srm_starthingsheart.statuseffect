@@ -1,0 +1,11 @@
+{
+  "name" : "srm_starthingsheart",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_starthingsheart.animation",
+
+  "scripts" : [
+    "srm_starthingsheart.lua"
+  ]
+}

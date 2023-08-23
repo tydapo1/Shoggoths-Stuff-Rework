@@ -1,0 +1,9 @@
+{
+  "name" : "srm_brutalgugstomach",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_brutalgugstomach.lua"
+  ]
+}

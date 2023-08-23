@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "srm_shoggothtier4head", "count" : 1 },
+	{ "item" : "srm_stemcell", "count" : 15 },
+	{ "item" : "refinedaegisalt", "count" : 2 },
+	{ "item" : "refinedferozium", "count" : 2 },
+	{ "item" : "refinedviolium", "count" : 2 },
+	{ "item" : "toxicwaste", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier5head",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t5organ" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "srm_bloodbagheal",
+  "effectConfig" : {
+    "healAmount" : 25
+  },
+  "defaultDuration" : 0.001,
+
+  "scripts" : [
+    "instantheal.lua"
+  ]
+}

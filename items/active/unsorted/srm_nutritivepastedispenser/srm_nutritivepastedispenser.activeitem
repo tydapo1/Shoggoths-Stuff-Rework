@@ -1,0 +1,30 @@
+{
+  "itemName" : "srm_nutritivepastedispenser",
+  "price" : 250,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tradeGoods",
+  "description" : "Left click to fill with food, right click to drain, hold to consume nutritive paste.",
+  "shortdescription" : "Nutritive Paste Dispenser",
+  "twoHanded" : false,
+  
+  "pasteAmount" : 0,
+
+  "inventoryIcon"   	: "srm_nutritivepastedispenser.png:empty",
+
+  "inventoryIconEmpty"  : "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:empty",
+  "inventoryIcon10" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:10",
+  "inventoryIcon20" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:20",
+  "inventoryIcon30" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:30",
+  "inventoryIcon40" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:40",
+  "inventoryIcon50" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:50",
+  "inventoryIcon60" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:60",
+  "inventoryIcon70" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:70",
+  "inventoryIcon80" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:80",
+  "inventoryIcon90" 	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:90",
+  "inventoryIconFull"	: "/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.png:full",
+
+  "scripts" : ["/items/active/unsorted/srm_nutritivepastedispenser/srm_nutritivepastedispenser.lua"],
+  "scriptDelta" : 3
+}

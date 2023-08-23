@@ -1,0 +1,15 @@
+{
+  "globalTagDefaults" : {
+    "species" : "shoggoth"
+  },
+  "animatedParts" : {
+    "parts" : {
+      "ship" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "protectorateship<species>.png"
+        }
+      }
+    }
+  }
+}

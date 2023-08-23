@@ -1,0 +1,18 @@
+{
+  "itemName" : "srm_collectorssyringe",
+  "price" : 250,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tradeGoods",
+  "description" : "Pump your guns full of cells to make them stronger.",
+  "shortdescription" : "Collector's Syringe",
+  "twoHanded" : true,
+  
+  "srm_isSyringeUIOpen" : false,
+
+  "inventoryIcon" : "srm_collectorssyringe.png",
+
+  "scripts" : ["/items/active/unsorted/srm_collectorssyringe/srm_collectorssyringe.lua"],
+  "scriptDelta" : 3
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_shoggothsink",
+  "colonyTags" : ["shoggoth","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "decorative",
+  "price" : 85,
+
+  "description" : "A tarry cabinet with an equally tarry sink.",
+  "shortdescription" : "Shoggoth Sink",
+  "race" : "shoggoth",
+
+  "apexDescription" : "This sink isn't really that suitable for a kitchen or bathroom.",
+  "avianDescription" : "Why is it leaking purple?.",
+  "floranDescription" : "Turn handle, weird ssslime comess out!",
+  "glitchDescription" : "Disgusted. Hot and cold slime, if you somehow need slime.",
+  "humanDescription" : "A gross sink. It's staring at me.",
+  "hylotlDescription" : "I don't really want to that at all.",
+  "novakidDescription" : "Oh, this smells awful!",
+
+  "inventoryIcon" : "srm_shoggothsinkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothsink.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothsink/srm_shoggothsink.png",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "srm_styxed",
+  "effectConfig" : {
+    "movementParameters" : {
+	  "liquidFriction" : 5.0,
+      "liquidImpedance" : -0.15,
+      "liquidForce" : 300,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 30.0
+      }
+    }
+  },
+  "defaultDuration" : 0.2,
+
+  "scripts" : [
+    "srm_styxed.lua"
+  ],
+  "animationConfig" : "srm_styxed.animation"
+}

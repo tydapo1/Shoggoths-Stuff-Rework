@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/0/-",
+    "value": {
+      "effect": "srm_corn",
+      "duration": 2
+    }
+  }
+]

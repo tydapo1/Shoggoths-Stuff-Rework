@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "srm_eldritchslime", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothchest",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "misc", "t1organ", "decoration" ]
+}

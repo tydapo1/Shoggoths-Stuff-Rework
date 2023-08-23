@@ -1,0 +1,16 @@
+{
+  "type" : "srm_blockplacement",
+  "keepAlive" : true,
+
+  "position" : [-5, -5],
+  "layer" : "ground",
+  "tile" : "srm_shoggothblock0",
+  "color" : 1,
+  "canmod" : false,
+  "matmod" : "srm_shoggotheyepatch0",
+
+  "scripts" : [
+  	"/stagehands/srm_blockplacement.lua"
+  ],
+  "scriptDelta" : 10
+}

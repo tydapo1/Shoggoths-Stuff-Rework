@@ -1,0 +1,37 @@
+{
+  "itemName" : "srm_shoggothtier2legs",
+  "price" : 960,
+  "inventoryIcon" : "/items/armors/organicons.png:gut.t2",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legarmour",
+  "description" : "An augmented gut that ^blue;moderately ^yellow;increases your damage^reset;.",
+  "shortdescription" : "T2 Augmented Gut",
+  "tooltipKind" : "armor",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 0
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 0
+    }
+  ],
+  "itemTags" : [ "organ", "tier2armour" ]
+}

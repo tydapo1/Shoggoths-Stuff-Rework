@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "fabric", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothflag",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "plain", "all" ]
+}

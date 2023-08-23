@@ -1,0 +1,65 @@
+{
+  "objectName" : "srm_shoggothtrashcan",
+  "colonyTags" : ["shoggoth","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A garbage bin. Any garbage that makes it in vanishes into the bin's eternal void.",
+  "shortdescription" : "Shoggoth Trash Can",
+  "race" : "shoggoth",
+  "price" : 60,
+
+  "apexDescription" : "It's an endless garbage bin.",
+  "avianDescription" : "A bin for discarding all the trash.",
+  "floranDescription" : "Floran usually throw scraps on ground.",
+  "glitchDescription" : "Bored. A weird garbage bin.",
+  "humanDescription" : "A trash can. But a bin cannot.",
+  "hylotlDescription" : "A bin meant for waste disposal. However, this one can dispose of everything.",
+  "novakidDescription" : "A tarry trash can. Weird.",
+
+  "inventoryIcon" : "srm_shoggothtrashcanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothtrashcan.png:<color>",
+      "imagePosition" : [-8, 0],
+	  
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "trashcan",
+      "trashcanComplete"
+    ],
+    "defaultReactions" : {
+      "trashcan" : [
+        [1.0, "droptrash"]
+      ],
+      "trashcanComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1, 0.0],
+    "preciseStandPositionRight" : [1, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothtrashcan/srm_shoggothtrashcan.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

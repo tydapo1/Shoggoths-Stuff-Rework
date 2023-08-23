@@ -1,0 +1,10 @@
+{
+  "name" : "srm_inked",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 1.5,
+
+  "scripts" : [
+    "srm_inked.lua"
+  ]
+}

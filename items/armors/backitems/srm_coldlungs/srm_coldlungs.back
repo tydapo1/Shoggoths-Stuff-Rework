@@ -1,0 +1,41 @@
+{
+  "itemName" : "srm_coldlungs",
+  "price" : 1000,
+  "inventoryIcon" : "/items/armors/organicons.png:lungs.t4",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Rare",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "These lungs provides ^yellow;underwater breathing, resistance to radiation and resistance to cold^reset;.",
+  "shortdescription" : "T4 Icebreath Lungs",
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

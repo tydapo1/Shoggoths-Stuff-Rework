@@ -1,0 +1,189 @@
+{
+  "itemName" : "srm_cursedsword",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "So you like to play hard ball, eh?",
+  "shortdescription" : "The Cursed Sword",
+  "tooltipKind" : "base",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "srm_cursedswordicon.png",
+  "animation" : "/items/active/weapons/melee/broadsword/srm_cursedsword.animation",
+  "animationParts" : {
+  "handle" : "",
+  "blade" : "srm_cursedsword.png",
+  "bladefullbright" : "srm_cursedswordfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/weapon_shortsw_release_slow.ogg" ],
+      "fire2" : [ "/sfx/melee/weapon_shortsw_release.ogg" ],
+      "fire3" : [ "/sfx/melee/weapon_shortsw_release_fast.ogg" ]
+    }
+  },
+  
+  "persistentStatus" : "srm_cursed",
+  "scripts" : ["/items/active/weapons/melee/broadsword/srm_cursedsword.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "name" : "Combo Slash",
+    "type" : "broadswordcombo",
+    "scripts" : ["/items/active/weapons/melee/meleecombo.lua"],
+    "class" : "MeleeCombo",
+
+    "comboSteps" : 3,
+
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+
+    "swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0],
+      [0.75, 0.0, 4.25, 5.0],
+      [0.75, 0.0, 4.25, 5.0]
+    ],
+
+    // cooldown time multiplier for steps after the first, compounded per combo step
+    "comboSpeedFactor" : 0.6,
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.55,
+    "baseDps" : 80,
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.5
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 0.5,
+        "knockback" : -20
+      },
+      {
+        "baseDamageFactor" : 1.5,
+        "knockback" : 40
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup1" : {
+        "duration" : 0.15,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.1,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.05,
+        "armRotation" : -50,
+        "weaponRotation" : -50,
+
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire2" : {
+        "duration" : 0.1,
+        "armRotation" : 80,
+        "weaponRotation" : -165,
+
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "wait2" : {
+        "duration" : 0.15,
+        "armRotation" : 90,
+        "weaponRotation" : -170,
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.1,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  "altAbilityType" : "parry",
+  "altAbility" : {
+    "name" : "Parry",
+    "type" : "parry",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/parry/parry.lua"],
+    "class" : "Parry",
+
+    "energyUsage" : 0.0,
+    "parryTime" : 0.3,
+    "cooldownTime" : 0.3,
+    "shieldHealth" : 50,
+    "stances" : {
+      "parry" : {
+        "armRotation" : 45,
+        "weaponRotation" : -205,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

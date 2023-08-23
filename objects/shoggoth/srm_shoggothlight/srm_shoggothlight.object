@@ -1,0 +1,63 @@
+{
+  "objectName" : "srm_shoggothlight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "A hanging ceiling light made from tar.",
+  "shortdescription" : "Shoggoth Light",
+  "race" : "shoggoth",
+  "category" : "light",
+  "price" : 30,
+  "printable" : false,
+  "lightColor" : [250, 241, 198],
+  "pointLight" : false,
+
+  "apexDescription" : "An hanging eye.",
+  "avianDescription" : "Light!",
+  "floranDescription" : "Bright!",
+  "glitchDescription" : "Concerned. We feel constantly watched.",
+  "humanDescription" : "A depressing fixture.",
+  "hylotlDescription" : "A rather grim light.",
+  "novakidDescription" : "A lone eyeball.",
+
+  "inventoryIcon" : "srm_shoggothlighticon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothlight.png:<frame><color>",
+      "imagePosition" : [0, -15],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2]
+    },
+    {
+      "image" : "srm_shoggothlight.png:<frame><color>",
+      "imagePosition" : [0, -15],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2]
+    }
+  ],
+
+  "animation" : "srm_shoggothlight.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothlightlit.png",
+    "notbright" : "srm_shoggothlight.png"
+  },
+  "animationPosition" : [0, -15],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, -2] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothlight/srm_shoggothlight.png:0",
+  "placementImagePosition" : [0, -15],
+  "shoggothColorable" : true,
+  "color" : ""
+}

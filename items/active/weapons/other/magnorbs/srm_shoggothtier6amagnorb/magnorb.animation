@@ -1,0 +1,773 @@
+{
+  "globalTagDefaults" : {
+    "hand" : "front"
+  },
+  "animatedParts" : {
+    "stateTypes" : {
+      "orb1" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb2" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb3" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+	  "orb4" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb5" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb6" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+	  "orb7" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb8" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb9" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb10" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb11" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+	  "orb12" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb13" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb14" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      },
+      "orb15" : {
+        "default" : "orb",
+        "states" : {
+          "orb" : {},
+          "hidden" : {},
+          "shield"  : {
+            "cycle" : 0.5,
+            "frames" : 2,
+            "mode" : "end"
+          },
+          "unshield" : {
+            "cycle" : 0.5,
+            "frames" : 1,
+            "mode" : "transition",
+            "transition" : "orb"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "glove" : {
+        "properties" : {
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [-1, 0],
+          "offset" : [0, -0.25],
+          "centered" : true,
+          "image" : "<partImage>:<hand>",
+          "shieldPoly" : [ [0.0, -1.75], [0.0, 2.25], [0.875, 1.0], [0.875, -0.5] ]
+        }
+      },
+      "orb1" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb1", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb1" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb2" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb2", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb2" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb3" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb3", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb3" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb4" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb4", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb4" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb5" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb5", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb5" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb6" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb6", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb6" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb7" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb7", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb7" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb8" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb8", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb8" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb9" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb9", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb9" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb10" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb10", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb10" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb11" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb11", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb11" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb12" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb12", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb12" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb13" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb13", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb13" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb14" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb14", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb14" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      },
+      "orb15" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [2.5, 0],
+          "orbPosition" : [0, 0],
+          "transformationGroups" : [ "weapon", "orb15", "orbs" ]
+        },
+
+        "partStates" : {
+          "orb15" : {
+            "orb" : {
+              "properties" : {
+                "image" : "<partImage>:orb"
+              }
+            },
+            "shield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.<frame>"
+              }
+            },
+            "unshield" : {
+              "properties" : {
+                "image" : "<partImage>:shield.1"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "orbs" : {
+      "interpolated" : true
+    },
+    "orb1" : {
+      "interpolated" : true
+    },
+    "orb2" : {
+      "interpolated" : true
+    },
+    "orb3" : {
+      "interpolated" : true
+    },
+    "orb4" : {
+      "interpolated" : true
+    },
+    "orb5" : {
+      "interpolated" : true
+    },
+    "orb6" : {
+      "interpolated" : true
+    },
+    "orb7" : {
+      "interpolated" : true
+    },
+    "orb8" : {
+      "interpolated" : true
+    },
+    "orb9" : {
+      "interpolated" : true
+    },
+    "orb10" : {
+      "interpolated" : true
+    },
+    "orb11" : {
+      "interpolated" : true
+    },
+    "orb12" : {
+      "interpolated" : true
+    },
+    "orb13" : {
+      "interpolated" : true
+    },
+    "orb14" : {
+      "interpolated" : true
+    },
+    "orb15" : {
+      "interpolated" : true
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ "/sfx/projectiles/blast_small1.ogg", "/sfx/projectiles/blast_small2.ogg", "/sfx/projectiles/blast_small3.ogg" ],
+    "shieldOn" : ["/sfx/gun/shogorb_shield_raise.ogg"],
+    "shieldLoop" : ["/sfx/gun/shogorb_shield_loop.ogg"],
+    "shieldOff" : ["/sfx/gun/shogorb_shield_end.ogg"],
+    "shieldBlock" : ["/sfx/gun/shogorb_shield_hit.ogg"],
+    "shieldBreak" : ["/sfx/gun/make_shield_break.ogg"]
+  }
+}

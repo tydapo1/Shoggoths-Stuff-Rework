@@ -1,0 +1,33 @@
+{
+  "itemName" : "srm_bobatea",
+  "rarity" : "Common",
+  "price" : 55,
+  "category" : "drink",
+  "inventoryIcon" : "srm_bobatea.png",
+  "description" : "The eyes burst in flavor inside your mouth.",
+  "shortdescription" : "Bobeye Tea",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 110
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 220
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 220
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

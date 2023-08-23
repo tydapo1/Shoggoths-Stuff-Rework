@@ -1,0 +1,32 @@
+{
+  "projectileName" : "srm_tier3shoggothmagnorb",
+  "image" : "srm_tier3shoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [  ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "dagger",
+  "emitters" : [ "daggerblue" ],
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/melee/dagger_hit_stone1.ogg",
+        "/sfx/melee/dagger_hit_stone2.ogg",
+        "/sfx/melee/dagger_hit_stone3.ogg",
+        "/sfx/melee/dagger_hit_stone4.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

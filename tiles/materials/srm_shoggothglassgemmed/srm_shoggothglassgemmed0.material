@@ -1,0 +1,24 @@
+{
+  "materialId" : 36570,
+  "materialName" : "srm_shoggothglassgemmed0",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid gem-shaped shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Gem Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglassgemmed.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglassgemmed.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}

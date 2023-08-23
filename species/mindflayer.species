@@ -1,0 +1,757 @@
+{
+  "kind" : "mindflayer",
+  
+  "charCreationTooltip" : {
+	  "title" : "Mindflayer",
+	  "subTitle" : "O2",
+	  "description" : "They hang around shoggoths since they are kind of family."
+  },
+
+  "statusEffects" : [ "srm_eldritchracial" ],
+  
+  "nameGen" : [ "/species/shoggothmalenamegen.config:names", "/species/shoggothfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/shoggothhurt_female3.ogg", "/sfx/humanoid/shoggothhurt_female2.ogg", "/sfx/humanoid/shoggothhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Face colour", "Hair style", "Chest style", "Legwear style", "Eyes colour", "Tentacle flavor", "Chest colour", "Legwear colour", "Mindflayer", "Personality" ],
+  "skull" : "/humanoid/shoggoth/dead.png",
+  "effectDirectives" : "?replace=feFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+// Mindflayer Exclusives
+	  { "item" : "srm_mindflayerplushie" },
+	  
+// Modded Stuff - Organ Lab 
+	  { "item" : "srm_worldbrush" },
+	  { "item" : "srm_cursedsword" },
+	  { "item" : "srm_shoggotharm" },
+	  { "item" : "srm_shoggothumbrella" },
+	  { "item" : "srm_shoggothbroom" },
+	  { "item" : "brokenprotectoratebroadsword" },
+	  { "item" : "srm_shoggothtarballtech" },
+	  { "item" : "srm_skindye" },
+	  
+// Modded Stuff - Racial Gear
+	  { "item" : "srm_breathlungs" },
+	  { "item" : "srm_radiationlungs" },
+	  { "item" : "srm_coldlungs" },
+	  { "item" : "srm_heatlungs" },
+
+	  { "item" : "srm_shoggothtier1head" }, 
+	  { "item" : "srm_shoggothtier1chest" }, 
+	  { "item" : "srm_shoggothtier1legs" }, 
+	  { "item" : "srm_shoggothtier1flail" }, 
+	  { "item" : "srm_shoggothtier1magnorb" },
+	  
+	  { "item" : "srm_shoggothtier2head" }, 
+	  { "item" : "srm_shoggothtier2chest" }, 
+	  { "item" : "srm_shoggothtier2legs" }, 
+	  { "item" : "srm_shoggothtier2flail" }, 
+	  { "item" : "srm_shoggothtier2magnorb" },
+	  
+	  { "item" : "srm_shoggothtier3head" }, 
+	  { "item" : "srm_shoggothtier3chest" }, 
+	  { "item" : "srm_shoggothtier3legs" }, 
+	  { "item" : "srm_shoggothtier3flail" }, 
+	  { "item" : "srm_shoggothtier3magnorb" },
+	  
+	  { "item" : "srm_shoggothtier4head" }, 
+	  { "item" : "srm_shoggothtier4chest" }, 
+	  { "item" : "srm_shoggothtier4legs" }, 
+	  { "item" : "srm_shoggothtier4flail" }, 
+	  { "item" : "srm_shoggothtier4magnorb" },
+	  
+	  { "item" : "srm_shoggothtier5head" }, 
+	  { "item" : "srm_shoggothtier5chest" }, 
+	  { "item" : "srm_shoggothtier5legs" }, 
+	  { "item" : "srm_shoggothtier5aflail" }, 
+	  { "item" : "srm_shoggothtier5amagnorb" },
+	  { "item" : "srm_shoggothtier5bflail" }, 
+	  { "item" : "srm_shoggothtier5bmagnorb" },
+	  { "item" : "srm_shoggothtier5cflail" }, 
+	  { "item" : "srm_shoggothtier5cmagnorb" },
+	  
+	  { "item" : "srm_shoggothtier6head" }, 
+	  { "item" : "srm_shoggothtier6chest" }, 
+	  { "item" : "srm_shoggothtier6legs" }, 
+	  { "item" : "srm_shoggothtier6aflail" }, 
+	  { "item" : "srm_shoggothtier6amagnorb" },
+	  { "item" : "srm_shoggothtier6bflail" }, 
+	  { "item" : "srm_shoggothtier6bmagnorb" },
+	  { "item" : "srm_shoggothtier6cflail" }, 
+	  { "item" : "srm_shoggothtier6cmagnorb" },
+	  
+// Modded Stuff - Furniture
+	  // Nightgaunt
+	  // Mindflayer
+	  // Shoggoth
+      { "item" : "shoggothshipdoor" },
+      { "item" : "shoggothshiphatch" },
+      { "item" : "shoggothshiplight" },
+      { "item" : "shoggothshiplocker" },
+	  { "item" : "srm_birthofshoggoth" },
+	  { "item" : "srm_shoggalisa" },
+	  { "item" : "srm_shoggothaltar" },
+	  { "item" : "srm_shoggotharmchair" },
+	  { "item" : "srm_shoggothbackgrounddoor" },
+	  { "item" : "srm_shoggothbackgrounddoor2" },
+	  { "item" : "srm_shoggothbath" },
+	  { "item" : "srm_shoggothbed" },
+	  { "item" : "srm_shoggothbed2" },
+	  { "item" : "srm_shoggothbed3" },
+	  { "item" : "srm_shoggothbloodyfang" },
+	  { "item" : "srm_shoggothbookcase" },
+	  { "item" : "srm_shoggothbookcase2" },
+	  { "item" : "srm_shoggothcabinet" },
+	  { "item" : "srm_shoggothcabinet2" },
+	  { "item" : "srm_shoggothcandle" },
+	  { "item" : "srm_shoggothcandles" },
+	  { "item" : "srm_shoggothceilingmonitor" },
+	  { "item" : "srm_shoggothchair" },
+	  { "item" : "srm_shoggothchair2" },
+	  { "item" : "srm_shoggothchest" },
+	  { "item" : "srm_shoggothcoffeemachine" },
+	  { "item" : "srm_shoggothconsole" },
+	  { "item" : "srm_shoggothcouch" },
+	  { "item" : "srm_shoggothcurtain" },
+	  { "item" : "srm_shoggothcurtain2" },
+	  { "item" : "srm_shoggothdoor" },
+	  { "item" : "srm_shoggothdoor2" },
+	  { "item" : "srm_shoggothdrape" },
+	  { "item" : "srm_shoggothdrape2" },
+	  { "item" : "srm_shoggothendtable" },
+	  { "item" : "srm_shoggotheye" },
+	  { "item" : "srm_shoggothfang" },
+	  { "item" : "srm_shoggothflag" },
+	  { "item" : "srm_shoggothflower" },
+	  { "item" : "srm_shoggothflower2" },
+	  { "item" : "srm_shoggothflower3" },
+	  { "item" : "srm_shoggothflower4" },
+	  { "item" : "srm_shoggothfridge" },
+	  { "item" : "srm_shoggothicpainting" },
+	  { "item" : "srm_shoggothlight" },
+	  { "item" : "srm_shoggothlongshelf" },
+	  { "item" : "srm_shoggothmeltedcandles" },
+	  { "item" : "srm_shoggothminitp" },
+	  { "item" : "srm_shoggothoven" },
+	  { "item" : "srm_shoggothpillar" },
+	  { "item" : "srm_shoggothplatformmelting" },
+	  { "item" : "srm_shoggothplatformsmooth" },
+	  { "item" : "srm_shoggothplatformtentacle" },
+	  { "item" : "srm_shoggothpod" },
+	  { "item" : "srm_shoggothritualcandles" },
+	  { "item" : "srm_shoggothshelf" },
+	  { "item" : "srm_shoggothshorttable" },
+	  { "item" : "srm_shoggothsink" },
+	  { "item" : "srm_shoggothtable" },
+	  { "item" : "srm_shoggothtable2" },
+	  { "item" : "srm_shoggothtable3" },
+	  { "item" : "srm_shoggothteacup" },
+	  { "item" : "srm_shoggothteapot" },
+	  { "item" : "srm_shoggoththindrape" },
+	  { "item" : "srm_shoggoththindrape2" },
+	  { "item" : "srm_shoggoththindrape3" },
+	  { "item" : "srm_shoggoththindrape4" },
+	  { "item" : "srm_shoggothtoilet" },
+	  { "item" : "srm_shoggothtoilet2" },
+	  { "item" : "srm_shoggothtorch" },
+	  { "item" : "srm_shoggothtorturebed" },
+	  { "item" : "srm_shoggothtrashcan" },
+	  { "item" : "srm_shoggothtv" },
+	  { "item" : "srm_shoggothtv2" },
+	  { "item" : "srm_shoggothvendingmachine" },
+	  { "item" : "srm_shoggothwallbutton" },
+	  { "item" : "srm_shoggothwallswitch" },
+	  { "item" : "srm_shoggothwardrobe" },
+	  { "item" : "srm_shoggothwardrobe2" },
+	  { "item" : "srm_shoggothweb" },
+	  { "item" : "srm_shoggothweb2" },
+	  { "item" : "srm_shoggothweb3" },
+	  { "item" : "srm_shoggothweb4" },
+	  { "item" : "srm_shoggothweb5" },
+	  { "item" : "srm_shoggothweb6" },
+	  { "item" : "srm_shoggothwithleech" },
+	  { "item" : "srm_venusdeshoggoth" },
+	  
+// Modded Stuff - Outfits
+	  // Nightgaunt
+      { "item" : "srm_nightgauntwingsdefault" },
+	  // Mindflayer
+      { "item" : "srm_mindflayerdressback" },
+      { "item" : "srm_mindflayerdresschest" },
+	  { "item" : "srm_mindflayerdresshead" },
+      { "item" : "srm_mindflayerdresslegs" },
+	  // Shoggoth
+	  { "item" : "srm_shoggothartificerchest" },
+	  { "item" : "srm_shoggothartificerhead" },
+	  { "item" : "srm_shoggothartificerlegs" },
+	  { "item" : "srm_shoggothballroomchest" },
+	  { "item" : "srm_shoggothballroomchestalt" },
+	  { "item" : "srm_shoggothballroomhead" },
+	  { "item" : "srm_shoggothballroomheadalt" },
+	  { "item" : "srm_shoggothballroomlegs" },
+	  { "item" : "srm_shoggothballroomlegsalt" },
+	  { "item" : "srm_shoggothcowgirlchest" },
+	  { "item" : "srm_shoggothcowgirlhead" },
+	  { "item" : "srm_shoggothcowgirllegs" },
+      { "item" : "srm_shoggothcultchest" },
+      { "item" : "srm_shoggothculthead" },
+      { "item" : "srm_shoggothcultlegs" },
+	  { "item" : "srm_shoggothdisguisechest" },
+	  { "item" : "srm_shoggothdisguisehead" },
+	  { "item" : "srm_shoggothdisguiselegs" },
+      { "item" : "srm_shoggothjiangshichest" },
+	  { "item" : "srm_shoggothjiangshihead" },
+      { "item" : "srm_shoggothjiangshilegs" },
+	  { "item" : "srm_shoggothlolitachest" },
+	  { "item" : "srm_shoggothlolitahead" },
+	  { "item" : "srm_shoggothlolitalegs" },
+	  { "item" : "srm_shoggothmagicalgirlchest" },
+	  { "item" : "srm_shoggothmagicalgirlhead" },
+      { "item" : "srm_shoggothmagicalgirllegs" },
+	  { "item" : "srm_shoggothmaidchest" },
+	  { "item" : "srm_shoggothmaidhead" },
+      { "item" : "srm_shoggothmaidlegs" },
+      { "item" : "srm_shoggothnunchest" },
+	  { "item" : "srm_shoggothnunhead" },
+      { "item" : "srm_shoggothnunlegs" },
+      { "item" : "srm_shoggothpopeeback" },
+      { "item" : "srm_shoggothpopeechest" },
+	  { "item" : "srm_shoggothpopeehead" },
+      { "item" : "srm_shoggothpopeelegs" },
+      { "item" : "srm_shoggothskullchest" },
+      { "item" : "srm_shoggothskulllegs" },
+      { "item" : "srm_shoggothfleshdresschest" },
+      { "item" : "srm_shoggothfleshdresslegs" },
+      { "item" : "srm_shoggothmechadresschest" },
+      { "item" : "srm_shoggothmechadresshead" },
+      { "item" : "srm_shoggothmechadresslegs" },
+	  
+// Anvil
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+	  
+// Anvil2
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+	  
+// Anvil3
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" }
+	  
+// Special
+	  ]
+  },
+
+  "altOptionAsHairColor" : true,
+  "headOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/shoggothmaleico.png",
+      "characterImage" : "/interface/title/mindflayermale.png",
+      "hair" : [ "bald", "mindflayer", "shoggoth", "nightgaunt", "shoggoth1", "shoggoth2", "shoggoth3", "shoggoth4", "shoggoth5", "shoggoth6", "shoggoth7", "shoggoth8", "shoggoth9", "shoggoth10", "shoggoth11", "shoggoth12", "shoggoth13", "shoggoth14", "shoggoth15", "shoggoth16", "shoggoth17", "shoggoth18", "shoggoth19", "shoggoth20", "shoggoth21", "shoggoth22", "shoggoth23", "shoggoth24", "shoggoth25", "shoggoth26", "shoggoth27", "shoggoth30", "shoggoth31", "shoggoth32", "shoggoth33", "shoggoth34", "shoggoth35", "shoggoth36", "shoggoth37", "shoggoth38", "shoggoth39", "shoggoth40", "shoggoth41", "shoggoth42", "shoggoth43", "shoggoth44", "shoggoth45", "shoggoth46", "shoggoth47", "shoggoth48", "shoggoth49", "shoggoth50", "shoggoth51", "shoggoth52", "shoggoth53" ],
+      "shirt" : [ "srm_mindflayerdresschest", "srm_shoggothcultchest", "srm_shoggothskullchest", "srm_shoggothnunchest" ],
+      "pants" : [ "srm_mindflayerdresslegs", "srm_shoggothcultlegs", "srm_shoggothskulllegs", "srm_shoggothnunlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/shoggothfemico.png",
+      "characterImage" : "/interface/title/mindflayerfemale.png",
+      "hair" : [ "bald", "mindflayer", "shoggoth", "nightgaunt", "shoggoth1", "shoggoth2", "shoggoth3", "shoggoth4", "shoggoth5", "shoggoth6", "shoggoth7", "shoggoth8", "shoggoth9", "shoggoth10", "shoggoth11", "shoggoth12", "shoggoth13", "shoggoth14", "shoggoth15", "shoggoth16", "shoggoth17", "shoggoth18", "shoggoth19", "shoggoth20", "shoggoth21", "shoggoth22", "shoggoth23", "shoggoth24", "shoggoth25", "shoggoth26", "shoggoth27", "shoggoth30", "shoggoth31", "shoggoth32", "shoggoth33", "shoggoth34", "shoggoth35", "shoggoth36", "shoggoth37", "shoggoth38", "shoggoth39", "shoggoth40", "shoggoth41", "shoggoth42", "shoggoth43", "shoggoth44", "shoggoth45", "shoggoth46", "shoggoth47", "shoggoth48", "shoggoth49", "shoggoth50", "shoggoth51", "shoggoth52", "shoggoth53" ],
+      "shirt" : [ "srm_mindflayerdresschest", "srm_shoggothcultchest", "srm_shoggothskullchest", "srm_shoggothnunchest" ],
+      "pants" : [ "srm_mindflayerdresslegs", "srm_shoggothcultlegs", "srm_shoggothskulllegs", "srm_shoggothnunlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  
+  "bodyColor" : [
+    //FACE
+
+    //VANILLA
+    { "bcbce0" : "bcbce0", "acacd2" : "acacd2", "8686aa" : "8686aa", "75759c" : "75759c" },
+    //VANILLA+
+    { "bcbce0" : "c3c6df", "acacd2" : "b3b6d1", "8686aa" : "8c8db2", "75759c" : "7a7ea1" },
+	//MINDFLAYER
+	{ "bcbce0" : "e3bdee", "acacd2" : "d1aadb", "8686aa" : "ad83b8", "75759c" : "90639c" },
+	//NIGHTGAUNT
+	{ "bcbce0" : "edebf0", "acacd2" : "d6d0db", "8686aa" : "b1aabc", "75759c" : "867c97" },
+    //STRAWBERRY
+    { "bcbce0" : "e65c6f", "acacd2" : "d7425b", "8686aa" : "c0354d", "75759c" : "ab2a3f" },
+    //DUBBLE STRAWY
+    { "bcbce0" : "d23f4b", "acacd2" : "bd2839", "8686aa" : "a11e29", "75759c" : "831821" },
+    //BANANA
+    { "bcbce0" : "fdf9d8", "acacd2" : "f5edbd", "8686aa" : "e3d89f", "75759c" : "d9ce93" },
+    //DUBBLE NANNA
+    { "bcbce0" : "f9f2be", "acacd2" : "eee19b", "8686aa" : "d5c279", "75759c" : "b6a35a" },
+    //LIME
+    { "bcbce0" : "91e5a9", "acacd2" : "7fd598", "8686aa" : "64b87f", "75759c" : "51a26e" },
+    //DUBBLE LIMEY
+    { "bcbce0" : "69c871", "acacd2" : "51b45e", "8686aa" : "359748", "75759c" : "237f38" },
+    //BLUEBERRY
+    { "bcbce0" : "91d6f4", "acacd2" : "8acdec", "8686aa" : "79badf", "75759c" : "69a9cf" },
+    //DUBBLE BLUWEY
+    { "bcbce0" : "66bae2", "acacd2" : "51a3d6", "8686aa" : "3d88bd", "75759c" : "2d6da9" },
+    //CREAMY STRAWBERRY
+    { "bcbce0" : "ffe9fa", "acacd2" : "fde1f6", "8686aa" : "f3cce8", "75759c" : "e9bada" },
+    //CREAMY BLUEBERRY
+    { "bcbce0" : "dbf0fb", "acacd2" : "c9e6f6", "8686aa" : "b5d5e9", "75759c" : "a2c5dc" },	
+    //ROTTEN
+    { "bcbce0" : "e0e0e0", "acacd2" : "d2d2d2", "8686aa" : "aaaaaa", "75759c" : "9c9c9c" },
+    //SPICY
+    { "bcbce0" : "b39a96", "acacd2" : "a68a86", "8686aa" : "967975", "75759c" : "816762" },	
+    //MONSTERBLUD
+    { "bcbce0" : "d868a0", "acacd2" : "c85491", "8686aa" : "b74680", "75759c" : "9f366d" },
+    //ALIENBLUD
+    { "bcbce0" : "84b4be", "acacd2" : "6da0ab", "8686aa" : "5c8b93", "75759c" : "4b787f" },	
+    //SNOWBERRY
+    { "bcbce0" : "d9dfe8", "acacd2" : "ccd3de", "8686aa" : "b4becf", "75759c" : "a6b3c6" },
+    //GHOSTBERRY
+    { "bcbce0" : "d9dfe880", "acacd2" : "ccd3de80", "8686aa" : "b4becf80", "75759c" : "a6b3c680" },	
+    //BLACKBERRY
+    { "bcbce0" : "5b5976", "acacd2" : "404056", "8686aa" : "2f3041", "75759c" : "1d1d2c" },
+    //DOOMBERRY
+    { "bcbce0" : "5b597685", "acacd2" : "40405685", "8686aa" : "2f304185", "75759c" : "1d1d2c85" },	
+    //CHAOS BERRY
+    { "bcbce0" : "df96d4", "acacd2" : "ad50b9", "8686aa" : "6c4082", "75759c" : "42304b" },
+    //MAGMA ROOTS
+    { "bcbce0" : "fff599", "acacd2" : "ffca38", "8686aa" : "fa8a00", "75759c" : "da3800" },
+    //ABYSS FRUIT
+    { "bcbce0" : "61ffd0", "acacd2" : "29ba85", "8686aa" : "1f875d", "75759c" : "00624a" },	
+    //DEATHBLOOM
+    { "bcbce0" : "ffffff", "acacd2" : "8ecaf4", "8686aa" : "458cff", "75759c" : "3469bf" },	
+    //GLAZED
+    { "bcbce0" : "b3ddf2", "acacd2" : "91c1d9", "8686aa" : "75a6bf", "75759c" : "5a89a1" },
+    //GLITTERED
+    { "bcbce0" : "e4b3f2", "acacd2" : "c992d9", "8686aa" : "a774bf", "75759c" : "845aa0" },
+    //SLIMED
+    { "bcbce0" : "b2ffc8", "acacd2" : "8becaf", "8686aa" : "67cb95", "75759c" : "4ead82" },	
+    //PEARLY
+    { "bcbce0" : "fcf3f3", "acacd2" : "eadcdb", "8686aa" : "cdbcbd", "75759c" : "b29da0" },
+    //AQUATIC
+    { "bcbce0" : "b7e9f5", "acacd2" : "7fcde1", "8686aa" : "64b0c4", "75759c" : "4a8d9d" },	
+    //BLEACHED
+    { "bcbce0" : "b0c3e4", "acacd2" : "9eacd2", "8686aa" : "828eb6", "75759c" : "6b74a1" },	
+    //GOTH PINK
+    { "bcbce0" : "fcd6e5", "acacd2" : "fab9d2", "8686aa" : "dc96b1", "75759c" : "b9728d" },
+    //OBSIDIAN
+    { "bcbce0" : "9d71a6", "acacd2" : "6f578d", "8686aa" : "4e4069", "75759c" : "372f4c" },
+    //LIMBO
+    { "bcbce0" : "2d2d2d", "acacd2" : "1e1e1e", "8686aa" : "0f0f0f", "75759c" : "000000" },
+    //HOLLOW
+    { "bcbce0" : "fefefe", "acacd2" : "f0f0f0", "8686aa" : "d7d7d7", "75759c" : "c8c8c8" },
+    //MINT
+    { "bcbce0" : "dde4e7", "acacd2" : "cbcfd0", "8686aa" : "9ca7ab", "75759c" : "7d888d" },
+    //FLOW KELP
+    { "bcbce0" : "dce9d7", "acacd2" : "bbd0b6", "8686aa" : "94ad90", "75759c" : "769078" },
+    //CARAMEL FLAN
+    { "bcbce0" : "fff8dc", "acacd2" : "f9e89c", "8686aa" : "dcb872", "75759c" : "ca9b5d" },
+    //GILDED TEQUILA
+    { "bcbce0" : "fff2a3", "acacd2" : "ffe53c", "8686aa" : "f2b31b", "75759c" : "e7960b" },
+    //RADIOACTIVE
+    { "bcbce0" : "abffb2", "acacd2" : "00ff15", "8686aa" : "00bf10", "75759c" : "00800b" },
+    //WAX FLAME
+    { "bcbce0" : "f3f6fa99", "acacd2" : "cbd3db99", "8686aa" : "9aa5b199", "75759c" : "7f889499" },
+    //SPOOKY
+    { "bcbce0" : "ffce7b", "acacd2" : "f5b156", "8686aa" : "d88c39", "75759c" : "be682b" },
+    //CHEEKY
+    { "bcbce0" : "d08cfc", "acacd2" : "ae70df", "8686aa" : "845aa3", "75759c" : "694884" },
+    //DELIRIOUS
+    { "bcbce0" : "f7f5f4", "acacd2" : "dedcd9", "8686aa" : "b1aba6", "75759c" : "908984" },
+    //RUINED
+    { "bcbce0" : "ce9e94", "acacd2" : "a96e65", "8686aa" : "7c4e46", "75759c" : "51302c" }
+  ],
+  
+  "undyColor" : [
+    //EYES
+
+    //VANILLA
+    { "f9f0c5fe" : "f9f0c5fe", "d0c8a0fe" : "d0c8a0fe", "b8b188fe" : "b8b188fe", "a09976fe" : "a09976fe" },
+    //VANILLA+
+    { "f9f0c5fe" : "faf1c6fe", "d0c8a0fe" : "d1c9a1fe", "b8b188fe" : "b8b18dfe", "a09976fe" : "a19a7cfe" },
+	//MINDFLAYER
+	{ "f9f0c5fe" : "d5ff92fe", "d0c8a0fe" : "b4e87efe", "b8b188fe" : "8ccc67fe", "a09976fe" : "6dae4bfe" },	
+	//NIGHTGAUNT
+	{ "f9f0c5fe" : "c137c4fe", "d0c8a0fe" : "8622a4fe", "b8b188fe" : "5f1786fe", "a09976fe" : "370d66fe" },	
+    //STRAWBERRY
+    { "f9f0c5fe" : "ff4c5bfe", "d0c8a0fe" : "cc3d49fe", "b8b188fe" : "a1303afe", "a09976fe" : "80262efe" },	
+    //DUBBLE STRAWY
+    { "f9f0c5fe" : "e31622fe", "d0c8a0fe" : "b81018fe", "b8b188fe" : "9c0e15fe", "a09976fe" : "800b11fe" },	
+    //BANANA
+    { "f9f0c5fe" : "f4df58fe", "d0c8a0fe" : "e5c649fe", "b8b188fe" : "d1b543fe", "a09976fe" : "bda33cfe" },	
+    //DUBBLE NANNA
+    { "f9f0c5fe" : "eed43efe", "d0c8a0fe" : "d2b231fe", "b8b188fe" : "b5992afe", "a09976fe" : "998123fe" },	
+    //LIME
+    { "f9f0c5fe" : "c9faa0fe", "d0c8a0fe" : "a1db7bfe", "b8b188fe" : "8bbd6afe", "a09976fe" : "749e59fe" },	
+    //DUBBLE LIMEY
+    { "f9f0c5fe" : "a3e160fe", "d0c8a0fe" : "68be31fe", "b8b188fe" : "57a12afe", "a09976fe" : "458021fe" },	
+    //BLUEBERRY
+    { "f9f0c5fe" : "3982d8fe", "d0c8a0fe" : "3273befe", "b8b188fe" : "195ba6fe", "a09976fe" : "144a87fe" },	
+    //DUBBLE BLUWEY
+    { "f9f0c5fe" : "227ce3fe", "d0c8a0fe" : "1d6bc4fe", "b8b188fe" : "195ba6fe", "a09976fe" : "144a87fe" },	
+    //CREAMY STRAWBERRY
+    { "f9f0c5fe" : "ffc7edfe", "d0c8a0fe" : "e5b3d6fe", "b8b188fe" : "cc9fbffe", "a09976fe" : "b38ba7fe" },	
+    //CREAMY BLUEBERRY
+    { "f9f0c5fe" : "acd3f1fe", "d0c8a0fe" : "9fc3defe", "b8b188fe" : "91b1c9fe", "a09976fe" : "829fb5fe" },	
+    //ROTTEN
+    { "f9f0c5fe" : "fafafafe", "d0c8a0fe" : "dfdfdffe", "b8b188fe" : "c2c2c2fe", "a09976fe" : "a6a6a6fe" },	
+    //SPICY
+    { "f9f0c5fe" : "f07b30fe", "d0c8a0fe" : "e9652bfe", "b8b188fe" : "cf5724fe", "a09976fe" : "bf4f20fe" },	
+    //MONSTERBLUD
+    { "f9f0c5fe" : "7b004dfe", "d0c8a0fe" : "5f0041fe", "b8b188fe" : "420035fe", "a09976fe" : "26001ffe" },	
+    //ALIENBLUD
+    { "f9f0c5fe" : "004e72fe", "d0c8a0fe" : "004058fe", "b8b188fe" : "003240fe", "a09976fe" : "001e26fe" },	
+    //SNOWBERRY
+    { "f9f0c5fe" : "a4d616fe", "d0c8a0fe" : "8dbf06fe", "b8b188fe" : "7da805fe", "a09976fe" : "6c9104fe" },	
+    //GHOSTBERRY
+    { "f9f0c5fe" : "a4d616fe", "d0c8a0fe" : "8dbf06fe", "b8b188fe" : "7da805fe", "a09976fe" : "6c9104fe" },	
+    //BLACKBERRY
+    { "f9f0c5fe" : "b34cd5fe", "d0c8a0fe" : "822eb2fe", "b8b188fe" : "68258ffe", "a09976fe" : "4e1c6bfe" },	
+    //DOOMBERRY
+    { "f9f0c5fe" : "b34cd5fe", "d0c8a0fe" : "822eb2fe", "b8b188fe" : "68258ffe", "a09976fe" : "4e1c6bfe" },	
+    //CHAOS BERRY
+    { "f9f0c5fe" : "df96d4fe", "d0c8a0fe" : "ad50b9fe", "b8b188fe" : "6c4082fe", "a09976fe" : "42304bfe" },
+    //MAGMA ROOTS
+    { "f9f0c5fe" : "fff599fe", "d0c8a0fe" : "ffca38fe", "b8b188fe" : "fa8a00fe", "a09976fe" : "da3800fe" },
+    //ABYSS FRUIT
+    { "f9f0c5fe" : "61ffd0fe", "d0c8a0fe" : "29ba85fe", "b8b188fe" : "1f875dfe", "a09976fe" : "00624afe" },	
+    //DEATHBLOOM
+    { "f9f0c5fe" : "fffffffe", "d0c8a0fe" : "f0f0f0fe", "b8b188fe" : "e1e1e1fe", "a09976fe" : "d2d2d2fe" },	
+    //GLAZED
+    { "f9f0c5fe" : "58bfbffe", "d0c8a0fe" : "5690b2fe", "b8b188fe" : "436593fe", "a09976fe" : "3b477bfe" },
+    //GLITTERED
+    { "f9f0c5fe" : "d08ae5fe", "d0c8a0fe" : "a76eb8fe", "b8b188fe" : "814b92fe", "a09976fe" : "683777fe" },	
+    //SLIMED
+    { "f9f0c5fe" : "c9f080fe", "d0c8a0fe" : "8de082fe", "b8b188fe" : "7cc472fe", "a09976fe" : "6dad65fe" },	
+    //PEARLY
+    { "f9f0c5fe" : "d0b0e1fe", "d0c8a0fe" : "b59ac2fe", "b8b188fe" : "9881a3fe", "a09976fe" : "7b6985fe" },	
+    //AQUATIC
+    { "f9f0c5fe" : "f8efc7fe", "d0c8a0fe" : "cfc7a2fe", "b8b188fe" : "b8b08ffe", "a09976fe" : "a19a7dfe" },	
+    //BLEACHED
+    { "f9f0c5fe" : "faeac6fe", "d0c8a0fe" : "d1c0a1fe", "b8b188fe" : "b8a98dfe", "a09976fe" : "a1947cfe" },	
+    //GOTH PINK
+    { "f9f0c5fe" : "e36096fe", "d0c8a0fe" : "c24e7cfe", "b8b188fe" : "a14067fe", "a09976fe" : "803352fe" },	
+    //OBSIDIAN
+    { "f9f0c5fe" : "ef9a71fe", "d0c8a0fe" : "e37274fe", "b8b188fe" : "cc6668fe", "a09976fe" : "b3595bfe" },	
+    //LIMBO
+    { "f9f0c5fe" : "fefefefe", "d0c8a0fe" : "f0f0f0fe", "b8b188fe" : "e1e1e1fe", "a09976fe" : "d2d2d2fe" },
+    //HOLLOW
+    { "f9f0c5fe" : "000000fe", "d0c8a0fe" : "0f0f0ffe", "b8b188fe" : "1e1e1efe", "a09976fe" : "2d2d2dfe" },
+    //MINT
+    { "f9f0c5fe" : "f2eebffe", "d0c8a0fe" : "d7c877fe", "b8b188fe" : "b1985efe", "a09976fe" : "8a6745fe" },
+    //FLOW KELP
+    { "f9f0c5fe" : "6ef0d2fe", "d0c8a0fe" : "41b694fe", "b8b188fe" : "277e5ffe", "a09976fe" : "07594afe" },
+    //CARAMEL FLAN
+    { "f9f0c5fe" : "d86241fe", "d0c8a0fe" : "a9401cfe", "b8b188fe" : "892810fe", "a09976fe" : "6d1709fe" },
+    //GILDED TEQUILA
+    { "f9f0c5fe" : "f82a80fe", "d0c8a0fe" : "bf1150fe", "b8b188fe" : "930a38fe", "a09976fe" : "6a0625fe" },
+    //RADIOACTIVE
+    { "f9f0c5fe" : "abffe3fe", "d0c8a0fe" : "00ffaafe", "b8b188fe" : "00bf80fe", "a09976fe" : "008055fe" },
+    //WAX FLAME
+    { "f9f0c5fe" : "fff933fe", "d0c8a0fe" : "fddb00fe", "b8b188fe" : "e2a500fe", "a09976fe" : "cb8400fe" },
+    //SPOOKY
+    { "f9f0c5fe" : "9fc853fe", "d0c8a0fe" : "7bac39fe", "b8b188fe" : "619029fe", "a09976fe" : "45721afe" },
+    //CHEEKY
+    { "f9f0c5fe" : "9fc853fe", "d0c8a0fe" : "7bac39fe", "b8b188fe" : "619029fe", "a09976fe" : "45721afe" },
+    //DELIRIOUS
+    { "f9f0c5fe" : "eaf834fe", "d0c8a0fe" : "0f0f0ffe", "b8b188fe" : "b8b025fe", "a09976fe" : "1e1e1efe" },
+    //RUINED
+    { "f9f0c5fe" : "ede19afe", "d0c8a0fe" : "dcc253fe", "b8b188fe" : "ca8d30fe", "a09976fe" : "8f3a15fe" }
+  ],
+  
+  "hairColor" : [
+    //BODY
+
+    //VANILLA
+    { 
+	"515384" : "515384", "41446f" : "41446f", "323660" : "323660", "242952" : "242952", 
+	"5b4a7e" : "5b4a7e", "503e70" : "503e70", "41325f" : "41325f", "35274e" : "35274e", 
+	"644078" : "644078", "5f3770" : "5f3770", "4f2e5d" : "4f2e5d", "45244a" : "45244a" 
+	},
+    //VANILLA+
+    { 
+	"515384" : "3f3f7d", "41446f" : "2f3465", "323660" : "242957", "242952" : "1e2251", 
+	"5b4a7e" : "3f3777", "503e70" : "302c5f", "41325f" : "282454", "35274e" : "221f4d", 
+	"644078" : "3f2f70", "5f3770" : "33265b", "4f2e5d" : "2d2152", "45244a" : "261c48" 
+	},
+	//MINDFLAYER
+    { 
+	"515384" : "723f7e", "41446f" : "5a2e6c", "323660" : "462256", "242952" : "361d46", 
+	"5b4a7e" : "6e3066", "503e70" : "5e2859", "41325f" : "491945", "35274e" : "3c1138", 
+	"644078" : "6a214d", "5f3770" : "59173e", "4f2e5d" : "4c1034", "45244a" : "41042a" 
+	},
+	//NIGHTGAUNT
+    { 
+	"515384" : "493250", "41446f" : "36233d", "323660" : "25172e", "242952" : "180e21", 
+	"5b4a7e" : "612c6c", "503e70" : "431e52", "41325f" : "301542", "35274e" : "251036", 
+	"644078" : "812a84", "5f3770" : "5a1b6f", "4f2e5d" : "40135b", "45244a" : "250b43" 
+	},
+    //STRAWBERRY
+    { 
+	"515384" : "c42b43", "41446f" : "a52436", "323660" : "8a152b", "242952" : "7e1428", 
+	"5b4a7e" : "de3e43", "503e70" : "be363b", "41325f" : "9e2530", "35274e" : "801d26", 
+	"644078" : "f25149", "5f3770" : "d84941", "4f2e5d" : "b33636", "45244a" : "992e2e" 
+	},
+    //DUBBLE STRAWY
+    { 
+	"515384" : "a91520", "41446f" : "85121a", "323660" : "650c15", "242952" : "560c12", 
+	"5b4a7e" : "b81522", "503e70" : "98101e", "41325f" : "790c19", "35274e" : "630b12", 
+	"644078" : "c71423", "5f3770" : "ad111e", "4f2e5d" : "910f19", "45244a" : "6f0912" 
+	},
+    //BANANA
+    { 
+	"515384" : "f7ed81", "41446f" : "e9d76a", "323660" : "cebe58", "242952" : "b9a949", 
+	"5b4a7e" : "fbde6f", "503e70" : "edcd60", "41325f" : "d3b651", "35274e" : "bca145", 
+	"644078" : "ffce5c", "5f3770" : "f2c457", "4f2e5d" : "d9af4c", "45244a" : "bf9941" 
+	},
+    //DUBBLE NANNA
+    { 
+	"515384" : "e7d648", "41446f" : "d6c133", "323660" : "c1ab22", "242952" : "ac9213", 
+	"5b4a7e" : "eaca32", "503e70" : "d6b520", "41325f" : "c29c18", "35274e" : "b08516", 
+	"644078" : "f2b91d", "5f3770" : "d7a519", "4f2e5d" : "c68f14", "45244a" : "b47712" 
+	},
+    //LIME
+    { 
+	"515384" : "59af68", "41446f" : "41985e", "323660" : "358a51", "242952" : "2d7e48", 
+	"5b4a7e" : "47b754", "503e70" : "359c49", "41325f" : "2e8a40", "35274e" : "29793b", 
+	"644078" : "34bf3f", "5f3770" : "2ba135", "4f2e5d" : "288b31", "45244a" : "25742d" 
+	},
+    //DUBBLE LIMEY
+    { 
+	"515384" : "268e33", "41446f" : "16712d", "323660" : "106123", "242952" : "0c521d", 
+	"5b4a7e" : "2f9f20", "503e70" : "1a7d15", "41325f" : "156411", "35274e" : "134f13", 
+	"644078" : "38b00c", "5f3770" : "2d8b0a", "4f2e5d" : "246a09", "45244a" : "194b09" 
+	},
+    //BLUEBERRY
+    { 
+	"515384" : "5ebbed", "41446f" : "4ea5d9", "323660" : "3d93c5", "242952" : "2f7fae", 
+	"5b4a7e" : "50a3e7", "503e70" : "4491d2", "41325f" : "3882be", "35274e" : "2f72a9", 
+	"644078" : "418be0", "5f3770" : "3c7fcd", "4f2e5d" : "3572b8", "45244a" : "2e65a3" 
+	},
+    //DUBBLE BLUWEY
+    { 
+	"515384" : "2899d0", "41446f" : "1d7abe", "323660" : "1266aa", "242952" : "0c5092", 
+	"5b4a7e" : "237cc8", "503e70" : "1a66b4", "41325f" : "155ca8", "35274e" : "0f4486", 
+	"644078" : "1d5ebf", "5f3770" : "1951a8", "4f2e5d" : "144392", "45244a" : "113779" 
+	},
+    //CREAMY STRAWBERRY
+    { 
+	"515384" : "fcd1ec", "41446f" : "efb9de", "323660" : "e0a9cf", "242952" : "cd96bb", 
+	"5b4a7e" : "febde8", "503e70" : "f0addb", "41325f" : "df9dca", "35274e" : "cf8fbb", 
+	"644078" : "ffabe4", "5f3770" : "f2a2d9", "4f2e5d" : "df92c7", "45244a" : "cb82b4" 
+	},
+    //CREAMY BLUEBERRY
+    { 
+	"515384" : "b8deef", "41446f" : "9fc3de", "323660" : "8eaace", "242952" : "7a94bc", 
+	"5b4a7e" : "a6ceea", "503e70" : "91b6dc", "41325f" : "7e9cc3", "35274e" : "7291b9", 
+	"644078" : "99c1e8", "5f3770" : "84aadb", "4f2e5d" : "7698c4", "45244a" : "6586b1" 
+	},
+    //ROTTEN
+    { 
+	"515384" : "858585", "41446f" : "6f6f6f", "323660" : "606060", "242952" : "525252", 
+	"5b4a7e" : "7a7a7a", "503e70" : "656565", "41325f" : "545454", "35274e" : "484848", 
+	"644078" : "6e6e6e", "5f3770" : "5d5d5d", "4f2e5d" : "4a4a4a", "45244a" : "3d3d3d" 
+	},
+    //SPICY
+    { 
+	"515384" : "af391c", "41446f" : "983216", "323660" : "88280d", "242952" : "78240a", 
+	"5b4a7e" : "d75d28", "503e70" : "c45723", "41325f" : "b84b1d", "35274e" : "ab4219", 
+	"644078" : "ff8133", "5f3770" : "f07b30", "4f2e5d" : "e76d2c", "45244a" : "de5f28" 
+	},
+    //MONSTERBLUD
+    { 
+	"515384" : "7b2a61", "41446f" : "692555", "323660" : "531a4b", "242952" : "42183e", 
+	"5b4a7e" : "58486a", "503e70" : "4a3f5b", "41325f" : "36314d", "35274e" : "2c293e", 
+	"644078" : "346572", "5f3770" : "2c5760", "4f2e5d" : "1a464c", "45244a" : "153a3e" 
+	},
+    //ALIENBLUD
+    { 
+	"515384" : "346572", "41446f" : "2c5760", "323660" : "1a464c", "242952" : "153a3e", 
+	"5b4a7e" : "58486a", "503e70" : "4a3f5b", "41325f" : "36314d", "35274e" : "2c293e", 
+	"644078" : "7b2a61", "5f3770" : "692555", "4f2e5d" : "531a4b", "45244a" : "42183e" 
+	},
+    //SNOWBERRY
+    { 
+	"515384" : "c8d2df", "41446f" : "b4bdc9", "323660" : "8e99aa", "242952" : "778293", 
+	"5b4a7e" : "aebed4", "503e70" : "9fafc2", "41325f" : "909eb0", "35274e" : "6c7a8e", 
+	"644078" : "849bb8", "5f3770" : "798ea8", "4f2e5d" : "6e8199", "45244a" : "617289" 
+	},
+    //GHOSTBERRY
+    { 
+	"515384" : "c8d2df60", "41446f" : "b4bdc960", "323660" : "8e99aa60", "242952" : "77829360", 
+	"5b4a7e" : "aebed480", "503e70" : "9fafc280", "41325f" : "909eb080", "35274e" : "6c7a8e80", 
+	"644078" : "849bb8", "5f3770" : "798ea8", "4f2e5d" : "6e8199", "45244a" : "617289" 
+	},
+    //BLACKBERRY
+    { 
+	"515384" : "2b2436", "41446f" : "1e1a27", "323660" : "15111b", "242952" : "0e0b13", 
+	"5b4a7e" : "322a4b", "503e70" : "25203b", "41325f" : "1a162b", "35274e" : "110c1c", 
+	"644078" : "362b5c", "5f3770" : "2d244d", "4f2e5d" : "231a3d", "45244a" : "18112d" 
+	},
+    //DOOMBERRY
+    { 
+	"515384" : "2b243670", "41446f" : "1e1a2770", "323660" : "15111b70", "242952" : "0e0b1370", 
+	"5b4a7e" : "322a4b85", "503e70" : "25203b85", "41325f" : "1a162b85", "35274e" : "110c1c85", 
+	"644078" : "362b5c", "5f3770" : "2d244d", "4f2e5d" : "231a3d", "45244a" : "18112d" 
+	},
+    //CHAOS BERRY
+    { 
+	"515384" : "df96d4", "41446f" : "ad50b9", "323660" : "6c4082", "242952" : "42304b", 
+	"5b4a7e" : "df96d4", "503e70" : "ad50b9", "41325f" : "6c4082", "35274e" : "42304b", 
+	"644078" : "df96d4", "5f3770" : "ad50b9", "4f2e5d" : "6c4082", "45244a" : "42304b" 
+	},
+    //MAGMA ROOTS
+    { 
+	"515384" : "fff599", "41446f" : "ffca38", "323660" : "fa8a00", "242952" : "da3800", 
+	"5b4a7e" : "fff599", "503e70" : "ffca38", "41325f" : "fa8a00", "35274e" : "da3800", 
+	"644078" : "fff599", "5f3770" : "ffca38", "4f2e5d" : "fa8a00", "45244a" : "da3800" 
+	},
+    //ABYSS FRUIT
+    { 
+	"515384" : "61ffd0", "41446f" : "29ba85", "323660" : "1f875d", "242952" : "00624a", 
+	"5b4a7e" : "61ffd0", "503e70" : "29ba85", "41325f" : "1f875d", "35274e" : "00624a", 
+	"644078" : "61ffd0", "5f3770" : "29ba85", "4f2e5d" : "1f875d", "45244a" : "00624a" 
+	},
+    //DEATHBLOOM
+    { 
+	"515384" : "ffffff", "41446f" : "fd97dd", "323660" : "f636b0", "242952" : "bf2a89", 
+	"5b4a7e" : "ffffff", "503e70" : "e79dff", "41325f" : "c43eff", "35274e" : "942ebf", 
+	"644078" : "ffffff", "5f3770" : "bcaeff", "4f2e5d" : "7a71e4", "45244a" : "6860bf" 
+	},
+    //GLAZED
+    { 
+	"515384" : "58bfbf", "41446f" : "5690b2", "323660" : "436593", "242952" : "3b477b", 
+	"5b4a7e" : "94a5d2", "503e70" : "847cb6", "41325f" : "665593", "35274e" : "523f79", 
+	"644078" : "d08ae5", "5f3770" : "a76eb8", "4f2e5d" : "814b92", "45244a" : "683777" 
+	},
+    //GLITTERED
+    { 
+	"515384" : "d08ae5", "41446f" : "a76eb8", "323660" : "814b92", "242952" : "683777", 
+	"5b4a7e" : "94a5d2", "503e70" : "847cb6", "41325f" : "665593", "35274e" : "523f79", 
+	"644078" : "58bfbf", "5f3770" : "5690b2", "4f2e5d" : "436593", "45244a" : "3b477b" 
+	},	
+    //SLIMED
+    { 
+	"515384" : "c9f080", "41446f" : "5ad385", "323660" : "48a075", "242952" : "2f746e", 
+	"5b4a7e" : "91cc69", "503e70" : "52b167", "41325f" : "438759", "35274e" : "295b49", 
+	"644078" : "58a852", "5f3770" : "498a44", "4f2e5d" : "3f6b38", "45244a" : "234123" 
+	},	
+    //PEARLY
+    { 
+	"515384" : "d8d3e1", "41446f" : "bdb4c5", "323660" : "9b8ca6", "242952" : "766683", 
+	"5b4a7e" : "e7dae2", "503e70" : "c9bcc5", "41325f" : "a794a2", "35274e" : "847081", 
+	"644078" : "f5e1e3", "5f3770" : "d4c3c4", "4f2e5d" : "b29c9e", "45244a" : "91797e" 
+	},	
+    //AQUATIC
+    { 
+	"515384" : "77d1ea", "41446f" : "5db0cf", "323660" : "4887ac", "242952" : "39678d", 
+	"5b4a7e" : "bbceb8", "503e70" : "a5b6a5", "41325f" : "878983", "35274e" : "746769", 
+	"644078" : "ffca85", "5f3770" : "edbb7b", "4f2e5d" : "c68a5a", "45244a" : "ae6644" 
+	},	
+    //BLEACHED
+    { 
+	"515384" : "a193c6", "41446f" : "8578a1", "323660" : "655a83", "242952" : "484165", 
+	"5b4a7e" : "a0a3d0", "503e70" : "8a8cb2", "41325f" : "6c6e98", "35274e" : "50537d", 
+	"644078" : "9eb2d9", "5f3770" : "8fa0c3", "4f2e5d" : "7382ac", "45244a" : "576495" 
+	},	
+    //GOTH PINK
+    { 
+	"515384" : "fcc3d6", "41446f" : "f2a1bd", "323660" : "d17d97", "242952" : "b9647c", 
+	"5b4a7e" : "ed8eb2", "503e70" : "e17799", "41325f" : "bf5977", "35274e" : "9e4763", 
+	"644078" : "de598e", "5f3770" : "bf4c7a", "4f2e5d" : "a13860", "45244a" : "82294a" 
+	},	
+    //OBSIDIAN
+    { 
+	"515384" : "6c4572", "41446f" : "493760", "323660" : "322747", "242952" : "231c36", 
+	"5b4a7e" : "b6707d", "503e70" : "914e6b", "41325f" : "7a3b5c", "35274e" : "66304b", 
+	"644078" : "ff9b87", "5f3770" : "ef8771", "4f2e5d" : "d96475", "45244a" : "c14f70" 
+	},	
+    //LIMBO
+    { 
+	"515384" : "2d2d2d", "41446f" : "1e1e1e", "323660" : "0f0f0f", "242952" : "000000", 
+	"5b4a7e" : "2d2d2d", "503e70" : "1e1e1e", "41325f" : "0f0f0f", "35274e" : "000000", 
+	"644078" : "2d2d2d", "5f3770" : "1e1e1e", "4f2e5d" : "0f0f0f", "45244a" : "000000" 
+	},
+    //HOLLOW
+    { 
+	"515384" : "fefefe", "41446f" : "f0f0f0", "323660" : "d7d7d7", "242952" : "c8c8c8", 
+	"5b4a7e" : "fefefe", "503e70" : "f0f0f0", "41325f" : "d7d7d7", "35274e" : "c8c8c8", 
+	"644078" : "fefefe", "5f3770" : "f0f0f0", "4f2e5d" : "d7d7d7", "45244a" : "c8c8c8" 
+	},
+    //MINT
+    { 
+	"515384" : "b8c0a8", "41446f" : "8faaa5", "323660" : "718a87", "242952" : "556c69", 
+	"5b4a7e" : "99bea1", "503e70" : "72b0a6", "41325f" : "578884", "35274e" : "3a605f", 
+	"644078" : "79bc99", "5f3770" : "55b5a7", "4f2e5d" : "3c8680", "45244a" : "1e5455" 
+	},
+    //FLOW KELP
+    { 
+	"515384" : "468171", "41446f" : "2c6054", "323660" : "204a46", "242952" : "143734", 
+	"5b4a7e" : "366c69", "503e70" : "244c48", "41325f" : "1a3839", "35274e" : "0e2122", 
+	"644078" : "2d5155", "5f3770" : "1b3538", "4f2e5d" : "14242b", "45244a" : "0c1a20" 
+	},
+    //CARAMEL FLAN
+    { 
+	"515384" : "fff8c9", "41446f" : "fbd978", "323660" : "dca956", "242952" : "b98440", 
+	"5b4a7e" : "fdbb61", "503e70" : "e89c4a", "41325f" : "d3873e", "35274e" : "b85f29", 
+	"644078" : "d86241", "5f3770" : "a9401c", "4f2e5d" : "892810", "45244a" : "6d1709" 
+	},
+    //GILDED TEQUILA
+    { 
+	"515384" : "ffea6d", "41446f" : "fdcc18", "323660" : "e0990d", "242952" : "ca780e", 
+	"5b4a7e" : "ffb196", "503e70" : "fc8a6c", "41325f" : "ef6c4f", "35274e" : "cf4b3a", 
+	"644078" : "ee2478", "5f3770" : "cc1658", "4f2e5d" : "a90841", "45244a" : "7b0022" 
+	},
+    //RADIOACTIVE
+    { 
+	"515384" : "ddffab", "41446f" : "9bff00", "323660" : "73bf00", "242952" : "4c8000", 
+	"5b4a7e" : "eeffab", "503e70" : "ccff00", "41325f" : "99bf00", "35274e" : "668000", 
+	"644078" : "ffffab", "5f3770" : "ffff00", "4f2e5d" : "bfbf00", "45244a" : "808000" 
+	},
+    //WAX FLAME
+    { 
+	"515384" : "f3f6fa", "41446f" : "cbd3db", "323660" : "9aa5b1", "242952" : "7f8894", 
+	"5b4a7e" : "c5afa5", "503e70" : "9e918c", "41325f" : "76706f", "35274e" : "5b5759", 
+	"644078" : "976750", "5f3770" : "714f3c", "4f2e5d" : "513a2d", "45244a" : "36261e" 
+	},
+    //SPOOKY
+    { 
+	"515384" : "ffba68", "41446f" : "f7963e", "323660" : "d4692b", "242952" : "b84e21", 
+	"5b4a7e" : "e2fb87", "503e70" : "c7e96c", "41325f" : "9fc853", "35274e" : "7bac39", 
+	"644078" : "3ab350", "5f3770" : "2d9850", "4f2e5d" : "1a743f", "45244a" : "14562c" 
+	},
+    //CHEEKY
+    { 
+	"515384" : "9252ba", "41446f" : "7339a1", "323660" : "542c71", "242952" : "3e1e58", 
+	"5b4a7e" : "c0e873", "503e70" : "a9d85c", "41325f" : "87b947", "35274e" : "679b30", 
+	"644078" : "41b54a", "5f3770" : "2f9937", "4f2e5d" : "1b752a", "45244a" : "16571d" 
+	},
+    //DELIRIOUS
+    { 
+	"515384" : "f7f5f4", "41446f" : "dedcd9", "323660" : "b1aba6", "242952" : "908984", 
+	"5b4a7e" : "efe3e3", "503e70" : "d9c7c7", "41325f" : "c2b0b0", "35274e" : "9a8786", 
+	"644078" : "c59ba0", "5f3770" : "9f777c", "4f2e5d" : "7c595e", "45244a" : "644247" 
+	},
+    //RUINED
+    { 
+	"515384" : "893742", "41446f" : "701c2e", "323660" : "511226", "242952" : "2a0814", 
+	"5b4a7e" : "893742", "503e70" : "701c2e", "41325f" : "511226", "35274e" : "2a0814", 
+	"644078" : "893742", "5f3770" : "701c2e", "4f2e5d" : "511226", "45244a" : "2a0814" 
+	}
+  ]
+}

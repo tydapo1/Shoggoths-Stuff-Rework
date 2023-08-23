@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "durasteelbar", "count" : 20 },
+	{ "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier4flail",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t4organ" ]
+}

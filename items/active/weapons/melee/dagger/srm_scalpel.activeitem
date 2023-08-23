@@ -1,0 +1,77 @@
+{
+  "itemName" : "srm_scalpel",
+  "price" : 250,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "No damage, extract organs on any foes under 25% health.",
+  "shortdescription" : "Large Scalpel",
+  "tooltipKind" : "base",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "inventoryIcon" : "srm_scalpel.png",
+
+  "animation" : "/items/active/weapons/melee/dagger/srm_sacrificialdagger.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "srm_scalpel.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/weapon_dualdg_release.ogg", "/sfx/melee/weapon_dualdg_release1.ogg", "/sfx/melee/weapon_dualdg_release2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.5,
+    "baseDps" : 0.0,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ "srm_surgery" ],
+      "knockbackMode" : "aim",
+      "knockback" : 1,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.04,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.16,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/weapon_dualdg_release.ogg", "/sfx/melee/weapon_dualdg_release1.ogg", "/sfx/melee/weapon_dualdg_release2.ogg" ],
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

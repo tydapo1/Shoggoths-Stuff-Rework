@@ -1,0 +1,18 @@
+{
+  "kind" : "srm_brushink",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.0,
+    "loops" : false,
+    "start" : {
+      "particles" : [ [ "srm_brushink" ] ],
+      "sounds" : [ [ ] ]
+    },
+    "particles" : [ [ ] ],
+    "sounds" : [ [ ] ],
+    "stop" : {
+      "particles" : [ [ ] ],
+      "sounds" : [ [ ] ]
+    }
+  }
+}

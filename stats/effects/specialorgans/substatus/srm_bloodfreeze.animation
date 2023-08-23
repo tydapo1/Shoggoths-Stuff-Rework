@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "freeze_start" : [ "/sfx/melee/travelingslash_ice3.ogg" ]
+  }
+}

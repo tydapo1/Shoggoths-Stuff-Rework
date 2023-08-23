@@ -1,0 +1,43 @@
+{
+  "itemName" : "srm_shoggothdisguisehead",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headarmour",
+  "description" : "There is a shoggoth among us!",
+  "shortdescription" : "Disguise Head",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : "headm.png",
+  "femaleFrames" : "headf.png",
+  "mask" : "mask.png",
+  
+  "level" : 1,
+  "colorOptions" : [
+    // BLONDE
+    { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
+    // BLACK
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    // GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    // WHITE
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" },
+    // RED
+    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
+    // ORANGE
+    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
+    // YELLOW
+    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
+    // GREEN
+    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
+    // BLUE
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    // PURPLE
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    // PINK
+    { "d9c189" : "D26BA4", "a38d59" : "A54669", "735e3a" : "89334D" },
+    // BROWN
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" }
+  ]
+}

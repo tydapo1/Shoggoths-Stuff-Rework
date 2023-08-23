@@ -1,0 +1,25 @@
+{
+  "itemName" : "srm_intestines",
+  "rarity" : "Uncommon",
+  "price" : 10,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "inventoryIcon" : "srm_intestines.png",
+  "description" : "A large tube-like membrane, in which food travels to be absorbed.",
+  "shortdescription" : "A Measure Of Intestines",
+  "foodValue" : 1,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "effects" : [ [
+      {
+        "effect" : "srm_cannibalism",
+        "duration": 2
+      } 
+    ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

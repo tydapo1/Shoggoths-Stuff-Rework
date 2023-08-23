@@ -1,0 +1,19 @@
+{
+  "itemName" : "srm_skindye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "srm_skindye.png",
+  "description" : "This eldritch dye can be applied to stuff with a right-click.",
+  "shortdescription" : "Eldritch Dye",
+  
+  "skinned" : false,
+  "dyeDirectives" : "",
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/items/generic/dyes/srm_skindye.lua" ],
+  
+  "shoggothColorable" : true,
+  "color" : ""
+}

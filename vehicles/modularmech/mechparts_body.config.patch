@@ -1,0 +1,78 @@
+[
+  {
+    "op": "add",
+    "path": "/shoggothproto",
+    "value": {
+      "stats": {
+        "energy": 3,
+        "protection": 3
+      },
+      "partParameters": {},
+      "partImages": {
+        "bodyBack": "body/shoggothproto_back.png",
+        "bodyFront": "body/shoggothproto_front.png",
+        "bodyFullbright": "body/shoggothproto_fullbright.png"
+      },
+      "defaultPrimaryColors": [
+        "b5b5b5",
+        "808080",
+        "555555",
+        "303030"
+      ],
+      "defaultSecondaryColors": [
+        "c36a5f",
+        "994c49",
+        "6f3130",
+        "551d28"
+      ],
+      "animationCustom": {
+        "animatedParts": {
+          "parts": {
+            "bodyFront": {
+              "properties": {
+                "sitPosition": [
+                  0.3,
+                  0.4
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/shoggoth",
+    "value": {
+      "stats": {
+        "energy": 5,
+        "protection": 5
+      },
+      "partParameters": {
+        "hazardImmunities": [
+          "biomeradiation",
+          "biomecold"
+        ]
+      },
+      "partImages": {
+        "bodyBack": "body/shoggoth_back.png",
+        "bodyFront": "body/shoggoth_front.png",
+        "bodyFullbright": "body/shoggoth_fullbright.png"
+      },
+      "defaultPrimaryColors": [
+        "b5b5b5",
+        "808080",
+        "555555",
+        "303030"
+      ],
+      "defaultSecondaryColors": [
+        "c36a5f",
+        "994c49",
+        "6f3130",
+        "551d28"
+      ],
+      "animationCustom": {}
+    }
+  }
+]

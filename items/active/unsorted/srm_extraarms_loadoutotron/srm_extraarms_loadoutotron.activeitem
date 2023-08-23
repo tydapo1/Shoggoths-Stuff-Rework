@@ -1,0 +1,18 @@
+{
+  "itemName" : "srm_extraarms_loadoutotron",
+  "price" : 5000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tradeGoods",
+  "description" : "Equip and disable the arm types that you have unlocked.",
+  "shortdescription" : "Loadout-O-Tron",
+  "twoHanded" : true,
+  
+  "srm_isSyringeUIOpen" : false,
+
+  "inventoryIcon" : "srm_extraarms_loadoutotron.png",
+
+  "scripts" : ["/items/active/unsorted/srm_extraarms_loadoutotron/srm_extraarms_loadoutotron.lua"],
+  "scriptDelta" : 3
+}

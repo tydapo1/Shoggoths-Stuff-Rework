@@ -1,0 +1,9 @@
+{
+  "name" : "srm_royalblueeye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_royalblueeye.lua"
+  ]
+}

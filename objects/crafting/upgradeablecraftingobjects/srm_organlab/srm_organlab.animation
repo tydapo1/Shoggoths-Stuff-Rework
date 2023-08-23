@@ -1,0 +1,145 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "srm_t1organlab",
+        "states" : {
+          "srm_t1organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          },
+          "srm_t2organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          },
+          "srm_t3organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          },
+		  "srm_t4organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          },
+		  "srm_t5organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          },
+		  "srm_t6organlab" : {
+            "frames" : 8,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/npc/boss/tentacleboss_heart_in.ogg",
+              "persistentSoundRangeMultiplier" : 0.3
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "main" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "srm_t1organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t1.<frame>"
+              }
+            },
+
+            "srm_t2organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t2.<frame>"
+              }
+            },
+
+            "srm_t3organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t3.<frame>"
+              }
+            },
+			
+			"srm_t4organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t4.<frame>"
+              }
+            },
+			
+			"srm_t5organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t5.<frame>"
+              }
+            },
+			
+			"srm_t6organlab" : {
+              "properties" : {
+                "image" : "srm_organlab.png:t6.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {
+    "fireglow" : {
+      "active" : true,
+      "position" : [0, 1],
+      "color" : [100, 60, 60],
+      "flickerPeriod" : 0.5,
+      "flickerMinIntensity" : 0.9,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.0,
+      "flickerIntensityVariance" : 0.0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

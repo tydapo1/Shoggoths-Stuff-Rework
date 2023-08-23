@@ -1,0 +1,24 @@
+{
+  "materialId" : 36580,
+  "materialName" : "srm_shoggothsmoothbrick0",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A smooth tar brick. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Smooth Brick",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothsmoothbrick.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothsmoothbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1815
+  }
+}

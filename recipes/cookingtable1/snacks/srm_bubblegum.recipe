@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "srm_liquidsap", "count" : 25 },
+    { "item" : "sugar", "count" : 10 }
+  ],
+  "output" : { 
+    "item" : "srm_bubblegum", 
+	"count" : 1 
+  },
+  "duration" : 0.0,
+  "groups" : [ "craftingfood", "snacks" ]
+}

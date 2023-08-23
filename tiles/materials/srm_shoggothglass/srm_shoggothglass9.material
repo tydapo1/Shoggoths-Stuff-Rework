@@ -1,0 +1,65 @@
+{
+  "materialId" : 36569,
+  "materialName" : "srm_shoggothglass9",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Cornea Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglass.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglass.png?replace;f9f0c59b=ef9a719b;d0c8a0=e37274;b8b188=cc6668;a09976=b3595b;faf1c69b=fefefe9b;d1c9a1=f0f0f0;b8b18d=e1e1e1;a19a7c=d2d2d2;D5FF929b=0000009b;B4E87E=0f0f0f;8ccc67=1e1e1e;6dae4b=2d2d2d;ff4c5b9b=f2eebf9b;cc3d49=d7c877;a1303a=b1985e;80262e=8a6745;e316229b=ffc7ed9b;b81018=e5b3d6;9c0e15=cc9fbf;800b11=b38ba7;f4df589b=acd3f19b;e5c649=9fc3de;d1b543=91b1c9;bda33c=829fb5;eed43e9b=f07b309b;d2b231=e9652b;b5992a=cf5724;998123=bf4f20;c9faa09b=7b004d9b;a1db7b=5f0041;8bbd6a=420035;749e59=26001f",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}
+
+//  
+//	f9f0c59b=e360969b;
+//	d0c8a0=c24e7c;
+//	b8b188=a14067;
+//	a09976=803352;
+//  
+//	faf1c69b=ef9a719b;
+//	d1c9a1=e37274;
+//	b8b18d=cc6668;
+//	a19a7c=b3595b;
+//  
+//	d5ff929b=fefefe9b;
+//	b4e87e=f0f0f0;
+//	8ccc67=e1e1e1;
+//	6dae4b=d2d2d2;
+//  
+//	c137c49b=0000009b;
+//	8622a4=0f0f0f;
+//	5f1786=1e1e1e;
+//	370d66=2d2d2d;
+//  
+//	ff4c5b9b=f2eebf9b;
+//	cc3d49=d7c877;
+//	a1303a=b1985e;
+//	80262e=8a6745;
+//  
+//	e316229b=b34cd59b;
+//	b81018=822eb2;
+//	9c0e15=68258f;
+//	800b11=4e1c6b;
+//  
+//	f4df589b=df96d49b;
+//	e5c649=ad50b9;
+//	d1b543=6c4082;
+//	bda33c=42304b;
+//  
+//	eed43e9b=fff5999b;
+//	d2b231=ffca38;
+//	b5992a=fa8a00;
+//	998123=da3800

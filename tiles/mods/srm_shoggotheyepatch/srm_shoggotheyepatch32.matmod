@@ -1,0 +1,22 @@
+{
+  "modId" : 36532,
+  "modName" : "srm_shoggotheyepatch32",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=e36096fe;d0c8a0fe=c24e7cfe;b8b188fe=a14067fe;a09976fe=803352fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// GOTH PINK
+
+//	f9f0c5fe=e36096fe;
+//	d0c8a0fe=c24e7cfe;
+//	b8b188fe=a14067fe;
+//	a09976fe=803352fe

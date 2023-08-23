@@ -1,0 +1,58 @@
+{
+  "objectName" : "srm_shoggotharmchair",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "A tarry armchair.",
+  "shortdescription" : "Shoggoth Armchair",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "An armchair made of soft tar.",
+  "avianDescription" : "It is possible to sink into this chair. Literally.",
+  "floranDescription" : "Floran sssink into chair like quick ssand. Chair ssscary.",
+  "glitchDescription" : "Terrified. This chair feels like it is dragging you inside.",
+  "humanDescription" : "The kind of chair you sacrifice your life for.",
+  "hylotlDescription" : "An hungry aura emanates from this ominous chair.",
+  "novakidDescription" : "Soft, too soft!",
+
+  "objectType" : "loungeable",
+
+  "inventoryIcon" : "srm_shoggotharmchairicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggotharmchair.png:<color>",
+      "imagePosition" : [-10, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-3, 21],
+
+	  "spaces" : [
+		[-1, 1],[0, 1],[1, 1],
+		[-1, 0],[0, 0],[1, 0]
+	  ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggotharmchair.png:<color>",
+      "imagePosition" : [-10, 0],
+      "direction" : "right",
+
+      "sitPosition" : [5, 21],
+	  "spaces" : [
+		[-1, 1],[0, 1],[1, 1],
+		[-1, 0],[0, 0],[1, 0]
+	  ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/shoggoth/srm_shoggotharmchair/srm_shoggotharmchaircover.png",
+
+  "placementImage" : "/objects/shoggoth/srm_shoggotharmchair/srm_shoggotharmchair.png",
+  "placementImagePosition" : [-10, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

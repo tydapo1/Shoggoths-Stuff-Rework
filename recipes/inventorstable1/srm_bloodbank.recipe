@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "salve", "count" : 5 },
+	{ "item" : "ironbar", "count" : 10 },
+	{ "item" : "ironshortsword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_bloodbank",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable", "craftingstations", "all", "shoggothcraftingtables" ]
+}

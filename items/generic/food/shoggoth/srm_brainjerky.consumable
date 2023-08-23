@@ -1,0 +1,24 @@
+{
+  "itemName" : "srm_brainjerky",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "food",
+  "inventoryIcon" : "srm_brainjerky.png",
+  "description" : "Not the best quality food, it almost certainly has some kind of disease.",
+  "shortdescription" : "Brain Jerky",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 50
+    }
+  ] ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

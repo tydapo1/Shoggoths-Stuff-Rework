@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_shoggothumbrella",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tool",
+  "description" : "Despite slime being pretty dense, this parasol helps in slowing descent.",
+  "shortdescription" : "Shoggoth Parasol",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+
+  "inventoryIcon" : "srm_shoggothumbrella.png:open",
+
+  "animation" : "srm_shoggothumbrella.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : [ "srm_shoggothumbrella.lua" ],
+
+  "idleRotation" : -45,
+  "activeRotation" : 65,
+  "switchTime" : 0.3,
+  "fallingParameters" : {
+    "airForce" : 30,
+    "runSpeed" : 14,
+    "walkSpeed" : 14
+  },
+  "maxFallSpeed" : -14,
+  
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "srm_luckyblock_items",
+  "keepAlive" : true,
+  
+  "parameters" : {},
+
+  "scripts" : [
+  	"/stagehands/luckyblock/srm_luckyblock_items.lua"
+  ],
+  "scriptDelta" : 5
+}

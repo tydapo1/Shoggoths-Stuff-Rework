@@ -1,0 +1,35 @@
+{
+  "projectileName" : "srm_tier5bshoggothmagnorb",
+  "image" : "srm_tier5bshoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/bullet_ricochet1.ogg",
+        "/sfx/projectiles/bullet_ricochet2.ogg",
+        "/sfx/projectiles/bullet_ricochet3.ogg",
+        "/sfx/projectiles/bullet_ricochet4.ogg",
+        "/sfx/projectiles/bullet_ricochet5.ogg",
+        "/sfx/projectiles/bullet_ricochet6.ogg",
+        "/sfx/projectiles/bullet_ricochet7.ogg",
+        "/sfx/projectiles/bullet_ricochet8.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

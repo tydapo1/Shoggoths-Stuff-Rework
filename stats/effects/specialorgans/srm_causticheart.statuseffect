@@ -1,0 +1,9 @@
+{
+  "name" : "srm_causticheart",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_causticheart.lua"
+  ]
+}

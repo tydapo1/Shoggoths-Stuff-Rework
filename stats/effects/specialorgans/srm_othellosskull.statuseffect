@@ -1,0 +1,9 @@
+{
+  "name" : "srm_othellosskull",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_othellosskull.lua"
+  ]
+}

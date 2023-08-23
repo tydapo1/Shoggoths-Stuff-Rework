@@ -1,0 +1,29 @@
+{
+  "itemName" : "srm_generictech",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tech",
+  "description" : "Equips the specified tech.",
+  "shortdescription" : "Tech Disk",
+  "twoHanded" : true,
+  "inventoryIcon" : "srm_generictech.png",
+  "scripts" : ["srm_shoggothtech.lua"],
+  "animation" : "srm_shoggothtech.animation",
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "gun" : {
+          "properties" : {
+            "image" : "srm_generictech.png"
+          }
+        }
+      }
+    }
+  },
+  "fireTime" : 2.0,
+  "fireOffset" : [0.0, 0.0],
+
+  "tech_to_unlock" : "srm_shoggothtarballtech"
+}

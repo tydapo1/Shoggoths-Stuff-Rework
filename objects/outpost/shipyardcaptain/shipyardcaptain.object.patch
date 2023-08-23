@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "srm_shipupgrade1"
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "srm_shipupgrade2"
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "srm_shipupgrade3"
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "srm_shipupgrade4"
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/-",
+    "value": "srm_shipupgrade5"
+  }
+]

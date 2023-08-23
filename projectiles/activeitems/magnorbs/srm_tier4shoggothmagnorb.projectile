@@ -1,0 +1,36 @@
+{
+  "projectileName" : "srm_tier4shoggothmagnorb",
+  "image" : "srm_tier4shoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/srm_regularexplosionknockbackharm/srm_regularexplosionknockbackharm.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "emitters" : [ "grenadesmoke" ],
+  "physics" : "grenade",
+  "bounces" : 0,
+  "piercing" : false,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/shogorb_impact1.ogg",
+        "/sfx/gun/shogorb_impact2.ogg",
+        "/sfx/gun/shogorb_impact3.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

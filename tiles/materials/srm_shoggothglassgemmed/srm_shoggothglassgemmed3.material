@@ -1,0 +1,65 @@
+{
+  "materialId" : 36573,
+  "materialName" : "srm_shoggothglassgemmed3",
+  "particleColor" : [209, 201, 161, 255],
+  "itemDrop" : "srm_eldritchslime",
+  "description" : "A thick, solid gem-shaped shoggoth cornea. (Paint for other variants.)",
+  "shortdescription" : "^reset;Shoggoth Gem Glass",
+  "glitchDescription" : "Hesitant. This is mildly horrible.",
+  "floranDescription" : "This transssparent rock very squissshy.",
+  "novakidDescription" : "Man, this is weird as hell.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothglassgemmed.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothglassgemmed.png?replace;f9f0c59b=61ffd09b;d0c8a0=29ba85;b8b188=1f875d;a09976=00624a;faf1c69b=ffffff9b;d1c9a1=f0f0f0;b8b18d=e1e1e1;a19a7c=d2d2d2;d5ff929b=58bfbf9b;b4e87e=5690b2;8ccc67=436593;6dae4b=3b477b;c137c49b=d08ae59b;8622a4=a76eb8;5f1786=814b92;370d66=683777;ff4c5b9b=c9f0809b;cc3d49=8de082;a1303a=7cc472;80262e=6dad65;e316229b=d0b0e19b;b81018=b59ac2;9c0e15=9881a3;800b11=7b6985;f4df589b=f8efc79b;e5c649=cfc7a2;d1b543=b8b08f;bda33c=a19a7d;eed43e9b=faeac69b;d2b231=d1c0a1;b5992a=b8a98d;998123=a1947c",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1780
+  }
+}
+
+//  ABYSS FRUIT
+//	f9f0c59b=61ffd09b;
+//	d0c8a0=29ba85;
+//	b8b188=1f875d;
+//	a09976=00624a;
+//  DEATHBLOOM
+//	faf1c69b=ffffff9b;
+//	d1c9a1=f0f0f0;
+//	b8b18d=e1e1e1;
+//	a19a7c=d2d2d2;
+//  GLAZED
+//	d5ff929b=58bfbf9b;
+//	b4e87e=5690b2;
+//	8ccc67=436593;
+//	6dae4b=3b477b;
+//  GLITTERED
+//	c137c49b=d08ae59b;
+//	8622a4=a76eb8;
+//	5f1786=814b92;
+//	370d66=683777;
+//  SLIMED
+//	ff4c5b9b=c9f0809b;
+//	cc3d49=8de082;
+//	a1303a=7cc472;
+//	80262e=6dad65;
+//  PEARLY
+//	e316229b=d0b0e19b;
+//	b81018=b59ac2;
+//	9c0e15=9881a3;
+//	800b11=7b6985;
+//  AQUATIC
+//	f4df589b=f8efc79b;
+//	e5c649=cfc7a2;
+//	d1b543=b8b08f;
+//	bda33c=a19a7d;
+//  BLEACHED
+//	eed43e9b=faeac69b;
+//	d2b231=d1c0a1;
+//	b5992a=b8a98d;
+//	998123=a1947c

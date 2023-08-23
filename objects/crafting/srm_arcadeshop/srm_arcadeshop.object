@@ -1,0 +1,80 @@
+{
+  "objectName" : "srm_arcadeshop",
+  "colonyTags" : ["merchant","electronic"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 100,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "An arcade machine-shaped shopping terminal that sells unique objects.",
+  "shortdescription" : "Arcade Shop",
+
+  "apexDescription" : "A space exploration game called Starbound. It feels familiar.",
+  "avianDescription" : "Never heard of this Starbound game. And yet...",
+  "floranDescription" : "Sstarbound spaceship game. Floran get achievement for sssmashing fourth wall.",
+  "glitchDescription" : "Determined. I will set the high score on this new Starbound video game.",
+  "humanDescription" : "Starbound? I can't say I've ever heard of this one. Must be old.",
+  "hylotlDescription" : "This Starbound game speaks to me on a spiritual level.",
+  "novakidDescription" : "Some kinda space explorin' game called Starbound. I do that stuff in real life!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Arcade Shop",
+        "subtitle" : " Gameify your life!"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "srm_luckyblock" },
+      { "item" : "srm_vanishingblock" },
+      { "item" : "srm_vanishingrectangle" },
+      { "item" : "srm_vanishingtriangle" },
+	  { "item" : "srm_beatblock" },
+	  { "item" : "srm_beatblockalt" },
+	  { "item" : "srm_staticwater" },
+	  { "item" : "srm_unstableblock" }
+	]
+  },
+
+  "inventoryIcon" : "srm_arcadeshopicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "srm_arcadeshopleft.png:<frame>",
+      "rightImage" : "srm_arcadeshopright.png:<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "soundEffect" : "/sfx/objects/arcademachine.ogg"
+}

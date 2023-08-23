@@ -1,0 +1,70 @@
+{
+  "itemName" : "srm_shoggothtier5amagnorb",
+  "level" : 5,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "They aren't very harmful, but that doesn't matter since there are way more to hurt with.",
+  "shortdescription" : "Magic Missile",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png",
+    "orb4" : "orb.png",
+    "orb5" : "orb.png",
+    "orb6" : "orb.png",
+    "orb7" : "orb.png",
+    "orb8" : "orb.png",
+    "orb9" : "orb.png",
+    "orb10" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "cooldownTime" : 6, // in frames
+  "orbTotal" : 10,
+  "orbitRate" : 1.0,
+
+  "projectileType" : "srm_tier5ashoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 8.3, // twice the hit damage | 9 because of t5a 
+    "knockback" : 5,
+    "speed" : 70,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 140,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 60,
+  "shieldKnockback" : 30,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

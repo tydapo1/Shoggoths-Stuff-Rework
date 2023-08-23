@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "srm_stemcell", "count" : 25 },
+	{ "item" : "srm_radiationlungs", "count" : 1 },
+	{ "item" : "medkit", "count" : 5 },
+	{ "item" : "scorchedcore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_coldlungs",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t4organ" ]
+}

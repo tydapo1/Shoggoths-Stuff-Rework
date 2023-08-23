@@ -1,0 +1,23 @@
+{
+  "materialId" : 36730,
+  "materialName" : "srm_shoggothplatformtentacle0",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Tentacled Shoggoth Platform",
+  "description" : "The tentacle platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformtentacle.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformtentacle.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1812
+  }
+}

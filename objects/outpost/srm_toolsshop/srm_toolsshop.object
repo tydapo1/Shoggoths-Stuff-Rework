@@ -1,0 +1,80 @@
+{
+  "objectName" : "srm_toolsshop",
+  "shortdescription" : "Tools Shop",
+  "description" : "A merchant that sells tools and utilities.",
+  "colonyTags" : [ "commerce", "mag" ],
+  "rarity" : "Uncommon",
+  "category" : "other",
+  "race" : "generic",
+  "price" : 500,
+  "printable" : false,
+
+  "apexDescription"    : "This merchant sells mainly tools and utilities.",
+  "avianDescription"   : "This merchant sells mainly tools and utilities.",
+  "floranDescription"  : "This merchant sells mainly tools and utilities.",
+  "glitchDescription"  : "This merchant sells mainly tools and utilities.",
+  "humanDescription"   : "This merchant sells mainly tools and utilities.",
+  "hylotlDescription"  : "This merchant sells mainly tools and utilities.",
+  "novakidDescription" : "This merchant sells mainly tools and utilities.",
+
+  "inventoryIcon" : "icon.png",
+  
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title"    : "Tools Shop",
+        "subtitle" : "Buy utilities here"
+      }
+    },
+    "buyFactor"  : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	  {"item" : { "name" : "bandage", "parameters" : {"price" : 100, "inventoryIcon" : "/items/generic/other/srm_monomate.png", "rarity" : "Common", "shortdescription" : "Monomate", "description" : "A juice for healing minor wounds. Restores 50 health over 1 second."} }},
+	  {"item" : { "name" : "nanowrap", "parameters" : {"price" : 500, "inventoryIcon" : "/items/generic/other/srm_dimate.png", "rarity" : "Uncommon", "shortdescription" : "Dimate", "description" : "This juice heals wounds quickly. Restores 100 health over 1 second."} }},
+	  {"item" : { "name" : "srm_trimate", "parameters" : {"price" : 3600} }},
+	  {"item" : { "name" : "salve", "parameters" : {"price" : 50, "inventoryIcon" : "/items/generic/other/srm_monofluid.png", "rarity" : "Common", "shortdescription" : "Monofluid", "description" : "A potion for healing minor wounds. Restores 50 health over 10 seconds."} }},
+	  {"item" : { "name" : "medkit", "parameters" : {"price" : 300, "inventoryIcon" : "/items/generic/other/srm_difluid.png", "rarity" : "Uncommon", "shortdescription" : "Difluid", "description" : "Restores 100 health over 10 seconds, and instantly cures most status effects."} }},
+	  {"item" : { "name" : "srm_trifluid", "parameters" : {"price" : 2000} }}
+	  // magic disk
+	  // magic disk
+	  // magic disk
+	  // sol atomizer
+	  // moon atomizer
+	  // star atomizer
+	  // antidote
+	  // antiparalysis
+	  // telepipe
+	  // trap vision (not needed and also useless both in sb and pso)
+    ]
+  },
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "srm_toolsshop.png:<frame>" } ],
+
+      "imagePosition" : [-28, 0],
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "srm_toolsshop.png:<frame>" } ],
+
+      "imagePosition" : [-28, 0],
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

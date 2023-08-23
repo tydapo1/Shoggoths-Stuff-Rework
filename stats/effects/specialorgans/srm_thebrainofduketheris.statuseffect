@@ -1,0 +1,9 @@
+{
+  "name" : "srm_thebrainofduketheris",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_thebrainofduketheris.lua"
+  ]
+}

@@ -1,0 +1,98 @@
+function init()
+	 script.setUpdateDelta(5)
+	 startsound = true
+	 stopsound = false
+end
+
+function update(dt)
+	if ((status.resource("energy") > 0) and (not (status.resourceLocked("energy")))) then
+		if mcontroller.crouching() and startsound then 
+			animator.playSound("flamethrowerstart")
+			animator.playSound("flamethrowerloop", -1)
+			animator.stopAllSounds("flamethrowerstop")
+			startsound = false
+			stopsound = true
+		end
+		if ( not (mcontroller.crouching()) and stopsound ) then 
+			animator.playSound("flamethrowerstop")
+			animator.stopAllSounds("flamethrowerstart")
+			animator.stopAllSounds("flamethrowerloop")
+			startsound = true
+			stopsound = false
+		end
+	 
+		local position = mcontroller.position()
+		local direction = mcontroller.position()
+		local possibleMonsters = world.entityQuery(position, 25, {__order__ = "nearest"})
+		local reachableMonsters = {}
+	
+		if possibleMonsters then
+			for i = 1,#possibleMonsters,1 do
+				if (world.lineCollision(position, world.entityPosition(possibleMonsters[i]),{"Null","Block","Dynamic"},1) == nil and entity.isValidTarget(possibleMonsters[i])) then
+					reachableMonsters[#reachableMonsters+1] = possibleMonsters[i]
+				end
+			end
+		end
+	
+		local aimedMonster = reachableMonsters[1]
+	
+		if aimedMonster then
+			local positionMonster = world.entityPosition(aimedMonster)
+			positionMonster[2] = positionMonster[2] - 0.5
+			direction = world.distance(positionMonster, position)
+			if mcontroller.crouching() then
+				if direction[1] < 0 then
+					position[1] = position[1] - 0.625
+					position[2] = position[2] - 0.375
+				else
+					position[1] = position[1] + 0.625
+					position[2] = position[2] - 0.375
+				end
+			else
+				if direction[1] < 0 then
+					position[1] = position[1] - 0.625
+					position[2] = position[2] + 0.625
+				else
+					position[1] = position[1] + 0.625
+					position[2] = position[2] + 0.625
+				end
+			end
+		elseif mcontroller.crouching() then
+			if mcontroller.facingDirection() == -1 then
+				position[1] = position[1] - 0.625
+				position[2] = position[2] - 0.375
+				direction = {-20,0}
+			else
+				position[1] = position[1] + 0.625
+				position[2] = position[2] - 0.375
+				direction = {20,0}
+			end
+		else
+			if direction[1] < 0 then
+				position[1] = position[1] - 0.625
+				position[2] = position[2] + 0.625
+				direction = {-20,0}
+			else
+				position[1] = position[1] + 0.625
+				position[2] = position[2] + 0.625
+				direction = {20,0}
+			end
+		end
+	 
+		if mcontroller.crouching() then
+			world.spawnProjectile("srm_lungfire", position, entity.id(), direction, false, {power = (2*status.stat("powerMultiplier"))})
+			status.overConsumeResource("energy", 5)
+		end
+	end
+	if (status.resourceLocked("energy")) then
+		startsound = true
+		stopsound = false
+		animator.stopAllSounds("flamethrowerstop")
+		animator.stopAllSounds("flamethrowerstart")
+		animator.stopAllSounds("flamethrowerloop")
+	end
+end
+
+function uninit()
+	
+end

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "srm_selfdestruct",
+  "image" : "srm_selfdestruct.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/srm_nuke/srm_nuke.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 0,
+  "damageKind" : "hammer",
+  "emitters" : [ "grenadesmoke" ],
+  "physics" : "grenade",
+  "bounces" : 0,
+  "piercing" : false,
+  "timeToLive" : 0
+}

@@ -1,0 +1,650 @@
+{
+  "globalTagDefaults" : {
+    "fistFrame" : "idle",
+    "metalDirectives" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "leftFistState" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "fist"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "fist" : { },
+          "jet" : { },
+          "shotgun" : { },
+          "minigun" : { },
+          "drill" : { },
+          "hookshot" : { },
+          "blast_launcher" : { }
+        }
+      },
+      "rightFistState" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "fist"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "fist" : { },
+          "jet" : { },
+          "shotgun" : { },
+          "minigun" : { },
+          "drill" : { },
+          "hookshot" : { },
+          "blast_launcher" : { }
+        }
+      },
+      "leftArm1State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "leftArm2State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "leftArm3State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "leftArm4State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "rightArm1State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "rightArm2State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "rightArm3State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      },
+      "rightArm4State" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "activate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "limb"
+          },
+          "deactivate" : {
+            "frames" : 1,
+            "cycle" : 0.0,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "limb" : { }
+        }
+      }
+	},
+	"parts" : {
+      "leftFist" : {
+        "properties" : {
+          "transformationGroups" : [ "leftFist" ],
+          "centered" : true,
+		  "limbJoint" : [-1.125, 0.0],
+		  "limbTip" : [1.25, 0.0]
+        },
+        "partStates" : {
+          "leftFistState" : {
+            "fist" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -5,
+                "offset" : [2.25, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/left/fist.png:<leftFrame><metalDirectives><isHidden>"
+              }
+            },
+            "jet" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -5,
+                "offset" : [1.3125, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/left/jet.png:<leftFrame><metalDirectives><isHidden>"
+              }
+            },
+            "shotgun" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -5,
+                "offset" : [2.25, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/left/shotgun.png:<leftFrame><metalDirectives><isHidden>",
+		        "limbTip" : [2.00, -0.25],
+		        "bulletSpawn" : [0.00, -0.25]
+              }
+            },
+            "minigun" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -5,
+                "offset" : [2.25, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/left/minigun.png:<leftFrame><metalDirectives><isHidden>",
+		        "limbTip" : [2.00, -0.50]
+              }
+            },
+            "drill" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -5,
+                "offset" : [2.25, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/left/drill.png:<leftFrame><metalDirectives><isHidden>"
+              }
+            },
+            "hookshot" : {
+              "properties" : {
+                "renderLayer": "Player-1",
+                "zLevel": -5,
+                "offset": [ 2.25, 0 ],
+                "fullbright": false,
+                "image": "/tech/srm_extraarmstech/left/hookshot.png:<leftFrame><metalDirectives><isHidden>",
+		        "limbTip" : [ 0.0, 0.0 ]
+              }
+            },
+            "blast_launcher" : {
+              "properties" : {
+                "renderLayer": "Player-1",
+                "zLevel": -5,
+                "offset": [ 2.25, 0 ],
+                "fullbright": false,
+                "image": "/tech/srm_extraarmstech/left/blast_launcher.png:<leftFrame><metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "rightFist" : {
+        "properties" : {
+          "transformationGroups" : [ "rightFist" ],
+          "centered" : true,
+		  "limbJoint" : [-1.125, 0.0],
+		  "limbTip" : [1.25, 0.0]
+        },
+        "partStates" : {
+          "rightFistState" : {
+            "fist" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 5,
+                "offset" : [1.75, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/right/fist.png:<rightFrame><metalDirectives><isHidden>"
+              }
+            },
+            "jet" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 5,
+                "offset" : [0.6875, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/right/jet.png:<rightFrame><metalDirectives><isHidden>"
+              }
+            },
+            "shotgun" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 5,
+                "offset" : [1.75, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/right/shotgun.png:<rightFrame><metalDirectives><isHidden>",
+		        "limbTip" : [2.00, -0.25],
+		        "bulletSpawn" : [0.00, -0.25]
+              }
+            },
+            "minigun" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 5,
+                "offset" : [1.75, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/right/minigun.png:<rightFrame><metalDirectives><isHidden>",
+		        "limbTip" : [2.00, -0.50]
+              }
+            },
+            "drill" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 5,
+                "offset" : [1.75, 0.0],
+                "fullbright" : false,
+                "image" : "/tech/srm_extraarmstech/right/drill.png:<rightFrame><metalDirectives><isHidden>"
+              }
+            },
+            "hookshot" : {
+              "properties" : {
+                "renderLayer": "Player+1",
+                "zLevel": 5,
+                "offset": [ 1.75, 0 ],
+                "fullbright": false,
+                "image": "/tech/srm_extraarmstech/right/hookshot.png:<rightFrame><metalDirectives><isHidden>",
+		        "limbTip" : [ 0.0, 0.0 ]
+              }
+            },
+            "blast_launcher" : {
+              "properties" : {
+                "renderLayer": "Player+1",
+                "zLevel": 5,
+                "offset": [ 1.75, 0 ],
+                "fullbright": false,
+                "image": "/tech/srm_extraarmstech/right/blast_launcher.png:<rightFrame><metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "leftArm1" : {
+        "properties" : {
+          "transformationGroups" : [ "leftArm1" ],
+          "centered" : true,
+		  "shoulderJoint" : [0.0, 0.0],
+		  "shoulderJointFlip" : [-0.75, 0.0]
+        },
+        "partStates" : {
+          "leftArm1State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -1,
+                "offset" : [0.375, 0],
+                "fullbright" : false,
+                "image" : "shoulder.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "leftArm2" : {
+        "properties" : {
+          "transformationGroups" : [ "leftArm2" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "leftArm2State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -2,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "leftArm3" : {
+        "properties" : {
+          "transformationGroups" : [ "leftArm3" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "leftArm3State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -3,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "leftArm4" : {
+        "properties" : {
+          "transformationGroups" : [ "leftArm4" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "leftArm4State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player-1",
+                "zLevel" : -4,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "rightArm1" : {
+        "properties" : {
+          "transformationGroups" : [ "rightArm1" ],
+          "centered" : true,
+		  "shoulderJoint" : [0.0, 0.0],
+		  "shoulderJointFlip" : [0.75, 0.0]
+        },
+        "partStates" : {
+		
+          "rightArm1State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 1,
+                "offset" : [-0.375, 0],
+                "fullbright" : false,
+                "image" : "shoulder.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "rightArm2" : {
+        "properties" : {
+          "transformationGroups" : [ "rightArm2" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "rightArm2State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 2,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "rightArm3" : {
+        "properties" : {
+          "transformationGroups" : [ "rightArm3" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "rightArm3State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 3,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      },
+	  "rightArm4" : {
+        "properties" : {
+          "transformationGroups" : [ "rightArm4" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "rightArm4State" : {
+            "limb" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 4,
+                "fullbright" : false,
+                "image" : "arm.png<metalDirectives><isHidden>"
+              }
+            }
+          }
+        }
+      }
+	}
+  },
+
+  "transformationGroups" : {
+    "leftFist" : { "interpolated" : true },
+    "rightFist" : { "interpolated" : true },
+    "leftArm1" : { "interpolated" : true },
+    "leftArm2" : { "interpolated" : true },
+    "leftArm3" : { "interpolated" : true },
+    "leftArm4" : { "interpolated" : true },
+    "rightArm1" : { "interpolated" : true },
+    "rightArm2" : { "interpolated" : true },
+    "rightArm3" : { "interpolated" : true },
+    "rightArm4" : { "interpolated" : true }
+  },
+  
+  "particleEmitters" : {
+    "leftjetsmoke" : {
+      "emissionRate" : 60,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "dust2",
+          "flip" : false,
+          "offset" : [0, -0.625]
+        }
+      ]
+    },
+    "rightjetsmoke" : {
+      "emissionRate" : 60,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "dust2",
+          "flip" : false,
+          "offset" : [0, -0.625]
+        }
+      ]
+    },
+    "leftjetbubbles" : {
+      "emissionRate" : 60,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "bubbles",
+          "flip" : false,
+          "offset" : [0, -0.625]
+        }
+      ]
+    },
+    "rightjetbubbles" : {
+      "emissionRate" : 60,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "bubbles",
+          "flip" : false,
+          "offset" : [0, -0.625]
+        }
+      ]
+    }
+  },
+
+ "lights" : {
+   "leftjetglow" : {
+      "active" : false,
+      "transformationGroups" : ["leftFist"],
+      "position" : [0.0, 0.0],
+      "color" : [252, 169, 3],
+      "pointLight" : true
+    },
+    "rightjetglow" : {
+      "active" : false,
+      "transformationGroups" : ["rightFist"],
+      "position" : [0.0, 0.0],
+      "color" : [252, 169, 3],
+      "pointLight" : true
+    }
+  },
+
+  "sounds" : {
+    "armSwitch" : ["/sfx/tech/mech_activate1.ogg"],
+    "armActivate" : ["/sfx/objects/camera_alert_off.ogg"],
+    "armDeactivate" : ["/sfx/objects/camera_alert_on.ogg"],
+    "leftfistswing" : ["/sfx/melee/swing_dagger_fire1.ogg","/sfx/melee/swing_dagger_fire2.ogg","/sfx/melee/swing_dagger_fire3.ogg"],
+    "leftfistreceive" : ["/sfx/melee/shield_block_metal_perfect.ogg"],
+    "rightfistswing" : ["/sfx/melee/swing_dagger_fire1.ogg","/sfx/melee/swing_dagger_fire2.ogg","/sfx/melee/swing_dagger_fire3.ogg"],
+    "rightfistreceive" : ["/sfx/melee/shield_block_metal_perfect.ogg"],
+    "leftjet" : ["/sfx/tech/mech_jetpack_loop2.ogg"],
+    "leftjetbubbles" : ["/sfx/projectiles/bubble_cluster.ogg"],
+    "leftjethover" : ["/sfx/tech/mech_jetpack_loop3.ogg"],
+    "leftjetstop" : ["/sfx/tech/mech_jetpack_off.ogg"],
+    "rightjet" : ["/sfx/tech/mech_jetpack_loop2.ogg"],
+    "rightjetbubbles" : ["/sfx/projectiles/bubble_cluster.ogg"],
+    "rightjethover" : ["/sfx/tech/mech_jetpack_loop3.ogg"],
+    "rightjetstop" : ["/sfx/tech/mech_jetpack_off.ogg"],
+    "leftdrillspin" : ["/sfx/melee/drillspear_active_loop1.ogg"],
+    "leftdrillwinddown" : ["/sfx/melee/drillspear_winddown1.ogg"],
+    "rightdrillspin" : ["/sfx/melee/drillspear_active_loop1.ogg"],
+    "rightdrillwinddown" : ["/sfx/melee/drillspear_winddown1.ogg"],
+    "leftshotgunshoot" : ["/sfx/tech/scatter_gun_shoot.wav"],
+    "leftshotgunempty" : ["/sfx/tech/scatter_gun_empty.ogg"],
+    "leftshotgunreload" : ["/sfx/tech/scatter_gun_worldreload.wav"],
+    "leftshotgunreloadfirst" : ["/sfx/tech/scatter_gun_reload.wav"],
+    "rightshotgunshoot" : ["/sfx/tech/scatter_gun_shoot.wav"],
+    "rightshotgunempty" : ["/sfx/tech/scatter_gun_empty.ogg"],
+    "rightshotgunreload" : ["/sfx/tech/scatter_gun_worldreload.wav"],
+    "rightshotgunreloadfirst" : ["/sfx/tech/scatter_gun_reload.wav"],
+    "leftminigunshoot" : ["/sfx/tech/minigun_shoot.wav"],
+    "leftminigunempty" : ["/sfx/tech/minigun_empty.wav"],
+    "leftminigunwindup" : ["/sfx/tech/minigun_wind_up.wav"],
+    "leftminigunwinddown" : ["/sfx/tech/minigun_wind_down.wav"],
+	"leftminigunreload" : ["/sfx/tech/mech_activate2.ogg"],
+    "rightminigunshoot" : ["/sfx/tech/minigun_shoot.wav"],
+    "rightminigunempty" : ["/sfx/tech/minigun_empty.wav"],
+    "rightminigunwindup" : ["/sfx/tech/minigun_wind_up.wav"],
+    "rightminigunwinddown" : ["/sfx/tech/minigun_wind_down.wav"],
+	"rightminigunreload" : ["/sfx/tech/mech_activate2.ogg"],
+    "honk" : ["/sfx/tech/mech_horn_sportshorn.ogg"],
+	"leftblast_launchershoot" : ["/sfx/tech/scatter_gun_shoot.wav"],
+	"leftblast_launcherempty" : ["/sfx/tech/scatter_gun_empty.ogg"],
+	"leftblast_launcherreload" : ["/sfx/tech/scatter_gun_worldreload.wav"],
+	"leftblast_launcherreloadfirst" : ["/sfx/tech/scatter_gun_reload.wav"],
+	"rightblast_launchershoot" : ["/sfx/tech/scatter_gun_shoot.wav"],
+	"rightblast_launcherempty" : ["/sfx/tech/scatter_gun_empty.ogg"],
+	"rightblast_launcherreload" : ["/sfx/tech/scatter_gun_worldreload.wav"],
+	"rightblast_launcherreloadfirst" : ["/sfx/tech/scatter_gun_reload.wav"]
+  }
+}

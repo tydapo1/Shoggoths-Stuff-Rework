@@ -1,0 +1,9 @@
+{
+  "name" : "srm_viridiancateye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_viridiancateye.lua"
+  ]
+}

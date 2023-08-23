@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_license3",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "license3.png",
+  "description" : "This can afford a buffet expensive enough for a Falcon class organism.",
+  "shortdescription" : "Falcon Meal Ticket",
+
+  "pickupQuestTemplates" : ["srm_shipupgrade3"],
+  "consumeOnPickup" : true
+}

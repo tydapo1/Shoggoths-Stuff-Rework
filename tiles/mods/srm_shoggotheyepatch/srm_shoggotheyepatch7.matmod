@@ -1,0 +1,22 @@
+{
+  "modId" : 36507,
+  "modName" : "srm_shoggotheyepatch7",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=eed43efe;d0c8a0fe=d2b231fe;b8b188fe=b5992afe;a09976fe=998123fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// DUBBLE NANNA
+
+//	f9f0c5fe=eed43efe;
+//	d0c8a0fe=d2b231fe;
+//	b8b188fe=b5992afe;
+//	a09976fe=998123fe

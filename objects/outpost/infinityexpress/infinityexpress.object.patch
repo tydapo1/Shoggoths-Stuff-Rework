@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "srm_giftwrap1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "srm_giftwrap2"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "srm_giftwrap3"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": "srm_giftwrap4"
+    }
+  }
+]

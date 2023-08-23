@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_brainfromafar",
+  "price" : 10000,
+  "inventoryIcon" : "srm_brainfromafar.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Head",
+  "description" : "The third probing eye can only see with a specific kind of light that it creates with special wisps.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Brain From Afar^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

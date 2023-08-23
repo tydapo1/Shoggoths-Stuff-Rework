@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_obolcookie",
+  "rarity" : "Uncommon",
+  "price" : 55,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_obolcookie.png",
+  "description" : "A large cookie produced by someone named Charon.",
+  "shortdescription" : "Obol Cookie",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 110
+    },
+    {
+        "effect" : "thorns",
+        "duration" : 220
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 220
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

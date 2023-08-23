@@ -1,0 +1,70 @@
+{
+  "materialId" : 36521,
+  "materialName" : "srm_shoggothblock21",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar block. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Block",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+  
+  "tillableMod" : 36998,
+  "soil" : true,
+
+  "renderTemplate" : "/tiles/srm_shoggothblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothblock.png?replace;515384=ffba68;41446f=f7963e;323660=d4692b;242952=b84e21;5b4a7e=e2fb87;503e70=c7e96c;41325f=9fc853;35274e=7bac39;644078=3ab350;5f3770=2d9850;4f2e5d=1a743f;45244a=14562c;bcbce0=ffce7b;acacd2=f5b156;8686aa=d88c39;75759c=be682b;3f3f7d=9252ba;2f3465=7339a1;242957=542c71;1e2251=3e1e58;3f3777=c0e873;302c5f=a9d85c;282454=87b947;221f4d=679b30;3f2f70=41b54a;33265b=2f9937;2d2152=1b752a;261c48=16571d;c3c6df=d08cfc;b3b6d1=ae70df;8c8db2=845aa3;7a7ea1=694884",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1790
+  }
+}
+
+// SPOOKY + CHEEKY
+
+//  Body Top 1
+//	515384=ffba68;
+//	41446f=f7963e;
+//	323660=d4692b;
+//	242952=b84e21;
+//  Body Mid 1
+//	5b4a7e=e2fb87;
+//	503e70=c7e96c;
+//	41325f=9fc853;
+//	35274e=7bac39;
+//  Body Bottom 1
+//	644078=3ab350;
+//	5f3770=2d9850;
+//	4f2e5d=1a743f;
+//	45244a=14562c;
+//  Face 1
+//	bcbce0=ffce7b;
+//	acacd2=f5b156;
+//	8686aa=d88c39;
+//	75759c=be682b;
+//  Body Top 2
+//	3f3f7d=9252ba;
+//	2f3465=7339a1;
+//	242957=542c71;
+//	1e2251=3e1e58;
+//  Body Mid 2
+//	3f3777=c0e873;
+//	302c5f=a9d85c;
+//	282454=87b947;
+//	221f4d=679b30;
+//  Body Bottom 2
+//	3f2f70=41b54a;
+//	33265b=2f9937;
+//	2d2152=1b752a;
+//	261c48=16571d;
+//  Face 2
+//	c3c6df=d08cfc;
+//	b3b6d1=ae70df;
+//	8c8db2=845aa3;
+//	7a7ea1=694884

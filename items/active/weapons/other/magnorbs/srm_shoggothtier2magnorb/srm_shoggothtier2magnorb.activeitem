@@ -1,0 +1,63 @@
+{
+  "itemName" : "srm_shoggothtier2magnorb",
+  "level" : 2,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Juggle aggressively with these squeaky, soft balls.",
+  "shortdescription" : "The Clown's Retribution",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 3,
+  "orbitRate" : 0.4,
+
+  "projectileType" : "srm_tier2shoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 8.0, // twice the hit damage
+    "knockback" : 5,
+    "speed" : 50,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 110,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 30,
+  "shieldKnockback" : 15,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "srm_deadcells", "count" : 100 },
+    { "item" : "glass", "count" : 5 },
+    { "item" : "ironbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "srm_collectorssyringe",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t3organ", "shoggothcraftingtables" ]
+}

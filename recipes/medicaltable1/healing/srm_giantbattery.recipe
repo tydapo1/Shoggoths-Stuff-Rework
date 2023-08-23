@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "liquidpoison", "count" : 25 },
+    { "item" : "glass", "count" : 5 },
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "goldbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "srm_giantbattery",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "craftingmedical", "healing" ]
+}

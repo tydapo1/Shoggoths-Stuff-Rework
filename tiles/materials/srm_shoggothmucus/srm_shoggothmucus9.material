@@ -1,0 +1,68 @@
+{
+  "materialId" : 36799,
+  "materialName" : "srm_shoggothmucus9",
+  "particleColor" : [50, 54, 96, 155],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick mucus block. Extremely resiliant. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Mucus",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1024,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothmucus.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothmucus.png?replace;515384=c8d2df;41446f=b4bdc9;323660=8e99aa;242952=778293;5b4a7e=aebed4;503e70=9fafc2;41325f=909eb0;35274e=6c7a8e;644078=849bb8;5f3770=798ea8;4f2e5d=6e8199;45244a=617289;bcbce0=d9dfe8;acacd2=ccd3de;8686aa=b4becf;75759c=a6b3c6;3f3f7d=c8d2df60;2f3465=b4bdc960;242957=8e99aa60;1e2251=77829360;3f3777=aebed480;302c5f=9fafc280;282454=909eb080;221f4d=6c7a8e80;3f2f70=849bb8;33265b=798ea8;2d2152=6e8199;261c48=617289;c3c6df=d9dfe880;b3b6d1=ccd3de80;8c8db2=b4becf80;7a7ea1=a6b3c680",
+    "variants" : 13,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1825
+  }
+}
+
+// SNOWBERRY + GHOSTBERRY
+
+//  Body Top 1
+//	515384=c8d2df;
+//	41446f=b4bdc9;
+//	323660=8e99aa;
+//	242952=778293;
+//  Body Mid 1
+//	5b4a7e=aebed4;
+//	503e70=9fafc2;
+//	41325f=909eb0;
+//	35274e=6c7a8e;
+//  Body Bottom 1
+//	644078=849bb8;
+//	5f3770=798ea8;
+//	4f2e5d=6e8199;
+//	45244a=617289;
+//  Face 1
+//	bcbce0=d9dfe8;
+//	acacd2=ccd3de;
+//	8686aa=b4becf;
+//	75759c=a6b3c6;
+//  Body Top 2
+//	3f3f7d=c8d2df60;
+//	2f3465=b4bdc960;
+//	242957=8e99aa60;
+//	1e2251=77829360;
+//  Body Mid 2
+//	3f3777=aebed480;
+//	302c5f=9fafc280;
+//	282454=909eb080;
+//	221f4d=6c7a8e80;
+//  Body Bottom 2
+//	3f2f70=849bb8;
+//	33265b=798ea8;
+//	2d2152=6e8199;
+//	261c48=617289;
+//  Face 2
+//	c3c6df=d9dfe880;
+//	b3b6d1=ccd3de80;
+//	8c8db2=b4becf80;
+//	7a7ea1=a6b3c680

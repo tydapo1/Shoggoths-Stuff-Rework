@@ -1,0 +1,52 @@
+{
+  "objectName" : "srm_shoggalisa",
+  "colonyTags" : ["shoggoth","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "A very famous portrait of a mysterious Shoggoth.",
+  "shortdescription" : "Classic Shoggoth Painting",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 700,
+  "printable" : false,
+
+  "apexDescription" : "Perhaps this is what the Miniknog aspire towards.",
+  "avianDescription" : "A shoggoth woman.",
+  "floranDescription" : "Shoggoth have nice sssmile, Floran ssmile scare human.",
+  "glitchDescription" : "Surprised. The paint is old beyond measure, but looks well preserved.",
+  "humanDescription" : "I read about this one... Moaning Lisa was it? She doesn't look unhappy.",
+  "hylotlDescription" : "A beautifully-captured smile.",
+  "novakidDescription" : "Wherever I move the lady in this paintin' keeps lookin' right at me.",
+
+  "inventoryIcon" : "srm_shoggalisaicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggalisa.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "artwork"
+    ],
+    "defaultReactions" : {
+      "artwork" : [
+        [1.0, "smile"],
+        [1.0, "love"]
+      ]
+    },
+    "randomStandXRange" : [-2.5, 2.5]
+  },
+
+  "placementImage" : "/objects/shoggoth/srm_shoggalisa/srm_shoggalisa.png",
+  "placementImagePosition" : [-8, -16],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,22 @@
+{
+  "modId" : 36511,
+  "modName" : "srm_shoggotheyepatch11",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=227ce3fe;d0c8a0fe=1d6bc4fe;b8b188fe=195ba6fe;a09976fe=144a87fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// DUBBLE BLUWEY
+
+//	f9f0c5fe=227ce3fe;
+//	d0c8a0fe=1d6bc4fe;
+//	b8b188fe=195ba6fe;
+//	a09976fe=144a87fe

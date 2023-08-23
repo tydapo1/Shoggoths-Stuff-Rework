@@ -1,0 +1,18 @@
+{
+  "name" : "srm_sacrificialbleed",
+  "effectConfig" : {
+	"bleedThreshold" : -1,
+	"procRate" : 12,
+	"dropCells" : false
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "srm_liquidremoval.lua"
+  ],
+
+  "animationConfig" : "srm_liquidremoval.animation",
+
+  "label" : "Sacrificial Bleeding",
+  "icon" : "/interface/statuses/srm_sacrificialbleed.png"
+}

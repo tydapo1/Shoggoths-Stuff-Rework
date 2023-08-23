@@ -1,0 +1,14 @@
+{
+  "itemName" : "srm_rawpixel",
+  "price" : 0,
+  "maxStack" : 9999,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_rawpixel.png",
+  "description" : "Refine it to make it into a not raw pixel.",
+  "shortdescription" : "Raw Pixel",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "money"
+  ]
+}

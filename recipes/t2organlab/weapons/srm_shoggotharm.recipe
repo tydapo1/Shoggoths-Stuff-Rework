@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "srm_eldritchslime", "count" : 25 },
+    { "item" : "grapplinghook", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_shoggotharm",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t2organ" ]
+}

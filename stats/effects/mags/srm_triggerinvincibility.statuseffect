@@ -1,0 +1,11 @@
+{
+  "name" : "srm_triggerinvincibility",
+  "effectConfig" : {},
+  "defaultDuration" : 30,
+  
+  "animationConfig" : "srm_triggerinvincibility.animation",
+
+  "scripts" : [
+    "srm_triggerinvincibility.lua"
+  ]
+}

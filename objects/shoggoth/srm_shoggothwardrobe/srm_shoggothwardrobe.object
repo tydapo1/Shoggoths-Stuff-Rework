@@ -1,0 +1,50 @@
+{
+  "objectName" : "srm_shoggothwardrobe",
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 160,
+  "printable" : false,
+  
+  "description" : "A very tarry wardrobe.",
+  "shortdescription" : "Shoggoth Wardrobe",
+  "race" : "shoggoth",
+  "colonyTags" : ["shoggoth","storage"],
+
+  "apexDescription" : "I'm not sure I really want to put my clothing in it...",
+  "avianDescription" : "It feels alive...",
+  "floranDescription" : "Sssssslimy wardrobe? Floran not ssssure how to react.",
+  "glitchDescription" : "Concerned. Eldritch furniture does nothing good for the mind.",
+  "humanDescription" : "Oh god, it has a pulse!",
+  "hylotlDescription" : "Perhaps something forbidden sits within. Looks can be deceiving.",
+  "novakidDescription" : "Can wardrobes drink beer?",
+
+  "inventoryIcon" : "srm_shoggothwardrobeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothwardrobe.png:<color>",
+
+      "imagePosition" : [-16, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothwardrobe/srm_shoggothwardrobe.png",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "srm_shoggothdiary",
+  "title" : "My Diary",
+  "description" : "This is my book. I haven't touched it in years.",
+  "icon" : "srm_shoggothdiary.png",
+  "contentPages" : [
+
+"Day 1
+I have escaped His grasp. I fleed to the physical realm, where I have taken an unusual form.",
+
+"Day 6
+I have found an establishment floating about in the void of space. I will hide in it's parameters, for the moment. Once I find someone guillible enough, I shall take their possessions for my true escape.",
+
+"Day 23
+I was on the verge of obtaining the proper equipment for my departure, but a mistake on my part attracted the security, requiring me to go back into hideout. Another similar opportunity will be rare.",
+
+"Day 78
+I have taken the property of a floran's crumbly spaceship. While it is in poor state, my flesh has absorbed it to transform it into a proper vessel. Large enough to house us, we fare through space together from now on."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 0
+  }
+}

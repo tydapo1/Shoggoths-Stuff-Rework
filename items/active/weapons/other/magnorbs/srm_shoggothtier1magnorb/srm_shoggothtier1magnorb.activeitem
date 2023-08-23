@@ -1,0 +1,65 @@
+{
+  "itemName" : "srm_shoggothtier1magnorb",
+  "level" : 1,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Pulled straight from a corpse, this will atleast allow you to defend yourself.",
+  "shortdescription" : "The Oversight",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+
+  "shieldRotateValue" : 1,
+  "shieldSpacingQ" : false,
+  "shieldLock" : false,
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 2,
+  "orbitRate" : 0.2,
+
+  "projectileType" : "srm_tier1shoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 8.0, // twice the hit damage
+    "knockback" : 5,
+    "speed" : 40,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 100,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 20,
+  "shieldKnockback" : 10,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

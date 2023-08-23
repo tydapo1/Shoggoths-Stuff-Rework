@@ -1,0 +1,488 @@
+{
+  "shoggothStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "srm_eldritchslime", 666 ] },
+		{"item" : [ "srm_todolist-codex", 1 ] }
+      ]
+    }]
+  ],
+  
+  "shoggoffeeMachine" : [
+    [0, {
+      "fill" : [
+        {"item" : "srm_coffee"}
+      ]
+    }]
+  ],
+
+  "bleedCells" : [
+    [0, {
+      "poolRounds" : [
+        [0.67, 0],
+        [0.33, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : ["srm_deadcells", 1]}
+      ]
+    }]
+  ],
+
+  "bleedCellsDeath" : [
+    [0, {
+      "poolRounds" : [
+        [1.00, 0],
+        [0.66, 1],
+        [0.33, 2]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_deadcells", 1]},
+        {"weight" : 0.66, "item" : ["srm_deadcells", 2]},
+        {"weight" : 0.33, "item" : ["srm_deadcells", 3]}
+      ]
+    }]
+  ],
+
+  "bleedOrgans" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 1],
+        [0.33, 2],
+        [0.11, 3]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_brain", 1]},
+        {"weight" : 1.00, "item" : ["srm_lungs", 1]},
+        {"weight" : 1.00, "item" : ["srm_stomach", 1]},
+        {"weight" : 1.00, "pool" :  "srm_eyeball_pool"},
+        {"weight" : 1.00, "pool" :  "srm_kidney_pool"},
+        {"weight" : 1.00, "item" : ["srm_liver", 1]},
+        {"weight" : 1.00, "item" : ["srm_heart", 1]},
+        {"weight" : 1.00, "item" : ["srm_pancreas", 1]},
+        {"weight" : 1.00, "pool" :  "srm_veins_pool"},
+        {"weight" : 1.00, "pool" :  "srm_nerves_pool"},
+        {"weight" : 1.00, "pool" :  "srm_intestines_pool"}
+      ]
+    }]
+  ],
+
+  "srm_eyeball_pool" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 1],
+        [0.3, 2]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_eyeball", 1]}
+      ]
+    }]
+  ],
+
+  "srm_kidney_pool" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 1],
+        [0.3, 2]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_kidney", 1]}
+      ]
+    }]
+  ],
+
+  "srm_veins_pool" : [
+    [0, {
+      "poolRounds" : [
+        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
+		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
+		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
+		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_veins", 1]}
+      ]
+    }]
+  ],
+
+  "srm_nerves_pool" : [
+    [0, {
+      "poolRounds" : [
+        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
+		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
+		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
+		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_nerves", 1]}
+      ]
+    }]
+  ],
+
+  "srm_intestines_pool" : [
+    [0, {
+      "poolRounds" : [
+        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
+		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
+		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
+		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_intestines", 1]}
+      ]
+    }]
+  ],
+  
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+VAULT STUFF
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+  "deadcellsBurst" : [
+    [0, {
+      "fill" : [
+        { "item" : "srm_organblueprint" }
+      ],
+      "poolRounds" : [
+        [1.0, 10]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "item" : ["srm_deadcells", 8]},
+        {"weight" : 1.00, "item" : ["srm_deadcells", 9]},
+        {"weight" : 1.00, "item" : ["srm_deadcells", 10]},
+        {"weight" : 1.00, "item" : ["srm_deadcells", 11]},
+        {"weight" : 1.00, "item" : ["srm_deadcells", 12]}
+      ]
+    }]
+  ],
+
+  "deadcellsDrop" : [
+    [0, {
+      "fill" : [
+        { "pool" : "runestoneTreasure" }
+      ],
+      "poolRounds" : [
+        [1.0, 3]
+      ],
+      "pool" : [
+        {"weight" : 0.25, "item" : ["srm_deadcells", 1] },
+        {"weight" : 0.50, "item" : ["srm_deadcells", 2] },
+        {"weight" : 0.25, "item" : ["srm_deadcells", 3] }
+      ]
+    }]
+  ],
+  
+  "corruptedGuardianTreasure" : [
+    [0, {
+      "fill" : [
+        { "item" : "srm_golemcore" }
+      ]
+    }]
+  ],
+
+  "trialPotSmall" : [
+    [0, {
+      "fill" : [
+        { "pool" : "runestoneTreasure" }
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : ["srm_deadcells", 1]}
+      ]
+    }]
+  ],
+
+  "trialPotMedium" : [
+    [0, {
+      "fill" : [
+        { "pool" : "runestoneTreasure" }
+      ],
+      "pool" : [
+        {"weight" : 0.5, "item" : ["srm_deadcells", 1]},
+        {"weight" : 0.5, "item" : ["srm_deadcells", 2]}
+      ]
+    }]
+  ],
+
+  "trialPotLarge" : [
+    [0, {
+      "fill" : [
+        { "pool" : "runestoneTreasure" }
+      ],
+      "pool" : [
+        {"weight" : 0.5, "item" : ["srm_deadcells", 2]},
+        {"weight" : 0.5, "item" : ["srm_deadcells", 3]}
+      ]
+    }]
+  ],
+  
+  "runestoneTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "srm_runestone_air"},
+		{"weight" : 1.00, "item" : "srm_runestone_earth"},
+		{"weight" : 1.00, "item" : "srm_runestone_fire"},
+		{"weight" : 1.00, "item" : "srm_runestone_water"},
+        {"weight" : 1.00, "item" : "srm_runestone_gold"},
+		{"weight" : 1.00, "item" : "srm_runestone_iron"},
+		{"weight" : 1.00, "item" : "srm_runestone_lead"},
+		{"weight" : 1.00, "item" : "srm_runestone_mercury"},
+		{"weight" : 1.00, "item" : "srm_runestone_sulphur"}
+      ]
+    }]
+  ],
+  
+  "blueprintRunestoneTreasure" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 3]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "runestoneTreasure"}
+      ]
+    }]
+  ],
+  
+  "ruinRunestoneTreasure" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 10]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "runestoneTreasure"}
+      ]
+    }]
+  ],
+  
+  "ruinBellyTreasure" : [
+    [0, {
+      "fill" : [
+        { "item" : "srm_ruinblueprint" },
+        { "pool" : "valuableTreasure" },
+        { "pool" : "valuableTreasure" },
+        { "pool" : "valuableTreasure" },
+        { "pool" : "ruinRunestoneTreasure" }
+      ],
+      "poolRounds" : [
+        [1.0, 50]
+      ],
+      "pool" : [
+        {"weight" : 1.00, "pool" : "basicTreasure"},
+        {"weight" : 1.00, "pool" : "chestMoney"}
+      ]
+    }]
+  ],
+  
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+FOOD
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+  "foodPackagingPool" : [
+    [0, {
+      "pool" : [
+        {"weight" : 6.00, "pool" : "foodTier1"},
+        {"weight" : 5.00, "pool" : "foodTier2"},
+        {"weight" : 4.00, "pool" : "foodTier3"},
+        {"weight" : 3.00, "pool" : "foodTier4"},
+        {"weight" : 2.00, "pool" : "foodTier5"},
+        {"weight" : 1.00, "pool" : "foodTier6"}
+      ]
+    }]
+  ],
+  
+  "foodTier1" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "bakedpotato"},
+        {"weight" : 1.00, "item" : "boiledpearlpeas"},
+        {"weight" : 1.00, "item" : "boiledrice"},
+        {"weight" : 1.00, "item" : "bread"},
+        {"weight" : 1.00, "item" : "cookedtomato"},
+        {"weight" : 1.00, "item" : "corncob"},
+        {"weight" : 1.00, "item" : "fishdumplings"},
+        {"weight" : 1.00, "item" : "fishfingers"},
+        {"weight" : 1.00, "item" : "fishnchips"},
+        {"weight" : 1.00, "item" : "fishpie"},
+        {"weight" : 1.00, "item" : "fishstew"},
+        {"weight" : 1.00, "item" : "mashedpotato"},
+        {"weight" : 1.00, "item" : "meatdumplings"},
+        {"weight" : 1.00, "item" : "meatpie"},
+        {"weight" : 1.00, "item" : "meatstew"},
+        {"weight" : 1.00, "item" : "pearlpeabroth"},
+        {"weight" : 1.00, "item" : "pearlpearisotto"},
+        {"weight" : 1.00, "item" : "popcorn"},
+        {"weight" : 1.00, "item" : "potatogrids"},
+        {"weight" : 1.00, "item" : "roastedcarrot"},
+        {"weight" : 1.00, "item" : "roastedmushrooms"},
+        {"weight" : 1.00, "item" : "toast"}
+      ]
+    }]
+  ],
+  
+  "foodTier2" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "applecrumble"},
+        {"weight" : 1.00, "item" : "baconpancakes"},
+        {"weight" : 1.00, "item" : "beakseedbread"},
+        {"weight" : 1.00, "item" : "beakseedjam"},
+        {"weight" : 1.00, "item" : "beakseedtart"},
+        {"weight" : 1.00, "item" : "bonbonbonbons"},
+        {"weight" : 1.00, "item" : "bonbons"},
+        {"weight" : 1.00, "item" : "cactusjuice"},
+        {"weight" : 1.00, "item" : "cake"},
+        {"weight" : 1.00, "item" : "candiedcorn"},
+        {"weight" : 1.00, "item" : "candyapple"},
+        {"weight" : 1.00, "item" : "carrotbread"},
+        {"weight" : 1.00, "item" : "carrotjuice"},
+        {"weight" : 1.00, "item" : "carrotsoup"},
+        {"weight" : 1.00, "item" : "cheeseburger"},
+        {"weight" : 1.00, "item" : "chocolatecake"},
+        {"weight" : 1.00, "item" : "coffee"},
+        {"weight" : 1.00, "item" : "coffeecake"},
+        {"weight" : 1.00, "item" : "cornpeckers"},
+        {"weight" : 1.00, "item" : "feathercrownjam"},
+        {"weight" : 1.00, "item" : "featherfood"},
+        {"weight" : 1.00, "item" : "flatwhite"},
+        {"weight" : 1.00, "item" : "fluffyruffs"},
+        {"weight" : 1.00, "item" : "gardensalad"},
+        {"weight" : 1.00, "item" : "hamburger"},
+        {"weight" : 1.00, "item" : "kiwijam"},
+        {"weight" : 1.00, "item" : "kiwijuice"},
+        {"weight" : 1.00, "item" : "mocha"},
+        {"weight" : 1.00, "item" : "mushroombread"},
+        {"weight" : 1.00, "item" : "mushroomquiche"},
+        {"weight" : 1.00, "item" : "mushroomrice"},
+        {"weight" : 1.00, "item" : "omelette"},
+        {"weight" : 1.00, "item" : "pasty"},
+        {"weight" : 1.00, "item" : "pearlpeajam"},
+        {"weight" : 1.00, "item" : "pearlpeapancakes"},
+        {"weight" : 1.00, "item" : "pizza"},
+        {"weight" : 1.00, "item" : "pizzaslice"},
+        {"weight" : 1.00, "item" : "porridge"},
+        {"weight" : 1.00, "item" : "quichelorraine"},
+        {"weight" : 1.00, "item" : "relish"},
+        {"weight" : 1.00, "item" : "ricepudding"},
+        {"weight" : 1.00, "item" : "roastdinner"},
+        {"weight" : 1.00, "item" : "specialrice"},
+        {"weight" : 1.00, "item" : "spicycookies"},
+        {"weight" : 1.00, "item" : "stickyribs"},
+        {"weight" : 1.00, "item" : "stuffedtomato"},
+        {"weight" : 1.00, "item" : "sweetmeat"},
+        {"weight" : 1.00, "item" : "sweetpopcorn"},
+        {"weight" : 1.00, "item" : "tomatojuice"},
+        {"weight" : 1.00, "item" : "tomatosoup"}
+      ]
+    }]
+  ],
+  
+  "foodTier3" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "2kbpotage"},
+        {"weight" : 1.00, "item" : "apegrapes"},
+        {"weight" : 1.00, "item" : "apexfritter"},
+        {"weight" : 1.00, "item" : "automatoshake"},
+        {"weight" : 1.00, "item" : "automatostew"},
+        {"weight" : 1.00, "item" : "bananacon"},
+        {"weight" : 1.00, "item" : "bananacreamdonut"},
+        {"weight" : 1.00, "item" : "bananacreampie"},
+        {"weight" : 1.00, "item" : "bananaicecream"},
+        {"weight" : 1.00, "item" : "batteredbanana"},
+        {"weight" : 1.00, "item" : "cactiicecream"},
+        {"weight" : 1.00, "item" : "campfirebanana"},
+        {"weight" : 1.00, "item" : "candyautomato"},
+        {"weight" : 1.00, "item" : "choconut"},
+        {"weight" : 1.00, "item" : "coconuticecream"},
+        {"weight" : 1.00, "item" : "coconutmilk"},
+        {"weight" : 1.00, "item" : "coconutrice"},
+        {"weight" : 1.00, "item" : "desertsalsa"},
+        {"weight" : 1.00, "item" : "fishinabone"},
+        {"weight" : 1.00, "item" : "fruitsalad"},
+        {"weight" : 1.00, "item" : "grapejuice"},
+        {"weight" : 1.00, "item" : "luckydip"},
+        {"weight" : 1.00, "item" : "pineapplejam"},
+        {"weight" : 1.00, "item" : "pineapplejuice"},
+        {"weight" : 1.00, "item" : "pineapplepizzaslice"},
+        {"weight" : 1.00, "item" : "snowcone"},
+        {"weight" : 1.00, "item" : "spookydonut"},
+        {"weight" : 1.00, "item" : "spookypie"},
+        {"weight" : 1.00, "item" : "stuffedautomato"},
+        {"weight" : 1.00, "item" : "sweetpunch"},
+        {"weight" : 1.00, "item" : "thornjuice"},
+        {"weight" : 1.00, "item" : "tropicalpunch"}
+      ]
+    }]
+  ],
+  
+  "foodTier4" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "alienfruitjam"},
+        {"weight" : 1.00, "item" : "alienfruitjuice"},
+        {"weight" : 1.00, "item" : "avesmingoicecream"},
+        {"weight" : 1.00, "item" : "avesmingojuice"},
+        {"weight" : 1.00, "item" : "bananasplit"},
+        {"weight" : 1.00, "item" : "bloodypuss"},
+        {"weight" : 1.00, "item" : "brineapple"},
+        {"weight" : 1.00, "item" : "cyanider"},
+        {"weight" : 1.00, "item" : "oceanrisotto"},
+        {"weight" : 1.00, "item" : "oceansalsa"},
+        {"weight" : 1.00, "item" : "oceansurprise"},
+        {"weight" : 1.00, "item" : "oculemonmeringue"},
+        {"weight" : 1.00, "item" : "oculemonstew"},
+        {"weight" : 1.00, "item" : "pussplumjam"},
+        {"weight" : 1.00, "item" : "pussplumpudding"},
+        {"weight" : 1.00, "item" : "pussplumtart"},
+        {"weight" : 1.00, "item" : "reefjuice"},
+        {"weight" : 1.00, "item" : "reefpodsurprise"},
+        {"weight" : 1.00, "item" : "reefshake"},
+        {"weight" : 1.00, "item" : "ricecake"},
+        {"weight" : 1.00, "item" : "saltsalad"},
+        {"weight" : 1.00, "item" : "seafoodgratin"},
+        {"weight" : 1.00, "item" : "soggysack"},
+        {"weight" : 1.00, "item" : "stuffeddirturchin"},
+        {"weight" : 1.00, "item" : "sushi"},
+        {"weight" : 1.00, "item" : "toxicjamdonut"},
+        {"weight" : 1.00, "item" : "toxicjuice"},
+        {"weight" : 1.00, "item" : "toxictart"},
+        {"weight" : 1.00, "item" : "toxictopjam"}
+      ]
+    }]
+  ],
+  
+  "foodTier5" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "8gbpizzap"},
+        {"weight" : 1.00, "item" : "16gbpasty"},
+        {"weight" : 1.00, "item" : "boltos"},
+        {"weight" : 1.00, "item" : "eggshooticecream"},
+        {"weight" : 1.00, "item" : "eggshootsalad"},
+        {"weight" : 1.00, "item" : "eyebowls"},
+        {"weight" : 1.00, "item" : "nutsandbolts"},
+        {"weight" : 1.00, "item" : "piodia"},
+        {"weight" : 1.00, "item" : "smash"}
+      ]
+    }]
+  ],
+  
+  "foodTier6" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "burningeyeballs"},
+        {"weight" : 1.00, "item" : "coralcreepcurry"},
+        {"weight" : 1.00, "item" : "hotbone"},
+        {"weight" : 1.00, "item" : "hothothotpot"},
+        {"weight" : 1.00, "item" : "neonmelonjam"},
+        {"weight" : 1.00, "item" : "pearlpeaparcels"},
+        {"weight" : 1.00, "item" : "pozest"},
+        {"weight" : 1.00, "item" : "spicyfeathercrown"},
+        {"weight" : 1.00, "item" : "spicyribs"},
+        {"weight" : 1.00, "item" : "ultimatejuice"},
+        {"weight" : 1.00, "item" : "volcanicsalsa"},
+        {"weight" : 1.00, "item" : "wartweedjam"},
+        {"weight" : 1.00, "item" : "wartweedjamdonut"},
+        {"weight" : 1.00, "item" : "wartweedstew"}
+      ]
+    }]
+  ]
+}

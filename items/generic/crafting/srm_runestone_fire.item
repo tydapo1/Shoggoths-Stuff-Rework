@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_fire",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_fire.png",
+  "description" : "A magical slate, imprinted with the element of fire.",
+  "shortdescription" : "Fire Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}

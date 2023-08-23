@@ -1,0 +1,25 @@
+{
+  "id" : "srm_deathstatelog5",
+  "title" : "Deathstate Log Tier 5",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"Tumerichan's Lungs : 
+A sorceror and a spice merchant, Tumerichan was a legendary traveler of the outer realms. His life's work dealing in exotic trade goods left his lungs saturated and stained with psychoactive essence.",
+
+"Aggravating Brain : 
+A bizarre brain with a mind of its own (albeit a weak one). It whispers inside my skull. I can feel my magic abilities refocus on power over speed.",
+
+"The Hungry Heart : 
+A voracious thing that looks like it could devour a host from the inside out. It grins its teeth when I hold it close to my body.",
+
+"Brutal Gug Stomach : 
+A vile organ from a mighty gug champion. I feel it twisting violently inside of me."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

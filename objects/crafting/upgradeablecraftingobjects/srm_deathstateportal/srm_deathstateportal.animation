@@ -1,0 +1,71 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "srm_deathstateportalunignited",
+        "states" : {
+          "srm_deathstateportalunignited" : { },
+          "srm_deathstateportalignited" : {
+            "frames" : 8,
+            "cycle" : 0.8,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "portalglow" ],
+              "persistentSound" : "/sfx/objects/bunkerwires.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "main" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "srm_deathstateportalunignited" : {
+              "properties" : {
+                "image" : "srm_deathstateportalunignited.png"
+              }
+            },
+
+            "srm_deathstateportalignited" : {
+              "properties" : {
+                "image" : "srm_deathstateportalignited.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/objects/deathstateaccess.ogg"]
+  },
+
+  "lights" : {
+    "portalglow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [170, 170, 230],
+      "flickerPeriod" : 0.4,
+      "flickerMinIntensity" : 0.8,
+      "flickerMaxIntensity" : 1.2,
+      "flickerPeriodVariance" : 0.0,
+      "flickerIntensityVariance" : 0.0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

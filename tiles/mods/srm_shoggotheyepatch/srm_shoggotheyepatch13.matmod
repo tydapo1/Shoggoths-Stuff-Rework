@@ -1,0 +1,22 @@
+{
+  "modId" : 36513,
+  "modName" : "srm_shoggotheyepatch13",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=acd3f1fe;d0c8a0fe=9fc3defe;b8b188fe=91b1c9fe;a09976fe=829fb5fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// CREAMY BLUEBERRY
+
+//	f9f0c5fe=acd3f1fe;
+//	d0c8a0fe=9fc3defe;
+//	b8b188fe=91b1c9fe;
+//	a09976fe=829fb5fe

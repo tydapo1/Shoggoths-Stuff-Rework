@@ -1,0 +1,14 @@
+{
+  "kind" : "srm_stunned",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/stunned/srm_stunned.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [0, 0],
+    "fade" : 0.5,
+    "size" : 1.0,
+    "timeToLive" : 1.0
+  }
+}

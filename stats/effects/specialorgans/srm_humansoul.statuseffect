@@ -1,0 +1,9 @@
+{
+  "name" : "srm_humansoul",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_humansoul.lua"
+  ]
+}

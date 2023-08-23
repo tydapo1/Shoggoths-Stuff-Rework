@@ -1,0 +1,25 @@
+{
+  "id" : "srm_deathstatelog3",
+  "title" : "Deathstate Log Tier 3",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"Vembrax's Lungs : 
+The lungs of the arachnid demon witch, Vembrax. She enchanted her throat and lungs so that her breath was poison. She delighted in decimating foes with her demon song, her noxious breath and withering words working in double concert to guarantee the demise of her enemies.",
+
+"The Brain of Duke Theris : 
+The only remains of a despotic duke notorious for wielding ruthlessly brutal authority over the realms he controlled. His subjects eventually revolted and destroyed his body but kept his mind alive and imprisoned as punishment for his wicked reign.",
+
+"Hermeth's Heart : 
+A shell encased heart once owned by the wizard, Hermeth. She made her home in the astral sea and learned the ways of the chitinous beings that dwell there. Her rituals and their knowledge enabled her to strengthen her body and fortify her vital organs with armored plates.",
+
+"Bejeweled Spleen : 
+A returned heirloom of Queen Umvorax's lost life. Someone had been carefully gliding her boned and stuffing embalmed organs into her handsome frame!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

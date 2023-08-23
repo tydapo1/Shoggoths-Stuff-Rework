@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_donut",
+  "rarity" : "Common",
+  "price" : 65,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_donut.png",
+  "description" : "Too gross.",
+  "shortdescription" : "Shoggonut",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 130
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 260
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 260
+    }
+  ] ],
+  "foodValue" : 65,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

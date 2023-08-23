@@ -1,0 +1,64 @@
+{
+  "itemName" : "srm_shoggothtier3magnorb",
+  "level" : 3,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "With some titanium thread and strong magnets, you can manipulate the knive to control them as desired.",
+  "shortdescription" : "Magnetic Knives",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png",
+    "orb4" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 4,
+  "orbitRate" : 0.6,
+
+  "projectileType" : "srm_tier3shoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 8.0, // twice the hit damage
+    "knockback" : 5,
+    "speed" : 60,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 120,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 40,
+  "shieldKnockback" : 20,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

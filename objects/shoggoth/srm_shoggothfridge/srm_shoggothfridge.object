@@ -1,0 +1,54 @@
+{
+  "objectName" : "srm_shoggothfridge",
+  "rarity" : "Common",
+  "category" : "fridgeStorage",
+  "price" : 180,
+  "printable" : false,
+  
+  "description" : "This fridge is breathing frigid air?!",
+  "shortdescription" : "Shoggoth Fridge",
+  "race" : "shoggoth",
+  "colonyTags" : ["shoggoth","cooking","storage"],
+
+  "apexDescription" : "A fridge. It's breathing very calmly... Wait, what?",
+  "avianDescription" : "A living fridge. Somehow, it is willing to cooperate for food conservation.",
+  "floranDescription" : "Floran not like machine, hurt Floran when hungry.",
+  "glitchDescription" : "Concerned. This fridge is more organic than I am.",
+  "humanDescription" : "Me and this cool fridge shared a bear once. Good times.",
+  "hylotlDescription" : "The near sub-zero temperature helps this monster conserve it's own organs.",
+  "novakidDescription" : "Ugly fridge and ugly colors.",
+
+  "inventoryIcon" : "srm_shoggothfridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothfridge.png:<color>",
+
+      "imagePosition" : [-8, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/egg_wobbling2.ogg",
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothfridge/srm_shoggothfridge.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

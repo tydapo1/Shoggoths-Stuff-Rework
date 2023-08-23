@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothplatformtentacle",
+    "cleanName"		:	"^shadow;Tentacled Shogform^reset;",
+	"type"			:	"platform",
+	"icon"			:	"/tiles/platforms/srm_shoggothplatformtentacle.png",
+	"paletteType"	:	"flesh"
+}

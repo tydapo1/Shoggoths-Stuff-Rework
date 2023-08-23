@@ -1,0 +1,42 @@
+{
+	"type" : "shoggothvisitor",
+	"baseType" : "outpostvisitor",
+	"statusControllerSettings" : {
+		"statusProperties" : {
+			"effectDirectives" : ""
+		}
+	},
+	"scriptConfig" : {
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Do not mind me, I won't remain long.",
+						"Once I find what I wish, I shall quickly depart.",
+						"Am I in your way? sorry, I will quicky step out."
+					],
+					"shoggoth" : [
+						"To meet one of our kin is quite a rare sight. I hope you have a nice day."
+					]
+				}
+			}
+		}
+	},
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [
+							{ "name" : "srm_shoggothmaidchest", "parameters" : { "colorIndex" : 0 } }
+						],
+						"legs" : [
+							{ "name" : "srm_shoggothmaidlegs", "parameters" : { "colorIndex" : 0 } }
+						],
+						"head" : [
+							{ "name" : "srm_shoggothmaidhead", "parameters" : { "colorIndex" : 0 } }
+						]
+					}
+				] ]
+		]
+	}
+}

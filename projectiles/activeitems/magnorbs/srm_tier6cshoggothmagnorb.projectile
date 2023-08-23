@@ -1,0 +1,204 @@
+{
+  "projectileName" : "srm_tier6cshoggothmagnorb",
+  "image" : "srm_tier6cshoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/srm_regularexplosionknockbackharm/srm_regularexplosionknockbackharm.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 15
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 75
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 105
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 150
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 165
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 195
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 210
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 225
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 240
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 255
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 270
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 285
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 315
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 330
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_explosionofexplosion",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 345
+    }
+  ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "emitters" : [ "grenadesmoke" ],
+  "physics" : "grenade",
+  "bounces" : 0,
+  "piercing" : false,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/shogorb_impact1.ogg",
+        "/sfx/gun/shogorb_impact2.ogg",
+        "/sfx/gun/shogorb_impact3.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

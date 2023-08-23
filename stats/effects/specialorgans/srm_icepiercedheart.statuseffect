@@ -1,0 +1,9 @@
+{
+  "name" : "srm_icepiercedheart",
+  
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_icepiercedheart.lua"
+  ]
+}

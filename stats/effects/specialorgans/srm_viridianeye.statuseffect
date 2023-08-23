@@ -1,0 +1,9 @@
+{
+  "name" : "srm_viridianeye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_viridianeye.lua"
+  ]
+}

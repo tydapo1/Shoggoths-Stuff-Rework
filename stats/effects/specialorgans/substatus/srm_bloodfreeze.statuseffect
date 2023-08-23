@@ -1,0 +1,11 @@
+{
+  "name" : "srm_bloodfreeze",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "srm_bloodfreeze.lua"
+  ],
+
+  "animationConfig" : "srm_bloodfreeze.animation"
+}

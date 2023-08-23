@@ -1,0 +1,14 @@
+{
+  "input" : [
+	{ "item" : "srm_lungs", "count" : 1 },
+    { "item" : "srm_stemcell", "count" : 50 },
+	{ "item" : "leather", "count" : 5 },
+	{ "item" : "livingroot", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_breathlungs",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t2organ" ]
+}

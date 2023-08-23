@@ -1,0 +1,9 @@
+{
+  "name" : "srm_aggravatingbrain",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_aggravatingbrain.lua"
+  ]
+}

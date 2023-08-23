@@ -1,0 +1,128 @@
+{
+  "globalTagDefaults" : { },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "doorState" : {
+        "default" : "full",
+        "states" : {
+          "full" : { },
+          "emptying" : {
+            "frames" : 12,
+            "cycle" : 3.0,
+            "mode" : "transition",
+            "transition" : "empty"
+          },
+          "empty" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "door" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "doorState" : {
+            "full" : {
+              "properties" : {
+                "image" : "<partImage>:full"
+              }
+            },
+			
+            "emptying" : {
+              "properties" : {
+                "image" : "<partImage>:emptying.<frame>"
+              }
+            },
+
+            "empty" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "transformationGroups" : {
+    "block" : {}
+  },
+  
+  "particleEmitters" : {
+	"sand" : {
+      "active" : true,
+      "transformationGroups" : ["block"],
+	  "offsetRegion" : [0, 0, 3, 3],
+      "emissionRate" : 60.0,
+      "emissionRateVariance" : 0.5,
+
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "color" : [225, 226, 168],
+            "size" : 1.0,
+            "velocity" : [0, -2],
+            "timeToLive" : 1,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.5,
+            "collidesForeground" : false,
+            "collidesLiquid" : true,
+            "ignoreWind" : false
+          }
+        },
+		{
+		  "particle" : {
+            "type" : "ember",
+            "color" : [209, 204, 135],
+            "size" : 1.0,
+            "velocity" : [0, -1],
+            "timeToLive" : 1,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1,
+            "collidesForeground" : false,
+            "collidesLiquid" : true,
+            "ignoreWind" : false
+          }
+		},
+		{
+		  "particle" : {
+            "type" : "ember",
+            "color" : [189, 174, 101],
+            "size" : 1.0,
+            "velocity" : [0, -2],
+            "timeToLive" : 1,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1.5,
+            "collidesForeground" : false,
+            "collidesLiquid" : true,
+            "ignoreWind" : false
+          }
+		},
+		{
+		  "particle" : {
+            "type" : "ember",
+            "color" : [165, 149, 83],
+            "size" : 1.0,
+            "velocity" : [0, -1],
+            "timeToLive" : 1,
+            "destructionAction" : "shrink",
+            "destructionTime" : 2,
+            "collidesForeground" : false,
+            "collidesLiquid" : true,
+            "ignoreWind" : false
+          }
+		}
+      ]
+    }
+  },
+
+  "sounds" : {
+    "sandobjectfall" : [ "/sfx/objects/sandfall.ogg" ]
+  }
+}

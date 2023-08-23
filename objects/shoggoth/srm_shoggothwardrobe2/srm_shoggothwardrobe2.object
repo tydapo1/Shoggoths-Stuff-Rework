@@ -1,0 +1,56 @@
+{
+  "objectName" : "srm_shoggothwardrobe2",
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 160,
+  "printable" : false,
+  
+  "description" : "A very tarry wardrobe. (Alt 1)",
+  "shortdescription" : "Shoggoth Wardrobe",
+  "race" : "shoggoth",
+  "colonyTags" : ["shoggoth","storage"],
+
+  "apexDescription" : "I'm not sure I really want to put my clothing in it...",
+  "avianDescription" : "It feels alive...",
+  "floranDescription" : "Sssssslimy wardrobe? Floran not ssssure how to react.",
+  "glitchDescription" : "Concerned. Eldritch furniture does nothing good for the mind.",
+  "humanDescription" : "Oh god, it has a pulse!",
+  "hylotlDescription" : "Perhaps something forbidden sits within. Looks can be deceiving.",
+  "novakidDescription" : "Can wardrobes drink beer?",
+
+  "inventoryIcon" : "srm_shoggothwardrobe2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothwardrobe2.png:<color>",
+
+      "imagePosition" : [-8, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ 
+		[-1, 0], [0, 0], [1, 0], 
+		[-1, 1], [0, 1], [1, 1], 
+		[-1, 2], [0, 2], [1, 2], 
+		[-1, 3], [0, 3], [1, 3], 
+		[-1, 4], [0, 4], [1, 4] 
+	  ],
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothwardrobe2/srm_shoggothwardrobe2.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

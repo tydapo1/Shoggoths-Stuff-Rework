@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_elinbergsheart",
+  "price" : 10000,
+  "inventoryIcon" : "srm_elinbergsheart.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Chest",
+  "description" : "What's left of Elinberg's soul allows introspection, offered by idleness, to empower the self.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Elinberg's Heart^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

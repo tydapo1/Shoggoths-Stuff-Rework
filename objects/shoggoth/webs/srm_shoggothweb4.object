@@ -1,0 +1,38 @@
+{
+  "objectName" : "srm_shoggothweb4",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "Strange tar webbing. (Alt 3)",
+  "shortdescription" : "Shoggoth Web",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "apexDescription" : "This looks eldritch in origin. Best to leave now to avoid trouble.",
+  "avianDescription" : "This looks disgusting! I am not touching it!",
+  "floranDescription" : "Smellsss like danger!",
+  "glitchDescription" : "Observant. This tar-like substance was created by something eldritch.",
+  "humanDescription" : "This stuff is absurdly sticky, best not to touch it.",
+  "hylotlDescription" : "This is similar to the floran beast's substance, albeit much worse.",
+  "novakidDescription" : "Man, this is creepy.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothweb4.png:<color>",
+
+      "imagePosition" : [-104, -88],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/webs/srm_shoggothweb4.png",
+  "placementImagePosition" : [-104, -88],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "srm_cannibalism",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "srm_cannibalism.lua"
+  ]
+}

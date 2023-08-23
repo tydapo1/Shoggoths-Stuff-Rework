@@ -1,0 +1,11 @@
+{
+  "name" : "srm_vembraxslungs",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_vembraxslungs.animation",
+
+  "scripts" : [
+    "srm_vembraxslungs.lua"
+  ]
+}

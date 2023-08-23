@@ -1,0 +1,103 @@
+{
+  "itemName" : "srm_fistsyoufightwith",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "It's time to brawl!",
+  "shortdescription" : "Your Fists",
+  "tooltipKind" : "fistweapon",
+  "category" : "fistWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "fisticon.png",
+  "animation" : "srm_fistsyoufightwith.animation",
+  "animationParts" : {
+    "weapon" : "fist.png",
+    "swoosh" : "swoosh/physicalswoosh.png"
+  },
+  "scripts" : [ "srm_fistsyoufightwith.lua" ],
+
+  "needsEdgeTrigger" : true,
+  "edgeTriggerGrace" : 0.1,
+  "freezeLimit" : 3,
+
+  "comboSteps" : 3,
+  "comboTiming" : [0.2, 0.5],
+  "comboCooldown" : 0.1,
+  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/uppercutnofloat.combofinisher",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/fist/srm_punchyoufightwith.lua"],
+    "class" : "Punch",
+
+    "freezeTime" : 0.19,
+    "fireTime" : 0.4,
+    "baseDps" : 7.5,
+    "damageConfig" : {
+      "statusEffects" : [ "srm_hitfreeze" ],
+      "damageSourceKind" : "srm_smashfists",
+      "knockback" : [3, 15],
+      "timeoutGroup" : "primary",
+      "timeout" : 0.1
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 45,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.25, -0.575],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "run.2",
+        "backArmFrame" : "jump.3"
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.625, -0.125],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1"
+      },
+      "windup2" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.75, -0.125],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1",
+
+        "recoil" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [0.125, -0.25],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "rotation",
+        "backArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildfist.lua"
+}

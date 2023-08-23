@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "refinedferozium", "count" : 20 },
+	{ "item" : "paper", "count" : 20 },
+	{ "item" : "leather", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier5amagnorb",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t5organ" ]
+}

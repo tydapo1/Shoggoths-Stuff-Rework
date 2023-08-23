@@ -1,0 +1,18 @@
+{
+  "projectileName" : "srm_statusapplier",
+  "image" : "srm_statusapplier.png",
+  "frameNumber" : 1,
+  "physics" : "gas",
+  "animationCycle" : 1.0,
+  "animationLoops" : false,
+  "power" : -1,
+  "speed" : 1,
+  "timeToLive" : 0.2,
+  "bounces" : 1,
+  "damagePoly" : [ [-1, 0], [0, 1], [1, 0], [0, -1] ],
+  "piercing" : true,
+  "statusEffects" : [ ],
+  "damageTeam" : { "type" : "enemy" },
+  "damageType" : "ignoresdef",
+  "damageKind" : "nodamage"
+}

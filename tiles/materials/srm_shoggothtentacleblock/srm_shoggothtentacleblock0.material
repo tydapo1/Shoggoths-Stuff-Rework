@@ -1,0 +1,25 @@
+{
+  "materialId" : 36760,
+  "materialName" : "srm_shoggothtentacleblock0",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "srm_eldritchslime",
+  
+  "shortdescription" : "Shoggoth Tentacle",
+  "description" : "A large goopy tentacle",
+  "glitchDescription" : "Concerned. This tentacle is certainly from something quite large.",
+  "floranDescription" : "Big sstrong tentacless.",
+  "novakidDescription" : "Looks t'me like some kinda tentacle.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothtentacleblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothtentacleblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1807
+  }
+}

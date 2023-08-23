@@ -1,0 +1,9 @@
+{
+  "name" : "srm_extraarms_hooked", 
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_extraarms_hooked.lua"
+  ]
+}

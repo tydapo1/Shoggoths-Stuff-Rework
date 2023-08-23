@@ -1,0 +1,22 @@
+{
+  "modId" : 36509,
+  "modName" : "srm_shoggotheyepatch9",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=a3e160fe;d0c8a0fe=68be31fe;b8b188fe=57a12afe;a09976fe=458021fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// DUBBLE LIMEY
+
+//	f9f0c5fe=a3e160fe;
+//	d0c8a0fe=68be31fe;
+//	b8b188fe=57a12afe;
+//	a09976fe=458021fe

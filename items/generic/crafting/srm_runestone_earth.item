@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_earth",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_earth.png",
+  "description" : "A magical slate, imprinted with the element of earth.",
+  "shortdescription" : "Earth Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}

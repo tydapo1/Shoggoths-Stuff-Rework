@@ -1,0 +1,29 @@
+{
+  "id" : "srm_eldritchpoem",
+  "title" : "An Eldritch Poem",
+  "description" : "A poem written by a sentient eldritch being.",
+  "icon" : "srm_shoggothdiary.png",
+  "contentPages" : [
+
+"    Our bodies are different
+    Our needs are different
+    Our selves are different
+	
+	Our food is different
+    Our science is different
+    Our weapons are different
+	
+    Our souls are different
+    Our minds are different
+    Our spirits are different
+	
+    Maybe you think we're no different
+	Than the many others through space and time
+    But no matter the thoughts, we will always be seen as different"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 0
+  }
+}

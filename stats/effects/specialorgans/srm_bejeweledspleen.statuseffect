@@ -1,0 +1,9 @@
+{
+  "name" : "srm_bejeweledspleen",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_bejeweledspleen.lua"
+  ]
+}

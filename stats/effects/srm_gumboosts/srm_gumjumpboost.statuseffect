@@ -1,0 +1,12 @@
+{
+  "name" : "srm_gumjumpboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_gumjumpboost.lua"
+  ],
+
+  "label" : "Jump Boost",
+  "icon" : "/interface/statuses/jumpboost20.png"
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "srm_soulreactor",
+  "effectConfig" : {
+    "range" : 3,
+    "damageProjectileType" : "srm_soulreactorheartexplosion",
+    "damageMultiplier" : 12,
+    "cooldown" : 1
+
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "srm_soulreactor.lua"
+  ]
+}

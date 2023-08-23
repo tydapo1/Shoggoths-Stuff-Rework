@@ -1,0 +1,44 @@
+{
+  "objectName" : "srm_bloodbank",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A blood bank, used to extract some blood.",
+  "shortdescription" : "^orange;Blood Donation Machine^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 100,
+
+  "apexDescription" : "A blood donation machine, used to draw blood from my body.",
+  "avianDescription" : "A blood donation machine, used to draw blood from my body.",
+  "floranDescription" : "Blooooood machine!",
+  "glitchDescription" : "A blood donation machine, used to draw blood from my body.",
+  "humanDescription" : "A blood donation machine, used to draw blood from my body.",
+  "hylotlDescription" : "A blood donation machine, used to draw blood from my body.",
+  "novakidDescription" : "A blood bank, I was always scared of needles.",
+
+  "inventoryIcon" : "srm_bloodbankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_bloodbank.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitPosition" : [-16, 20],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sad",
+  "sitStatusEffects" : [
+    "srm_liquidremoval"
+  ],
+  "sitEffectEmitters" : [ "blood" ]
+}

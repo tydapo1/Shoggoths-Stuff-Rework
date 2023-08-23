@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "srm_shoggothtier3chest", "count" : 1 },
+	{ "item" : "srm_stemcell", "count" : 25 },
+	{ "item" : "durasteelbar", "count" : 5 },
+	{ "item" : "medkit", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier4chest",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t4organ" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "srm_healaura",
+  "effectConfig" : {
+    "healAmount" : 5
+  },
+  "defaultDuration" : 0.001,
+
+  "scripts" : [
+    "instantheal.lua"
+  ]
+}

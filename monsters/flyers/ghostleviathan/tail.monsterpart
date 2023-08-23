@@ -1,0 +1,9 @@
+{
+  "name" : "srm_ghostleviathantail",
+  "category" : "srm_ghostleviathantail",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "tail.png"
+  }
+}

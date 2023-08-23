@@ -1,0 +1,16 @@
+{
+  "modId" : 36997,
+  "modName" : "srm_tilled",
+  "description" : "Moist tilled slime, perfect for growing crops!",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "tilled" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_tilled.png",
+    "variants" : 12,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

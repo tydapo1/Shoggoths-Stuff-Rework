@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "ironbar", "count" : 20 },
+	{ "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier1flail",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t1organ" ]
+}

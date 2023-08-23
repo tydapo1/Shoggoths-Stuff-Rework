@@ -1,0 +1,102 @@
+{
+  "objectName" : "srm_shoggothpod",
+  "colonyTags" : ["shoggoth","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 165,
+  "lightColor" : [165, 29, 36],
+
+  "flickerPeriod" : 2,
+  "flickerMinIntensity" : 0.8,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "The pod is empty.",
+  "shortdescription" : "Shoggoth Support Pod",
+  "race" : "shoggoth",
+
+  "apexDescription" : "Thankfully this pod is empty. Is this how the Miniknog attempt to return us to our natural state?",
+  "avianDescription" : "This is dark science...",
+  "floranDescription" : "Sssuch machines are unnatural.",
+  "glitchDescription" : "Attentive. Machine appears to attempt to alter Apex DNA.",
+  "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
+  "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
+  "novakidDescription" : "I ain't going near that.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [1, 24],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : ["bed6"],
+  
+  "inventoryIcon" : "srm_shoggothpodicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothpod.png:<frame><color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [-16, 0],
+      "lightPosition" : [0, 3],
+
+      "spaces" : [ 
+	    [-2, 7], [-1, 7], [0, 7], [1, 7],
+	    [-2, 6], [-1, 6], [0, 6], [1, 6],
+	    [-2, 5], [-1, 5], [0, 5], [1, 5],
+	    [-2, 4], [-1, 4], [0, 4], [1, 4],
+	    [-2, 3], [-1, 3], [0, 3], [1, 3],
+	    [-2, 2], [-1, 2], [0, 2], [1, 2],
+	    [-2, 1], [-1, 1], [0, 1], [1, 1],
+	    [-2, 0], [-1, 0], [0, 0], [1, 0]
+	  ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothpod.png:<frame><color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+      "animationPosition" : [-16, 0],
+      "lightPosition" : [0, 3],
+
+      "spaces" : [ 
+	    [-2, 7], [-1, 7], [0, 7], [1, 7],
+	    [-2, 6], [-1, 6], [0, 6], [1, 6],
+	    [-2, 5], [-1, 5], [0, 5], [1, 5],
+	    [-2, 4], [-1, 4], [0, 4], [1, 4],
+	    [-2, 3], [-1, 3], [0, 3], [1, 3],
+	    [-2, 2], [-1, 2], [0, 2], [1, 2],
+	    [-2, 1], [-1, 1], [0, 1], [1, 1],
+	    [-2, 0], [-1, 0], [0, 0], [1, 0]
+	  ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/apexpod.ogg",
+
+  "animation" : "/objects/shoggoth/srm_shoggothpod/srm_shoggothpod.animation",
+  "animationParts" : {
+    "bg" : "srm_shoggothpod.png",
+    "fg" : "srm_shoggothpodlit.png"
+  },
+
+  "scripts" : [ "/objects/shoggoth/srm_shoggothpod/srm_shoggothpod.lua" ],
+  "scriptDelta" : 60,
+  "inputNodes" : [ [0, 0] ],
+  "sitCoverImage" : "/objects/shoggoth/srm_shoggothpod/srm_shoggothpodlit.png:on",
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothpod/srm_shoggothpod.png:on",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+
+}

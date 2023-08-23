@@ -1,0 +1,9 @@
+{
+  "name" : "srm_eaten",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_eaten.lua"
+  ]
+}

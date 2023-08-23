@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "refinedaegisalt", "count" : 20 },
+	{ "item" : "hardenedcarapace", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier5cflail",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t5organ" ]
+}

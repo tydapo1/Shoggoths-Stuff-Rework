@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_shoggothplushie",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "race" : "shoggoth",
+  "printable" : false,
+  "description" : "A cute little shoggoth.",
+  "shortdescription" : "Shoggy The Shoggoth",
+
+  "apexDescription" : "An adorable cuddly shoggoth.",
+  "avianDescription" : "A cute and cuddly toy shoggoth.",
+  "floranDescription" : "Sssquisshy toy is ssstaring at Floran.",
+  "glitchDescription" : "Overjoyed. This shoggoth is so squishy and fuzzy!",
+  "humanDescription" : "I just wanna cuddle this shoggoth forever.",
+  "hylotlDescription" : "Eeee! A wonderful shoggoth plushie. I love it!",
+  "novakidDescription" : "This lil' gal is pretty cute, I guess.",
+
+  "inventoryIcon" : "srm_shoggothplushieicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothplushie/srm_shoggothplushie.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothpillar",
+    "cleanName"		:	"^shadow;Shoggoth Pillar^reset;",
+	"type"			:	"tile",
+	"icon"			:	"/tiles/materials/srm_shoggothpillar.png",
+	"paletteType"	:	"flesh"
+}

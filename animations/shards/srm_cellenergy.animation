@@ -1,0 +1,9 @@
+{
+  "frames" : "srm_cellenergy.png",
+  "variants" : 1,
+  "loops" : 1,
+  "frameNumber" : 1,
+  "animationCycle" : 1.0,
+  "looping" : false,
+  "offset" : [0, 0]
+}

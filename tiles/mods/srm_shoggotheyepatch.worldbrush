@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggotheyepatch",
+    "cleanName"		:	"^shadow;Shoggoth Eyes^reset;",
+	"type"			:	"modifier",
+	"icon"			:	"/tiles/mods/srm_shoggotheyepatch.png",
+	"paletteType"	:	"eye"
+}

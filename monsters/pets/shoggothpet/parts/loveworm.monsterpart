@@ -1,0 +1,8 @@
+{
+  "name" : "loveworm",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "loveworm.png"
+  }
+}

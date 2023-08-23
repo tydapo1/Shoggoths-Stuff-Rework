@@ -1,0 +1,19 @@
+{
+  "kind" : "srm_shoggothtarballtechdash",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/srm_shoggothtarballtechdash.png",
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [0, 0],
+    "fade" : 1,
+    "size" : 1,
+    "layer" : "back",
+    "timeToLive" : 0.1,
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.7,
+    "variance" : {
+    }
+  }
+}

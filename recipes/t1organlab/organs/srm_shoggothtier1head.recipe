@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "srm_brain", "count" : 1 },
+    { "item" : "srm_stemcell", "count" : 30 },
+	{ "item" : "ironbar", "count" : 3 },
+	{ "item" : "leather", "count" : 3 },
+    { "item" : "copperore", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier1head",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t1organ" ]
+}

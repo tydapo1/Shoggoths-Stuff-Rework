@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "srm_stomach", "count" : 1 },
+    { "item" : "srm_stemcell", "count" : 20 },
+	{ "item" : "ironbar", "count" : 2 },
+	{ "item" : "leather", "count" : 2 },
+    { "item" : "plantfibre", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier1legs",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "organs", "t1organ" ]
+}

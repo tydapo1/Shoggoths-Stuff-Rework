@@ -1,0 +1,111 @@
+{
+  "globalTagDefaults" : {
+    "shieldFrame" : "default"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "shieldState" : {
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "on" : { }
+        }
+      }
+	},
+	"parts" : {
+      "shieldbubble" : {
+        "properties" : {
+          "transformationGroups" : [ "shieldbubble" ],
+          "centered" : true,
+          "shieldPoly" : [ [-0.5, -1.75], [-0.5, 1.75], [0.75, 1.0], [0.75, -1.0] ]
+        },
+        "partStates" : {
+          "shieldState" : {
+            "on" : {
+              "properties" : {
+			    "renderLayer" : "Player+1",
+                "zLevel" : 1,
+                "offset" : [0.0, -0.25],
+                "fullbright" : true,
+                "image" : "/tech/srm_organtech/shieldbubble.png:<shieldFrame>"
+              }
+            }
+          }
+        }
+      }
+	}
+  },
+
+  "transformationGroups" : {
+    "shieldbubble" : { "interpolated" : true }
+  },
+  
+  "particleEmitters" : {
+    "hovering" : {
+      "emissionRate" : 20,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "dash",
+          "flip" : true,
+          "offset" : [0, 0]
+        },
+        {
+          "particle" : "dash",
+          "flip" : false,
+          "offset" : [0, 0]
+        }
+      ]
+    },
+    "jetpack" : {
+      "emissionRate" : 60,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "jetboots",
+          "flip" : false,
+          "offset" : [0, -1.75]
+        },
+        {
+          "particle" : "jetboots2",
+          "flip" : false,
+          "offset" : [0, -1.75]
+        },
+        {
+          "particle" : "jetboots3",
+          "flip" : false,
+          "offset" : [0, -1.75]
+        }
+      ]
+    }
+  },
+
+  "sounds" : {
+    // Modron core
+    "hoverLoop" : ["/sfx/tech/tech_hoverloop.ogg"],
+    "hoverStart" : ["/sfx/tech/tech_dashftl.ogg"],
+    "hoverEnd" : ["/sfx/tech/tech_blink2.ogg"],
+    // Biomechanical set
+	"mechCallWarmup" : ["/sfx/objects/redalert.ogg"],
+	"mechCalled" : ["/sfx/tech/mech_activate4.ogg"],
+    "hurt" : ["/sfx/melee/blunt_hit_metal6.ogg"],
+    "walk" : ["/sfx/tech/mech_servo_step4.ogg"],
+    "jump" : ["/sfx/tech/mech_jump1.ogg"],
+    "jpack" : ["/sfx/tech/mech_jetpack_loop2.ogg"],
+    "jpackhover" : ["/sfx/tech/mech_jetpack_loop3.ogg"],
+    "jpackstop" : ["/sfx/tech/mech_jetpack_off.ogg"],
+    // Human soul
+	"shieldbreak" : ["/sfx/statuseffects/shieldbreak.ogg"],
+	"shielddizzy" : ["/sfx/statuseffects/shielddizzy.ogg"],
+    "shielddizzyloop" : ["/sfx/statuseffects/shielddizzyloop.ogg"],
+    "shieldhit" : ["/sfx/statuseffects/shieldhit.ogg"],
+    "shieldoff" : ["/sfx/statuseffects/shieldoff.ogg"],
+    "shieldon" : ["/sfx/statuseffects/shieldon.ogg"],
+    "shieldparry" : ["/sfx/statuseffects/shieldparry.ogg"],
+    "shieldairdodge" : ["/sfx/statuseffects/shieldairdodge.ogg"],
+    "shieldledgegrab" : ["/sfx/statuseffects/shieldledgegrab.ogg"],
+    // Something
+    "honk" : ["/sfx/tech/mech_horn_sportshorn.ogg"]
+  }
+}

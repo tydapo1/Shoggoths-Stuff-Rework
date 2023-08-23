@@ -1,0 +1,72 @@
+{
+  "objectName" : "srm_shoggothritualcandles",
+  "colonyTags" : ["shoggoth","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 750,
+  "description" : "A set of eldritch ritual candles.",
+  "shortdescription" : "Shoggoth Ritual Candles",
+  "race" : "generic",
+
+  "apexDescription" : "It's a set of ritual candles.",
+  "avianDescription" : "They're ritual candles.",
+  "floranDescription" : "Candlesss.",
+  "glitchDescription" : "Spooky. They're ritual candles.",
+  "humanDescription" : "Ritual candles.",
+  "hylotlDescription" : "They're rather spooky candles.",
+  "novakidDescription" : "A spooky set of candles.",
+  
+  "lightColor" : [213, 255, 146],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "srm_shoggothritualcandlesicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothritualcandles.png:<frame><color>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1]
+    },
+    {
+      "image" : "srm_shoggothritualcandles.png:<frame><color>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1]
+    }
+  ],
+
+  "animation" : "srm_shoggothritualcandles.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothritualcandleslit.png",
+    "notbright" : "srm_shoggothritualcandles.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothritualcandles/srm_shoggothritualcandles.png:1",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

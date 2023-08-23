@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_stemcell",
+    "count" : 12
+  },
+  "duration" : 0.0,
+  "groups" : [ "ingredients", "t1organ" ]
+}

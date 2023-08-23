@@ -1,0 +1,11 @@
+{
+  "name" : "srm_unstableheart",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_unstableheart.lua"
+  ],
+
+  "animationConfig" : "srm_unstableheart.animation"
+}

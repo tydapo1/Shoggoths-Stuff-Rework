@@ -1,0 +1,66 @@
+{
+  "materialId" : 36708,
+  "materialName" : "srm_shoggothplatformsmooth8",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Smooth Shoggoth Platform",
+  "description" : "The smooth platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformsmooth.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformsmooth.png?replace;515384=7b2a61;41446f=692555;323660=531a4b;242952=42183e;5b4a7e=58486a;503e70=4a3f5b;41325f=36314d;35274e=2c293e;644078=346572;5f3770=2c5760;4f2e5d=1a464c;45244a=153a3e;bcbce0=d868a0;acacd2=c85491;8686aa=b74680;75759c=9f366d;3f3f7d=346572;2f3465=2c5760;242957=1a464c;1e2251=153a3e;3f3777=58486a;302c5f=4a3f5b;282454=36314d;221f4d=2c293e;3f2f70=7b2a61;33265b=692555;2d2152=531a4b;261c48=42183e;c3c6df=84b4be;b3b6d1=6da0ab;8c8db2=5c8b93;7a7ea1=4b787f",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1811
+  }
+}
+
+// MONSTERBLUD + ALIENBLUD
+
+//  Body Top 1
+//	515384=7b2a61;
+//	41446f=692555;
+//	323660=531a4b;
+//	242952=42183e;
+//  Body Mid 1
+//	5b4a7e=58486a;
+//	503e70=4a3f5b;
+//	41325f=36314d;
+//	35274e=2c293e;
+//  Body Bottom 1
+//	644078=346572;
+//	5f3770=2c5760;
+//	4f2e5d=1a464c;
+//	45244a=153a3e;
+//  Face 1
+//	bcbce0=d868a0;
+//	acacd2=c85491;
+//	8686aa=b74680;
+//	75759c=9f366d;
+//  Body Top 2
+//	3f3f7d=346572;
+//	2f3465=2c5760;
+//	242957=1a464c;
+//	1e2251=153a3e;
+//  Body Mid 2
+//	3f3777=58486a;
+//	302c5f=4a3f5b;
+//	282454=36314d;
+//	221f4d=2c293e;
+//  Body Bottom 2
+//	3f2f70=7b2a61;
+//	33265b=692555;
+//	2d2152=531a4b;
+//	261c48=42183e;
+//  Face 2
+//	c3c6df=84b4be;
+//	b3b6d1=6da0ab;
+//	8c8db2=5c8b93;
+//	7a7ea1=4b787f

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "name": "srm_dungeonmarker",
+    "species": "dummy",
+    "rules": [
+	],
+    "anchor": [ "srm_dungeonmarker" ],
+    "maxRadius" : 1,
+    "maxParts" : 1
+  },
+  "parts": [
+    {
+      "name": "srm_dungeonmarker",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1000
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "srm_dungeonmarker.json"
+      ]
+    }
+  ]
+}

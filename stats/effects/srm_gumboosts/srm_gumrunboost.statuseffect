@@ -1,0 +1,12 @@
+{
+  "name" : "srm_gumrunboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_gumrunboost.lua"
+  ],
+
+  "label" : "Run Boost",
+  "icon" : "/interface/statuses/haste20.png"
+}

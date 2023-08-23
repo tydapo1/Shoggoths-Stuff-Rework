@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedempty",
+  "category" : "guardianboss",
+  "type" : "righthand",
+
+  "frames" : {
+    "righthand" : "empty.png",
+    "righthandfullbright" : "emptyfullbright.png"
+  }
+}

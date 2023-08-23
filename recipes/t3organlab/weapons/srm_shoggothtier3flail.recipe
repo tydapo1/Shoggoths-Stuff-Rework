@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "titaniumbar", "count" : 20 },
+	{ "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier3flail",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t3organ" ]
+}

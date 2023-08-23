@@ -1,0 +1,52 @@
+{
+  "itemName" : "srm_worldbrush",
+  "price" : 1080,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Used to paint the world with shoggothely blocks.",
+  "shortdescription" : "^reset;^reset;World Brush",
+  "tooltipKind" : "base",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : [
+    {"image" : "brush.png:1"},
+    {"image" : "brush_fullbright.png:1"},
+    {"image" : "brush_paint.png:1"}
+  ],
+
+  "animation" : "worldbrush.animation",
+  "animationParts" : {},
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/spear/srm_worldbrush/srm_worldbrush.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/spear/srm_worldbrush/worldbrushstab.lua"],
+    "class" : "WorldBrushStab",
+
+    "fireTime" : 0.5,
+    "baseDps" : 10.0
+  },
+
+  "altAbilityType" : "spearstab",
+  "altAbility" : {
+    "scripts" : ["/items/active/weapons/melee/spear/srm_worldbrush/worldbrushstab.lua"],
+    "class" : "WorldBrushStab",
+
+    "fireTime" : 0.5,
+    "baseDps" : 10.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "shoggothColorable" : true,
+  "color" : ""
+}

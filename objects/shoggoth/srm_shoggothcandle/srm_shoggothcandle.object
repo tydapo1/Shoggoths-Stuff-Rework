@@ -1,0 +1,69 @@
+{
+  "objectName" : "srm_shoggothcandle",
+  "colonyTags" : ["shoggoth","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 45,
+
+  "description" : "A small tar candle in a holder.",
+  "shortdescription" : "Shoggoth Candle",
+  "race" : "shoggoth",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A small tar candle.",
+  "avianDescription" : "Avian priests often work by candlelight.",
+  "floranDescription" : "Naked flamesss are too dangerousss!",
+  "glitchDescription" : "Sentimental. Candlelight, how I have missed it.",
+  "humanDescription" : "A pretty little candle.",
+  "hylotlDescription" : "Little is as beautiful as the flickering of a candle flame.",
+  "novakidDescription" : "A neat lil candle.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [213, 255, 146],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "srm_shoggothcandleicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothcandle.png:<frame><color>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+    {
+      "image" : "srm_shoggothcandle.png:<frame><color>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    }
+  ],
+
+  "animation" : "srm_shoggothcandle.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothcandlelit.png",
+    "notbright" : "srm_shoggothcandle.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothcandle/srm_shoggothcandle.png:1",
+  "placementImagePosition" : [0, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+
+}

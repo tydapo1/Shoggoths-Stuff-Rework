@@ -1,0 +1,11 @@
+{
+  "name" : "srm_elinbergsheart",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_elinbergsheart.animation",
+
+  "scripts" : [
+    "srm_elinbergsheart.lua"
+  ]
+}

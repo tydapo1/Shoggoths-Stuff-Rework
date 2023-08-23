@@ -1,0 +1,17 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "rope" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "srm_shoggotharm.png",
+          "offset" : [-2.0, -0]
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ "/sfx/gun/slimetendril1.ogg", "/sfx/gun/slimetendril2.ogg", "/sfx/gun/slimetendril3.ogg" ]
+  }
+}

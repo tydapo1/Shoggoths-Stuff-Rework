@@ -1,0 +1,16 @@
+{
+  "projectileName" : "srm_extraarms_muzzleflash",
+  "image" : "srm_extraarms_muzzleflash.png",
+  "animationCycle" : 0.05,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [255, 208, 133],
+  "timeToLive" : 0.05,
+  "onlyHitTerrain" : true,
+  "renderLayer" : "Monster+11",
+  "power" : 0.0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

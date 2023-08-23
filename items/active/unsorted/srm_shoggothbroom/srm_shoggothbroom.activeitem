@@ -1,0 +1,22 @@
+{
+  "itemName" : "srm_shoggothbroom",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tool",
+  "description" : "The most useful of sweeping tools. Too bad it is made from flesh.",
+  "shortdescription" : "Shoggoth Broom",
+  "twoHanded" : true,
+  "itemTags" : [],
+
+  "inventoryIcon" : "srm_shoggothbroom.png",
+
+  "animation" : "/items/active/unsorted/srm_shoggothbroom/srm_shoggothbroom.animation",
+
+  "scripts" : ["/items/active/unsorted/srm_shoggothbroom/srm_shoggothbroom.lua"],
+  "scriptDelta" : 3,
+  
+  "shoggothColorable" : true,
+  "color" : ""
+}

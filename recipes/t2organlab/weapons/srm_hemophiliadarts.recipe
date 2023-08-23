@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "srm_sacrificialdagger", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_hemophiliadarts",
+    "count" : 10
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t2organ" ]
+}

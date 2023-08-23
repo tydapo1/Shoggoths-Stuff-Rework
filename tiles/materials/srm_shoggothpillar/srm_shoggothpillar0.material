@@ -1,0 +1,25 @@
+{
+  "materialId" : 36610,
+  "materialName" : "srm_shoggothpillar0",
+  "particleColor" : [89, 89, 89, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar pillar. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Pillar",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothpillar.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothpillar.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1900
+  }
+}

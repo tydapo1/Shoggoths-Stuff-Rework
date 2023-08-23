@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedbody2",
+  "category" : "guardianboss",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body2.png",
+    "bodyfullbright" : "body2fullbright.png"
+  }
+}

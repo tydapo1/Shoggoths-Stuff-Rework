@@ -1,0 +1,34 @@
+{
+  "itemName" : "srm_breathlungs",
+  "price" : 500,
+  "inventoryIcon" : "/items/armors/organicons.png:lungs.t2",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Common",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "These lungs provide ^yellow;underwater breathing^reset;.",
+  "shortdescription" : "T2 Gilled Lung",
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+  
+}

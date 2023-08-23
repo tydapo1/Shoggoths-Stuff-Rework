@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 150 },
+	{ "item" : "goldbar", "count" : 10 },
+	{ "item" : "campfire", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "heartforge",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

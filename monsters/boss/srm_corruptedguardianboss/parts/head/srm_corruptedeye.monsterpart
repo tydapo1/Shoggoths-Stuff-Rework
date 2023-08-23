@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedeye",
+  "category" : "guardianboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "eye.png",
+    "headfullbright" : "eyefullbright.png"
+  }
+}

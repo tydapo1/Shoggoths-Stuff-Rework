@@ -1,0 +1,9 @@
+{
+  "name" : "srm_royalbluecateye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_royalbluecateye.lua"
+  ]
+}

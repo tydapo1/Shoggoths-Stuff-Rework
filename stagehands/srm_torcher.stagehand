@@ -1,0 +1,11 @@
+{
+  "type" : "srm_torcher",
+  "keepAlive" : true,
+
+  "pos" : [0, 0],
+
+  "scripts" : [
+  	"/stagehands/srm_torcher.lua"
+  ],
+  "scriptDelta" : 10
+}

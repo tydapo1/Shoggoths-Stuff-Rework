@@ -1,0 +1,9 @@
+{
+  "name" : "srm_curseofgreed",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_curseofgreed.lua"
+  ]
+}

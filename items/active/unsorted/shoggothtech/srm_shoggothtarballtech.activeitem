@@ -1,0 +1,19 @@
+{
+  "itemName" : "srm_shoggothtarballtech",
+  "price" : 100,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tech",
+  "description" : "Unlocks a special shoggoth sphere!",
+  "shortdescription" : "Shoggoth Sphere Tech",
+  "twoHanded" : true,
+  "inventoryIcon" : "srm_shoggothtech.png",
+  "scripts" : ["srm_shoggothtech.lua"],
+  "animation" : "srm_shoggothtech.animation",
+  "animationCustom" : {},
+  "fireTime" : 2.0,
+  "fireOffset" : [0.0, 0.0],
+
+  "tech_to_unlock" : "srm_shoggothtarballtech"
+}

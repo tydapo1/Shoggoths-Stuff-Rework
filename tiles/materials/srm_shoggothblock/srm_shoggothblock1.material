@@ -1,0 +1,70 @@
+{
+  "materialId" : 36501,
+  "materialName" : "srm_shoggothblock1",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar block. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Block",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+  
+  "tillableMod" : 36998,
+  "soil" : true,
+
+  "renderTemplate" : "/tiles/srm_shoggothblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothblock.png?replace;515384=723f7e;41446f=5a2e6c;323660=462256;242952=361d46;5b4a7e=6e3066;503e70=5e2859;41325f=491945;35274e=3c1138;644078=6a214d;5f3770=59173e;4f2e5d=4c1034;45244a=41042a;bcbce0=e3bdee;acacd2=d1aadb;8686aa=ad83b8;75759c=90639c;3f3f7d=493250;2f3465=36233d;242957=25172e;1e2251=180e21;3f3777=612c6c;302c5f=431e52;282454=301542;221f4d=251036;3f2f70=812a84;33265b=5a1b6f;2d2152=40135b;261c48=250b43;c3c6df=edebf0;b3b6d1=d6d0db;8c8db2=b1aabc;7a7ea1=867c97",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1790
+  }
+}
+
+// MINDFLAYER + NIGHTGAUNT
+
+//  Body Top 1
+//	515384=723f7e;
+//	41446f=5a2e6c;
+//	323660=462256;
+//	242952=361d46;
+//  Body Mid 1
+//	5b4a7e=6e3066;
+//	503e70=5e2859;
+//	41325f=491945;
+//	35274e=3c1138;
+//  Body Bottom 1
+//	644078=6a214d;
+//	5f3770=59173e;
+//	4f2e5d=4c1034;
+//	45244a=41042a;
+//  Face 1
+//	bcbce0=e3bdee;
+//	acacd2=d1aadb;
+//	8686aa=ad83b8;
+//	75759c=90639c;
+//  Body Top 2
+//	3f3f7d=493250;
+//	2f3465=36233d;
+//	242957=25172e;
+//	1e2251=180e21;
+//  Body Mid 2
+//	3f3777=612c6c;
+//	302c5f=431e52;
+//	282454=301542;
+//	221f4d=251036;
+//  Body Bottom 2
+//	3f2f70=812a84;
+//	33265b=5a1b6f;
+//	2d2152=40135b;
+//	261c48=250b43;
+//  Face 2
+//	c3c6df=edebf0;
+//	b3b6d1=d6d0db;
+//	8c8db2=b1aabc;
+//	7a7ea1=867c97

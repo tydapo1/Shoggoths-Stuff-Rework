@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothplatformmelting",
+    "cleanName"		:	"^shadow;Melting Shogform^reset;",
+	"type"			:	"platform",
+	"icon"			:	"/tiles/platforms/srm_shoggothplatformmelting.png",
+	"paletteType"	:	"flesh"
+}

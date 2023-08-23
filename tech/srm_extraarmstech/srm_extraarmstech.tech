@@ -1,0 +1,54 @@
+{
+  "name" : "srm_extraarmstech",
+  "type" : "body",
+
+  "scripts" : ["srm_extraarmstech.lua"],
+  "animator" : "srm_extraarmstech.animation",
+
+  "description" : "Handy little tech that gives you two more arms.",
+  "shortDescription" : "Extra Arms",
+  "rarity" : "Legendary",
+  "icon" : "/tech/srm_extraarmstech.png",
+  
+  "extraarmstech_leftOptions" : {
+    "fist" : "/tech/srm_extraarmstech/left/fist.lua",
+	"jet" : "/tech/srm_extraarmstech/left/jet.lua",
+	"drill" : "/tech/srm_extraarmstech/left/drill.lua",
+	"shotgun" : "/tech/srm_extraarmstech/left/shotgun.lua",
+	"minigun" : "/tech/srm_extraarmstech/left/minigun.lua",
+	"hookshot" : "/tech/srm_extraarmstech/left/hookshot.lua",
+	"blast_launcher" : "/tech/srm_extraarmstech/left/blast_launcher.lua"
+  },
+  
+  "extraarmstech_leftOrder" : [
+    "fist",
+	"jet",
+	"drill",
+	"shotgun",
+	"minigun",
+	"hookshot",
+	"blast_launcher"
+  ],
+  
+  "extraarmstech_rightOptions" : {
+    "fist" : "/tech/srm_extraarmstech/right/fist.lua",
+	"jet" : "/tech/srm_extraarmstech/right/jet.lua",
+	"drill" : "/tech/srm_extraarmstech/right/drill.lua",
+	"shotgun" : "/tech/srm_extraarmstech/right/shotgun.lua",
+	"minigun" : "/tech/srm_extraarmstech/right/minigun.lua",
+	"hookshot" : "/tech/srm_extraarmstech/right/hookshot.lua",
+	"blast_launcher" : "/tech/srm_extraarmstech/right/blast_launcher.lua"
+  },
+  
+  "extraarmstech_rightOrder" : [
+    "fist",
+	"jet",
+	"drill",
+	"shotgun",
+	"minigun",
+	"hookshot",
+	"blast_launcher"
+  ],
+
+  "chipCost" : 64
+}

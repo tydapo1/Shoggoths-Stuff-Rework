@@ -1,0 +1,10 @@
+{
+  "name" : "srm_aviansoul",
+  
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_aviansoul.lua"
+  ]
+
+}

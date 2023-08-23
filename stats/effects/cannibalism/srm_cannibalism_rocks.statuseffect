@@ -1,0 +1,15 @@
+{
+  "name" : "srm_cannibalism_rocks",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_cannibalism_rocks.lua"
+  ],
+  
+  "animationConfig" : "srm_cannibalism_rocks.animation",
+
+  "label" : "Cannibalism rocks!",
+  "icon" : "/interface/statuses/srm_cannibalism_rocks.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedbali",
+  "category" : "guardianboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "bali.png",
+    "headfullbright" : "balifullbright.png"
+  }
+}

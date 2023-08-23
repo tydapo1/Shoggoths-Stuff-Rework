@@ -1,0 +1,15 @@
+{
+  "name" : "srm_starchildcataracteye",
+  "effectConfig" : {
+    "range" : 3,
+    "damageProjectileType" : "srm_soulreactorheartexplosion",
+    "damageMultiplier" : 0,
+    "cooldown" : 1
+
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "srm_starchildcataracteye.lua"
+  ]
+}

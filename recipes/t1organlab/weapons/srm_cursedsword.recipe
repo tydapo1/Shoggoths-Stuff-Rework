@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "brokenprotectoratebroadsword", "count" : 1 },
+	{ "item" : "solidfuel", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "srm_cursedsword",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t1organ" ]
+}

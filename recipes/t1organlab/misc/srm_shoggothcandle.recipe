@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "srm_eldritchslime", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothcandle",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "misc", "t1organ", "decoration" ]
+}

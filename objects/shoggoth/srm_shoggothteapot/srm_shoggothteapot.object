@@ -1,0 +1,48 @@
+{
+  "objectName" : "srm_shoggothteapot",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "A shoggoth tea pot. Fancy. Kind of.",
+  "shortdescription" : "Shoggoth Tea Pot",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "A teapot.",
+  "avianDescription" : "A large cup with a nose.",
+  "floranDescription" : "Ssstrange sssculpture of creature with long trunk.",
+  "glitchDescription" : "Observe. This is a rare shade of pink.",
+  "humanDescription" : "A nice teapot. Comforting.",
+  "hylotlDescription" : "A serving implement.",
+  "novakidDescription" : "So you stick some leaves in a pot of water and... Drink it?",
+
+  "inventoryIcon" : "srm_shoggothteapoticon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothteapot.png:<frame><color>",
+      "imagePosition" : [-6, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothteapot.png:<frame><color>",
+      "imagePosition" : [-6, 0],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothteapot/srm_shoggothteapot.png:0",
+  "placementImagePosition" : [-6, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

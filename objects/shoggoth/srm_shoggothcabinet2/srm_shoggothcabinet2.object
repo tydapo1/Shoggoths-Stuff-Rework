@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_shoggothcabinet2",
+  "colonyTags" : ["shoggoth","storage"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 110,
+  "description" : "A pair of tarry kitchen cabinets. Not recommended for an actual kitchen. (Alt 1)",
+  "shortdescription" : "Shoggoth Cabinet",
+  "race" : "shoggoth",
+
+  "apexDescription" : "Creepy and functional.",
+  "avianDescription" : "A bad place to store food.",
+  "floranDescription" : "Floran not want ssshare food with weird thing.",
+  "glitchDescription" : "Cautious. I do not want to risk putting my hands in there.",
+  "humanDescription" : "Looks like a kitchen counter, minus the teeth and eyes.",
+  "hylotlDescription" : "If I search for food inside, I fear I might become myself the diner.",
+  "novakidDescription" : "My kitchen counter pet! Their name is Betty!",
+
+  "inventoryIcon" : "srm_shoggothcabinet2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothcabinet2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothcabinet2/srm_shoggothcabinet2.png",
+  "placementImagePosition" : [-16, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+
+}

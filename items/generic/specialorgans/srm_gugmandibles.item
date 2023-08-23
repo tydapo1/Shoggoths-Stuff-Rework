@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_gugmandibles",
+  "price" : 10000,
+  "inventoryIcon" : "srm_gugmandibles.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "Unique Organ",
+  "slot" : "Head",
+  "description" : "A large fang that calls for it's pack of shadow beasts.",
+  "shortdescription" : "^#f636b0;^#8ecaf4; Gug Mandibles^reset;",
+  "itemTags" : [ "organ", "tier7armour" ]
+}

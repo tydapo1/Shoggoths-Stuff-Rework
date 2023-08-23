@@ -1,0 +1,68 @@
+{
+  "objectName" : "srm_shoggothwallbutton",
+  "colonyTags" : ["shoggoth","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A small eye that pulses when pressed.",
+  "shortdescription" : "Shoggoth Wall Button",
+  "race" : "shoggoth",
+
+  "apexDescription" : "An eye. It winces when I push it.",
+  "avianDescription" : "Why am I always compelled to push these?",
+  "floranDescription" : "Floran poke eyesssss!",
+  "glitchDescription" : "Tempted. A peeping eye, begging to be poked.",
+  "humanDescription" : "There's a peeper! I can't not poke it!",
+  "hylotlDescription" : "Peepers are infuriating, no one will ever stare at me.",
+  "novakidDescription" : "Aw hell nah, you ain't starin' at me, freak!",
+
+  "category" : "wire",
+  "price" : 15,
+
+  "inventoryIcon" : "srm_shoggothwallbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothwallbutton.png:<frame><color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/momentaryswitch/momentaryswitch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/shoggoth/srm_shoggothwallbutton/srm_shoggothwallbutton.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/egg_hatch1.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "srm_shoggothwallbutton.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "interval" : 15,
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  },
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothwallbutton/srm_shoggothwallbutton.png:off",
+  "placementImagePosition" : [0, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

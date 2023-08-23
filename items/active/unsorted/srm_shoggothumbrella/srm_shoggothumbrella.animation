@@ -1,0 +1,64 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "parasol" : {
+        "default" : "closed",
+        "states" : {
+          "closed" : {},
+          "open" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "end"
+          },
+          "close" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "end"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "parasol" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, 1.375],
+          "rotationGroup" : "parasol",
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "parasol" : {
+            "closed" : {
+              "properties" : {
+                "image" : "srm_shoggothumbrella.png:close.2<color>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "srm_shoggothumbrella.png:open.<frame><color>"
+              }
+            },
+            "close" : {
+              "properties" : {
+                "image" : "srm_shoggothumbrella.png:close.<frame><color>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "parasol" : {
+      "angularVelocity" : 8
+    }
+  },
+
+  "sounds" : {
+    "open" : [ ]
+  }
+}

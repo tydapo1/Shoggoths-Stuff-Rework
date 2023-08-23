@@ -1,0 +1,37 @@
+{
+  "objectName" : "srm_shoggothicpainting",
+  "colonyTags" : ["shoggoth","pretty","valuable"],
+  "rarity" : "Rare",
+  "description" : "A portrait of an Shoggoth couple.",
+  "shortdescription" : "Gothic Shoggoth Painting",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 800,
+  "printable" : false,
+
+  "apexDescription" : "This Shoggoth couple seem... Scary.",
+  "avianDescription" : "These are the faces of people without Kluex in their lives.",
+  "floranDescription" : "How can Squid man be sssad when he has a big ssstabbing fork?",
+  "glitchDescription" : "Impressed. This Shoggoth couple have futuristic clothing.",
+  "humanDescription" : "I don't remember this classic painting featuring Cthuluh.",
+  "hylotlDescription" : "Unnerving emotions are depicted here.",
+  "novakidDescription" : "A couple Shoggoth farmers dressed like humans. Strange.",
+
+  "inventoryIcon" : "srm_shoggothicpaintingicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothicpainting.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothicpainting/srm_shoggothicpainting.png",
+  "placementImagePosition" : [-16, -16],
+  "shoggothColorable" : true,
+  "color" : ""
+}

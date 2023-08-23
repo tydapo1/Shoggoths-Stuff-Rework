@@ -1,0 +1,68 @@
+{
+  "materialId" : 36761,
+  "materialName" : "srm_shoggothtentacleblock1",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "srm_eldritchslime",
+  
+  "shortdescription" : "Shoggoth Tentacle",
+  "description" : "A large goopy tentacle",
+  "glitchDescription" : "Concerned. This tentacle is certainly from something quite large.",
+  "floranDescription" : "Big sstrong tentacless.",
+  "novakidDescription" : "Looks t'me like some kinda tentacle.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothtentacleblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothtentacleblock.png?replace;515384=723f7e;41446f=5a2e6c;323660=462256;242952=361d46;5b4a7e=6e3066;503e70=5e2859;41325f=491945;35274e=3c1138;644078=6a214d;5f3770=59173e;4f2e5d=4c1034;45244a=41042a;bcbce0=e3bdee;acacd2=d1aadb;8686aa=ad83b8;75759c=90639c;3f3f7d=493250;2f3465=36233d;242957=25172e;1e2251=180e21;3f3777=612c6c;302c5f=431e52;282454=301542;221f4d=251036;3f2f70=812a84;33265b=5a1b6f;2d2152=40135b;261c48=250b43;c3c6df=edebf0;b3b6d1=d6d0db;8c8db2=b1aabc;7a7ea1=867c97",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1807
+  }
+}
+
+// MINDFLAYER + NIGHTGAUNT
+
+//  Body Top 1
+//	515384=723f7e;
+//	41446f=5a2e6c;
+//	323660=462256;
+//	242952=361d46;
+//  Body Mid 1
+//	5b4a7e=6e3066;
+//	503e70=5e2859;
+//	41325f=491945;
+//	35274e=3c1138;
+//  Body Bottom 1
+//	644078=6a214d;
+//	5f3770=59173e;
+//	4f2e5d=4c1034;
+//	45244a=41042a;
+//  Face 1
+//	bcbce0=e3bdee;
+//	acacd2=d1aadb;
+//	8686aa=ad83b8;
+//	75759c=90639c;
+//  Body Top 2
+//	3f3f7d=493250;
+//	2f3465=36233d;
+//	242957=25172e;
+//	1e2251=180e21;
+//  Body Mid 2
+//	3f3777=612c6c;
+//	302c5f=431e52;
+//	282454=301542;
+//	221f4d=251036;
+//  Body Bottom 2
+//	3f2f70=812a84;
+//	33265b=5a1b6f;
+//	2d2152=40135b;
+//	261c48=250b43;
+//  Face 2
+//	c3c6df=edebf0;
+//	b3b6d1=d6d0db;
+//	8c8db2=b1aabc;
+//	7a7ea1=867c97

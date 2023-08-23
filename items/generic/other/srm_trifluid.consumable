@@ -1,0 +1,40 @@
+{
+  "itemName" : "srm_trifluid",
+  "rarity" : "Rare",
+  "price" : 3600,
+  "category" : "medicine",
+  "inventoryIcon" : "srm_trifluid.png",
+  "description" : "This blue fluid makes you feel nearly invincible for it's duration.",
+  "shortdescription" : "Trifluid",
+  "effects" : [ [
+      {
+        "effect" : "srm_trifluid"
+      },
+      {
+        "effect" : "fireblock",
+        "duration" : 10
+      },
+      {
+        "effect" : "iceblock",
+        "duration" : 10
+      },
+      {
+        "effect" : "electricblock",
+        "duration" : 10
+      },
+      {
+        "effect" : "poisonblock",
+        "duration" : 10
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal",
+    "srm_trimate",
+    "srm_trifluid"
+  ]
+}

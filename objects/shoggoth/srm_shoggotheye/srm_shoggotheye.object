@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_shoggotheye",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "An eldritch eye.",
+  "shortdescription" : "^reset;Shoggoth Eyeball",
+  "category" : "decorative",
+  "race" : "shoggoth",
+
+  "apexDescription" : "An eldritch eye.",
+  "avianDescription" : "An eldritch eye.",
+  "floranDescription" : "Floran look at thing...",
+  "glitchDescription" : "Grossed. Exposed organs are not fun to see.",
+  "humanDescription" : "An eldritch eye.",
+  "hylotlDescription" : "An eldritch eye.",
+  "novakidDescription" : "A fat eyeball.",
+  
+  "scripts" : ["srm_shoggotheye.lua"],
+  "scriptDelta" : 1,
+  
+  "animation" : "srm_shoggotheye.animation",
+
+  "inventoryIcon" : "srm_shoggotheyeicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggotheye.png:<frame><color>",
+      "imagePosition" : [-4, -4],
+      "frames" : 9,
+      "animationCycle" : 1.15,
+      "direction" : "right",
+      "flipImages" : false,
+      "renderLayer" : "foregroundEntity+1",
+      "spaces" : [[0,0]],
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "detectDuration" : 2,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [0.5, 0.5], 20 ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggotheye/srm_shoggotheye.png:default",
+  "placementImagePosition" : [-4, -4],
+  "shoggothColorable" : true,
+  "color" : ""
+}

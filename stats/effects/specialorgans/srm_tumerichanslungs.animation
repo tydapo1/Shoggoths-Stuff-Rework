@@ -1,0 +1,82 @@
+{
+  "particleEmitters" : {
+    "stage0" : {
+      "enabled" : true,
+      "emissionRate" : 25.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [100, 175, 50, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1.0,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 0],
+            "approach" : [0, 10],
+            "timeToLive" : 0.5,
+            "variance" : {
+                "initialVelocity" : [5, 5]
+            }
+          }
+        }
+      ]
+    },
+	"stage1" : {
+      "enabled" : true,
+      "emissionRate" : 50.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [100, 175, 50, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1.0,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 0],
+            "approach" : [0, 10],
+            "timeToLive" : 0.5,
+            "variance" : {
+                "initialVelocity" : [5, 5]
+            }
+          }
+        }
+      ]
+    },
+	"stage2" : {
+      "enabled" : true,
+      "emissionRate" : 100.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [100, 175, 50, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 1.0,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 0],
+            "approach" : [0, 10],
+            "timeToLive" : 0.5,
+            "variance" : {
+                "initialVelocity" : [5, 5]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "stage0" : [ "/sfx/statuseffects/stage0.ogg" ],
+    "stage1" : [ "/sfx/statuseffects/stage1.ogg" ],
+    "stage2" : [ "/sfx/statuseffects/stage2.ogg" ],
+    "stage3" : [ "/sfx/statuseffects/stage3.ogg" ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "grubillar",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "grubillar.png"
+  }
+}

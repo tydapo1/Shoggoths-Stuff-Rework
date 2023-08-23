@@ -1,0 +1,47 @@
+{
+  "projectileName" : "srm_paintblot",
+  "image" : "srm_paintblot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "timeToLive" : 1,
+  "damageKind" : "tarball",
+  "pointLight" : false,
+  "flippable" : true,
+  "statusEffects" : [ ],
+  "power" : 1.0,
+  "speed" : 0,
+  "knockback" : 0.1,
+  "actionOnReap" : [
+  ],
+  "emitters" : [ "srm_brushink" ],
+
+  "damagePoly" : [ [-8, 8], [8, 8], [8, -8], [-8, -8] ],
+  "physicsCollisions" : {
+    "piece1" : {
+      "collision" : [ [-0.7, 0.7], [0.7, 0.7] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "player", "npc", "vehicle", "itemdrop", "projectile"]
+    },
+    "piece2" : {
+      "collision" : [ [0.7, 0.7], [0.7, -0.7] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "player", "npc", "vehicle", "itemdrop", "projectile"]
+    },
+    "piece3" : {
+      "collision" : [ [0.7, -0.7], [-0.7, -0.7] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "player", "npc", "vehicle", "itemdrop", "projectile"]
+    },
+    "piece4" : {
+      "collision" : [ [-0.7, -0.7], [-0.7, 0.7] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["monster", "player", "npc", "vehicle", "itemdrop", "projectile"]
+    }
+  },
+  
+  "movementSettings" : { "collisionEnabled" : false },
+  "piercing" : true,
+  "bounces" : -1,
+  "fullbright" : true
+}

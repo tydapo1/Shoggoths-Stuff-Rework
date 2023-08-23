@@ -1,0 +1,15 @@
+{
+  "itemName" : "srm_mechbodyshoggothproto",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "srm_mechbodyshoggothproto.png",
+  "description" : "A prototype open-top mech body, designed by the Letheia Corporation.",
+  "shortdescription" : "Eldr1tch Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "humanproto"]
+}

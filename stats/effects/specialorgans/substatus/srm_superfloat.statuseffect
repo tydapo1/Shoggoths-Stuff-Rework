@@ -1,0 +1,19 @@
+{
+  "name" : "srm_superfloat",
+  "effectConfig" : {
+    "maxHoverHeight" : 4,
+    "hoverSpeedMultiplier" : 10,
+    "hoverAcceleration" : 10,
+    "bobInterval" : 2,
+    "bobAmount" : 0.3,
+    "fallSpeedLimit" : -10,
+    "protectionBonus" : 5
+  },
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "srm_superfloat.lua"
+  ],
+
+  "animationConfig" : "srm_superfloat.animation"
+}

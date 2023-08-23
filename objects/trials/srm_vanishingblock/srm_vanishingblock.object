@@ -1,0 +1,51 @@
+{
+  "objectName" : "srm_vanishingblock",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 100,
+  "description" : "This is only visible when at a certain distance.",
+  "shortdescription" : "Vanishing Block",
+  "race" : "generic",
+  "health" : 0.1,
+
+  "inventoryIcon" : "srm_vanishingblockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_vanishingblock.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [  ]
+    }
+  ],
+
+  "scripts" : [ "/objects/trials/srm_vanishingblock/srm_vanishingblock.lua" ],
+  "scriptDelta" : 1,
+  
+  "sensorConfig" : {
+    "detectArea" : "vertical"
+  },
+
+  "animation" : "/objects/trials/srm_vanishingblock/srm_vanishingblock.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/isolated_platform_disappear.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/isolated_platform_appear.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "srm_vanishingblock.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [ [-1, 1] ],
+  "outputNodes" : [ [0, 0] ]
+}

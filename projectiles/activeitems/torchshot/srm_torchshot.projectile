@@ -1,0 +1,24 @@
+{
+  "projectileName" : "srm_torchshot",
+  "image" : "torch.png",
+  "physics" : "laser",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 10,
+  "damageKind" : "firebow",
+  "pointLight" : false,
+  "flippable" : true,
+  "statusEffects" : [ "burning" ],
+  "power" : 1.0,
+  "speed" : 50,
+  "knockback" : 0.1,
+  "actionOnReap" : [],
+  "emitters" : [ "srm_torch" ],
+  "damagePoly" : [ [-8, 3], [8, 3], [8, -3], [-8, -3] ],
+  "lightColor" : [179, 149, 107],
+  "piercing" : true,
+  "fullbright" : true,
+  "targetPosition" : [0, 0],
+
+  "scripts" : [ "/projectiles/activeitems/torchshot/torchbullet.lua" ]
+}

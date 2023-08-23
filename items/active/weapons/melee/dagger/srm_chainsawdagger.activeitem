@@ -1,0 +1,306 @@
+{
+  "itemName" : "srm_chainsawdagger",
+  "price" : 960,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A gruesome weapon that shreds foes apart, the grand crimson harvest.",
+  "shortdescription" : "Chainsaw Dagger",
+  "category" : "broadsword",
+  "tooltipKind": "base",
+  "twoHanded": false,
+  "itemTags" : ["weapon", "melee", "dagger"],
+
+  "inventoryIcon": "chainsawdagger.png:active.1",
+
+  "animation" : "/items/active/weapons/melee/broadsword/energybroadsword.animation",
+  "animationParts" : {
+    "blade" : "chainsawdagger.png"
+  },
+  "animationCustom" : {
+    "sounds": {
+      "fire2": [ "/sfx/tools/chainsaw_swing.ogg" ],
+      "fire": [ "/sfx/tools/chainsaw_swing2.ogg", "/sfx/melee/mech_chainsaw_swing1.ogg" ]
+    },
+    "animatedParts": {
+      "stateTypes": {
+        "blade": {
+          "states": {
+            "active": {
+              "mode": "transition",
+              "properties": {
+                "persistentSound": "/sfx/objects/sawblade.ogg"
+              },
+              "cycle": 0.03,
+              "transition": "active2"
+            },
+            "active2": {
+              "mode": "transition",
+              "properties": {
+                "persistentSound": "/sfx/objects/sawblade.ogg"
+              },
+              "cycle": 0.03,
+              "transition": "active3"
+            },
+            "active3": {
+              "mode": "transition",
+              "properties": {
+                "persistentSound": "/sfx/objects/sawblade.ogg"
+              },
+              "cycle": 0.03,
+              "transition": "active"
+            },
+            "retract": {
+              "mode": "transition",
+              "properties": {
+                "immediateSound": "/sfx/tools/chainsaw_rev_down.ogg"
+              },
+              "cycle": 0.08,
+              "transition": "retract1"
+            },
+            "retract1": {
+              "mode": "transition",
+              "cycle": 0.12,
+              "transition": "retract2"
+            },
+            "retract2": {
+              "mode": "transition",
+              "cycle": 0.16,
+              "transition": "inactive"
+            },
+            "extend": {
+              "mode": "transition",
+              "properties": {
+                "lightsOn": [],
+                "immediateSound": "/sfx/tools/chainsaw_rev_up.ogg"
+              },
+              "cycle": 0.2,
+              "transition": "active"
+            }
+          },
+          "default": "inactive"
+        },
+        "swoosh": {
+          "states": {
+            "fire2": {
+              "cycle": 2
+            }
+          }
+        }
+      },
+      "parts": {
+        "blade": {
+          "properties": {
+            "fullbright": false
+          },
+          "partStates": {
+            "blade": {
+              "extend": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.1",
+                  "offset": [0,-1.5]
+                }
+              },
+              "active": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.1",
+                  "offset": [0,-1.5]
+                }
+              },
+              "active2": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.2",
+                  "offset": [0,-1.5]
+                }
+              },
+              "active3": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.3",
+                  "offset": [0,-1.5]
+                }
+              },
+              "retract": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.1",
+                  "offset": [0,-1.5]
+                }
+              },
+              "retract1": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.2",
+                  "offset": [0,-1.5]
+                }
+              },
+              "retract2": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.3",
+                  "offset": [0,-1.5]
+                }
+              },
+              "inactive": {
+                "properties": {
+                  "image": "chainsawdagger.png:active.1",
+                  "offset": [0,-1.5]
+                }
+              }
+            }
+          }
+        },
+        "handleFullbright": {
+          "properties": {
+            "image": ""
+          }
+        },
+        "handle": {
+          "properties": {
+            "image": ""
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "fullbright": false
+          },
+          "partStates": {
+            "swoosh": {
+              "fire2": {
+                "properties": {
+                  "damageArea": [
+                    [-0.5,0.5],
+                    [2.2,0.3],
+                    [2.2,-0.3],
+                    [-0.5,-0.5]
+                  ],
+                  "image": "",
+                  "offset": [-2,0.1]
+                }
+              },
+              "idle": {
+                "properties": {
+                  "image": ""
+                }
+              },
+              "fire": {
+                "properties": {
+                  "damageArea": [
+                    [-0.25,1.325],
+                    [1.125,1.05],
+                    [2,0.3],
+                    [2,-0.2],
+                    [1.625,-0.575],
+                    [0.5,-1.075],
+                    [-2.25,-1.075]
+                  ],
+                  "image": "/items/active/weapons/melee/dagger/swoosh/srm_goldswoosh.png:<frame>",
+				  //?multiply=c1c1c188?scalenearest=0.7;1
+                  "offset": [0,1]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters": {
+      "blade": {
+        "offsetRegion": [-0.3,0,0.3,-1.7],
+        "emissionRate": 9999,
+        "particles": [
+          {
+            "particle": {
+              "initialVelocity": [-4,8],
+              "approach": [0,20],
+              "layer": "middle",
+              "destructionAction": "fade",
+              "fullbright": true,
+              "variance": {
+                "size": 0.3,
+                "initialVelocity": [2,4],
+                "destructionTime": 0.03,
+                "timeToLive": 0.03,
+                "color": [253,148,0]
+              },
+              "type": "ember",
+              "destructionTime": 0.07,
+              "color": [255,170,57],
+              "size": 0.6,
+              "finalVelocity": [0,45],
+              "timeToLive": 0.1,
+              "light": [160,80,0]
+            }
+          }
+        ]
+      },
+      "physicalswoosh": {
+        "particles": []
+      }
+    },
+    "lights": {
+      "glow": {
+        "color": [0,0,0]
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType": "shortswordcombo",
+  "primaryAbility" : {
+    "comboSpeedFactor": 0,
+    "fireTime" : 0.125,
+    "baseDps" : 6.0,
+    "stepDamageConfig": [
+      {
+        "timeout": 0.05,
+        "baseDamageFactor": 1.0,
+        "damageSourceKind": "axe",
+        "statusEffects" : [ "srm_bloodnguts" ],
+        "knockback": 10
+      },
+      {
+        "timeout": 0.01,
+        "baseDamageFactor": 0.1,
+        "damageSourceKind": "dagger",
+        "statusEffects" : [ "srm_bloodnguts" ],
+        "knockback": 10
+      }
+    ],
+    "flashTime": 0,
+    "stances": {
+      "fire2": {
+        "duration": 1.1,
+        "weaponAngularVelocity": -15,
+        "armRotation": -45,
+        "armAngularVelocity": 70
+      },
+      "idle": {
+        "allowRotate": true,
+        "aimAngle": 0
+      },
+      "wait1": {
+        "duration": 0.1
+      },
+      "windup2": {
+        "duration": 0.1,
+        "weaponRotation": 40,
+        "weaponAngularVelocity": -1300,
+        "armRotation": -135,
+        "armAngularVelocity": 900
+      },
+      "fire1": {
+        "duration": 0.1,
+        "weaponRotation": -60,
+        "weaponAngularVelocity": 1000,
+        "armRotation": -15,
+        "armAngularVelocity": -1200
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

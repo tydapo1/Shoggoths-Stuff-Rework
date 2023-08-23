@@ -1,0 +1,61 @@
+{
+  "objectName" : "srm_ruinmouth",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 95,
+  "description" : "Behind it lays the belly of the beast.",
+  "shortdescription" : "Ruin Mouth",
+  "race" : "ruin",
+  "apexDescription" : "I shouldn't be going into this.",
+  "avianDescription" : "This is a bad idea.",
+  "floranDescription" : "Floran feel like hunted...",
+  "glitchDescription" : "Repulsive. This door smells bad.",
+  "humanDescription" : "Yeah no I should not be doing this.",
+  "hylotlDescription" : "Is this even a door?.",
+  "novakidDescription" : "An icky lookin' door.",
+  "inventoryIcon" : "srm_ruinmouthicon.png",
+  "tooltipKind" : "door",
+  
+  "locked" : true,
+  "interactive" : true,
+
+  "inactiveInteractAction" : "ScriptPane",
+  "inactiveInteractData" : "/interface/scripted/srm_ruinmouth/srm_ruinmouth.config",
+  
+  "orientations" : [
+    {
+      "dualImage" : "srm_ruinmouth.png:<frame><color>",
+      "imagePosition" : [-16, -16],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0],
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+  "scripts" : [ "/objects/trials/srm_ruinmouth/srm_ruinmouth.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/trials/srm_ruinmouth/srm_ruinmouth.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "srm_ruinmouth.png"
+  },
+  "largeImage" : "srm_ruinmouth.png:closed",
+  "animationPosition" : [-16, -16],
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

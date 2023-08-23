@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_license2",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "license2.png",
+  "description" : "A large enough meal, just enough for a Kestrel class organism.",
+  "shortdescription" : "Kestrel Meal Ticket",
+
+  "pickupQuestTemplates" : ["srm_shipupgrade2"],
+  "consumeOnPickup" : true
+}

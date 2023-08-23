@@ -1,0 +1,68 @@
+{
+  "materialId" : 36803,
+  "materialName" : "srm_shoggothmucus13",
+  "particleColor" : [50, 54, 96, 155],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick mucus block. Extremely resiliant. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Mucus",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1024,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothmucus.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothmucus.png?replace;515384=58bfbf;41446f=5690b2;323660=436593;242952=3b477b;5b4a7e=94a5d2;503e70=847cb6;41325f=665593;35274e=523f79;644078=d08ae5;5f3770=a76eb8;4f2e5d=814b92;45244a=683777;bcbce0=b3ddf2;acacd2=91c1d9;8686aa=75a6bf;75759c=5a89a1;3f3f7d=d08ae5;2f3465=a76eb8;242957=814b92;1e2251=683777;3f3777=94a5d2;302c5f=847cb6;282454=665593;221f4d=523f79;3f2f70=58bfbf;33265b=5690b2;2d2152=436593;261c48=3b477b;c3c6df=e4b3f2;b3b6d1=c992d9;8c8db2=a774bf;7a7ea1=845aa0",
+    "variants" : 13,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1825
+  }
+}
+
+// GLAZED + GLITTERED
+
+//  Body Top 1
+//	515384=58bfbf;
+//	41446f=5690b2;
+//	323660=436593;
+//	242952=3b477b;
+//  Body Mid 1
+//	5b4a7e=94a5d2;
+//	503e70=847cb6;
+//	41325f=665593;
+//	35274e=523f79;
+//  Body Bottom 1
+//	644078=d08ae5;
+//	5f3770=a76eb8;
+//	4f2e5d=814b92;
+//	45244a=683777;
+//  Face 1
+//	bcbce0=b3ddf2;
+//	acacd2=91c1d9;
+//	8686aa=75a6bf;
+//	75759c=5a89a1;
+//  Body Top 2
+//	3f3f7d=d08ae5;
+//	2f3465=a76eb8;
+//	242957=814b92;
+//	1e2251=683777;
+//  Body Mid 2
+//	3f3777=94a5d2;
+//	302c5f=847cb6;
+//	282454=665593;
+//	221f4d=523f79;
+//  Body Bottom 2
+//	3f2f70=58bfbf;
+//	33265b=5690b2;
+//	2d2152=436593;
+//	261c48=3b477b;
+//  Face 2
+//	c3c6df=e4b3f2;
+//	b3b6d1=c992d9;
+//	8c8db2=a774bf;
+//	7a7ea1=845aa0

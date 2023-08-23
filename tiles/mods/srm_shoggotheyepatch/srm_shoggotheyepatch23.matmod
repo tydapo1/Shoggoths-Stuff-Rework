@@ -1,0 +1,22 @@
+{
+  "modId" : 36523,
+  "modName" : "srm_shoggotheyepatch23",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=fff599fe;d0c8a0fe=ffca38fe;b8b188fe=fa8a00fe;a09976fe=da3800fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// MAGMA ROOTS
+
+//	f9f0c5fe=fff599fe;
+//	d0c8a0fe=ffca38fe;
+//	b8b188fe=fa8a00fe;
+//	a09976fe=da3800fe

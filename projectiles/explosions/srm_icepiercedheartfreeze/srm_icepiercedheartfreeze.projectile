@@ -1,0 +1,18 @@
+{
+  "projectileName" : "srm_icepiercedheartfreeze",
+  "image" : "srm_icepiercedheartfreeze.png",
+  "animationCycle" : 0.3,
+  "timeToLive" : 0.3,
+  "frameNumber" : 5,
+  "speed" : 0,
+  "power" : 0,
+  "damagePoly" : [ [-225, 0], [-165, -165], [0, -225], [165, -165], [225, 0], [165, 165], [0, 225], [-165, 165] ],
+  "animationLoops" : false,
+  "statusEffects" : [ "srm_bloodfreeze" ],
+  "emitters" : [  ],
+  "flippable" : true,
+  "piercing" : true,
+  "damageKind" : "hidden",
+  "damageType" : "IgnoresDef",
+  "fullbright" : true
+}

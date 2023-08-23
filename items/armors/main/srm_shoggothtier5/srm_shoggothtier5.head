@@ -1,0 +1,38 @@
+{
+  "itemName" : "srm_shoggothtier5head",
+  "price" : 2880,
+  "inventoryIcon" : "/items/armors/organicons.png:brain.t5",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "An augmented brain that ^blue;seriously ^yellow;increases your wits^reset;.",
+  "shortdescription" : "T5 Augmented Brain",
+  "tooltipKind" : "armor",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.0
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 15
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 0
+    }
+  ],
+  "itemTags" : [ "organ", "tier5armour" ]
+}

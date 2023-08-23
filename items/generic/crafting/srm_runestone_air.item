@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_air",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_air.png",
+  "description" : "A magical slate, imprinted with the element of air.",
+  "shortdescription" : "Air Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}

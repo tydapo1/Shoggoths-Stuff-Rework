@@ -1,0 +1,21 @@
+{
+  "name" : "srm_abyssal",
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_abyssal.lua"
+  ],
+  
+  "animationConfig" : "srm_abyssal.animation",
+
+  "effectConfig" : {
+	"stalkerTheme" : ["/music/abyssalCavernsA.ogg"],
+	"stalkerSpawnTimer" : 10,
+    "stalkerSpawnOffset" : [-150, -10],
+	
+    "lightUpdatesPerSecond" : 1,
+	"lightThreshold" : 0.2,
+	
+	"mercyLightTimerMax" : 20
+  }
+}

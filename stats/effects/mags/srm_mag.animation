@@ -1,0 +1,110 @@
+{
+  "globalTagDefaults" : {
+    "magForm" : "mag",
+	"magDirectives" : "",
+	"magDirectivesFullbright" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "magState" : {
+        "default" : "hidden",
+        "states" : {
+          "hidden" : { },
+          "normal" : { }
+        }
+      },
+      "magStateFlip" : {
+        "default" : "hidden",
+        "states" : {
+          "hidden" : { },
+          "normal" : { }
+        }
+      }
+    },
+
+    "parts" : {
+	  "mag" : {
+        "properties" : {
+          "transformationGroups" : [ "magGroup" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "magState" : {
+            "normal" : {
+              "properties" : {
+                "zLevel" : 1,
+                "offset" : [0.0, 0.0],
+                "fullbright" : false,
+                "image" : "/items/generic/mags/<magForm>/mag.png<magDirectives>"
+              }
+            }
+          }
+        }
+      },
+	  "magFullbright" : {
+        "properties" : {
+          "transformationGroups" : [ "magGroup" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "magState" : {
+            "normal" : {
+              "properties" : {
+                "zLevel" : 2,
+                "offset" : [0.0, 0.0],
+                "fullbright" : true,
+                "image" : "/items/generic/mags/<magForm>/magfullbright.png<magDirectivesFullbright>"
+              }
+            }
+          }
+        }
+      },
+	  "magFlip" : {
+        "properties" : {
+          "transformationGroups" : [ "magGroupFlip" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "magStateFlip" : {
+            "normal" : {
+              "properties" : {
+                "zLevel" : -2,
+                "offset" : [0.0, 0.0],
+                "fullbright" : false,
+                "image" : "/items/generic/mags/<magForm>/magflip.png<magDirectives>"
+              }
+            }
+          }
+        }
+      },
+	  "magFullbrightFlip" : {
+        "properties" : {
+          "transformationGroups" : [ "magGroupFlip" ],
+          "centered" : true
+        },
+        "partStates" : {
+          "magStateFlip" : {
+            "normal" : {
+              "properties" : {
+                "zLevel" : -1,
+                "offset" : [0.0, 0.0],
+                "fullbright" : true,
+                "image" : "/items/generic/mags/<magForm>/magfullbrightflip.png<magDirectivesFullbright>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "pickup" : {}
+  },
+
+  "transformationGroups" : {
+    "magGroup" : { "interpolated" : true },
+    "magGroupFlip" : { "interpolated" : true }
+  }
+}

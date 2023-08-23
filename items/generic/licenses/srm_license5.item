@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_license5",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "license5.png",
+  "description" : "Enough food for an entire planet, just enough for a Condor class organism.",
+  "shortdescription" : "Condor Meal Ticket",
+
+  "pickupQuestTemplates" : ["srm_shipupgrade5"],
+  "consumeOnPickup" : true
+}

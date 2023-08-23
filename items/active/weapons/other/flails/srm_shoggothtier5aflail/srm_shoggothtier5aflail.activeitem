@@ -1,0 +1,112 @@
+{
+  "itemName": "srm_shoggothtier5aflail",
+  "level": 5,
+  "rarity": "Rare",
+  "maxStack" : 1,
+  "price" : 200,
+  "description": "This cold flail constantly spews out snowballs, due to it's low temperature.",
+  "shortdescription": "Ferozium Flail",
+  "inventoryIcon": "flail.png:idle",
+  "tooltipKind": "flail",
+  "category": "Flail",
+  "twoHanded": true,
+  "animation": "flail.animation",
+  "animationParts" : {
+    "gnome" : "flail.png"
+  },
+  "animationCustom": {
+    "particleEmitters": {
+      "muzzleFlash": {
+        "offsetRegion": [ 0, 1.25, 0, 1.25 ],
+        "particles": []
+      },
+      "altMuzzleFlash": {
+        "offsetRegion": [ 0, 1.25, 0, 1.25 ],
+        "particles": []
+      }
+    },
+    "sounds": {
+      "fire": [ "/sfx/gun/mech_splitshot1.ogg" ],
+      "altFire": []
+    }
+  },
+  "muzzleOffset": [ 1, 0.25 ],
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+  "elementalType": "physical",
+  "primaryAbilityType": "srmflail",
+  "primaryAbility": {
+    "stances": {
+      "idle": {
+        "duration": 0.5,
+        "armRotation": 0,
+        "weaponRotation": 60,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true,
+        "weaponOffset": [ 0.5, -0.2 ],		
+
+        "animationStates" : {
+          "gnome" : "idle"
+        }
+      },
+      "fire": {
+        "duration": 1.5,
+        "armRotation": -5,
+        "weaponRotation": 10,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true,
+        "weaponOffset": [ 0.8, -0.2 ],
+
+        "animationStates" : {
+          "gnome" : "fire"
+        }
+      }
+    },
+    "chain": {
+      "arcRadiusRatio": [ 8, 8 ],
+      "taper": 0,
+      "segmentImage": "/items/active/weapons/other/flails/srm_shoggothtier5aflail/chain.png",
+      "endSegmentImage": "/items/active/weapons/other/flails/srm_shoggothtier5aflail/chain.png",
+      "segmentSize": 0.5
+    },
+    "guideProjectiles": true,
+    "maxLength": 16,
+    "baseDps": 8.33,
+    "fireTime": 1.0,
+    "maxProjectiles": 1,
+    "energyUsage": 0,
+    "inaccuracy": 0.01,
+    "projectileType": "srm_tier5ashoggothflail",
+    "projectileParameters": {
+      "controlForce": 180,
+      "targetTrackingForce": 270,
+      "knockback": 20,
+      "speed": 55,
+      "bounces": -1,
+      "timeToLive": 15,
+	  "persistentAudio" : "/sfx/gun/rattleloop.ogg",
+	  "actionOnReap" : [
+        {
+          "action" : "sound",
+          "options" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ]
+        }
+      ],
+	  "periodicActions" : [
+		{
+		  "time" : 0.3,
+		  "repeat" : true,
+		  "action" : "projectile",
+		  "type" : "snowball",
+		  "config" : {
+			"speed" : 25
+		  },
+		  "fuzzAngle" : 0,
+		  "inheritDamageFactor" : 0.20,
+		  "angleAdjust" : 1
+		}
+	  ]
+    }
+  },
+  "builder": "/items/buildscripts/buildflailweapon.lua"
+}

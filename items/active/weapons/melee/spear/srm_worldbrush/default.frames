@@ -1,0 +1,16 @@
+{
+  "frameGrid" : {
+    "size" : [24, 64],
+    "dimensions" : [4, 1],
+
+    "names" : [
+      [ "1", "2", "3", "4" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "1",
+    "1default" : "1",
+	"1<rainbowDirectives>" : "1"
+  }
+}

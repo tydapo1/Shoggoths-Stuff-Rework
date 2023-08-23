@@ -1,0 +1,23 @@
+{
+  "particleEmitters" : {
+    "hellflames" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "hellfiredust"
+        }
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [155, 186, 61]
+    }
+  },
+  "sounds" : {
+    "burn" : [ "/sfx/projectiles/flame_burning.ogg" ]
+  }
+}

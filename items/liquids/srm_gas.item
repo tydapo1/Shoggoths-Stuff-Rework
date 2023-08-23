@@ -1,0 +1,11 @@
+{
+  "itemName" : "srm_gas",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "srm_gas.png",
+  "shortdescription" : "Gas",
+  "description" : "It's hard to keep in your hands...",
+  
+  "price" : 1,
+  "consumeOnPickup" : true
+}

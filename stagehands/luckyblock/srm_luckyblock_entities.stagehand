@@ -1,0 +1,11 @@
+{
+  "type" : "srm_luckyblock_entities",
+  "keepAlive" : true,
+  
+  "parameters" : {},
+
+  "scripts" : [
+  	"/stagehands/luckyblock/srm_luckyblock_entities.lua"
+  ],
+  "scriptDelta" : 5
+}

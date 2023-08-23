@@ -1,0 +1,17 @@
+{
+  "name" : "srm_trimate",
+  "effectConfig" : {
+    "healPercent" : 100,
+    "emissionRate" : 10
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_trimate.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

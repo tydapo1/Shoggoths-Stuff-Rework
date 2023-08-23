@@ -1,0 +1,20 @@
+{
+  "projectileName" : "srm_healauraexplosion",
+  "image" : "srm_healauraexplosion.png",
+  "animationCycle" : 0.9,
+  "timeToLive" : 0.9,
+  "frameNumber" : 7,
+  "speed" : 0,
+  "power" : 0,
+  "pointLight" : true,
+  "lightColor" : [84, 17, 50],
+  "damagePoly" : [ [-75, 0], [-55, -55], [0, -75], [55, -55], [75, 0], [55, 55], [0, 75], [-55, 55] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "hidden",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageType" : "ignoresdef",
+  "statusEffects" : [ "srm_healaura" ],
+  "fullbright" : true
+}

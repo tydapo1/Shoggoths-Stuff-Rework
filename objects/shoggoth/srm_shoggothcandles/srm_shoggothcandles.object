@@ -1,0 +1,69 @@
+{
+  "objectName" : "srm_shoggothcandles",
+  "colonyTags" : ["shoggoth","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 125,
+
+  "description" : "A tar candle set.",
+  "shortdescription" : "Shoggoth Candles",
+  "race" : "shoggoth",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "A solid tar candlestick.",
+  "avianDescription" : "How does this possibly hold up on a candlestick.",
+  "floranDescription" : "Why slime people place fire on tar sstick? Hsss.",
+  "glitchDescription" : "Sympathetic. A solid tar candlestick. Atleast, it lights up the way, even if ominous.",
+  "humanDescription" : "This candlestick mustn't be worth a whole lot.",
+  "hylotlDescription" : "The way this is functionning baffles me.",
+  "novakidDescription" : "I feel bad for the guy who has to keep all these candlesticks alight.",
+
+  "statusEffects" : [ ],
+  
+  "lightColor" : [213, 255, 146],
+  "lightPosition" : [0, 4],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "srm_shoggothcandlesicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothcandles.png:<frame><color>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, -1], [0, -1] ]
+    },
+    {
+      "image" : "srm_shoggothcandles.png:<frame><color>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-1, -1], [0, -1] ]
+    }
+  ],
+
+  "animation" : "srm_shoggothcandles.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothcandleslit.png",
+    "notbright" : "srm_shoggothcandles.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothcandles/srm_shoggothcandles.png:1",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "srm_corruptedround",
+  "category" : "guardianboss",
+  "type" : "hip",
+
+  "frames" : {
+    "hip" : "round.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "particleEmitters" : {
+    "burst" : {
+      "active" : false,
+      "offsetRegion" : [0.0, 0.0, 2.0, 2.0],
+      "particles" : [
+        {"particle" : "srm_luckysparkle", "count" : 25},
+        {"particle" : "ancientsmoke1", "count" : 5},
+        {"particle" : "ancientsmoke2", "count" : 5}
+      ]
+    }
+  }
+}

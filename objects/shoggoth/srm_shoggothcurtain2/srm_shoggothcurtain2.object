@@ -1,0 +1,40 @@
+{
+  "objectName" : "srm_shoggothcurtain2",
+  "colonyTags" : ["shoggoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+
+  "description" : "The classiest tarry curtain. (Alt 1)",
+  "shortdescription" : "Classic Shoggoth Curtain",
+  "race" : "shoggoth",
+
+  "apexDescription" : "Thick, heavy curtains.",
+  "avianDescription" : "Squishy to the touch.",
+  "floranDescription" : "Shoggoth make curtain from flessssh, Floran do the sssame.",
+  "glitchDescription" : "Grossed. Few objects are as unpleasurable to caress.",
+  "humanDescription" : "This feels like a page of the Necronomicon.",
+  "hylotlDescription" : "These curtains stick really hard to Hylotl skin.",
+  "novakidDescription" : "These curtains look uncanny, they move too much.",
+
+  "inventoryIcon" : "srm_shoggothcurtain2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothcurtain2.png:<color>",
+      "imagePosition" : [-16, -0],
+
+      "spaces" : [
+		[-2, 1], [-1, 1], [0, 1], [1, 1],
+				 [-1, 0], [0, 0]
+	  ],
+      "bgAnchors" : [
+		[-2, 1], [-1, 1], [0, 1], [1, 1] 
+	  ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothcurtain2/srm_shoggothcurtain2.png",
+  "placementImagePosition" : [-16, -0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

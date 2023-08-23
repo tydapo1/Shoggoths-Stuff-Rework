@@ -1,0 +1,24 @@
+{
+  "itemName" : "srm_keratincrisps",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "srm_keratincrisps.png",
+  "description" : "These chips are alot harder than they should be.",
+  "shortdescription" : "Keratin Krisps",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 25
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "srm_tableoftables",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable", "craftingstations", "all", "shoggothcraftingtables" ]
+}

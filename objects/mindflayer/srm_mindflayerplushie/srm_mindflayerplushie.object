@@ -1,0 +1,47 @@
+{
+  "objectName" : "srm_mindflayerplushie",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "race" : "mindflayer",
+  "printable" : false,
+  "description" : "A cute little mindflayer.",
+  "shortdescription" : "Minny The Flayer",
+
+  "apexDescription" : "An adorable cuddly mindflayer.",
+  "avianDescription" : "A cute and cuddly toy mindflayer.",
+  "floranDescription" : "Sssquisshy toy is ssstaring at Floran.",
+  "glitchDescription" : "Overjoyed. This mindflayer is so squishy and fuzzy!",
+  "humanDescription" : "I just wanna cuddle this mindflayer forever.",
+  "hylotlDescription" : "Eeee! A wonderful mindflayer plushie. I love it!",
+  "novakidDescription" : "This lil' gal is pretty cute, I guess.",
+
+  "inventoryIcon" : "srm_mindflayerplushieicon.png",
+  "orientations" : [
+    {
+      "image" : "srm_mindflayerplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_mindflayerplushie.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/mindflayer/srm_mindflayerplushie/srm_mindflayerplushie.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,58 @@
+{
+  "objectName" : "srm_shoggothflag",
+  "colonyTags" : ["shoggoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The marker of a eldritch being. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Shoggoth Marker",
+  "race" : "shoggoth",
+  "apexDescription" : "A shoggoth marker. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This shoggoth marker can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Sssshoggy sstoness makess good point to teleport back to ussing teleporter",
+  "glitchDescription" : "Observant. A hex carved onto this shoggoth marker allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This shoggoth marker can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This shoggoth marker can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this shoggoth marker for quick teleportin'.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "srm_shoggothflagicon.png",
+
+  "lightColor" : [220, 120, 20],
+
+  "flickerPeriod" : 2.1,
+  "flickerMinIntensity" : 0.55,
+  "flickerMaxIntensity" : 0.85,
+  "flickerPeriodVariance" : 0.75,
+  "flickerIntensityVariance" : 0.25,
+
+  "orientations" : [
+    {
+      "image" : "srm_shoggothflag.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothflag.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/environmental/space_loop2.ogg",
+  "soundEffectRangeMultiplier" : 0.4
+
+}

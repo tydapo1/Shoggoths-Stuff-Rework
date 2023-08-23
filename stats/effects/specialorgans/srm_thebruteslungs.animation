@@ -1,0 +1,105 @@
+{
+  "particleEmitters" : {
+    "stage0" : {
+      "enabled" : true,
+      "emissionRate" : 50.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [69, 140, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.8,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 2],
+            "approach" : [0, 10],
+            "timeToLive" : 0.3,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage1" : {
+      "enabled" : true,
+      "emissionRate" : 50.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [122, 113, 228, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.5,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 2],
+            "approach" : [0, 10],
+            "timeToLive" : 0.3,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage2" : {
+      "enabled" : true,
+      "emissionRate" : 50.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [196, 62, 255, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.5,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 2],
+            "approach" : [0, 10],
+            "timeToLive" : 0.3,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    },
+	"stage3" : {
+      "enabled" : true,
+      "emissionRate" : 50.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+            "size" : 2.5,
+            "color" : [246, 54, 176, 255],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.8,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 2],
+            "approach" : [0, 10],
+            "timeToLive" : 0.3,
+            "variance" : {
+                "initialVelocity" : [0, 1]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "flamethrowerstart": [ "/sfx/gun/flamethrower_start.ogg" ],
+    "flamethrowerloop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+    "flamethrowerstop" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+  }
+}

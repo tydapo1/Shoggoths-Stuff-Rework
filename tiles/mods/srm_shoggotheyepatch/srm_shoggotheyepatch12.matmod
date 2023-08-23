@@ -1,0 +1,22 @@
+{
+  "modId" : 36512,
+  "modName" : "srm_shoggotheyepatch12",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=ffc7edfe;d0c8a0fe=e5b3d6fe;b8b188fe=cc9fbffe;a09976fe=b38ba7fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// CREAMY STRAWBERRY
+
+//	f9f0c5fe=ffc7edfe;
+//	d0c8a0fe=e5b3d6fe;
+//	b8b188fe=cc9fbffe;
+//	a09976fe=b38ba7fe

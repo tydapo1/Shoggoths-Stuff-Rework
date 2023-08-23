@@ -1,0 +1,17 @@
+{
+  "projectileName" : "srm_trialexplosion",
+  "image" : "regularexplosion2.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "power" : 50,
+  "damagePoly" : [ [-27, 0], [-18, -18], [0, -27], [18, -18], [27, 0], [18, 18], [0, 27], [-18, 18] ],
+  "animationLoops" : false,
+  "lightColor" : [255, 125, 0],
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damageTeam" : { "type" : "indiscriminate" }
+}

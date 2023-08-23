@@ -1,0 +1,45 @@
+{
+  "itemName" : "srm_shoggothtier1chest",
+  "price" : 800,
+  "inventoryIcon" : "/items/armors/organicons.png:heart.t1",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "An augmented heart that ^blue;slightly ^yellow;increases your health^reset;.",
+  "shortdescription" : "T1 Augmented Heart",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+"level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.0
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 0
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 10
+    }
+  ],
+  "itemTags" : [ "organ", "tier1armour" ]
+}

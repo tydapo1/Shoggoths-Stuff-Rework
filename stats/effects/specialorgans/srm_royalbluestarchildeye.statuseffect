@@ -1,0 +1,9 @@
+{
+  "name" : "srm_royalbluestarchildeye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_royalbluestarchildeye.lua"
+  ]
+}

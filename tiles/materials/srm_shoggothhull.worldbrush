@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothhull",
+    "cleanName"		:	"^shadow;Shoggoth Hull^reset;",
+	"type"			:	"tile",
+	"icon"			:	"/tiles/materials/srm_shoggothhull.png",
+	"paletteType"	:	"flesh"
+}

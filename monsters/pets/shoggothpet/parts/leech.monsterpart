@@ -1,0 +1,8 @@
+{
+  "name" : "leech",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "leech.png"
+  }
+}

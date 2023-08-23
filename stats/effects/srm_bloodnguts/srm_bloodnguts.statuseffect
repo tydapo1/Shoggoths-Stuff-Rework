@@ -1,0 +1,15 @@
+{
+  "name" : "srm_bloodnguts",
+  "effectConfig" : {
+	"killOnDrain" : true,
+	"procRate" : 5,
+	"dropCells" : true
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "srm_bloodnguts.lua"
+  ],
+
+  "animationConfig" : "srm_bloodnguts.animation"
+}

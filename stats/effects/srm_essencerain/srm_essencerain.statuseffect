@@ -1,0 +1,11 @@
+{
+  "name" : "srm_essencerain",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_essencerain.animation",
+
+  "scripts" : [
+    "srm_essencerain.lua"
+  ]
+}

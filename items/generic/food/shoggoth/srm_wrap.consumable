@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_wrap",
+  "rarity" : "Common",
+  "price" : 70,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_wrap.png",
+  "description" : "An equally gross alternative to the shoggoth sandwich.",
+  "shortdescription" : "Shoggoth Wrap",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 140
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 280
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 280
+    }
+  ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

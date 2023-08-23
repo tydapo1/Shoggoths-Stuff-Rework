@@ -1,0 +1,31 @@
+{
+  "projectileName" : "srm_tier6ashoggothmagnorb",
+  "image" : "srm_tier6ashoggothmagnorb.png",
+  "lightColor" : [155, 186, 61],
+  "flippable" : true,
+  "orientationLocked" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ "srm_hellburn" ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "physics" : "grenade",
+  "emitters" : [ "srm_tier6ashoggothmagnorb" ],
+  "bounces" : 0,
+  "piercing" : false,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/shogorb_impact1.ogg",
+        "/sfx/gun/shogorb_impact2.ogg",
+        "/sfx/gun/shogorb_impact3.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

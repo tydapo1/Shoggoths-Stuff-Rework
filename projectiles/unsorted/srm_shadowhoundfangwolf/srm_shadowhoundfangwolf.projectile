@@ -1,0 +1,28 @@
+{
+  "projectileName" : "srm_shadowhoundfangwolf",
+  "image" : "srm_shadowhoundfangwolf.png",
+  "animationCycle" : 1.0,
+  "timeToLive" : 0.0,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "srm_shadowhound",
+      "level" : 4,
+      "offset" : [0, -1],
+      "arguments" : {
+        "aggressive" : false
+      }
+    }
+  ],
+  "speed" : 0,
+  "power" : 0,
+  "damagePoly" : [ [0,0], [0,0], [0,0], [0,0] ],
+  "animationLoops" : false,
+  "emitters" : [  ],
+  "flippable" : true,
+  "piercing" : true,
+  "damageKind" : "hidden",
+  "damageType" : "IgnoresDef",
+  "fullbright" : true
+}

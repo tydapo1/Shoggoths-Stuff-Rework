@@ -1,0 +1,25 @@
+{
+  "id" : "srm_deathstatelog4",
+  "title" : "Deathstate Log Tier 4",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"The Brute's Lungs : 
+The lungs of amphibious gladiator beast known only as The Brute. Undefeated for centuries, he lavished in a life full of excess. Legends say that his private residence halls were filled with blood and that he would submerge himself within for weeks on end.",
+
+"Othello's Skull : 
+The jellied skull of the warlock, Othello. He was banished to the Fortress of Koth and was swallowed by the great beast trapped within. Rather than suffer a slow death by digestion, he focused his energies to his mind and was able to fortify a bastion of his being within. Little physically remains of his body except for a slimy shapeless skull.",
+
+"Spice Fed Heart : 
+A heart saturated with exotic otherworld spices from centuries of exposure to strange trade between planes of existence. At some point it transcended normal organic function and began to hunger for the raw essences of magic.",
+
+"Bilious Slimebag : 
+A foul sloshing sack of slime and rancid enzymes. I feel sick just looking at it, but somehow this pathetic looking stomach is a thriving, vital thing."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

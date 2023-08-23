@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothplatformsmooth",
+    "cleanName"		:	"^shadow;Smooth Shogform^reset;",
+	"type"			:	"platform",
+	"icon"			:	"/tiles/platforms/srm_shoggothplatformsmooth.png",
+	"paletteType"	:	"flesh"
+}

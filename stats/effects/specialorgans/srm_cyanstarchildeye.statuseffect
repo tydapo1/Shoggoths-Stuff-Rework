@@ -1,0 +1,9 @@
+{
+  "name" : "srm_cyanstarchildeye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_cyanstarchildeye.lua"
+  ]
+}

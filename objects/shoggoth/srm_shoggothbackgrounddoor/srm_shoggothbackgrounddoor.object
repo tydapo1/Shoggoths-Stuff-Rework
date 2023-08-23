@@ -1,0 +1,63 @@
+{
+  "objectName" : "srm_shoggothbackgrounddoor",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "category" : "door",
+  "printable" : false,
+  "price" : 80,
+  "description" : "A special door that can be linked to other background doors.",
+  "shortdescription" : "Shoggoth Background Door",
+  "race" : "shoggoth",
+
+  "apexDescription" : "I wonder where this door leads...",
+  "avianDescription" : "I wonder where this door leads...",
+  "floranDescription" : "Floran wondersss where door goesss...",
+  "glitchDescription" : "Curious. I wonder where this door leads...",
+  "humanDescription" : "I wonder where this door leads...",
+  "hylotlDescription" : "I wonder where this door leads...",
+  "novakidDescription" : "I wonder where this door leads...",
+
+  "inventoryIcon" : "srm_shoggothbackgrounddooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothbackgrounddoor.png:<color>",
+      "imagePosition" : [-18, 0],
+
+	  "spacescan" : 1.0,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/shoggoth/srm_shoggothbackgrounddoor/srm_shoggothbackgrounddoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  
+  "animationParts" : {
+    "door" : "srm_shoggothbackgrounddoor.png"
+  },
+  "animationPosition" : [-18, 0],
+  
+  "scripts" : [ "/objects/shoggoth/srm_shoggothbackgrounddoor/srm_shoggothbackgrounddoor.lua" ],
+  "detectArea" : [ [-6, 0], [7, 6] ],
+  
+  "allowBackgroundDoorConnection" : true,
+  "mouthPosition" : [0, 1], //Used to determine the teleport position of the door
+  
+  "inputNodes" : [ [-2, 0], [-2, 2] ],
+  "outputNodes" : [ [1, 4] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothbackgrounddoor/srm_shoggothbackgrounddoor.png:open",
+  "placementImagePosition" : [-18, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

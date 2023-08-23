@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/actionOnReap/-",
+    "value": {
+      "action": "applySurfaceMod",
+      "previousMod": "srm_tilleddry",
+      "newMod": "srm_tilled",
+      "radius": 1
+    }
+  }
+]

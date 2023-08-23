@@ -1,0 +1,11 @@
+{
+  "name" : "srm_thebruteslungs",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+  
+  "animationConfig" : "srm_thebruteslungs.animation",
+
+  "scripts" : [
+    "srm_thebruteslungs.lua"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "projectileName" : "srm_nuke",
+  "image" : "srm_nuke.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "power" : 4.0,
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-370, 0], [-280, -280], [0, -370], [280, -280], [370, 0], [280, 280], [0, 370], [-280, 280] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 15
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 75
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 105
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 150
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 165
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 195
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 210
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 225
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 240
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 255
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 270
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 285
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 315
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 330
+    },
+    {
+      "action" : "projectile",
+      "type" : "srm_nukefrag",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 345
+    }
+  ],
+  "knockback" : 300
+}

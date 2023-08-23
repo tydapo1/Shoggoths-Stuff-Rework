@@ -1,0 +1,72 @@
+{
+  "objectName" : "srm_shoggothceilingmonitor",
+  "colonyTags" : ["shoggoth","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 125,
+  "lightColor" : [140, 204, 103],
+  "pointLight" : true,
+  "pointBeam" : 2.25,
+  "beamAmbience" : 0.7,
+  
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.975,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "This weird monitor is kind of embedded into the ceiling...",
+  "shortdescription" : "Shoggoth Ceiling Monitor",
+  "race" : "generic",
+
+  "apexDescription" : "There's something odd about this display configuration.",
+  "avianDescription" : "Whoever welded this is great at their job.",
+  "floranDescription" : "Flasshy ceiling televission.",
+  "glitchDescription" : "Pleased. This display arrangement is an efficient use of space.",
+  "humanDescription" : "Man, this is positioned great for leaning back.",
+  "hylotlDescription" : "This display is able to utilize little used space.",
+  "novakidDescription" : "This screen is just hangin' there.",
+
+  "inventoryIcon" : "srm_shoggothceilingmonitoricon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothceilingmonitor.png:<frame><color>",
+      "flipImages" : true,
+      "imagePosition" : [-14, -16],
+      "animationPosition" : [-14, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "lightPosition" : [0, -1],
+      "beamAngle" : 225
+    },
+    {
+      "image" : "srm_shoggothceilingmonitor.png:<frame><color>",
+      "imagePosition" : [-18, -16],
+      "animationPosition" : [-18, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right",
+      "lightPosition" : [-1, -1],
+      "beamAngle" : 315
+    }
+  ],
+
+  // "soundEffect" : "/sfx/objects/tv_static.ogg",
+
+  "animation" : "srm_shoggothceilingmonitor.animation",
+  "animationParts" : {
+    "bright" : "srm_shoggothceilingmonitorlit.png",
+    "notbright" : "srm_shoggothceilingmonitor.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, -2] ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothceilingmonitor/srm_shoggothceilingmonitor.png:1",
+  "placementImagePosition" : [-14, -16],
+  "shoggothColorable" : true,
+  "color" : ""
+}

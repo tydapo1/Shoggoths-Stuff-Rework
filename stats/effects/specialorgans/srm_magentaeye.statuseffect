@@ -1,0 +1,9 @@
+{
+  "name" : "srm_magentaeye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_magentaeye.lua"
+  ]
+}

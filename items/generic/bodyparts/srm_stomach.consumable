@@ -1,0 +1,25 @@
+{
+  "itemName" : "srm_stomach",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "inventoryIcon" : "srm_stomach.png",
+  "description" : "A big sac-like organ responsible for the main step of digestion.",
+  "shortdescription" : "Stomach",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+      {
+        "effect" : "srm_cannibalism",
+        "duration": 20
+      } 
+    ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

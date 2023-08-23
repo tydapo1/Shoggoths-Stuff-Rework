@@ -1,0 +1,23 @@
+{
+  "materialId" : 36700,
+  "materialName" : "srm_shoggothplatformsmooth0",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Smooth Shoggoth Platform",
+  "description" : "The smooth platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformsmooth.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformsmooth.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1811
+  }
+}

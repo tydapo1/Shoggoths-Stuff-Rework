@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/srmflail",
+    "value": "/items/active/weapons/other/flails/srm_flail.weaponability"
+  }
+]

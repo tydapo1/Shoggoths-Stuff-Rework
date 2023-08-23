@@ -1,0 +1,28 @@
+{
+  "itemName" : "srm_bloodpudding",
+  "rarity" : "Uncommon",
+  "price" : 45,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_bloodpudding.png",
+  "description" : "No one believed they would take the name literally.",
+  "shortdescription" : "Blood Pudding",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 90
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

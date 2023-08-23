@@ -1,0 +1,44 @@
+{
+  "objectName" : "srm_shoggothflower",
+  "colonyTags" : ["shoggoth","pretty"],
+  "rarity" : "Common",
+  "description" : "A pretty shoggoth flower in a pot.",
+  "shortdescription" : "Shoggoth Flower",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "	A pretty purple flower. Too bad it smells.",
+  "avianDescription" : "This flower has an absolutely putrid scent.",
+  "floranDescription" : "Flower ssstinkssss!",
+  "glitchDescription" : "Appreciative. Petals of tainted purple",
+  "humanDescription" : "I'd rather not think about what this actually is.",
+  "hylotlDescription" : "Purple is the Hylotl colour of chaos.",
+  "novakidDescription" : "A hungry flower. I'm certain I saw some teeth!",
+
+  "inventoryIcon" : "srm_shoggothflowericon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothflower.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothflower.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothflower/srm_shoggothflower.png",
+  "placementImagePosition" : [-4, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

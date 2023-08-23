@@ -1,0 +1,5 @@
+{
+  "sounds" : {
+    "trigger": [ "/sfx/gun/shogorb_shield_raise.ogg" ]
+  }
+}

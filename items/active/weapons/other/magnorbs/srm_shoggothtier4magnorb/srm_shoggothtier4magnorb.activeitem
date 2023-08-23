@@ -1,0 +1,65 @@
+{
+  "itemName" : "srm_shoggothtier4magnorb",
+  "level" : 4,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Suppress your foes with your highly explosive military-grade self-defense destruction pebbles.",
+  "shortdescription" : "Blastomania",
+  "tooltipKind" : "shogmagnorb",
+  "category" : "magnorb",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "glove.png:front",
+  "animation" : "magnorb.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png",
+    "orb4" : "orb.png",
+    "orb5" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/scripts/shoggothdynamicnorb.lua"],
+  "builder" : "/scripts/shoggothbuildnorb.lua",
+  
+  "cooldownTime" : 20, // in frames
+  "orbTotal" : 5,
+  "orbitRate" : 0.8,
+
+  "projectileType" : "srm_tier4shoggothmagnorb",
+  "projectileParameters" : {
+    "power" : 4.0, // twice the hit damage, half due to explosive
+    "knockback" : 5,
+    "speed" : 70,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : false,
+    "controlForce" : 130,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldHealth" : 50,
+  "shieldKnockback" : 25,
+  "shieldEnergyCost" : 5,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

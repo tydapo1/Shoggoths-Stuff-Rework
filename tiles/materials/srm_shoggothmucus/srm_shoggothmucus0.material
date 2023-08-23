@@ -1,0 +1,25 @@
+{
+  "materialId" : 36790,
+  "materialName" : "srm_shoggothmucus0",
+  "particleColor" : [50, 54, 96, 155],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick mucus block. Extremely resiliant. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Mucus",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1024,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothmucus.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothmucus.png",
+    "variants" : 13,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1825
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corn",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_corn.lua"
+  ]
+}

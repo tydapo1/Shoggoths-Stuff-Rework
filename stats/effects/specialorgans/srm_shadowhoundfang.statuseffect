@@ -1,0 +1,9 @@
+{
+  "name" : "srm_shadowhoundfang",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_shadowhoundfang.lua"
+  ]
+}

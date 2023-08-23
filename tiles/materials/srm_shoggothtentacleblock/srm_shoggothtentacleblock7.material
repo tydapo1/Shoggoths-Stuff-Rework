@@ -1,0 +1,68 @@
+{
+  "materialId" : 36767,
+  "materialName" : "srm_shoggothtentacleblock7",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "srm_eldritchslime",
+  
+  "shortdescription" : "Shoggoth Tentacle",
+  "description" : "A large goopy tentacle",
+  "glitchDescription" : "Concerned. This tentacle is certainly from something quite large.",
+  "floranDescription" : "Big sstrong tentacless.",
+  "novakidDescription" : "Looks t'me like some kinda tentacle.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothtentacleblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothtentacleblock.png?replace;515384=858585;41446f=6f6f6f;323660=606060;242952=525252;5b4a7e=7a7a7a;503e70=656565;41325f=545454;35274e=484848;644078=6e6e6e;5f3770=5d5d5d;4f2e5d=4a4a4a;45244a=3d3d3d;bcbce0=e0e0e0;acacd2=d2d2d2;8686aa=aaaaaa;75759c=9c9c9c;3f3f7d=af391c;2f3465=983216;242957=88280d;1e2251=78240a;3f3777=d75d28;302c5f=c45723;282454=b84b1d;221f4d=ab4219;3f2f70=ff8133;33265b=f07b30;2d2152=e76d2c;261c48=de5f28;c3c6df=b39a96;b3b6d1=a68a86;8c8db2=967975;7a7ea1=816762",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1807
+  }
+}
+
+// ROTTEN + SPICY
+
+//  Body Top 1
+//	515384=858585;
+//	41446f=6f6f6f;
+//	323660=606060;
+//	242952=525252;
+//  Body Mid 1
+//	5b4a7e=7a7a7a;
+//	503e70=656565;
+//	41325f=545454;
+//	35274e=484848;
+//  Body Bottom 1
+//	644078=6e6e6e;
+//	5f3770=5d5d5d;
+//	4f2e5d=4a4a4a;
+//	45244a=3d3d3d;
+//  Face 1
+//	bcbce0=e0e0e0;
+//	acacd2=d2d2d2;
+//	8686aa=aaaaaa;
+//	75759c=9c9c9c;
+//  Body Top 2
+//	3f3f7d=af391c;
+//	2f3465=983216;
+//	242957=88280d;
+//	1e2251=78240a;
+//  Body Mid 2
+//	3f3777=d75d28;
+//	302c5f=c45723;
+//	282454=b84b1d;
+//	221f4d=ab4219;
+//  Body Bottom 2
+//	3f2f70=ff8133;
+//	33265b=f07b30;
+//	2d2152=e76d2c;
+//	261c48=de5f28;
+//  Face 2
+//	c3c6df=b39a96;
+//	b3b6d1=a68a86;
+//	8c8db2=967975;
+//	7a7ea1=816762

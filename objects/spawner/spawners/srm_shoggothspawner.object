@@ -1,0 +1,48 @@
+{
+  "objectName" : "srm_shoggothspawner",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own shoggoth villager. Simply place and then leave the planet or ship. Once you return there will be an NPC.",
+  "shortdescription" : "Shoggoth Spawner",
+  "race" : "shoggoth",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "apexDescription" : "Maybe I can reverse engineer this.",
+  "avianDescription" : "What could I possibly want with shoggoths?",
+  "floranDescription" : "Floran not sssure if want to sssummon shoggoths.",
+  "glitchDescription" : "Concern. These were all meant to be destroyed.",
+  "humanDescription" : "What could I possibly want with shoggoths?",
+  "hylotlDescription" : "A shoggoth spawner. These shouldn't exist.",
+  "shoggothDescription" : "Summoning one of my kin might be helpful in the right circumstances.",
+  "inventoryIcon" : "srm_shoggothspawnericon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothspawner.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/srm_shoggothspawner.animation",
+  "animationParts" : {
+    "switch" : "srm_shoggothspawner.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "shoggoth" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

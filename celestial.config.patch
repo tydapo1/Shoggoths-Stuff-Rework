@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/srm_abyss",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/srm_abyss_<selector>.png",
+      "maskPerPlanetRange": [
+        3,
+        3
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/srm_abyss",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/srm_abyss/maskie<num>.png",
+      "liquidImages": "",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [
+        1,
+        30
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "srm_abyss"
+  }
+]

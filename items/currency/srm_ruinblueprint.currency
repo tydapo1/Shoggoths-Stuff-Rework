@@ -1,0 +1,15 @@
+{
+  "itemName"           : "srm_ruinblueprint",
+  "currency"           : "srm_ruinblueprint",
+  "description"        : "A random ruin blueprint.",
+  "inventoryIcon"      : "srm_ruinblueprint.png",
+  "pickupSoundsSmall"  : [ "/sfx/objects/coinstack_small1.ogg", "/sfx/objects/coinstack_small2.ogg", "/sfx/objects/coinstack_small3.ogg" ],
+  "pickupSoundsMedium" : [ "/sfx/objects/coinstack_medium1.ogg", "/sfx/objects/coinstack_medium2.ogg" ],
+  "pickupSoundsLarge"  : [ "/sfx/objects/coinstack_large.ogg" ],
+  "rarity"             : "Essential",
+  "shortdescription"   : "^orange;Ruin Blueprint^reset;",
+  "smallStackLimit"    : 1,
+  "mediumStackLimit"   : 1,
+  "maxStack"           : 1,
+  "value"              : 1
+}

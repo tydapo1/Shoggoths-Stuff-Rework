@@ -1,0 +1,45 @@
+{
+  "globalTagDefaults" : {
+    "goreframe" : "active",
+    "portalframe" : "7"
+  },
+  "particleEmitters" : {
+    "burst" : {
+      "active" : false,
+      "offsetRegion" : [-2.0, 0.0, 3.0, 2.0],
+      "particles" : [
+        {"particle" : "srm_neutralblood", "count" : 100}
+      ]
+    },
+    "miniburst" : {
+      "active" : false,
+      "offsetRegion" : [-2.0, 0.0, 3.0, 2.0],
+      "particles" : [
+        {"particle" : "srm_neutralblood", "count" : 33}
+      ]
+    }
+  },
+  "animatedParts" : {
+    "parts" : {
+      "nest" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.5, 3.0],
+          "image" : "gorenest.png:<goreframe>"
+        }
+      },
+      "portal" : {
+        "properties" : {
+          "centered" : true,
+		  "fullbright" : true,
+          "offset" : [0.5, 3.0],
+          "image" : "portal.png:<portalframe>"
+        }
+      }
+    }
+  },
+  "sounds" : {
+    "pull" : [ "/sfx/objects/gorenestpull.ogg" ],
+    "decay" : [ "/sfx/objects/gorenestdecay.ogg" ]
+  }
+}

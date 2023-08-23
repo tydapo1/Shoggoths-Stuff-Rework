@@ -1,0 +1,22 @@
+{
+  "modId" : 36539,
+  "modName" : "srm_shoggotheyepatch39",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=f82a80fe;d0c8a0fe=bf1150fe;b8b188fe=930a38fe;a09976fe=6a0625fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// GILDED TEQUILA
+
+//	f9f0c5fe=f82a80fe;
+//	d0c8a0fe=bf1150fe;
+//	b8b188fe=930a38fe;
+//	a09976fe=6a0625fe

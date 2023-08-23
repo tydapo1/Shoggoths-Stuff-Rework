@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothglassgemmed",
+    "cleanName"		:	"^shadow;Shoggoth Gem Glass^reset;",
+	"type"			:	"tile",
+	"icon"			:	"/tiles/materials/srm_shoggothglassgemmed.png",
+	"paletteType"	:	"eye"
+}

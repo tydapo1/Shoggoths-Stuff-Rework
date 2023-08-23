@@ -1,0 +1,13 @@
+{
+  "itemName" : "srm_liquidsap",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "srm_liquidsapicon.png",
+  "shortdescription" : "Sap",
+  "description" : "Some sap. Pretty gummy.",
+  "learnBlueprintsOnPickup" : [
+    "srm_bubblegum"
+  ],
+   
+  "price" : 15
+}

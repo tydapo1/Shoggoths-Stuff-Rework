@@ -1,0 +1,9 @@
+{
+  "name" : "srm_magentacateye",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_magentacateye.lua"
+  ]
+}

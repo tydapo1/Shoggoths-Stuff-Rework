@@ -1,0 +1,38 @@
+{
+  "name" : "srm_curseofwrath",
+  "effectConfig" : { 
+	"projectileParameters" : {
+      "damageType": "NoDamage",
+      "power": 0,
+      "speed": 0,
+      "timeToLive": 0.03,
+      "universalDamage": false,
+      "actionOnReap": [
+        {
+          "action": "particle",
+          "specification": {
+            "size": 1,
+            "color": [ 0, 125, 255 ],
+            "timeToLive": 0.4,
+            "destructionAction": "fade",
+            "destructionTime": 0.4,
+            "position": [ 0, 0 ],
+            "type": "text",
+            "text": "^shadow;Hello World!",
+			"velocity" : [0, 1],
+			"finalVelocity" : [0, 5],
+			"approach" : [0, 1.5]
+          }
+        }
+      ]
+    }
+  },
+  
+  "defaultDuration" : 5,
+
+  "animationConfig" : "srm_curseofwrath.animation",
+
+  "scripts" : [
+    "srm_curseofwrath.lua"
+  ]
+}

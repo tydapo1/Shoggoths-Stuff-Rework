@@ -1,0 +1,15 @@
+{
+  "itemName" : "srm_eldritchslime",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "srm_eldritchslimeicon.png",
+  "shortdescription" : "Eldritch Slime",
+  "description" : "This is a small amount of the slime Eldritch entities are made of.",
+
+  "liquid" : "srm_eldritchslime",
+   
+  "price" : 0,
+  
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "srm_corruptedclub",
+  "category" : "guardianboss",
+  "type" : "lefthand",
+
+  "frames" : {
+    "lefthand" : "club.png",
+    "lefthandfullbright" : "clubfullbright.png"
+  }
+}

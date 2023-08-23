@@ -1,0 +1,11 @@
+{
+  "name" : "srm_slimyskull",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_slimyskull.lua"
+  ],
+
+  "animationConfig" : "srm_slimyskull.animation"
+}

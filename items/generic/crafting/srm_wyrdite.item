@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_wyrdite",
+  "price" : 200,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_wyrdite.png",
+  "description" : "Skuldite thread which this is made from is solely found on Abyssal Planets.",
+  "shortdescription" : "Verdandite Weaves",
+  "itemTags" : [ "reagent" ]
+}

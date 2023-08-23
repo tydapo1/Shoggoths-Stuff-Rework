@@ -1,0 +1,59 @@
+{
+  "objectName" : "srm_shoggothcoffeemachine",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "A shoggoffee machine. Drinking this is much less pleasant than making it.",
+  "shortdescription" : "Shoggoffee Machine",
+  "race" : "shoggoth",
+  "price" : 65,
+  "category" : "seed",
+  "objectType" : "farmable",
+
+  "apexDescription" : "This machine produces a weird, gross liquid.",
+  "avianDescription" : "I hate the smell of this.",
+  "floranDescription" : "A smelly drinksss machine.",
+  "glitchDescription" : "Displeased. This machine makes no regular coffee.",
+  "humanDescription" : "Damn this coffee sucks!",
+  "hylotlDescription" : "A creamy, bloody tasting liquid.",
+  "novakidDescription" : "Red, no brains, no creamer. Don't mind if I do!",
+
+  "inventoryIcon" : "srm_shoggothcoffeemachineicon.png",
+  
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothcoffeemachine.png:<stage>.<alt><color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "requireTilledAnchors" : false,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [100, 100]
+    },
+    {
+      "duration" : [100, 100]
+    },
+    {
+      "alts" : 1,
+      "duration" : [100, 100]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "shoggoffeeMachine",
+      "resetToStage" : 0
+    }
+  ],
+  "consumeSoilMoisture" : false,
+
+  "placementImage" : "/objects/farmables/srm_shoggothcoffeemachine/srm_shoggothcoffeemachine.png:0.0",
+  "placementImagePosition" : [0, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

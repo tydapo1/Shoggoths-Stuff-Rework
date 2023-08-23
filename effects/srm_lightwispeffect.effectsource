@@ -1,0 +1,29 @@
+{
+  "kind" : "srm_lightwispeffect",
+  "definition" : {
+    "duration" : 0.07,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "wispdust", "wispdust2", "wispdust3", "wispdust4" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

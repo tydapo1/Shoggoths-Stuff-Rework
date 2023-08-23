@@ -1,0 +1,9 @@
+{
+  "name" : "srm_biomechanicalheart",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_biomechanicalheart.lua"
+  ]
+}

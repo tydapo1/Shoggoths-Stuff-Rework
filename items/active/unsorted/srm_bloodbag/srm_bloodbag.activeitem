@@ -1,0 +1,30 @@
+{
+  "itemName" : "srm_bloodbag",
+  "price" : 250,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tradeGoods",
+  "description" : "Left click to fill with blood, right click to drain, hold to consume blood for health.",
+  "shortdescription" : "Blood Bag",
+  "twoHanded" : false,
+  
+  "bloodAmount" : 0,
+
+  "inventoryIcon"   	: "srm_bloodbag.png:empty",
+
+  "inventoryIconEmpty"  : "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:empty",
+  "inventoryIcon10" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:10",
+  "inventoryIcon20" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:20",
+  "inventoryIcon30" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:30",
+  "inventoryIcon40" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:40",
+  "inventoryIcon50" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:50",
+  "inventoryIcon60" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:60",
+  "inventoryIcon70" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:70",
+  "inventoryIcon80" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:80",
+  "inventoryIcon90" 	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:90",
+  "inventoryIconFull"	: "/items/active/unsorted/srm_bloodbag/srm_bloodbag.png:full",
+
+  "scripts" : ["/items/active/unsorted/srm_bloodbag/srm_bloodbag.lua"],
+  "scriptDelta" : 3
+}

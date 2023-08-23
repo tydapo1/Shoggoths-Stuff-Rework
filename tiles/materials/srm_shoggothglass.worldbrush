@@ -1,0 +1,7 @@
+{
+    "name"			:	"srm_shoggothglass",
+    "cleanName"		:	"^shadow;Shoggoth Cornea Glass^reset;",
+	"type"			:	"tile",
+	"icon"			:	"/tiles/materials/srm_shoggothglass.png",
+	"paletteType"	:	"eye"
+}

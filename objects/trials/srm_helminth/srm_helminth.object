@@ -1,0 +1,56 @@
+{
+  "objectName" : "srm_helminth",
+  "colonyTags" : ["misc"],
+  "itemTags" : ["captainschair"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "loungeable",
+  
+  "description" : "Swap out your organs with the help of a ruin-enhanced surgery table.",
+  "shortdescription" : "^reset;The Helminth",
+  "race" : "generic",
+  "category" : "furniture",
+
+  "apexDescription" : "This complex machine allows me to equip techs.",
+  "avianDescription" : "This console lets me equip techs! Useful gadgets, once you get over the weirdness.",
+  "floranDescription" : "This consssole lets Floran equip techs! New techsss always very exciting.",
+  "glitchDescription" : "Impressed. This console allows me to equip and remove techs.",
+  "humanDescription" : "I can equip techs here! What a handy machine.",
+  "hylotlDescription" : "Techs are a fascinating advancement in bioengineering.",
+  "novakidDescription" : "With a little know-how, I can use this machine to equip techs.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "srm_helminth.png:<frame>", "fullbright" : false } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [-2.0, 24]
+    },
+    {
+      "imageLayers" : [ { "image" : "srm_helminth.png:<frame>", "fullbright" : false } ],
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [6.0, 24]
+    }
+  ],
+  
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/srm_organselection/srm_organselection.config",
+  
+  "sitFlipDirection" : false,
+  "sitCoverImage" : "/objects/trials/srm_helminth/srm_helminthcover.png",
+
+  "price" : 5000
+}

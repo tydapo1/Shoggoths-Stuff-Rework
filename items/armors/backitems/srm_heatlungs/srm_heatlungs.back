@@ -1,0 +1,45 @@
+{
+  "itemName" : "srm_heatlungs",
+  "price" : 1000,
+  "inventoryIcon" : "/items/armors/organicons.png:lungs.t5",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Legendary",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "These lungs provides ^yellow;resistance to the basic four elemental hazards^reset;.",
+  "shortdescription" : "T5 Hyper Lungs",
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "biomeheatImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

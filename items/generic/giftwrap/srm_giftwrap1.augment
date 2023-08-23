@@ -1,0 +1,12 @@
+{
+  "itemName" : "srm_giftwrap1",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "Gift Wrap",
+  "inventoryIcon" : "srm_giftwrap1.png",
+  "description" : "This can be used to gift wrap an item with a right-click.",
+  "shortdescription" : "Gift Wrap",
+  "newIcon" : "srm_present1.png",
+
+  "scripts" : [ "/scripts/augments/giftwrap.lua" ]
+}

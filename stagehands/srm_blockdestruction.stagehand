@@ -1,0 +1,12 @@
+{
+  "type" : "srm_blockdestruction",
+  "keepAlive" : true,
+
+  "position" : [-5, -5],
+  "layer" : "ground",
+
+  "scripts" : [
+  	"/stagehands/srm_blockdestruction.lua"
+  ],
+  "scriptDelta" : 10
+}

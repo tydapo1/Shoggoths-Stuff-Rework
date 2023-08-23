@@ -1,0 +1,22 @@
+{
+  "modId" : 36505,
+  "modName" : "srm_shoggotheyepatch5",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=e31622fe;d0c8a0fe=b81018fe;b8b188fe=9c0e15fe;a09976fe=800b11fe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// DUBBLE STRAWY
+
+//	f9f0c5fe=e31622fe;
+//	d0c8a0fe=b81018fe;
+//	b8b188fe=9c0e15fe;
+//	a09976fe=800b11fe

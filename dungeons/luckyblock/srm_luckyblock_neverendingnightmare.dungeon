@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "name": "srm_luckyblock_neverendingnightmare",
+    "species": "dummy",
+    "rules": [
+	],
+    "anchor": [ "srm_luckyblock_neverendingnightmare" ],
+    "maxRadius" : 2000,
+    "maxParts" : 100
+  },
+  "parts": [
+    {
+      "name": "srm_luckyblock_neverendingnightmare",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "srm_luckyblock_neverendingnightmare.json"
+      ]
+    }
+  ]
+}

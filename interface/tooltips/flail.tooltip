@@ -1,0 +1,106 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/shoggothHeaderMagnorb.png",
+    "fileBody" : "/interface/tooltips/shoggothBodyObjectMagnorb.png",
+    "fileFooter" : "/interface/tooltips/shoggothFooterMagnorb.png"
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [70, 148],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [60, 60],
+    "minSize" : [60, 60]
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [129, 111],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 111],
+    "hAnchor" : "left",
+    "value" : "Damage On Hit:"
+  },
+  "rangeLabel" : {
+    "type" : "label",
+    "position" : [129, 102],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "rangeTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 102],
+    "hAnchor" : "left",
+    "value" : "Max Range:"
+  },
+  "ballspeedLabel" : {
+    "type" : "label",
+    "position" : [129, 93],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "ballspeedTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 93],
+    "hAnchor" : "left",
+    "value" : "Flail Speed:"
+  },
+  "knockbackLabel" : {
+    "type" : "label",
+    "position" : [129, 84],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "knockbackTitleLabel" : {
+    "type" : "label",
+    "position" : [10, 84],
+    "hAnchor" : "left",
+    "value" : "Knockback:"
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [10, 68],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 124,
+    "lineSpacing" : 1.0,
+    "value" : ""
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [111, 24],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [98, 24],
+    "file" : "/interface/money.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [8, 24],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [129, 162],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [120, 136],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  }
+}

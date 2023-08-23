@@ -1,0 +1,68 @@
+{
+  "materialId" : 36643,
+  "materialName" : "srm_shoggothhull3",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar hull. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Hull",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/srm_shoggothhull.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothhull.png?replace;515384=f7ed81;41446f=e9d76a;323660=cebe58;242952=b9a949;5b4a7e=fbde6f;503e70=edcd60;41325f=d3b651;35274e=bca145;644078=ffce5c;5f3770=f2c457;4f2e5d=d9af4c;45244a=bf9941;bcbce0=fdf9d8;acacd2=f5edbd;8686aa=e3d89f;75759c=d9ce93;3f3f7d=e7d648;2f3465=d6c133;242957=c1ab22;1e2251=ac9213;3f3777=eaca32;302c5f=d6b520;282454=c29c18;221f4d=b08516;3f2f70=f2b91d;33265b=d7a519;2d2152=c68f14;261c48=b47712;c3c6df=f9f2be;b3b6d1=eee19b;8c8db2=d5c279;7a7ea1=b6a35a",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1820
+  }
+}
+
+// BANANA + DUBBLE NANNA
+
+//  Body Top 1
+//	515384=f7ed81;
+//	41446f=e9d76a;
+//	323660=cebe58;
+//	242952=b9a949;
+//  Body Mid 1
+//	5b4a7e=fbde6f;
+//	503e70=edcd60;
+//	41325f=d3b651;
+//	35274e=bca145;
+//  Body Bottom 1
+//	644078=ffce5c;
+//	5f3770=f2c457;
+//	4f2e5d=d9af4c;
+//	45244a=bf9941;
+//  Face 1
+//	bcbce0=fdf9d8;
+//	acacd2=f5edbd;
+//	8686aa=e3d89f;
+//	75759c=d9ce93;
+//  Body Top 2
+//	3f3f7d=e7d648;
+//	2f3465=d6c133;
+//	242957=c1ab22;
+//	1e2251=ac9213;
+//  Body Mid 2
+//	3f3777=eaca32;
+//	302c5f=d6b520;
+//	282454=c29c18;
+//	221f4d=b08516;
+//  Body Bottom 2
+//	3f2f70=f2b91d;
+//	33265b=d7a519;
+//	2d2152=c68f14;
+//	261c48=b47712;
+//  Face 2
+//	c3c6df=f9f2be;
+//	b3b6d1=eee19b;
+//	8c8db2=d5c279;
+//	7a7ea1=b6a35a

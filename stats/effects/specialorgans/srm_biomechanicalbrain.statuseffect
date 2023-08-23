@@ -1,0 +1,9 @@
+{
+  "name" : "srm_biomechanicalbrain",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_biomechanicalbrain.lua"
+  ]
+}

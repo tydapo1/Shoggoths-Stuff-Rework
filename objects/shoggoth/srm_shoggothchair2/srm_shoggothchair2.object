@@ -1,0 +1,36 @@
+{
+  "objectName" : "srm_shoggothchair2",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+  "description" : "A tarry shoggoth chair. (Alt 1)",
+  "shortdescription" : "Shoggoth Chair",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 75,
+  "apexDescription" : "A regular chair, relatively speaking.",
+  "avianDescription" : "A tarry chair with a yellow eye on it.",
+  "floranDescription" : "Tarrrrr make chair sssquishy.",
+  "glitchDescription" : "Disgusted. A creepy living chair.",
+  "humanDescription" : "A tarry little chair.",
+  "hylotlDescription" : "A rather strange chair.",
+  "novakidDescription" : "A chair made outta tarr.",
+  "inventoryIcon" : "srm_shoggothchair2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothchair2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothchair2/srm_shoggothchair2.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "srm_shoggothtoilet2",
+  "colonyTags" : ["shoggoth"],
+  "rarity" : "Common",
+
+  "description" : "An eldritch looking toilet. (Alt 1)",
+  "shortdescription" : "Shoggoth Toilet",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "A small toilet. It doesn't look entirely safe.",
+  "avianDescription" : "A spooky place for droppings.",
+  "floranDescription" : "Ssslimy place for sssmelly business.",
+  "glitchDescription" : "Disdain. A scary toilet.",
+  "humanDescription" : "An eldritch toilet. I feel watched.",
+  "hylotlDescription" : "A tarry toilet.",
+  "novakidDescription" : "I would not use this, no matter how much I'm payed.",
+
+  "inventoryIcon" : "srm_shoggothtoilet2icon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothtoilet2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [3, 24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothtoilet2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [7, 24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "sounds" : [ "/sfx/objects/toilet_flush.ogg" ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothtoilet2/srm_shoggothtoilet2.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+
+}

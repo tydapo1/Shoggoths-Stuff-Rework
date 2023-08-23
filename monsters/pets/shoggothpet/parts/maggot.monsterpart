@@ -1,0 +1,8 @@
+{
+  "name" : "maggot",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "maggot.png"
+  }
+}

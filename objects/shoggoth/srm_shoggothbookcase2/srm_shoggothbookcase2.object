@@ -1,0 +1,67 @@
+{
+  "objectName" : "srm_shoggothbookcase2",
+  "colonyTags" : ["shoggoth","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A tarry cabinet, for storing books and other things. (Alt 1)",
+  "shortdescription" : "Shoggoth Bookcase",
+  "race" : "shoggoth",
+  "category" : "storage",
+  "price" : 150,
+
+  "apexDescription" : "The open nature of this bookcase means it isn't very secure.",
+  "avianDescription" : "I can't say I enjoy the look of this gross looking bookcase.",
+  "floranDescription" : "Booksss too boring. Waste of treesss.",
+  "glitchDescription" : "Intrigued. I wonder what things are written in these dusty books?",
+  "humanDescription" : "This appears to be full of shoggoth novels...",
+  "hylotlDescription" : "Books are the source of all knowledge! Maybe not these shoggoth books, though.",
+  "novakidDescription":  "I feel like this woulda been purtier without the purple finish.",
+
+  "inventoryIcon" : "srm_shoggothbookcase2icon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothbookcase2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ 
+		[-1, 0], [0, 0], [1, 0], 
+		[-1, 1], [0, 1], [1, 1], 
+		[-1, 2], [0, 2], [1, 2], 
+		[-1, 3], [0, 3], [1, 3], 
+		[-1, 4], [0, 4], [1, 4] 
+	  ],
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "srm_shoggothbookcase2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaces" : [ 
+		[-1, 0], [0, 0], [1, 0], 
+		[-1, 1], [0, 1], [1, 1], 
+		[-1, 2], [0, 2], [1, 2], 
+		[-1, 3], [0, 3], [1, 3], 
+		[-1, 4], [0, 4], [1, 4] 
+	  ],
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/plantorb_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plantorb_close.ogg" ],
+  "slotCount" : 12,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothbookcase2/srm_shoggothbookcase2.png",
+  "placementImagePosition" : [-8, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "srm_pancreas",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "inventoryIcon" : "srm_pancreas.png",
+  "description" : "A small organ responsible for producing hormones.",
+  "shortdescription" : "Pancreas",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+      {
+        "effect" : "srm_cannibalism",
+        "duration": 20
+      } 
+    ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

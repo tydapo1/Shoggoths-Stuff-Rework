@@ -1,0 +1,15 @@
+{
+  "name" : "srm_withdrawal_joy",
+  "effectConfig" : {
+    "addictionType" : "srm_addicted_joy",
+	"addictionAmount" : 0.1, /* This is how much, out of x divided by 1.0, a single drug consumption increases the chance to get addicted. */
+	"drugFullDuration" : 180, /* How long the buff lasts in seconds. */
+	"addictionFullDuration" : 600, /* The cap for addiction stacks in seconds. */
+	"withdrawalFullDuration" : 1200 /* The cap for withdrawal stacks in seconds. */
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "srm_withdrawal_joy.lua"
+  ]
+}

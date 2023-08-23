@@ -1,0 +1,70 @@
+{
+  "materialId" : 36520,
+  "materialName" : "srm_shoggothblock20",
+  "particleColor" : [50, 54, 96, 255],
+  "itemDrop" : "srm_eldritchslime",
+
+  "description" : "A thick tar block. (Paint for other variants.)",
+  "shortdescription" : "Shoggoth Block",
+  "glitchDescription" : "Hesitant. This tar looks sticky.",
+  "floranDescription" : "Floran lovess tarrrr!",
+  "novakidDescription" : "This tar is some nasty lookin' stuff.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 1,
+  "category" : "materials",
+  
+  "tillableMod" : 36998,
+  "soil" : true,
+
+  "renderTemplate" : "/tiles/srm_shoggothblock.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothblock.png?replace;515384=ddffab;41446f=9bff00;323660=73bf00;242952=4c8000;5b4a7e=eeffab;503e70=ccff00;41325f=99bf00;35274e=668000;644078=ffffab;5f3770=ffff00;4f2e5d=bfbf00;45244a=808000;bcbce0=abffb2;acacd2=00ff15;8686aa=00bf10;75759c=00800b;3f3f7d=f3f6fa;2f3465=cbd3db;242957=9aa5b1;1e2251=7f8894;3f3777=c5afa5;302c5f=9e918c;282454=76706f;221f4d=5b5759;3f2f70=976750;33265b=714f3c;2d2152=513a2d;261c48=36261e;c3c6df=f3f6fa;b3b6d1=cbd3db;8c8db2=9aa5b1;7a7ea1=7f8894",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "zLevel" : 1790
+  }
+}
+
+// RADIOACTIVE + WAX FLAME
+
+//  Body Top 1
+//	515384=ddffab;
+//	41446f=9bff00;
+//	323660=73bf00;
+//	242952=4c8000;
+//  Body Mid 1
+//	5b4a7e=eeffab;
+//	503e70=ccff00;
+//	41325f=99bf00;
+//	35274e=668000;
+//  Body Bottom 1
+//	644078=ffffab;
+//	5f3770=ffff00;
+//	4f2e5d=bfbf00;
+//	45244a=808000;
+//  Face 1
+//	bcbce0=abffb2;
+//	acacd2=00ff15;
+//	8686aa=00bf10;
+//	75759c=00800b;
+//  Body Top 2
+//	3f3f7d=f3f6fa;
+//	2f3465=cbd3db;
+//	242957=9aa5b1;
+//	1e2251=7f8894;
+//  Body Mid 2
+//	3f3777=c5afa5;
+//	302c5f=9e918c;
+//	282454=76706f;
+//	221f4d=5b5759;
+//  Body Bottom 2
+//	3f2f70=976750;
+//	33265b=714f3c;
+//	2d2152=513a2d;
+//	261c48=36261e;
+//  Face 2
+//	c3c6df=f3f6fa;
+//	b3b6d1=cbd3db;
+//	8c8db2=9aa5b1;
+//	7a7ea1=7f8894

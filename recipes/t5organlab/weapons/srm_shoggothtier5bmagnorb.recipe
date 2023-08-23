@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "refinedviolium", "count" : 20 },
+	{ "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtier5bmagnorb",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t5organ" ]
+}

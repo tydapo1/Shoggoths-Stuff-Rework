@@ -1,0 +1,9 @@
+{
+  "name" : "srm_saintvictorswisdomtooth",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_saintvictorswisdomtooth.lua"
+  ]
+}

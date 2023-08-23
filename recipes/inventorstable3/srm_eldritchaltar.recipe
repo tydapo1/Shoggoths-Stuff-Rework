@@ -1,0 +1,17 @@
+{
+  "input" : [
+	{ "item" : "srm_liquidblood", "count" : 666 },
+    { "item" : "vaultkey", "count" : 1 },
+    { "item" : "bone", "count" : 25 },
+	{ "item" : "fleshstrand", "count" : 25 },
+	{ "item" : "obsidian", "count" : 100 },
+	{ "item" : "medievalcandle", "count" : 6 },
+	{ "item" : "geodeblock", "count" : 1 }	
+  ],
+  "output" : {
+    "item" : "srm_eldritchaltar",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable", "craftingstations", "all", "shoggothcraftingtables" ]
+}

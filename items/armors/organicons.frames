@@ -1,0 +1,16 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [7, 5],
+    "names" : [
+      [ "null",		"null",		"null",		"null",		"null",		"null",		"null"		],
+      [ "null",		"brain.t1",	"brain.t2",	"brain.t3",	"brain.t4",	"brain.t5",	"brain.t6"	],
+      [ "null",		"heart.t1",	"heart.t2",	"heart.t3",	"heart.t4",	"heart.t5",	"heart.t6"	],
+      [ "null",		"gut.t1",	"gut.t2",	"gut.t3",	"gut.t4",	"gut.t5",	"gut.t6"	],
+      [ "null",		"null",		"lungs.t2",	"lungs.t3",	"lungs.t4",	"lungs.t5",	"null"		]
+    ]
+  },
+  "aliases" : {
+	"default" : "brain.t1"
+  }
+}

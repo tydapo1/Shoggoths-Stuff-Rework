@@ -1,0 +1,15 @@
+{
+  "name" : "srm_eldritchslimed",
+  "blockingStat" : "srm_eldritchracial",  
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_eldritchslimed.lua"
+  ],
+
+  "animationConfig" : "srm_eldritchslimed.animation",
+
+  "label" : "Eldritch Slime",
+  "icon" : "/interface/statuses/srm_eldritchslimed.png"
+}

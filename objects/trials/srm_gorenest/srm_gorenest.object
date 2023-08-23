@@ -1,0 +1,43 @@
+{
+  "objectName" : "srm_gorenest",
+  "colonyTags" : ["ruin"],
+  "rarity" : "Essential",
+  "description" : "Tear it apart to summon a bunch of foes.",
+  "shortdescription" : "Gorenest",
+  "category" : "decorative",
+  "price" : 0,
+
+  "apexDescription" : "This complex machine allows me to equip techs.",
+  "avianDescription" : "This console lets me equip techs! Useful gadgets, once you get over the weirdness.",
+  "floranDescription" : "This consssole lets Floran equip techs! New techsss always very exciting.",
+  "glitchDescription" : "Impressed. This console allows me to equip and remove techs.",
+  "humanDescription" : "I can equip techs here! What a handy machine.",
+  "hylotlDescription" : "Techs are a fascinating advancement in bioengineering.",
+  "novakidDescription" : "With a little know-how, I can use this machine to equip techs.",
+  
+  "scripts" : ["srm_gorenest.lua"],
+  "scriptDelta" : 1,
+  
+  "animation" : "srm_gorenest.animation",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gorenest.png:<goreframe>", "fullbright" : false }, { "image" : "portal.png:<portalframe>", "fullbright" : true } ],
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "gorenest.png:<goreframe>", "fullbright" : false }, { "image" : "portal.png:<portalframe>", "fullbright" : true } ],
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ]
+}

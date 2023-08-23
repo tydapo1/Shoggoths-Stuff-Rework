@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "srm_deathstatelog1-codex", "count" : 1 },
+	{ "item" : "srm_deathstatelog2-codex", "count" : 1 },
+	{ "item" : "srm_deathstatelog3-codex", "count" : 1 },
+	{ "item" : "srm_deathstatelog4-codex", "count" : 1 },
+	{ "item" : "srm_deathstatelog5-codex", "count" : 1 },
+	{ "item" : "srm_deathstatelog6-codex", "count" : 1 },
+	{ "item" : "money", "count" : 1000 }
+  ],
+  "output" : {
+    "item" : "srm_shardofknowledge",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "lore", "t6organ" ]
+}

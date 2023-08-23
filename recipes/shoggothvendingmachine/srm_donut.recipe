@@ -1,0 +1,31 @@
+{
+  "input" : [
+    { "item" : "srm_liquidblood", "count" : 65 }
+  ],
+  "output" : {
+    "item" : "srm_packaging",
+	"parameters" : {
+		"inventoryIcon" : "srm_foodpackaging_shoggoth.png",
+		"animationCustom" : {
+		  "animatedParts" : {
+			"parts" : {
+			  "gun" : {
+				"properties" : {
+				  "image" : "srm_foodpackaging_shoggoth.png"
+				}
+			  }
+			}
+		  }
+		},
+		"description" : "A shoggoth food package. This one has a Shoggonut in it.",
+		"shortdescription" : "Shoggonut",
+		"content" : {
+		  "type" : "item",
+		  "item" : "srm_donut"
+		}
+	},
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "shoggothfood" ]
+}

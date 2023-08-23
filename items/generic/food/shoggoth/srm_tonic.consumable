@@ -1,0 +1,21 @@
+{
+  "itemName" : "srm_tonic",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "drink",
+  "inventoryIcon" : "srm_tonic.png",
+  "description" : "This tonic, if you can handle it, gives you a boost of energy.",
+  "shortdescription" : "Chthonic Tonic",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

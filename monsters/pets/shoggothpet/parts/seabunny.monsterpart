@@ -1,0 +1,8 @@
+{
+  "name" : "seabunny",
+  "category" : "shoggothpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "seabunny.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "modId" : 36524,
+  "modName" : "srm_shoggotheyepatch24",
+  "description" : "Eyes!",
+  "health" : 0,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggotheyepatch.png?replace;f9f0c5fe=61ffd0fe;d0c8a0fe=29ba85fe;b8b188fe=1f875dfe;a09976fe=00624afe",
+    "variants" : 10,
+    "multiColored" : false,
+    "zLevel" : 1850
+  }
+}
+
+// ABYSS FRUIT
+
+//	f9f0c5fe=61ffd0fe;
+//	d0c8a0fe=29ba85fe;
+//	b8b188fe=1f875dfe;
+//	a09976fe=00624afe

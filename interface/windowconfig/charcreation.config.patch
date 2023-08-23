@@ -1,0 +1,17 @@
+[
+  { 
+    "op": "add", 
+	"path": "/speciesOrdering/-", 
+	"value": "shoggoth" 
+  },
+  { 
+    "op": "add", 
+	"path": "/speciesOrdering/-", 
+	"value": "mindflayer" 
+  },
+  { 
+    "op": "add", 
+	"path": "/speciesOrdering/-", 
+	"value": "nightgaunt" 
+  }
+]

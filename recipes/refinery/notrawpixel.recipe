@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "srm_rawpixel", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 1 },
+  "duration" : 0.05,
+  "groups" : [ "refinery" ]
+}

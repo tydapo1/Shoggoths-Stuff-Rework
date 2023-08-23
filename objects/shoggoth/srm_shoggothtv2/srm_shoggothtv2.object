@@ -1,0 +1,44 @@
+{
+  "objectName" : "srm_shoggothtv2",
+  "colonyTags" : ["shoggoth","electronic"],
+  "rarity" : "Common",
+  "description" : "A television! This screen looks more like a face than it does a screen. (Alt 1)",
+  "shortdescription" : "Shoggoth Television",
+  "race" : "shoggoth",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "A television set. I keep expecting to see Cthuluh's face.",
+  "avianDescription" : "A monitor, for watching horror shows.",
+  "floranDescription" : "Ssspooky moving picturesss.",
+  "glitchDescription" : "Concerned. The eldritch's take on televisions is very strange.",
+  "humanDescription" : "The next best thing to campfire ghost stories is horror movies!",
+  "hylotlDescription" : "Despite the lack of technology, this television has access to alot of channels, most of which are horror.",
+  "novakidDescription" : "A scary television. I hate horror shows!",
+
+  "inventoryIcon" : "srm_shoggothtv2icon.png",
+  "orientations" : [
+    {
+      "image" : "srm_shoggothtv2.png:<color>",
+      "imagePosition" : [-21, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "srm_shoggothtv2.png:<color>",
+      "imagePosition" : [-21, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothtv2/srm_shoggothtv2.png",
+  "placementImagePosition" : [-21, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

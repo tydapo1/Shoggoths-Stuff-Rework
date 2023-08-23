@@ -1,0 +1,11 @@
+{
+  "name" : "srm_surgery",
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "srm_surgery.lua"
+  ],
+
+  "animationConfig" : "srm_surgery.animation"
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "srm_trifluid",
+  "effectConfig" : {
+    "healPercent" : 300,
+    "emissionRate" : 4
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "srm_trifluid.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

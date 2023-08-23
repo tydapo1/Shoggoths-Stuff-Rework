@@ -1,0 +1,12 @@
+{
+  "name" : "srm_nyctophobia",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_nyctophobia.lua"
+  ],
+
+  "label" : "Nyctophobia",
+  "icon" : "/interface/statuses/srm_nyctophobia.png"
+}

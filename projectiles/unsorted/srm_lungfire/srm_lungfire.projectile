@@ -1,0 +1,23 @@
+{
+  "projectileName" : "srm_lungfire",
+  "image" : "srm_lungfire.png",
+  "physics" : "flame",
+  "animationCycle" : 1,
+  "animationLoops" : false,
+  "frameNumber" : 12,
+  "winddownFrames" : 3,
+  "intangibleWinddown" : true,
+  "power" : 5,
+  "speed" : 25,
+  "timeToLive" : 1.0,
+  "bounces" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-12, 0], [-8, -8], [0, -12], [8, -8], [12, 0], [8, 8], [0, 12], [-8, 8] ],
+  "lightColor" : [235, 126, 2],
+  "damageKind" : "flamethrower",
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "burning"
+  ],
+  "hydrophobic" : true
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName" : "srm_lightwisp",
+  "image" : "srm_lightwisp.png",
+  "animationCycle" : 1.0,
+  "timeToLive" : 10.0,
+  "frameNumber" : 1,
+  "speed" : 5,
+  "power" : 0,
+  "animationLoops" : false,
+  "emitters" : [ "srm_lightwispeffect" ],
+  "flippable" : true,
+  "piercing" : true,
+  "physics" : "laser",
+  "bounces" : -1,
+  "damageKind" : "hidden",
+  "damageType" : "IgnoresDef",
+  "lightColor" : [100, 255, 200],
+  "fullbright" : true
+}

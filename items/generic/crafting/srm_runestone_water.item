@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_water",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_water.png",
+  "description" : "A magical slate, imprinted with the element of water.",
+  "shortdescription" : "Water Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}

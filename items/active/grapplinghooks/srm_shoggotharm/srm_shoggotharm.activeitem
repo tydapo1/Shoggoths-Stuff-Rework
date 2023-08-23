@@ -1,0 +1,48 @@
+{
+  "itemName" : "srm_shoggotharm",
+  "price" : 500,
+  "inventoryIcon" : "srm_shoggotharmicon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "Stretch your arm REALLY far!",
+  "shortdescription" : "Your Arm!",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/srm_shoggotharm/srm_shoggotharm.lua"],
+  "animationScripts" : ["/items/active/effects/rendershog.lua"],
+
+  "animation" : "srm_shoggotharm.animation",
+
+  "fireOffset" : [0, 0.3],
+  "ropeOffset" : [-1.75, 0.3],
+  "ropeVisualOffset" : [-0.5, 0.0],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "srm_shoggotharm",
+  "projectileParameters" : {
+	"image" : "srm_shoggotharm.png",
+	"processing" : ""
+  },
+  
+  "brandnew" : true,
+
+  "ropeWidth" : 4.0,
+  "ropeColor" : [65, 68, 111, 255],
+  "ropeColor2" : [50, 54, 96, 255],
+  "hexColor" : "",
+  "hexColor2" : "",
+
+  "reelInDistance" : 0.5,
+  "reelOutLength" : 50,
+  "breakLength" : 60,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 50,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}

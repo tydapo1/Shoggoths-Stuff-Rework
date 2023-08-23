@@ -1,0 +1,32 @@
+{
+  "projectileName" : "srm_tier2shoggothmagnorb",
+  "image" : "srm_tier2shoggothmagnorb.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "orientationLocked" : true,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "hammer",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/toy_bounce1.ogg",
+        "/sfx/projectiles/toy_bounce2.ogg",
+        "/sfx/projectiles/toy_bounce3.ogg",
+        "/sfx/projectiles/toy_bounce4.ogg",
+        "/sfx/projectiles/toy_bounce5.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/shoggothprojectile.lua" ]
+}

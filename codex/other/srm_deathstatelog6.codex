@@ -1,0 +1,22 @@
+{
+  "id" : "srm_deathstatelog6",
+  "title" : "Deathstate Log Tier 6",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"Brain from Afar : 
+A bizarre brain with a mind of its own (albeit a weak one). A small pineal gland reaches out on an extended tendril from within its fleshy coils.",
+
+"The Blueblood Hungry Heart : 
+A desperately hungry thing born of power and privilege. I fear it may overcome me in time.",
+
+"Biomechanical Gut : 
+A reeking, writhing stomach reinforced with mechanical components. Dual pistons blast out a foul spray at any who oppose me."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "materialId" : 36711,
+  "materialName" : "srm_shoggothplatformsmooth11",
+  "collisionKind" : "platform",
+  "itemDrop" : "srm_eldritchslime",
+  "shortdescription" : "Smooth Shoggoth Platform",
+  "description" : "The smooth platform is made of tar. Better be careful not to slip!",
+  "glitchDescription" : "Cautious. This tar platform is slimy and slippery.",
+  "floranDescription" : "Floran sslide along sslimy mosss platform.",
+  "novakidDescription" : "This tar makes this platform mighty slippery.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/srm_shoggothplatformsmooth.config",
+  "renderParameters" : {
+    "texture" : "srm_shoggothplatformsmooth.png?replace;515384=df96d4;41446f=ad50b9;323660=6c4082;242952=42304b;5b4a7e=df96d4;503e70=ad50b9;41325f=6c4082;35274e=42304b;644078=df96d4;5f3770=ad50b9;4f2e5d=6c4082;45244a=42304b;bcbce0=df96d4;acacd2=ad50b9;8686aa=6c4082;75759c=42304b;3f3f7d=fff599;2f3465=ffca38;242957=fa8a00;1e2251=da3800;3f3777=fff599;302c5f=ffca38;282454=fa8a00;221f4d=da3800;3f2f70=fff599;33265b=ffca38;2d2152=fa8a00;261c48=da3800;c3c6df=fff599;b3b6d1=ffca38;8c8db2=fa8a00;7a7ea1=da3800",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1811
+  }
+}
+
+// CHAOS BERRY + MAGMA ROOTS
+
+//  Body Top 1
+//	515384=df96d4;
+//	41446f=ad50b9;
+//	323660=6c4082;
+//	242952=42304b;
+//  Body Mid 1
+//	5b4a7e=df96d4;
+//	503e70=ad50b9;
+//	41325f=6c4082;
+//	35274e=42304b;
+//  Body Bottom 1
+//	644078=df96d4;
+//	5f3770=ad50b9;
+//	4f2e5d=6c4082;
+//	45244a=42304b;
+//  Face 1
+//	bcbce0=df96d4;
+//	acacd2=ad50b9;
+//	8686aa=6c4082;
+//	75759c=42304b;
+//  Body Top 2
+//	3f3f7d=fff599;
+//	2f3465=ffca38;
+//	242957=fa8a00;
+//	1e2251=da3800;
+//  Body Mid 2
+//	3f3777=fff599;
+//	302c5f=ffca38;
+//	282454=fa8a00;
+//	221f4d=da3800;
+//  Body Bottom 2
+//	3f2f70=fff599;
+//	33265b=ffca38;
+//	2d2152=fa8a00;
+//	261c48=da3800;
+//  Face 2
+//	c3c6df=fff599;
+//	b3b6d1=ffca38;
+//	8c8db2=fa8a00;
+//	7a7ea1=da3800

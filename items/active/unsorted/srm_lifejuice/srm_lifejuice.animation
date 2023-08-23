@@ -1,0 +1,62 @@
+{
+  "globalTagDefaults" : {
+    "frame_energy" : "0",
+    "frame_health" : "0",
+    "frame_food" : "0"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "blender" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "blender" : {
+        "properties" : {
+          "zLevel" : 4,
+          "centered" : true,
+          "image" : "<partImage>",
+          "offset" : [0.75, -0.5],
+          "transformationGroups" : ["blender"]
+        }
+      },
+      "meter_energy" : {
+        "properties" : {
+          "zLevel" : 3,
+          "centered" : true,
+          "image" : "<partImage>:<frame_energy>",
+          "offset" : [0.75, -0.5],
+          "transformationGroups" : ["blender"]
+        }
+      },
+      "meter_health" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "image" : "<partImage>:<frame_health>",
+          "offset" : [0.75, -0.5],
+          "transformationGroups" : ["blender"]
+        }
+      },
+      "meter_food" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "image" : "<partImage>:<frame_food>",
+          "offset" : [0.75, -0.5],
+          "transformationGroups" : ["blender"]
+        }
+      }
+	}
+  },
+
+  "transformationGroups" : {
+    "blender" : {}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "srm_sandwich",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "preparedFood",
+  "inventoryIcon" : "srm_sandwich.png",
+  "description" : "A 'good' old sandwich with gross shoggoth stuffing.",
+  "shortdescription" : "Shoggwich",
+  "effects" : [ [
+    {
+        "effect" : "srm_cannibalism",
+        "duration" : 160
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 320
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 320
+    }
+  ] ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

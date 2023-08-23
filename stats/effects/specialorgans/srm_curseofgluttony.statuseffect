@@ -1,0 +1,11 @@
+{
+  "name" : "srm_curseofgluttony",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "animationConfig" : "srm_curseofgluttony.animation",
+
+  "scripts" : [
+    "srm_curseofgluttony.lua"
+  ]
+}

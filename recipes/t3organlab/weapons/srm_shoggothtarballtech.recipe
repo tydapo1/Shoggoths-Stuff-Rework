@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "titaniumbar", "count" : 5 },
+	{ "item" : "srm_eldritchslime", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "srm_shoggothtarballtech",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t3organ" ]
+}

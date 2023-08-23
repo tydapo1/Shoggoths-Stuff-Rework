@@ -1,0 +1,166 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "drill" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {},
+          "active" : {
+            "frames" : 4,
+            "cycle" : 0.2,
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/projectiles/tentacle_loop.ogg",
+              "persistentSoundStopTime" : 0.25
+            }
+          }
+        }
+      },
+      "swoosh" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          },
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.12,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      },
+      "interfacing" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {},
+          "building" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "spearpaint" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [0.0, 0.0],
+		  "dotLocation" : [0.0, 3.375],
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "drill" : {
+            "idle" : {
+              "properties" : {
+                "image" : "upgraded_brush_paint.png:1<rainbowDirectives>"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "upgraded_brush_paint.png:<frame><rainbowDirectives>"
+              }
+            }
+          }
+        }
+      },
+      "spearfullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "drill" : {
+            "idle" : {
+              "properties" : {
+                "image" : "upgraded_brush_fullbright.png:1<color>"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "upgraded_brush_fullbright.png:<frame><color>"
+              }
+            }
+          }
+        }
+      },
+      "spear" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"],
+          "damageArea" : [[0, -0.5], [-0.75, 1.0], [-0.75, 2.75], [0, 4.25], [0.75, 2.75], [0.75, 1.0]]
+        },
+
+        "partStates" : {
+          "drill" : {
+            "idle" : {
+              "properties" : {
+                "image" : "upgraded_brush.png:1<color>"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "upgraded_brush.png:<frame><color>"
+              }
+            }
+          }
+        }
+      },
+
+      "swoosh" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [3.0, 0.0],
+          "transformationGroups" : ["swoosh"]
+        },
+
+        "partStates" : {
+          "swoosh" : {
+            "idle" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/spear/swoosh/paintswoosh.png:<frame><rainbowDirectives><color>",
+                "damageArea" : [[-3.5, 0], [-1, 1], [1, 1], [4, 0], [1, -1], [-1, -1]]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "swoosh" : {}
+  },
+
+  "particleEmitters" : {
+    "physicalswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 60,
+      "offsetRegion" : [3.5, -1.0, 7.5, 1.0],
+      "particles" : [ ]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ "/sfx/melee/fleshwhip_swing1.ogg" ]
+  }
+}

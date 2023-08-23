@@ -1,0 +1,31 @@
+{
+  "input" : [
+    { "item" : "srm_liquidblood", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "srm_packaging",
+	"parameters" : {
+		"inventoryIcon" : "srm_foodpackaging_shoggoth.png",
+		"animationCustom" : {
+		  "animatedParts" : {
+			"parts" : {
+			  "gun" : {
+				"properties" : {
+				  "image" : "srm_foodpackaging_shoggoth.png"
+				}
+			  }
+			}
+		  }
+		},
+		"description" : "A shoggoth food package. This one has Keratin Krisps in it.",
+		"shortdescription" : "Keratin Krisps",
+		"content" : {
+		  "type" : "item",
+		  "item" : "srm_keratincrisps"
+		}
+	},
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "shoggothfood" ]
+}

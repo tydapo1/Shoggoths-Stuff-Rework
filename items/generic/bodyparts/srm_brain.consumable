@@ -1,0 +1,25 @@
+{
+  "itemName" : "srm_brain",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "food",
+  "eventCategory" : "cookingIngredient",
+  "inventoryIcon" : "srm_brain.png",
+  "description" : "A fragile organ that is responsible for thought and behavior.",
+  "shortdescription" : "Brain",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "effects" : [ [
+      {
+        "effect" : "srm_cannibalism",
+        "duration": 20
+      } 
+    ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

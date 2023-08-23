@@ -1,0 +1,23 @@
+{
+  "particleEmitters" : {
+    "person" : {
+      "emissionRate" : 1,
+      "burstCount" : 1,
+      "particles" : [
+        {
+          "particle" : "dash",
+          "flip" : true,
+          "offset" : [0, 0]
+        },
+        {
+          "particle" : "dash",
+          "flip" : false,
+          "offset" : [0, 0]
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "trigger": [ "/sfx/tech/tech_blink2.ogg" ]
+  }
+}

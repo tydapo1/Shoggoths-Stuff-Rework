@@ -1,0 +1,25 @@
+{
+  "id" : "srm_deathstatelog2",
+  "title" : "Deathstate Log Tier 2",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"Butterfly Lung : 
+A strange alien organ that reminds me of a butterfly. It imbues my breath with a sweet pollen taste as it flaps rhythmically within my chest.",
+
+"Queen Umvorax's Brain : 
+The brain of a queen who was obessed by material wealth. She practiced strange rituals to suffuse her body with gold and other precious ores. Her brain became saturated with gold.",
+
+"Bruised Tissue Mass : 
+A bruised and swollen organ that vaguely resembles a heart. It has somehow not only survived some unforgiving blunt trauma, but has been strengthened by the ordeal.",
+
+"Blinking Spleen : 
+A vile looking organ with an eye growing out of its surface. It gazes at me sympathetically."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

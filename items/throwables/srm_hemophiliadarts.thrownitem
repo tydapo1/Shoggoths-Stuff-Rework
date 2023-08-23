@@ -1,0 +1,31 @@
+{
+  "itemName" : "srm_hemophiliadarts",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "srm_hemophiliadarts.png",
+  "image" : "srm_hemophiliadarts.png",
+  "shortdescription" : "Hemophilia Darts",
+  "description" : "The nasty poison these are filled with will make the user bleed to death very slowly.",
+  "price" : 100,
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "projectileType" : "srm_hemophiliadarts",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 0.0,
+    "knockback" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

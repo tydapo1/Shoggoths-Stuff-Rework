@@ -1,0 +1,19 @@
+{
+  "projectileName" : "srm_shoggothballprojectile",
+  "image" : "srm_shoggothballprojectile.png",
+  "animationCycle" : 1.0,
+  "timeToLive" : 0.5,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "power" : 50,
+  "knockback" : 50,
+  "damagePoly" : [ [-9, -6], [-6, -9], [6, -9], [9, -6], [9, 6], [6, 9], [-6, 9], [-9, 6] ],
+  "animationLoops" : false,
+  "emitters" : [  ],
+  "flippable" : true,
+  "piercing" : true,
+  "damageKind" : "lash",
+  "fullbright" : true
+}
+
+  

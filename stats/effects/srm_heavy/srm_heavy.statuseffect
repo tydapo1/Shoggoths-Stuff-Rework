@@ -1,0 +1,12 @@
+{
+  "name" : "srm_heavy",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "srm_heavy.lua"
+  ],
+
+  "label" : "Heavy Sword",
+  "icon" : "/interface/statuses/slow.png"
+}

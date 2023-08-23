@@ -1,0 +1,55 @@
+{
+  "objectName" : "srm_recycleomatic",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "description" : "Transform anything into raw pixels, to get atleast something from worthless junk.",
+  "shortdescription" : "^orange;Recycle-O-Matic 9000^white;",
+  "inventoryIcon" : "srm_recycleomaticicon.png",
+  "race" : "generic",
+  "category" : "Recycle Junk",
+  "price" : 1000,
+  "health" : 2,
+
+  "objectType" : "container",
+  "slotCount" : 32,
+  "edgeOfInOut" : 8,
+  "uiConfig" : "/interface/scripted/srm_recycleomatic/srm_recycleomatic.config",
+  "scripts" : [ "/objects/crafting/srm_recycleomatic/srm_recycleomatic.lua" ],
+  "scriptDelta" : 2,
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "craftTime" : 0.2,
+
+  "apexDescription" : "This machine generates money from stuff, a true wonder of science.",
+  "avianDescription" : "While it isn't terribly efficient, I atleast get something from stuff I don't need.",
+  "floranDescription" : "Floran put trassssssh, get shiniessss. Nicccce.",
+  "glitchDescription" : "Greedy. The fact that this can give money from trash is truely amazing.",
+  "humanDescription" : "Shove a bunch of junk in there and get some pocket change for it. Recycling is awesome!",
+  "hylotlDescription" : "Money gained from this machine will not make anyone rich, but it is a good way to recycle.",
+  "novakidDescription" : "Getting paid for dirt is actually kind of awesome!",
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+  "lightColor" : [23, 33, 38],
+  "orientations" : [
+    {
+      "dualImage" : "srm_recycleomatic.png:off",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "srm_recycleomatic.animation",
+  "animationParts" : {"srm_recycleomatic" : "srm_recycleomatic.png", "srm_recycleomaticlit" : "srm_recycleomaticlit.png"},
+  "animationPosition" : [-24, 0],
+
+  "soundEffect" : "/sfx/objects/recyclingnoises.ogg",
+  "soundEffectRangeMultiplier" : 0.1
+}

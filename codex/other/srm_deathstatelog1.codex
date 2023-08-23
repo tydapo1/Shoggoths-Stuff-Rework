@@ -1,0 +1,22 @@
+{
+  "id" : "srm_deathstatelog1",
+  "title" : "Deathstate Log Tier 1",
+  "description" : "A small book logging the information behind a few organs.",
+  "icon" : "srm_deathstatelogcover.png",
+  "contentPages" : [
+
+"King Ermine's Brain : 
+The brain of a weak minded king who succumbed to a disease of spiritual consumption. His body became infested with otherworld spirits. In his most desperate hour, he endeavoured to have his brain removed from his body so that he could be free from the legion within him. Whether or not his identity survived is unknown.",
+
+"Tangled Heart : 
+A small, twisted thing. Could be the remains of a terrible accident, or a heartbroken lore. Something caused the thing to bind up and consume surrounding ribs.",
+
+"Yellowed Fatty Spleen : 
+A greeny spleen that exudes a savory odor. It leaves a thick staining oil behind."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Rare",
+    "price" : 250
+  }
+}

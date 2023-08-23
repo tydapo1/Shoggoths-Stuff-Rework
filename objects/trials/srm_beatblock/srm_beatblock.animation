@@ -1,0 +1,52 @@
+{
+  "globalTagDefaults" : {
+    "doorDirection" : "Right"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "doorState" : {
+        "default" : "closed",
+        "states" : {
+          "open" : { },
+          "closed" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "door" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "doorState" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:open"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:closed"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "beat" : {
+	  "pool" : [ "/sfx/objects/beatblocktick.ogg" ],
+	  "rangeMultiplier" : 0.3
+	},
+    "swap" : {
+	  "pool" : [ "/sfx/objects/beatblockswitch.ogg" ],
+	  "rangeMultiplier" : 0.3
+	}
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "srm_shoggothaltar",
+  "colonyTags" : ["shoggoth"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An altar dedicated to some unspeakable horror.",
+  "shortdescription" : "Shoggoth Altar",
+  "race" : "shoggoth",
+  "category" : "furniture",
+  "price" : 45,
+  "apexDescription" : "What manner of horrendous worshippers gather here?",
+  "avianDescription" : "The god this altar pays tribute to does not bear thinking of.",
+  "floranDescription" : "Floran only worship ssstabbing. Floran like table though.",
+  "glitchDescription" : "Anxious. This altar is stained with the blood of innocents, or maybe just birds.",
+  "humanDescription" : "What eldritch horrors are worshipped here? And when did I learn the word eldritch?",
+  "hylotlDescription" : "This horrifying altar of the damned has such basic, crude construction. Shameful.",
+  "novakidDescription" : "Yikesey-doodles, this is mighty gross!",
+  "inventoryIcon" : "srm_shoggothaltaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "srm_shoggothaltar.png:<frame><color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.45,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-4, 18],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "placementImage" : "/objects/shoggoth/srm_shoggothaltar/srm_shoggothaltar.png:1",
+  "placementImagePosition" : [-24, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

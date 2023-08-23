@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3 },
+	{ "item" : "copperbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_sacrificialdagger",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "weapons", "t2organ" ]
+}

@@ -1,0 +1,375 @@
+{
+  "objectName" : "srm_organlab",
+  "colonyTags" : ["shoggoth", "crafting"],
+  "rarity" : "Rare",
+  "race" : "shoggoth",
+  "category" : "crafting",
+
+  //this is handled by the lua
+  "breakDropOptions" : [],
+  
+  "price" : 500,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "srm_organlab.animation",
+  "animationPosition" : [8, 16],
+
+  "inventoryIcon" : "srm_organlabicon.png:t1",
+  "placementImage" : "srm_organlab.png:t1.1",
+  "placementImagePosition" : [-8, 0],    
+
+  "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+  "shortdescription" : "^orange;Organ Laboratory^reset;",
+
+  "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+  "avianDescription" : "These should belong in a sarcophagus, not for science.",
+  "floranDescription" : "Can floran eat flesssh bags?",
+  "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+  "humanDescription" : "Looking at this makes me sick.",
+  "hylotlDescription" : "Absolutely barbaric, but it works.",
+  "novakidDescription" : "This is an all new level of yuck.",
+  "shoggothDescription" : "With this, my being shall be strengthened.",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 6,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "srm_t1organlab",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "srm_organlabicon.png:t1",
+        "placementImage" : "srm_organlab.png:t1.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 1 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+
+        "filter" : [ "t1organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_deathstatelog1-codex", "srm_scalpel", "srm_stemcell" ],
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 10 },
+          { "item" : "livingroot", "count" : 1 },
+          { "item" : "hardenedcarapace", "count" : 1 },
+          { "item" : "sharpenedclaw", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "srm_t2organlab",
+
+      "itemSpawnParameters" : {
+        "price" : 2500,
+        "inventoryIcon" : "srm_organlabicon.png:t2",
+        "placementImage" : "srm_organlab.png:t2.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 2 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+        "filter" : [ "t1organ", "t2organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_deathstatelog2-codex", "srm_sacrificialdagger" ],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 10 },
+          { "item" : "liquidwater", "count" : 25 },
+          { "item" : "thornfruit", "count" : 3 },
+          { "item" : "snowball", "count" : 3 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "srm_t3organlab",
+
+      "itemSpawnParameters" : {
+        "price" : 2500,
+        "inventoryIcon" : "srm_organlabicon.png:t3",
+        "placementImage" : "srm_organlab.png:t3.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 3 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+        "filter" : [ "t1organ", "t2organ", "t3organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_deathstatelog3-codex", "srm_serrateddagger", "srm_collectorssyringe" ],
+		"upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 10 },
+          { "item" : "venomsample", "count" : 1 },
+          { "item" : "liquidpoison", "count" : 25 },
+          { "item" : "alienfruit", "count" : 3 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+	  "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "srm_t4organlab",
+
+      "itemSpawnParameters" : {
+        "price" : 2500,
+        "inventoryIcon" : "srm_organlabicon.png:t4",
+        "placementImage" : "srm_organlab.png:t4.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 4 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+        "filter" : [ "t1organ", "t2organ", "t3organ", "t4organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_deathstatelog4-codex" ],
+		"upgradeMaterials" : [
+          { "item" : "refinedaegisalt", "count" : 3 },
+		  { "item" : "refinedferozium", "count" : 3 },
+		  { "item" : "refinedviolium", "count" : 3 },
+		  { "item" : "staticcell", "count" : 1 },
+		  { "item" : "cryonicextract", "count" : 1 },
+		  { "item" : "glowfibre", "count" : 3 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+	  "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "srm_t5organlab",
+
+      "itemSpawnParameters" : {
+        "price" : 2500,
+        "inventoryIcon" : "srm_organlabicon.png:t5",
+        "placementImage" : "srm_organlab.png:t5.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 5 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+        "filter" : [ "t1organ", "t2organ", "t3organ", "t4organ", "t5organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_deathstatelog5-codex" ],
+		"upgradeMaterials" : [
+          { "item" : "solariumstar", "count" : 10 },
+          { "item" : "liquidlava", "count" : 25 },
+          { "item" : "scorchedcore", "count" : 1 },
+          { "item" : "wartweed", "count" : 3 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+	  "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "srm_t6organlab",
+
+      "itemSpawnParameters" : {
+        "price" : 2500,
+        "inventoryIcon" : "srm_organlabicon.png:t6",
+        "placementImage" : "srm_organlab.png:t6.1",
+        "placementImagePosition" : [-8, 0],    
+
+        "description" : "Used to synthesize alien organs out of alien biological matter, to reinforce your body.",
+        "shortdescription" : "^orange;Organ Laboratory^white;",
+
+        "apexDescription" : "I should seek to get rid of this, before the experiments get found out.",
+        "avianDescription" : "These should belong in a sarcophagus, not for science.",
+        "floranDescription" : "Can floran eat flesssh bags?",
+        "glitchDescription" : "Disgusted. Chopped alien remains are not for glitch.",
+        "humanDescription" : "Looking at this makes me sick.",
+        "hylotlDescription" : "Absolutely barbaric, but it works.",
+        "novakidDescription" : "This is an all new level of yuck.",
+        "shoggothDescription" : "With this, my being shall be strengthened."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/srm_organlab.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Tier 6 Organ Lab",
+            "subtitle" : " ^#a30000;Squishy Organs",
+            "icon" : {
+              "file" : "/interface/crafting/srm_organlab.png"
+            }
+          }
+        },
+        "filter" : [ "t1organ", "t2organ", "t3organ", "t4organ", "t5organ", "t6organ" ],
+        "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
+        "initialRecipeUnlocks" : [ "srm_shardofknowledge", "srm_deathstatelog6-codex" ]
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "srm_organlab.png:t1.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 1,
+
+      "spaces" : [
+	    [-1,0],[-1,1],[-1,2],[-1,3],
+		[0,0],[0,1],[0,2],[0,3],
+		[1,0],[1,1],[1,2],[1,3],
+		[2,0],[2,1],[2,2],[2,3]
+	  ],
+
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "srm_organlab.png:t1.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 1,
+	  
+	  "spaces" : [
+	    [-1,0],[-1,1],[-1,2],[-1,3],
+		[0,0],[0,1],[0,2],[0,3],
+		[1,0],[1,1],[1,2],[1,3],
+		[2,0],[2,1],[2,2],[2,3]
+	  ],
+
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

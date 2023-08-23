@@ -1,0 +1,15 @@
+{
+  "name" : "srm_hellburn",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "srm_hellburn.lua"
+  ],
+
+  "animationConfig" : "srm_hellburn.animation",
+
+  "label" : "Hellfire Burning",
+  "icon" : "/interface/statuses/srm_hellfire.png"
+}
