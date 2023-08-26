@@ -1,17 +1,6 @@
 [
   {
     "op" : "add",
-    "path" : "/items/srm:magfeeding",
-	"value":{
-	  "label" : "^#0AF;Mag Feeding",
-	  "action" : [ "pane", "/interface/scripted/srm_magfeeding/srm_magfeeding.config" ],
-	  "weight" : -1149,
-	  "condition" : [ "statNegative", "noMatterManipulator" ], 
-	  "icon" : "/interface/scripted/srm_magfeeding/baricon.png"
-	}
-  },
-  {
-    "op" : "add",
     "path" : "/items/srm:loadoutotron",
 	"value":{
 	  "label" : "^#0AF;Extra Arms Loadout",

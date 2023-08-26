@@ -2,38 +2,6 @@ require "/scripts/util.lua"
 require "/scripts/rect.lua"
 
 function init()
-	if (not player.getProperty("magWeaponAffinity", nil)) then
-		local cfg = root.assetJson("/interface/scripted/srm_weaponaffinity/srm_weaponaffinity.config")
-		player.interact("ScriptPane", cfg)
-	end
-	feedingCooldownMax = 45
-	feedingCooldown = feedingCooldownMax
-	feedingMax = 3
-	player.setProperty("magFeedingUses", 0)
-	defaultMag = {name="srm_mag",count=1,parameters={
-		magForm = "mag",
-			
-		magLevel = 0,
-		synchro = 0,
-		iq = 0,
-		def = 0,
-		pow = 0,
-		dex = 0,
-		mind = 0,
-			
-		defMeter = 0,
-		powMeter = 0,
-		dexMeter = 0,
-		mindMeter = 0,
-			
-		pbAttack1 = "",
-		pbAttack2 = "",
-		pbAttack3 = ""
-	}}
-	if (not player.getProperty("freeMagEquipped", false)) then
-		player.setProperty("freeMagEquipped", true)
-		player.setProperty("magEquipped", defaultMag)
-	end
 	stockConfig = root.assetJson("/config/srm_stocks.config")
 	organsConfig = root.assetJson("/config/srm_organs.config")
 	ruinLootConfig = root.assetJson("/config/srm_ruinloot.config")
@@ -70,24 +38,6 @@ function init()
 end
 
 function update(dt)
-	if (not player.getProperty("magSectionId", nil)) then
-		setSectionId(world.entityName(player.id()))
-	end
-	if (player.getProperty("magEquipped", nil)) then
-		if (player.getProperty("magEquipped", nil).name ~= "srm_mag") then player.setProperty("magEquipped", defaultMag) end
-		status.setPersistentEffects("persistentMag", {"srm_mag"})
-	else
-		status.clearPersistentEffects("persistentMag")
-	end
-	if player.getProperty("magFeedingUses", feedingMax) < feedingMax then
-		if feedingCooldown <= 0 then
-			player.setProperty("magFeedingUses", feedingMax)
-			feedingCooldown = feedingCooldownMax
-		else
-			feedingCooldown = feedingCooldown - dt
-		end
-		--sb.logInfo(feedingCooldown)
-	end
 	localAnimator = math.srm_localAnimator
 	if (not hasStatus("srm_curseoftrials")) then player.consumeItem("srm_trialhook") end
 	
@@ -454,37 +404,6 @@ function deadCells()
 	status.setStatusProperty("deadCellsPowerLevel", powerLevel)
 	status.addEphemeralEffect("srm_deadCellsPower")
 end
-
-function setSectionId(playerName)
-	local sectionData = root.assetJson("/config/srm_mag.config").sectionIds
-	local sectionId = 0
-	for i = 1, #playerName do
-		local c = playerName:sub(i,i)
-		local valueFound = nil
-		for _, a in pairs(sectionData.characterTables) do
-			local charArray = a.chars
-			for _, v in pairs(charArray) do
-				if (c == v) then
-					valueFound = a.value
-					break
-				end
-			end
-			if valueFound then break end
-		end
-		if valueFound then sectionId = sectionId + valueFound end
-	end
-	sectionId = math.floor((sectionId % 10))
-	local sectionName = "viridia"
-	for k, v in pairs(sectionData.sectionTables) do
-		if (sectionId == v) then
-			sectionName = k
-			break
-		end
-	end
-	player.setProperty("magSectionId", sectionName)
-end
-
-
 
 --UTILITY FUNCTIONS UNDER HERE
 --UTILITY FUNCTIONS UNDER HERE

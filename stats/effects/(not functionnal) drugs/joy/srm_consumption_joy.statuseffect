@@ -1,9 +1,0 @@
-{
-  "name" : "consumption",
-  "effectConfig" : {},
-  "defaultDuration" : 3,
-
-  "scripts" : [
-    "consumption.lua"
-  ]
-}
