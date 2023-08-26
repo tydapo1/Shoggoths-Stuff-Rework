@@ -7,54 +7,6 @@
         "weight": 0.12,
         "item": "srm_packaging"
       }
-    },
-    {
-      "op": "add",
-      "path": "/basicTreasure/0/1/pool/2",
-      "value": {
-        "weight": 0.12,
-        "item": "srm_treasure"
-      }
-    },
-    {
-      "op": "add",
-      "path": "/valuableTreasure/3/1/pool/1",
-      "value": {
-        "weight": 0.20,
-        "item": "srm_treasure"
-      }
-    },
-    {
-      "op": "add",
-      "path": "/valuableTreasure/0/1/pool/1",
-      "value": {
-        "weight": 0.2,
-        "item": "srm_treasure"
-      }
-    },
-    {
-      "op": "add",
-      "path": "/valuableTreasure/1/1/pool/1",
-      "value": {
-        "weight": 0.2,
-        "item": "srm_treasure"
-      }
-    },
-    {
-      "op": "add",
-      "path": "/valuableTreasure/2/1/pool/1",
-      "value": {
-        "weight": 0.2,
-        "item": "srm_treasure"
-      }
-    },
-    {
-      "op": "add",
-      "path": "/valuableTreasure/3/1/pool/1",
-      "value": {
-        "weight": 0.2,
-        "item": "srm_treasure"
-      }
     }
   ]
 ]
