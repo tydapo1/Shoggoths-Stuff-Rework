@@ -29,7 +29,6 @@
     "buyFactor" : 1.0,
     "sellFactor" : 0.2,
     "items" : [
-      { "item" : "srm_luckyblock" },
       { "item" : "srm_vanishingblock" },
       { "item" : "srm_vanishingrectangle" },
       { "item" : "srm_vanishingtriangle" },

@@ -768,16 +768,6 @@
         },
      "167":
         {
-         "\/\/description":"A lucky block. Break it open to test your luck!",
-         "\/\/name":"srm_luckyblock",
-         "\/\/shortdescription":"^orange;L^yellow;u^orange;c^yellow;k^orange;y^yellow; B^orange;l^yellow;o^orange;c^yellow;k^reset;",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_luckyblock",
-         "tilesetDirection":"right"
-        },
-     "168":
-        {
          "\/\/description":"A flesh growth. It seems to be housing some valuables.",
          "\/\/name":"srm_fleshsphere",
          "\/\/shortdescription":"Flesh Sphere",
@@ -2449,16 +2439,6 @@
          "object":"string",
          "tilesetDirection":"string"
         },
-     "168":
-        {
-         "\/\/description":"string",
-         "\/\/name":"string",
-         "\/\/shortdescription":"string",
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetDirection":"string"
-        },
      "17":
         {
          "\/\/description":"string",
@@ -3824,12 +3804,6 @@
          "imagewidth":8
         },
      "167":
-        {
-         "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/luckyblock\/srm_luckyblock.png",
-         "imageheight":16,
-         "imagewidth":16
-        },
-     "168":
         {
          "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/trials\/srm_fleshsphere\/srm_fleshsphere.png",
          "imageheight":24,

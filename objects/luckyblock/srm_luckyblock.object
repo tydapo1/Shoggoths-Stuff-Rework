@@ -1,37 +1,21 @@
 {
   "objectName" : "srm_luckyblock",
-  "colonyTags" : ["luck"],
-  "rarity" : "Essential",
-  "description" : "A lucky block. Break it open to test your luck!",
-  "shortdescription" : "^orange;L^yellow;u^orange;c^yellow;k^orange;y^yellow; B^orange;l^yellow;o^orange;c^yellow;k^reset;",
-  "category" : "decorative",
-  "price" : 2000,
-  "health" : 10,
-  "smashOnBreak" : true,
-  "smashSounds" : [ "/sfx/objects/luckyblock_break1.ogg", "/sfx/objects/luckyblock_break2.ogg", "/sfx/objects/luckyblock_break3.ogg" ],
+  "colonyTags" : ["generic"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "breakable",
 
-  "retainObjectParametersInItem" : true,
-  "animation" : "srm_luckyblock.animation",
-  "animationPosition" : [-8, 0],
-  "scripts" : ["srm_luckyblock.lua"],
-  "scriptDelta" : 1,
-  "builder" : "/objects/luckyblock/buildluck.lua",
-  "luckyBlockKind" : "default",
-  "luck" : 0,
-  
-  "messageBlessed" : "A blessed lucky block. This one seems to be extremely lucky!",
-  "messageLucky" : "A lucky lucky block. This one is luckier than your average block.",
-  "message" : "A lucky block. Break it open to test your luck!",
-  "messageUnlucky" : "An unlucky lucky block. This one is unluckier than your average block.",
-  "messageCursed" : "A cursed lucky block. This one seems to be extremely unlucky!",
+  "description" : "This item has been deprecated.",
+  "shortdescription" : "Lucky Block",
+  "race" : "generic",
 
-  "apexDescription" : "I don't have much else to lose, so why not?",
-  "avianDescription" : "Our teachings always said that gambling could ruin one forever.",
+  "apexDescription" : "This item seems like it doesn't belong here.",
+  "avianDescription" : "Our teachings always said that gambling could ruin one forever. It's a good thing this doesn't work any more.",
   "floranDescription" : "Floran break sssssssshiny thing!",
-  "glitchDescription" : "Cautious. If I break this, I will be victim of the cube's whims.",
+  "glitchDescription" : "Cautious. This item shouldn't exist any more.",
   "humanDescription" : "Wait a minute, isn't that from..?",
-  "hylotlDescription" : "While great riches may lay inside, a horrible fate may instead rear it's ugly face.",
-  "novakidDescription" : "Gambling? Hell yeah, let's bust this thing right open!",
+  "hylotlDescription" : "This object seems to be of an anomalous sort. Almost like it shouldn't exist...",
+  "novakidDescription" : "Gambling? Hell yeah, let's bust this thing right open!... Oh wait, it doesn't work any more...",
 
   "inventoryIcon" : "srm_luckyblockicon.png",
   "orientations" : [
@@ -44,5 +28,9 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+  
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "capsuleshard1" }, { "count" : 8, "particle" : "capsuleshard2" } ]
 }
