@@ -1,17 +1,6 @@
 [
   {
     "op" : "add",
-    "path" : "/items/srm:loadoutotron",
-	"value":{
-	  "label" : "^#0AF;Extra Arms Loadout",
-	  "action" : [ "pane", "/interface/scripted/srm_loadoutotron/srm_loadoutotron.config" ],
-	  "weight" : -1148,
-	  "condition" : [ "statNegative", "noMatterManipulator" ], 
-	  "icon" : "/interface/scripted/srm_loadoutotron/baricon.png"
-	}
-  },
-  {
-    "op" : "add",
     "path" : "/items/srm:stockmarket",
 	"value":{
 	  "label" : "^#0AF;Stock Market",

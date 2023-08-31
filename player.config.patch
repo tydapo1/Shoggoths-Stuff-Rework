@@ -84,11 +84,6 @@
   },
   {
     "op": "add",
-    "path": "/deploymentConfig/scripts/-",
-    "value": "/scripts/shoggothracemodextrautils.lua"
-  },
-  {
-    "op": "add",
     "path": "/genericScriptContexts/shoggothScripts",
     "value": "/scripts/player/shoggothracemodplayerscripts.lua"
   },
