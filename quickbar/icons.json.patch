@@ -1,17 +1,6 @@
 [
   {
     "op" : "add",
-    "path" : "/items/srm:stockmarket",
-	"value":{
-	  "label" : "^#0AF;Stock Market",
-	  "action" : [ "pane", "/interface/scripted/srm_stockmarket/srm_stockmarket.config" ],
-	  "weight" : -1147,
-	  "condition" : [ "statNegative", "noMatterManipulator" ], 
-	  "icon" : "/interface/scripted/srm_stockmarket/baricon.png"
-	}
-  },
-  {
-    "op" : "add",
     "path" : "/items/srm:organselection",
 	"value":{
 	  "label" : "^#04F;Organ Selection",

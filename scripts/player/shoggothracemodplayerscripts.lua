@@ -2,7 +2,6 @@ require "/scripts/util.lua"
 require "/scripts/rect.lua"
 
 function init()
-	stockConfig = root.assetJson("/config/srm_stocks.config")
 	organsConfig = root.assetJson("/config/srm_organs.config")
 	ruinLootConfig = root.assetJson("/config/srm_ruinloot.config")
 	message.setHandler("srm_warp", function(_, isItMine, location) 
@@ -26,14 +25,6 @@ function init()
 		end
 	end
 	
-	stockReadyToUpdate = false
-	stockHistoryMax = 30
-	stockUpdateRate = 2
-	stockUpdateTimer = stockUpdateRate
-	
-	trendMinLength = 20
-	trendMaxLength = 60
-	
 	script.setUpdateDelta(1)
 end
 
@@ -48,10 +39,6 @@ function update(dt)
 	organEffects()
 	organTech()
 	uniqueBlueprint()
-	
-	stockPhone()
-	stockMarket()
-	stockUpdateTimer = stockUpdateTimer + dt
 end
 
 
@@ -180,125 +167,6 @@ end
 function removeTech(tech)
 	player.unequipTech(tech) 
 	player.makeTechUnavailable(tech)
-end
-
--- This gives the stock market phone blueprint if enough capital was accumulated
-function stockPhone()
-	if (not player.blueprintKnown("srm_stockphone")) then
-		if (player.currency("money") >= 10000) then
-			player.giveBlueprint("srm_stockphone")
-		end
-	end
-end
-
--- This handles stock market data generation.
-function stockMarket()
-	if (stockUpdateTimer >= stockUpdateRate) then
-		stockReadyToUpdate = true
-		stockUpdateTimer = 0
-	end
-	if (stockReadyToUpdate) then
-		stockReadyToUpdate = false
-		oldData = player.getProperty("stocksMarketData", {noonecares="puregarbage"})
-		newData = {}
-		-- This loops through categories.
-		for categoryKey,v in pairs(stockConfig) do
-			newData[categoryKey] = {}
-			-- This loops through stocks from categories.
-			local stockArray = stockConfig[categoryKey].offers
-			for stockKey,v2 in pairs(stockArray) do
-				-- This gets the price of the stock, speculative or physical.
-				local itemPrice = 100
-				if (stockConfig[categoryKey].type == "speculative") then 
-					itemPrice = stockArray[stockKey].price
-				else
-					local currentItem = {name="",parameters={},count=1}
-					currentItem.name = stockArray[stockKey].sourceItem
-					local itemParameters = root.itemConfig(currentItem).config
-					itemPrice = itemParameters.price
-				end
-				
-				-- This is dummy data that only exists if the stock is brand new.
-				-- For graph rendering reasons, you must store a total of 31 values inside an array ranging from 0 to 30
-				newData[categoryKey][stockKey] = {
-					stockValue = itemPrice,
-					stockHistory = {},
-					trendInfluence = 0, -- Ranges from -0.5 to 0.5. Since the number generated ranges from -0.5 to 0.5, this simulates trends.
-					trendTimer = 60
-				}
-				for i=0,stockHistoryMax do
-					newData[categoryKey][stockKey].stockHistory[i] = itemPrice
-				end
-				
-				-- If old data exists, use it to continue running the stocks.
-				if (not (oldData.noonecares == "puregarbage")) then 
-					if (oldData[categoryKey][stockKey] == nil) then
-						newData[categoryKey][stockKey].stockValue = itemPrice
-					else
-						newData[categoryKey][stockKey].stockValue = oldData[categoryKey][stockKey].stockValue
-					end
-					for i=0,stockHistoryMax do
-						if (oldData[categoryKey][stockKey] == nil) then
-							newData[categoryKey][stockKey].stockHistory[i] = itemPrice
-						else
-							newData[categoryKey][stockKey].stockHistory[i] = oldData[categoryKey][stockKey].stockHistory["" .. i .. ""]
-							if (newData[categoryKey][stockKey].stockHistory[i] == nil) then newData[categoryKey][stockKey].stockHistory[i] = itemPrice end
-						end
-					end
-					if (oldData[categoryKey][stockKey] == nil) then
-						local trend = generateNewTrend()
-						newData[categoryKey][stockKey].trendInfluence = trend.influence
-						newData[categoryKey][stockKey].trendTimer = trend.timer
-					else
-						newData[categoryKey][stockKey].trendInfluence = oldData[categoryKey][stockKey].trendInfluence
-						newData[categoryKey][stockKey].trendTimer = oldData[categoryKey][stockKey].trendTimer
-					end
-				end
-					
-				-- Updates the trend.
-				newData[categoryKey][stockKey].trendTimer = newData[categoryKey][stockKey].trendTimer - (stockUpdateRate)
-				if (newData[categoryKey][stockKey].trendTimer <= 0) then
-					parameters = generateNewTrend()
-					newData[categoryKey][stockKey].trendInfluence = parameters.influence
-					newData[categoryKey][stockKey].trendTimer = parameters.timer
-				end
-				
-				-- Updates the history.
-				for i=1,stockHistoryMax do
-					newData[categoryKey][stockKey].stockHistory[i-1] = newData[categoryKey][stockKey].stockHistory[i]
-				end
-				
-				-- Updates the price.
-				newData[categoryKey][stockKey].stockValue = newData[categoryKey][stockKey].stockValue + generateStockVariation(
-					newData[categoryKey][stockKey].trendInfluence
-				)
-				if (newData[categoryKey][stockKey].stockValue <= 1) then
-					newData[categoryKey][stockKey].stockValue = 1
-				end
-				
-				-- Updates the history part 2.
-				newData[categoryKey][stockKey].stockHistory[stockHistoryMax] = newData[categoryKey][stockKey].stockValue
-				--sb.logInfo(sb.printJson(newData[categoryKey][stockKey].stockHistory))
-			end
-		end
-		player.setProperty("stocksMarketData", newData)
-	end
-end
-
--- This generates a new trend for the current stock.
-function generateNewTrend()
-	local trend = {}
-	trend.influence = math.random() - 0.5
-	trend.timer = math.random(trendMinLength, trendMaxLength)
-	return trend
-end
-
--- This generates a new stock variation.
-function generateStockVariation(stockInfluence)
-	local stockVariation = math.random() - 0.5
-	stockVariation = stockVariation + stockInfluence
-	stockVariation = stockVariation * (stockUpdateRate)
-	return stockVariation
 end
 
 --This entire function handles coloring objects and/or items when being a valid eldritch entity.
