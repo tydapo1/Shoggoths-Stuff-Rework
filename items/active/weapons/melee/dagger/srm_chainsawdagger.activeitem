@@ -257,14 +257,14 @@
         "timeout": 0.05,
         "baseDamageFactor": 1.0,
         "damageSourceKind": "axe",
-        "statusEffects" : [ "srm_bloodnguts" ],
+        "statusEffects" : [ "srm_chainsawbleed" ],
         "knockback": 10
       },
       {
         "timeout": 0.01,
         "baseDamageFactor": 0.1,
         "damageSourceKind": "dagger",
-        "statusEffects" : [ "srm_bloodnguts" ],
+        "statusEffects" : [ "srm_chainsawbleed" ],
         "knockback": 10
       }
     ],

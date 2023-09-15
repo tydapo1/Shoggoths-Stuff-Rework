@@ -1,9 +1,8 @@
 function init()
-	script.setUpdateDelta(1)
-	animator.playSound("curseofthecorn")
+	script.setUpdateDelta(5)
 
 	self.tickDamagePercentage = 0.04
-	self.tickTime = 0.2
+	self.tickTime = 1.0
 	self.tickTimer = self.tickTime
 end
 

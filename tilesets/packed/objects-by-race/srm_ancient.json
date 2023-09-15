@@ -280,56 +280,6 @@
          "object":"ancientbust",
          "tilesetDirection":"right"
         },
-     "122":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot3",
-         "\/\/shortdescription":"Wide Ancient Pot",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot3",
-         "tilesetDirection":"right"
-        },
-     "123":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot1",
-         "\/\/shortdescription":"Ornamental Ancient Pot",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot1",
-         "tilesetDirection":"right"
-        },
-     "124":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot5",
-         "\/\/shortdescription":"Tall Ancient Pot",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot5",
-         "tilesetDirection":"right"
-        },
-     "125":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot4",
-         "\/\/shortdescription":"Decorative Ancient Pot",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot4",
-         "tilesetDirection":"right"
-        },
-     "126":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot2",
-         "\/\/shortdescription":"Rounded Ancient Pot",
-         "imagePositionX":"-8",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot2",
-         "tilesetDirection":"right"
-        },
      "127":
         {
          "\/\/description":"This tile looks different from the rest.",
@@ -388,16 +338,6 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"ancientswitchhidden",
-         "tilesetDirection":"right"
-        },
-     "132":
-        {
-         "\/\/description":"This ancient pot is in remarkable shape considering how old it is.",
-         "\/\/name":"srm_corruptedancientpot6",
-         "\/\/shortdescription":"Small Ancient Pot",
-         "imagePositionX":"0",
-         "imagePositionY":"0",
-         "object":"srm_corruptedancientpot6",
          "tilesetDirection":"right"
         },
      "133":
@@ -736,16 +676,6 @@
         },
      "164":
         {
-         "\/\/description":"Behind it lays the belly of the beast.",
-         "\/\/name":"srm_ruinmouth",
-         "\/\/shortdescription":"Ruin Mouth",
-         "imagePositionX":"-16",
-         "imagePositionY":"-16",
-         "object":"srm_ruinmouth",
-         "tilesetDirection":"right"
-        },
-     "165":
-        {
          "\/\/description":"...",
          "\/\/name":"srm_proximityteleporter",
          "\/\/shortdescription":"Proximity Teleporter",
@@ -753,27 +683,6 @@
          "imagePositionY":"0",
          "object":"srm_proximityteleporter",
          "parameters":"{\"location\":\"OwnShip\"}",
-         "tilesetDirection":"right"
-        },
-     "166":
-        {
-         "\/\/description":"...",
-         "\/\/name":"srm_proximityteleporter",
-         "\/\/shortdescription":"Proximity Teleporter",
-         "imagePositionX":"0",
-         "imagePositionY":"0",
-         "object":"srm_proximityteleporter",
-         "parameters":"{\"location\":\"InstanceWorld:srm_bellyofthebeast\"}",
-         "tilesetDirection":"right"
-        },
-     "167":
-        {
-         "\/\/description":"A flesh growth. It seems to be housing some valuables.",
-         "\/\/name":"srm_fleshsphere",
-         "\/\/shortdescription":"Flesh Sphere",
-         "imagePositionX":"-16",
-         "imagePositionY":"0",
-         "object":"srm_fleshsphere",
          "tilesetDirection":"right"
         },
      "17":
@@ -1399,16 +1308,6 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"ancientverticaldoor",
-         "tilesetDirection":"right"
-        },
-     "74":
-        {
-         "\/\/description":"A fearsome ancient chest ornamented with a lidless eye.",
-         "\/\/name":"srm_corruptedcellchest",
-         "\/\/shortdescription":"Ancient Essence Chest",
-         "imagePositionX":"-16",
-         "imagePositionY":"0",
-         "object":"srm_corruptedcellchest",
          "tilesetDirection":"right"
         },
      "75":
@@ -3785,12 +3684,6 @@
          "imageheight":48,
          "imagewidth":40
         },
-     "164":
-        {
-         "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/trials\/srm_ruinmouth\/srm_ruinmouthtiled.png",
-         "imageheight":32,
-         "imagewidth":40
-        },
      "165":
         {
          "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/trials\/srm_proximityteleporter\/srm_proximityteleportericon.png",
@@ -3802,12 +3695,6 @@
          "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/trials\/srm_proximityteleporter\/srm_proximityteleportericon.png",
          "imageheight":8,
          "imagewidth":8
-        },
-     "167":
-        {
-         "image":"..\/..\/..\/..\/..\/..\/Starbound - Unstable\/mods\/Shoggoth Race Mod\/objects\/trials\/srm_fleshsphere\/srm_fleshsphere.png",
-         "imageheight":24,
-         "imagewidth":32
         },
      "17":
         {

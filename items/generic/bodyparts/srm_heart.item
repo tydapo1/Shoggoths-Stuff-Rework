@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_heart",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_heart.png",
+  "description" : "A thick muscle organ responsible for blood circulation.",
+  "shortdescription" : "Heart",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

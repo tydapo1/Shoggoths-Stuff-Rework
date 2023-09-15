@@ -8,10 +8,6 @@
   "shortdescription" : "Shoggwich",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 160
-    },
-    {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 320
     },

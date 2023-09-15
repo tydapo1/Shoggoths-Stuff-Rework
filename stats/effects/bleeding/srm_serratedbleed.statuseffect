@@ -2,8 +2,7 @@
   "name" : "srm_serratedbleed",
   "effectConfig" : {
 	"bleedThreshold" : -1,
-	"procRate" : 5,
-	"dropCells" : true
+	"procRate" : 5
   },
   "defaultDuration" : 2,
 

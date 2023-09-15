@@ -1,7 +1,7 @@
 {
   "type" : "srm_ghostleviathanhead",
-  "shortdescription" : "Phantasm Dragon",
-  "description" : "Wyvern souls are entwined in the atmosphere of the world. Powerful magicks can summon them through the veil with physical form.",
+  "shortdescription" : "Ghost Leviathan",
+  "description" : "",
 
   "categories" : [ "srm_ghostleviathanhead" ],
   "parts" : [ "body" ],
@@ -31,8 +31,8 @@
     "flip": true,
     "speed": 0.5,
     "maxSpeed": 40,
-    "minSpeed": 20,
-    "queryRange": 99999,
+    "minSpeed": 30,
+    "queryRange": 5000,
 
     "facingMode" : "transformation",
 
@@ -69,7 +69,7 @@
     },
 
     "touchDamage" : {
-      "poly" : [ [3.0, 4.0], [4.0, 3.0], [4.0, -3.0], [3.0, -4.0], [-3.0, -4.0], [-4.0, -3.0], [-4.0, 3.0], [-3.0, 4.0] ]	,
+      "poly" : [ [6.0, 8.0], [8.0, 6.0], [8.0, -6.0], [6.0, -8.0], [-6.0, -8.0], [-8.0, -6.0], [-8.0, 6.0], [-6.0, 8.0] ]	,
       "damage" : 99999,
 
       "teamType" : "enemy",

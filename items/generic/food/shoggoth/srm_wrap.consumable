@@ -8,10 +8,6 @@
   "shortdescription" : "Shoggoth Wrap",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 140
-    },
-    {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 280
     },

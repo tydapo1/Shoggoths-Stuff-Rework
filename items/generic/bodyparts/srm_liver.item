@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_liver",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_liver.png",
+  "description" : "A large triangular organ responsible for cleaning the blood.",
+  "shortdescription" : "Liver",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

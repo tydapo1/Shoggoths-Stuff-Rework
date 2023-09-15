@@ -8,10 +8,6 @@
   "shortdescription" : "Shoggonut",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 130
-    },
-    {
         "effect" : "ragefood",
         "duration" : 260
     },

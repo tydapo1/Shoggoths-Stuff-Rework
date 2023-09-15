@@ -1,0 +1,9 @@
+[
+  [
+    { "op": "test", "path": "/guardianTreasure/0/1/fill", "inverse" : true },
+    { "op": "add", "path": "/guardianTreasure/0/1/fill", "value": [] }
+  ],
+  [
+    { "op" : "add", "path": "/guardianTreasure/0/1/fill/-", "value": {"item": "srm_golemcore"} }
+  ]
+]

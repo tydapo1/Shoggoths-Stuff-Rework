@@ -9,10 +9,6 @@
   "maxStack" : 1,
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 60
-    },
-    {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 60
     }

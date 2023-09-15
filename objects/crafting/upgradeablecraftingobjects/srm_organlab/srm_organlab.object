@@ -173,7 +173,7 @@
         },
         "filter" : [ "t1organ", "t2organ", "t3organ" ],
         "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
-        "initialRecipeUnlocks" : [ "srm_deathstatelog3-codex", "srm_serrateddagger", "srm_collectorssyringe" ],
+        "initialRecipeUnlocks" : [ "srm_deathstatelog3-codex", "srm_serrateddagger" ],
 		"upgradeMaterials" : [
           { "item" : "durasteelbar", "count" : 10 },
           { "item" : "venomsample", "count" : 1 },

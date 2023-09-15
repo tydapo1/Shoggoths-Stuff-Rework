@@ -1,0 +1,17 @@
+{
+  "name" : "srm_chainsawbleed",
+  "effectConfig" : {
+	"bleedThreshold" : -1,
+	"procRate" : 4
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "srm_liquidremoval.lua"
+  ],
+
+  "animationConfig" : "srm_liquidremoval.animation",
+
+  "label" : "Chainsaw Bleeding",
+  "icon" : "/interface/statuses/srm_sacrificialbleed.png"
+}

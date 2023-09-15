@@ -6,17 +6,7 @@
   },
   {
     "op"    : "add",
-    "path"  : "/srm_deadcells",
-    "value" : { "representativeItem" : "srm_deadcells", "playerMax" : 999999999 }
-  },
-  {
-    "op"    : "add",
     "path"  : "/srm_organblueprint",
     "value" : { "representativeItem" : "srm_organblueprint", "playerMax" : 1 }
-  },
-  {
-    "op"    : "add",
-    "path"  : "/srm_ruinblueprint",
-    "value" : { "representativeItem" : "srm_ruinblueprint", "playerMax" : 1 }
   }
 ]

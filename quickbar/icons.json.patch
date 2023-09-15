@@ -9,16 +9,5 @@
 	  "condition" : [ "admin" ], 
 	  "icon" : "/interface/scripted/srm_organselection/baricon.png"
 	}
-  },
-  {
-    "op" : "add",
-    "path" : "/items/srm:collectorssyringe",
-	"value":{
-	  "label" : "^#04F;Collector's Syringe",
-	  "action" : [ "pane", "/interface/scripted/srm_collectorssyringe/srm_collectorssyringe.config" ],
-	  "weight" : -1146,
-	  "condition" : [ "admin" ], 
-	  "icon" : "/interface/scripted/srm_collectorssyringe/baricon.png"
-	}
   }
 ]

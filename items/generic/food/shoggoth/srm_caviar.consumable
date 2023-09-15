@@ -8,10 +8,6 @@
   "shortdescription" : "Carrion Caviar",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 100
-    },
-    {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 200
     },

@@ -2,8 +2,7 @@
   "name" : "srm_hemophilia",
   "effectConfig" : {
 	"bleedThreshold" : -1,
-	"procRate" : 60,
-	"dropCells" : false
+	"procRate" : 60
   },
   "defaultDuration" : 300,
 

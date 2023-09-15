@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "srm_pancreas", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "srm_stemcell",
+    "count" : 2
+  },
+  "duration" : 0.0,
+  "groups" : [ "ingredients", "t1organ" ]
+}

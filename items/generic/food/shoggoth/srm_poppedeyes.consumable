@@ -8,10 +8,6 @@
   "shortdescription" : "Popped Eyes",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 70
-    },
-    {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 140
     },

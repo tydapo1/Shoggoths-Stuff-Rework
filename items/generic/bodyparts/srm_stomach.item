@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_stomach",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_stomach.png",
+  "description" : "A big sac-like organ responsible for the main step of digestion.",
+  "shortdescription" : "Stomach",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

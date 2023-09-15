@@ -16,12 +16,6 @@ end
 function spawnBlood()
 	world.spawnItem(itemToGive(),entity.position(),1) 
 	status.modifyResource("health",-1)
-	if config.getParameter("dropCells", false) then
-		world.spawnTreasure(entity.position(), "bleedCells", 1)
-		if (status.resource("health") <= 0) then
-			world.spawnTreasure(entity.position(), "bleedCellsDeath", 1)
-		end
-	end
 end
 
 function itemToGive()

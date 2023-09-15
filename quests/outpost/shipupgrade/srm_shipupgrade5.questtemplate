@@ -2,7 +2,7 @@
   "id" : "srm_shipupgrade5",
   "title" : "^green;Condor Ship Upgrade",
   "text" : "Congratulations! With a belly this stuffed you now qualify for the Condor License! ^green;Visit Penguin Pete^reset; with ^orange;10 Upgrade Modules^reset; to feed your ship.",
-  "completionText" : "I'll have ta dump the whole crew in it's belly to feed it. I thank ye for yer custom.",
+  "completionText" : "I'll have ta dump the whole crew in its belly to feed it. I thank ye for yer custom.",
   "completionCinema" : "/cinematics/upgrading/srm_shipupgrade.cinematic",
   "moneyRange" : [0, 0],
   "rewards" : [ ],

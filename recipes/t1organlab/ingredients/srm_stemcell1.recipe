@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "srm_nerves", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "srm_stemcell",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "ingredients", "t1organ" ]
+}

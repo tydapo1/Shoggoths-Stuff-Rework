@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_intestines",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_intestines.png",
+  "description" : "A large tube-like membrane, in which food travels to be absorbed.",
+  "shortdescription" : "A Measure Of Intestines",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

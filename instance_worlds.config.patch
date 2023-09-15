@@ -118,35 +118,5 @@
         }
       }
     }
-  },
-  {
-    "op": "add",
-    "path": "/srm_bellyofthebeast",
-    "value": {
-      "type" : "FloatingDungeon",
-      "dungeonWorld" : "srm_bellyofthebeast",
-      "spawningEnabled" : false,
-      "beamUpRule" : "AnywhereWithWarning",
-      "disableDeathDrops" : true,
-      "tempWorldDeleteTime" : 0,
-      "skyParameters" : {
-        "dayLength" : 10000,
-        "surfaceLevel" : 1000,
-        "spaceLevel" : 3000,
-        "seed" : -5288806180628666923,
-        "skyType" : "barren",
-        "skyColoring" : {
-          "mainColor" : [0, 0, 0],
-          "morningColors" : [[0, 0, 0], [0, 0, 0]],
-          "dayColors" : [[0, 0, 0], [0, 0, 0]],
-          "eveningColors" : [[0, 0, 0], [0, 0, 0]],
-          "nightColors" : [[0, 0, 0], [0, 0, 0]],
-          "morningLightColor" : [0, 0, 0],
-          "dayLightColor" : [0, 0, 0],
-          "eveningLightColor" : [0, 0, 0],
-          "nightLightColor" : [0, 0, 0]
-        }
-      }
-    }
   }
 ]

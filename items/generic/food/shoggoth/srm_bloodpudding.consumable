@@ -8,10 +8,6 @@
   "shortdescription" : "Blood Pudding",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 90
-    },
-    {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 180
     }

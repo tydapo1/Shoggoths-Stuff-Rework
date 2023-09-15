@@ -10,10 +10,6 @@
     {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 270
-    },
-    {
-        "effect" : "srm_cannibalism",
-        "duration" : 35
     }
   ] ],
   "foodValue" : 35,

@@ -1,9 +1,0 @@
-{
-  "name" : "srm_corruptedswoosh",
-  "category" : "guardianboss",
-  "type" : "swoosh",
-
-  "frames" : {
-    "swoosh" : "swoosh.png"
-  }
-}

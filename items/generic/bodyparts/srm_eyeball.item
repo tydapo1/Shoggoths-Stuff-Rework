@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_eyeball",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_eyeball.png",
+  "description" : "A small, squishy organ responsible for sight.",
+  "shortdescription" : "Eyeball",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

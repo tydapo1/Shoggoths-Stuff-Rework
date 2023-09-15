@@ -2,8 +2,7 @@
   "name" : "srm_liquidremoval",
   "effectConfig" : {
 	"bleedThreshold" : 50,
-	"procRate" : 1,
-	"dropCells" : false
+	"procRate" : 1
   },
   "defaultDuration" : 0.001,
 

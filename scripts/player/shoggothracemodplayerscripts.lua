@@ -3,19 +3,8 @@ require "/scripts/rect.lua"
 
 function init()
 	organsConfig = root.assetJson("/config/srm_organs.config")
-	ruinLootConfig = root.assetJson("/config/srm_ruinloot.config")
 	message.setHandler("srm_warp", function(_, isItMine, location) 
 		player.warp(location)
-	end)
-	message.setHandler("srm_hasKey", function(_, isItMine, objectId) 
-		if player.hasItemWithParameter("inventoryIcon", "srm_ruinkey.png") then
-			world.sendEntityMessage(objectId, "srm_hasKeyAnswer", true)
-		else
-			world.sendEntityMessage(objectId, "srm_hasKeyAnswer", false)
-		end
-	end)
-	message.setHandler("srm_consumeKey", function(_, isItMine) 
-		player.consumeItemWithParameter("inventoryIcon", "srm_ruinkey.png", 1)
 	end)
 	organsWithTechConfig = {}
 	for i=1,#organsConfig do
@@ -26,15 +15,14 @@ function init()
 	end
 	
 	script.setUpdateDelta(1)
+	
+	magsBeGone()
 end
 
 function update(dt)
 	localAnimator = math.srm_localAnimator
-	if (not hasStatus("srm_curseoftrials")) then player.consumeItem("srm_trialhook") end
 	
 	eldritchColoring()
-	
-	deadCells()
 	
 	organEffects()
 	organTech()
@@ -78,7 +66,7 @@ function organTech()
 	end
 end
 
--- This handles organ blueprints and ruin loot from the corrupted vault
+-- This handles organ blueprints
 function uniqueBlueprint()
 	if (player.currency("srm_organblueprint") > 0) then
 		player.consumeCurrency("srm_organblueprint", 1)
@@ -95,60 +83,13 @@ function uniqueBlueprint()
 			world.spawnTreasure(world.entityPosition(player.id()), "blueprintRunestoneTreasure", 1)
 		end
 	end
-	if (player.currency("srm_ruinblueprint") > 0) then
-		local hasBP = false
-		local message = ""
-		player.consumeCurrency("srm_ruinblueprint", 1)
-		localAnimator.playAudio("/sfx/objects/absorbblueprintrare.ogg")
-		if (player.blueprintKnown("srm_helminth")) then
-			notOwnedLoot = {}
-			for i=1,#ruinLootConfig do
-				if (not player.blueprintKnown(ruinLootConfig[i].name)) then
-					notOwnedLoot[#notOwnedLoot+1] = ruinLootConfig[i]
-				end
-			end
-			if (#notOwnedLoot>0) then
-				local selected = notOwnedLoot[math.random(#notOwnedLoot)]
-				hasBP = true
-				message = selected.message
-				player.giveBlueprint(selected.name)
-			else
-				world.spawnTreasure(world.entityPosition(player.id()), "ruinRunestoneTreasure", 1)
-			end
-		else
-			hasBP = true
-			message = "You have obtained the blueprint for the Helminth, craftable at the Deathstate Portal inside the Organ category. This apparatus allows the user to transplant organs inside their body."
-			player.giveBlueprint("srm_helminth")
-		end
-		if hasBP then
-			local srm_message = { 
-				important = false,
-				unique = false,
-				type = "generic",
-				textSpeed = 30,
-				portraitFrames = 2,
-				persistTime = 1,
-				messageId = sb.makeUuid(),	  
-				chatterSound = "/sfx/interface/aichatter3_loop.ogg",
-				portraitImage = "/ai/portraits/gibberingbladder.png:talk.<frame>",
-				senderName = "Crypt Helper",
-				text = message
-			}
-			srm_message.messageId = sb.makeUuid()
-			world.sendEntityMessage(
-				player.id(),
-				"queueRadioMessage",
-				srm_message
-			)
-		end
-	end
 end
 
 -- Gives the player a tech disk containing their old tech and equip the new one
 function switchEquippedTech(tech)
 	oldTech = player.equippedTech("body") or "nothing"
 	if ((tech ~= oldTech) and (oldTech ~= "nothing")) then
-		techdisk = {
+		techdisk = Deathstate{
 			parameters= {
 				description = "Using this disk will give back the '" .. oldTech .. "' tech.",
 				tech_to_unlock = oldTech
@@ -178,10 +119,10 @@ function eldritchColoring()
 		local portrait = world.entityPortrait(player.id(), "fullneutral")
 		--sb.logInfo(sb.printJson(portrait))
 		for key, value in pairs(portrait) do
-					if (string.find(portrait[key].image, "body.png")) then
-							local body_image =	portrait[key].image
-							local directive_location = string.find(body_image, "replace")
-							bodyDirectives = string.sub(body_image,directive_location)
+			if (string.find(portrait[key].image, "body.png")) then
+				local body_image =	portrait[key].image
+				local directive_location = string.find(body_image, "replace")
+				bodyDirectives = string.sub(body_image,directive_location)
 			end
 		end
 		bodyDirectives = "?" .. bodyDirectives
@@ -254,23 +195,8 @@ function eldritchColoring()
 	end
 end
 
-function deadCells()
-	local cellLevel = 0
-	if (player.primaryHandItem()) then
-		if (player.primaryHandItem().parameters.cellsConsumed ~= nil) then
-		cellLevel = cellLevel + player.primaryHandItem().parameters.cellsConsumed
-	end
-	end
-	if (player.primaryHandItem() ~= player.altHandItem()) then
-		if (player.altHandItem()) then
-			if (player.altHandItem().parameters.cellsConsumed ~= nil) then
-				cellLevel = cellLevel + player.altHandItem().parameters.cellsConsumed
-			end
-		end
-	end
-	local powerLevel = 1+((math.sqrt(cellLevel+100)-10)/100)
-	status.setStatusProperty("deadCellsPowerLevel", powerLevel)
-	status.addEphemeralEffect("srm_deadCellsPower")
+function magsBeGone()
+	status.clearPersistentEffects("persistentMag")
 end
 
 --UTILITY FUNCTIONS UNDER HERE

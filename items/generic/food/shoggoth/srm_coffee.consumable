@@ -8,10 +8,6 @@
   "description" : "Freshly brewed shoggoffee. Not especially great. At all.",
   "shortdescription" : "Shoggoffee",
   "effects" : [ [
-    {
-        "effect" : "srm_cannibalism",
-        "duration" : 30
-    },
 	{
         "effect" : "maxenergyscalingboostfood",
         "duration" : 60

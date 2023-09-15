@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_lungs",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_lungs.png",
+  "description" : "A large pair of organs responsible for breathing.",
+  "shortdescription" : "Lungs",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

@@ -1,9 +1,0 @@
-{
-  "name" : "srm_corruptedpointy",
-  "category" : "guardianboss",
-  "type" : "hip",
-
-  "frames" : {
-    "hip" : "pointy.png"
-  }
-}

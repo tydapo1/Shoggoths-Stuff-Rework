@@ -6,12 +6,6 @@
   "inventoryIcon" : "srm_brainjerky.png",
   "description" : "Not the best quality food, it almost certainly has some kind of disease.",
   "shortdescription" : "Brain Jerky",
-  "effects" : [ [
-    {
-        "effect" : "srm_cannibalism",
-        "duration" : 50
-    }
-  ] ],
   "foodValue" : 50,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

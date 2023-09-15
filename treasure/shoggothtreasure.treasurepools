@@ -17,39 +17,11 @@
     }]
   ],
 
-  "bleedCells" : [
-    [0, {
-      "poolRounds" : [
-        [0.67, 0],
-        [0.33, 1]
-      ],
-      "pool" : [
-        {"weight" : 1.0, "item" : ["srm_deadcells", 1]}
-      ]
-    }]
-  ],
-
-  "bleedCellsDeath" : [
-    [0, {
-      "poolRounds" : [
-        [1.00, 0],
-        [0.66, 1],
-        [0.33, 2]
-      ],
-      "pool" : [
-        {"weight" : 1.00, "item" : ["srm_deadcells", 1]},
-        {"weight" : 0.66, "item" : ["srm_deadcells", 2]},
-        {"weight" : 0.33, "item" : ["srm_deadcells", 3]}
-      ]
-    }]
-  ],
-
   "bleedOrgans" : [
     [0, {
       "poolRounds" : [
         [1.0, 1],
-        [0.33, 2],
-        [0.11, 3]
+        [0.33, 2]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_brain", 1]},
@@ -71,7 +43,7 @@
     [0, {
       "poolRounds" : [
         [1.0, 1],
-        [0.3, 2]
+        [0.2, 2]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_eyeball", 1]}
@@ -83,7 +55,7 @@
     [0, {
       "poolRounds" : [
         [1.0, 1],
-        [0.3, 2]
+        [0.2, 2]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_kidney", 1]}
@@ -94,10 +66,8 @@
   "srm_veins_pool" : [
     [0, {
       "poolRounds" : [
-        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
-		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
-		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
-		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+        [1.00, 3], [0.90, 4], [0.80, 5], [0.70, 6], 
+		[0.60, 7], [0.50, 8], [0.40, 9], [0.30, 10]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_veins", 1]}
@@ -108,10 +78,8 @@
   "srm_nerves_pool" : [
     [0, {
       "poolRounds" : [
-        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
-		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
-		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
-		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+        [1.00, 3], [0.90, 4], [0.80, 5], [0.70, 6], 
+		[0.60, 7], [0.50, 8], [0.40, 9], [0.30, 10]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_nerves", 1]}
@@ -122,10 +90,8 @@
   "srm_intestines_pool" : [
     [0, {
       "poolRounds" : [
-        [1.00, 10], [0.95, 11], [0.90, 12], [0.85, 13], 
-		[0.80, 14], [0.75, 15], [0.70, 16], [0.65, 17], 
-		[0.60, 18], [0.55, 19], [0.50, 20], [0.45, 21], 
-		[0.40, 22], [0.35, 23], [0.30, 24], [0.25, 25]
+        [1.00, 3], [0.90, 4], [0.80, 5], [0.70, 6], 
+		[0.60, 7], [0.50, 8], [0.40, 9], [0.30, 10]
       ],
       "pool" : [
         {"weight" : 1.00, "item" : ["srm_intestines", 1]}
@@ -136,83 +102,6 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
 VAULT STUFF
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-  "deadcellsBurst" : [
-    [0, {
-      "fill" : [
-        { "item" : "srm_organblueprint" }
-      ],
-      "poolRounds" : [
-        [1.0, 10]
-      ],
-      "pool" : [
-        {"weight" : 1.00, "item" : ["srm_deadcells", 8]},
-        {"weight" : 1.00, "item" : ["srm_deadcells", 9]},
-        {"weight" : 1.00, "item" : ["srm_deadcells", 10]},
-        {"weight" : 1.00, "item" : ["srm_deadcells", 11]},
-        {"weight" : 1.00, "item" : ["srm_deadcells", 12]}
-      ]
-    }]
-  ],
-
-  "deadcellsDrop" : [
-    [0, {
-      "fill" : [
-        { "pool" : "runestoneTreasure" }
-      ],
-      "poolRounds" : [
-        [1.0, 3]
-      ],
-      "pool" : [
-        {"weight" : 0.25, "item" : ["srm_deadcells", 1] },
-        {"weight" : 0.50, "item" : ["srm_deadcells", 2] },
-        {"weight" : 0.25, "item" : ["srm_deadcells", 3] }
-      ]
-    }]
-  ],
-  
-  "corruptedGuardianTreasure" : [
-    [0, {
-      "fill" : [
-        { "item" : "srm_golemcore" }
-      ]
-    }]
-  ],
-
-  "trialPotSmall" : [
-    [0, {
-      "fill" : [
-        { "pool" : "runestoneTreasure" }
-      ],
-      "pool" : [
-        {"weight" : 1.0, "item" : ["srm_deadcells", 1]}
-      ]
-    }]
-  ],
-
-  "trialPotMedium" : [
-    [0, {
-      "fill" : [
-        { "pool" : "runestoneTreasure" }
-      ],
-      "pool" : [
-        {"weight" : 0.5, "item" : ["srm_deadcells", 1]},
-        {"weight" : 0.5, "item" : ["srm_deadcells", 2]}
-      ]
-    }]
-  ],
-
-  "trialPotLarge" : [
-    [0, {
-      "fill" : [
-        { "pool" : "runestoneTreasure" }
-      ],
-      "pool" : [
-        {"weight" : 0.5, "item" : ["srm_deadcells", 2]},
-        {"weight" : 0.5, "item" : ["srm_deadcells", 3]}
-      ]
-    }]
-  ],
   
   "runestoneTreasure" : [
     [0, {
@@ -237,36 +126,6 @@ VAULT STUFF
       ],
       "pool" : [
         {"weight" : 1.0, "pool" : "runestoneTreasure"}
-      ]
-    }]
-  ],
-  
-  "ruinRunestoneTreasure" : [
-    [0, {
-      "poolRounds" : [
-        [1.0, 10]
-      ],
-      "pool" : [
-        {"weight" : 1.0, "pool" : "runestoneTreasure"}
-      ]
-    }]
-  ],
-  
-  "ruinBellyTreasure" : [
-    [0, {
-      "fill" : [
-        { "item" : "srm_ruinblueprint" },
-        { "pool" : "valuableTreasure" },
-        { "pool" : "valuableTreasure" },
-        { "pool" : "valuableTreasure" },
-        { "pool" : "ruinRunestoneTreasure" }
-      ],
-      "poolRounds" : [
-        [1.0, 50]
-      ],
-      "pool" : [
-        {"weight" : 1.00, "pool" : "basicTreasure"},
-        {"weight" : 1.00, "pool" : "chestMoney"}
       ]
     }]
   ],

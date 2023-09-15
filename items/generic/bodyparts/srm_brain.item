@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_brain",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_brain.png",
+  "description" : "A fragile organ that is responsible for thought and behavior.",
+  "shortdescription" : "Brain",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_nerves",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_nerves.png",
+  "description" : "A squeaky string-like membrane responsible for distributing the brain's signals.",
+  "shortdescription" : "A Measure Of Nerves",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

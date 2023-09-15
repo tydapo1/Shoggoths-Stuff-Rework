@@ -106,14 +106,6 @@
 			"op": "add",
 			"path": "/weatherThreatValues/srm_smog",
 			"value": 3
-		},
-		{
-			"op": "add",
-			"path": "/displayDungeons/srm_dungeonmarker",
-			"value": {
-				"description": "Subsurface scannings have returned inconclusive. There may or may not be more underground than expected.",
-				"icon": "/interface/cockpit/dungeons/unknown.png"
-			}
 		}/*,
 		{
 			"op": "add",

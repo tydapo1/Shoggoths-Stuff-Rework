@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_veins",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_veins.png",
+  "description" : "A tube-like squeaky membrane responsible for carrying the blood.",
+  "shortdescription" : "A Measure Of Veins",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

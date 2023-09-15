@@ -1,8 +1,0 @@
-{
-  "itemName" : "srm_ruinkey",
-  "rarity" : "Legendary",
-  "category" : "quest",
-  "inventoryIcon" : "srm_ruinkey.png",
-  "description" : "A slimey key that allows the owner to access the innards of it's kin.",
-  "shortdescription" : "Ruin Key"
-}

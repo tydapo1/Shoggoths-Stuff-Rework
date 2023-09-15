@@ -8,10 +8,6 @@
   "shortdescription" : "Obol Cookie",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 110
-    },
-    {
         "effect" : "thorns",
         "duration" : 220
     },

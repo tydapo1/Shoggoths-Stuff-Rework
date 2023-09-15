@@ -8,10 +8,6 @@
   "shortdescription" : "Bobeye Tea",
   "effects" : [ [
     {
-        "effect" : "srm_cannibalism",
-        "duration" : 110
-    },
-    {
         "effect" : "runboostfood",
         "duration" : 220
     },

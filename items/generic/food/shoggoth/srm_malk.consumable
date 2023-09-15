@@ -6,12 +6,6 @@
   "inventoryIcon" : "srm_malk.png",
   "description" : "Mmm, malk. Not sure if this is still safe to drink.",
   "shortdescription" : "Malk",
-  "effects" : [ [
-    {
-        "effect" : "srm_cannibalism",
-        "duration" : 10
-    }
-  ] ],
   "foodValue" : 10,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",

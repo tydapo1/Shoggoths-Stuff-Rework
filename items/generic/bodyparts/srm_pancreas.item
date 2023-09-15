@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_pancreas",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_pancreas.png",
+  "description" : "A small organ responsible for producing hormones.",
+  "shortdescription" : "Pancreas",
+  "itemTags" : [ "t1organ", "reagent" ]
+}

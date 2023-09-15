@@ -25,10 +25,7 @@
         "subsurface": {
           "primaryRegion": [ "srm_abyssalcaverns" ],
           "baseHeight": 1400,
-          "layerLevel": 800,
-          "dungeons": [
-            [ 1.0, "srm_dungeonmarker" ]
-          ]
+          "layerLevel": 800
         },
         "underground1": {
           "primaryRegion": [ "srm_abyssaloasis" ],

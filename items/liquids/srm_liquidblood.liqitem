@@ -7,8 +7,7 @@
   "description" : "Blood!",
   "learnBlueprintsOnPickup" : [
     "srm_bloodbag",
-    "srm_giantbattery",
-	"srm_nutritivepastedispenser"
+    "srm_giantbattery"
   ],
 
   "liquid" : "srm_liquidblood",

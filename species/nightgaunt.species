@@ -13,7 +13,7 @@
   "ouchNoises" : [ "/sfx/humanoid/shoggothhurt_female3.ogg", "/sfx/humanoid/shoggothhurt_female2.ogg", "/sfx/humanoid/shoggothhurt_female1.ogg" ],
   "charGenTextLabels" : [ "Face colour", "Hair style", "Chest style", "Legwear style", "Eyes colour", "Demon flavor", "Chest colour", "Legwear colour", "Nightgaunt", "Personality" ],
   "skull" : "/humanoid/shoggoth/dead.png",
-  "effectDirectives" : "?replace=feFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "effectDirectives" : "?replace=FFFFFFFF=000000FF?replace=FEFFFFFF=000000FF?replace=9bd4ffFF=4a1149FF?replace=31a6ffFF=832181FF",
   "defaultBlueprints" : {
     "tier1" : [
 // Nightgaunt Exclusives
