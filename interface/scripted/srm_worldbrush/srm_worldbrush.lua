@@ -1,3 +1,5 @@
+require "/scripts/srm_terra_renderutil.lua"
+
 function init()
 	tileconfig = root.assetJson("/config/srm_brush.config")
 	
@@ -150,52 +152,49 @@ end
 local colorIndices = { none = 0, red = 1, blue = 2, green = 3, yellow = 4, orange = 5, pink = 6, black = 7, white = 8 }
 local colorNames = { [0] = "none", [1] = "red", [2] = "blue", [3] = "green", [4] = "yellow", [5] = "orange", [6] = "pink", [7] = "black", [8] = "white" }
 
+function findColorIndex(directives, a)
+	local ops = renderutil.parseDirectiveString(getPlayerDirectives())
+	--sb.logInfo("ops: "..sb.printJson(ops,1))
+	--sb.logInfo("species directives: "..sb.printJson(directives,1))
+	--sb.logInfo("colour to find: "..sb.printJson(directives,1))
+	-- ops looks a bit like [{t:"replace",d=[["ffffff","ffeedd"],["ffffee","ffeecc"]]},{t:"replace",d=[["55ffff","ffeedd"],["aaffee","ffeecc"]]}]
+	for k,v in next, ops do
+	    for k2,v2 in next, v.d do
+		if v2[1] == a then
+		    for k3,v3 in next, directives do
+			for k4,v4 in next, v3 do
+			    if v2[2] == v4 then
+				return k3
+			    end
+			end
+		    end
+		end
+	    end
+	end
+end
+
 -- This hurts but it works trust me
 -- Gets the index of the player's selected color option for the Eyes
 function findEyesColorIndex()
-	directives = root.assetJson("/species/shoggoth.species:undyColor")
-	s = getPlayerDirectives()
-	a = "f9f0c5fe" --this value is present in all possible color options
-	--b = s:find(a.."=")
-	b, c = string.find(s, a .. "=")
-	local step1 = string.sub(s, b, string.len(s))
-	useless, step2 = string.find(step1, ";")
-	b = string.sub(step1, string.len(a)+2, step2-1)
-	for i = 1, #directives do
-		if directives[i][a] == b then return i-1 end
-	end
+	local directives = root.assetJson("/species/shoggoth.species:undyColor")
+	local a = "f9f0c5fe" --this value is present in all possible color options
+	return findColorIndex(directives, a)
 end
 
 -- This hurts but it works trust me
 -- Gets the index of the player's selected color option for the Face
 function findFaceColorIndex()
-	directives = root.assetJson("/species/shoggoth.species:bodyColor")
-	s = getPlayerDirectives()
-	a = "bcbce0" --this value is present in all possible color options
-	--b = s:find(a .. "=")
-	b, c = string.find(s, a .. "=")
-	local step1 = string.sub(s, b, string.len(s))
-	useless, step2 = string.find(step1, ";")
-	b = string.sub(step1, string.len(a)+2, step2-1)
-	for i = 1, #directives do
-		if directives[i][a] == b then return i-1 end
-	end
+	local directives = root.assetJson("/species/shoggoth.species:bodyColor")
+	local a = "bcbce0" --this value is present in all possible color options
+	return findColorIndex(directives, a)
 end
 
 -- This hurts but it works trust me
 -- Gets the index of the player's selected color option for the Body
 function findBodyColorIndex()
-	directives = root.assetJson("/species/shoggoth.species:hairColor")
-	s = getPlayerDirectives()
-	a = "515384" --this value is present in all possible color options
-	--b = s:find(a.."=")
-	b, c = string.find(s, a .. "=")
-	local step1 = string.sub(s, b, string.len(s))
-	useless, step2 = string.find(step1, ";")
-	b = string.sub(step1, string.len(a)+2, step2-1)
-	for i = 1, #directives do
-		if directives[i][a] == b then return i-1 end
-	end
+	local directives = root.assetJson("/species/shoggoth.species:hairColor")
+	local a = "515384" --this value is present in all possible color options
+	return findColorIndex(directives, a)
 end
 
 -- Gets the player directives from the portraits
