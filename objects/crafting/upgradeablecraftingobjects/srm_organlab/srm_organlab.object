@@ -73,7 +73,7 @@
 
         "filter" : [ "t1organ" ],
         "craftingSound" : "/sfx/npc/monsters/orbide_wakeup.ogg",
-        "initialRecipeUnlocks" : [ "srm_deathstatelog1-codex", "srm_scalpel", "srm_stemcell" ],
+        "initialRecipeUnlocks" : [ "srm_scalpel", "srm_stemcell" ],
         "upgradeMaterials" : [
           { "item" : "tungstenbar", "count" : 10 },
           { "item" : "livingroot", "count" : 1 },

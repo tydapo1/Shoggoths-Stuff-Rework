@@ -5,9 +5,10 @@
   "icon" : "srm_todolist.png",
   "contentPages" : [
 
-"- Get Blood Bank at Inventor Table
-- Get Organ Lab at Inventor Table
-- Make organs (will need raw ore not bars)
+"- Get Blood Donation Machine at Inventor Table
+- Get Heart Forge at Inventor Table
+- Turn Heart Forge into Organ Lab
+- Make organs (will require raw ore, not bars)
 - Maybe make cool sword
 - Make house",
 

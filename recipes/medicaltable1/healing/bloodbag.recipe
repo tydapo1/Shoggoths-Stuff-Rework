@@ -8,6 +8,5 @@
     "item" : "srm_bloodbag",
     "count" : 1
   },
-  "duration" : 0.0,
-  "groups" : [ "weapons", "t2organ" ]
+  "groups" : [ "craftingmedical", "healing" ]
 }

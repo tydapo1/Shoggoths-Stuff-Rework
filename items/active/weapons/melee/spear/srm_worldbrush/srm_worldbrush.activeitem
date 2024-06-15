@@ -4,7 +4,7 @@
   "level" : 1,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Used to paint the world with shoggothely blocks.",
+  "description" : "Used to create shoggothely blocks. ^green;[Shift + RClick]^reset; to open the block menu.",
   "shortdescription" : "^reset;^reset;World Brush",
   "tooltipKind" : "base",
   "category" : "spear",

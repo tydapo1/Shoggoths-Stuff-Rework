@@ -4,7 +4,7 @@
   "level" : 1,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "No damage, extract organs on any foes under 25% health.",
+  "description" : "A precision cutting tool, useful for ^orange;extracting organs^reset;.",
   "shortdescription" : "Large Scalpel",
   "tooltipKind" : "base",
   "category" : "dagger",
@@ -83,6 +83,7 @@
       "blade" : "srm_scalpel_l6.png",
       "bladefullbright" : "srm_scalpelfullbright_l6.png"
     },
+    "description" : "A precission cutting tool, now with a heated blade! Useful for ^orange;extracting organs^reset;.",
     "shortdescription" : "Large Scalpel ^yellow;^reset;"
   }
 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "commonrocketlauncher", "count" : 1 },
+    { "item" : "ironbar", "count" : 5 },
     { "item" : "torch", "count" : 20 }
   ],
   "output" : {
