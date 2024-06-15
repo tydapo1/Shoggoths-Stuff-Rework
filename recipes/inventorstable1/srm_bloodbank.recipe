@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "salve", "count" : 5 },
 	{ "item" : "ironbar", "count" : 10 },
-	{ "item" : "ironshortsword", "count" : 1 }
+	{ "item" : "glass", "count" : 5 }
   ],
   "output" : {
     "item" : "srm_bloodbank",
