@@ -7,7 +7,7 @@
   "description" : "It sounds as dumb as it works.",
   "shortdescription" : "Rocket Thrower",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

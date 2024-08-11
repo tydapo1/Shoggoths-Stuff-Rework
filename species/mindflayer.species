@@ -249,9 +249,11 @@
 	  ]
   },
 
+  "altOptionAsFacialMask" : true,
   "altOptionAsHairColor" : true,
   "headOptionAsHairColor" : true,
   "hairColorAsBodySubColor" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
 
   "genders" : [
     {
@@ -263,8 +265,8 @@
       "pants" : [ "srm_mindflayerdresslegs", "srm_shoggothcultlegs", "srm_shoggothskulllegs", "srm_shoggothnunlegs" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
-      "facialMaskGroup" : "",
-      "facialMask" : [ ]
+      "facialMaskGroup" : "facemask",
+      "facialMask" : [ "1" ]
     },
     {
       "name" : "female",
@@ -275,8 +277,8 @@
       "pants" : [ "srm_mindflayerdresslegs", "srm_shoggothcultlegs", "srm_shoggothskulllegs", "srm_shoggothnunlegs" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
-      "facialMaskGroup" : "",
-      "facialMask" : [ ]
+      "facialMaskGroup" : "facemask",
+      "facialMask" : [ "1" ]
     }
   ],
   

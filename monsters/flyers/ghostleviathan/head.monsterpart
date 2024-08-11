@@ -1,9 +1,0 @@
-{
-  "name" : "srm_ghostleviathanhead",
-  "category" : "srm_ghostleviathanhead",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "head.png"
-  }
-}

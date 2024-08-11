@@ -7,7 +7,7 @@
   "description" : "This revolver's bullets always fly back into the magazine.",
   "shortdescription" : "Magic Revi",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

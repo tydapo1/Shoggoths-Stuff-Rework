@@ -7,7 +7,7 @@
   "description" : "These flames are weak, but the accumulated heat burns the foe with a mighty fire.",
   "shortdescription" : "Hellfire Torrent",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

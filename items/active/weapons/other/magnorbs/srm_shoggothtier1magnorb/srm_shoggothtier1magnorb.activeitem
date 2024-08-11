@@ -7,7 +7,7 @@
   "description" : "Pulled straight from a corpse, this will atleast allow you to defend yourself.",
   "shortdescription" : "The Oversight",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

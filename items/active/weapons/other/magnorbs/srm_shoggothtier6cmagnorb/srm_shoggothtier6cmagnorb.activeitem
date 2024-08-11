@@ -7,7 +7,7 @@
   "description" : "A single press of a button will do everything.",
   "shortdescription" : "Tactical Annihilation",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

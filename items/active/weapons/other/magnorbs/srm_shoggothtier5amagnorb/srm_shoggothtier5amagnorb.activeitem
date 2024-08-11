@@ -7,7 +7,7 @@
   "description" : "They aren't very harmful, but that doesn't matter since there are way more to hurt with.",
   "shortdescription" : "Magic Missile",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

@@ -7,7 +7,7 @@
   "description" : "Juggle aggressively with these squeaky, soft balls.",
   "shortdescription" : "The Clown's Retribution",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

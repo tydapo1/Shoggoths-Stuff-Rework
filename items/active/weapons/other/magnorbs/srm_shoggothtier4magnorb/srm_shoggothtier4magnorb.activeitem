@@ -7,7 +7,7 @@
   "description" : "Suppress your foes with your highly explosive military-grade self-defense destruction pebbles.",
   "shortdescription" : "Blastomania",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

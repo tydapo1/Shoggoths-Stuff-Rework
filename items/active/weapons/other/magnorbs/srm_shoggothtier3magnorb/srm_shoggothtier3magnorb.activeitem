@@ -7,7 +7,7 @@
   "description" : "With some titanium thread and strong magnets, you can manipulate the knive to control them as desired.",
   "shortdescription" : "Magnetic Knives",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

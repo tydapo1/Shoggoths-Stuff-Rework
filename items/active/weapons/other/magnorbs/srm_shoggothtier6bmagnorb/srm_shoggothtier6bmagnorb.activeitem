@@ -7,7 +7,7 @@
   "description" : "Blast your foes with this extreme velocity plasma blaster.",
   "shortdescription" : "Ultra Buster",
   "tooltipKind" : "shogmagnorb",
-  "category" : "magnorb",
+  "category" : "Magnorb",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "learnBlueprintsOnPickup" : [ ],

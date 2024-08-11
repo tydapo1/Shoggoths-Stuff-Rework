@@ -58,13 +58,6 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
-      "item": "srm_arcadeshop"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
       "item": "srm_torchgun"
     }
   },
@@ -100,14 +93,6 @@
       "maxStat": "maxTechFuel",
       "deltaValue": 0.0,
       "initialPercentage": 100.0
-    }
-  },
-  {
-    "op": "add",
-    "path": "/statusControllerSettings/resources/srm_magPB",
-    "value": {
-      "maxValue": 1.0,
-      "initialPercentage": 0.0
     }
   }
 ]
