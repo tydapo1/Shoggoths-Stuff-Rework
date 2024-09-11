@@ -1,0 +1,54 @@
+{
+  "objectName" : "srm_runescribescriptorium",
+  "colonyTags" : ["shoggoth", "crafting"],
+  "rarity" : "Rare",
+  "race" : "shoggoth",
+  "category" : "crafting",
+  
+  "description" : "A scriptorium for etching runes and imbuing them with power.",
+  "shortdescription" : "Rune-Scribe Scriptorium",
+
+  "price" : 500,
+  "printable" : false,
+  
+  
+  "apexDescription" : "Science has come so far, what use is there for alchemy?",
+  "avianDescription" : "I don't recognize any of these glyphs. They're different from the ones the Stargazers use.",
+  "floranDescription" : "Floran doesn't underssstand weird shapesss.",
+  "glitchDescription" : "Unnerved. This strange altar seems to be used for some sort of bizarre form of alchemy.",
+  "humanDescription" : "Huh? Alchemy? Do people actually believe in that stuff?",
+  "hylotlDescription" : "This seems to be a station dedicated to etching runes of some sort... ",
+  "novakidDescription" : "These here symbols ain't like the ones we Novakids have on our faces. ",
+  "inventoryIcon" : "srm_runescribescriptoriumicon.png",
+ 
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/srm_runescribescriptorium.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Rune-Scribe Scriptorium",
+        "subtitle" : "Runestones",
+        "icon" : {
+          "file" : "/interface/crafting/srm_alchemyicon.png"
+        }
+      }
+    },
+    "filter" : [ "shoggothrunestones" ]
+  },
+  
+ "orientations" : [
+    {
+      "dualImage" : "srm_runescribescriptorium.png:<frame><color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 3,
+      "animationCycle" : 0.45,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+ 
+  "placementImage" : "/objects/crafting/srm_runescribescriptorium/srm_runescribescriptorium.png:1",
+  "placementImagePosition" : [-24, 0],
+  "shoggothColorable" : true,
+  "color" : ""
+}

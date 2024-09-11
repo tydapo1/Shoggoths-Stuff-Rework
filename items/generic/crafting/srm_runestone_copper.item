@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_copper",
+  "price" : 1000,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_copper.png",
+  "description" : "A magical slate, imprinted with the element of copper.",
+  "shortdescription" : "Copper Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}

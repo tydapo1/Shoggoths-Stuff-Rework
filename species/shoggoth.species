@@ -11,7 +11,7 @@
   
   "nameGen" : [ "/species/shoggothmalenamegen.config:names", "/species/shoggothfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/shoggothhurt_female3.ogg", "/sfx/humanoid/shoggothhurt_female2.ogg", "/sfx/humanoid/shoggothhurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Face colour", "Hair style", "Chest style", "Legwear style", "Eyes colour", "Goo flavor", "Chest colour", "Legwear colour", "Shoggoth", "Personality" ],
+  "charGenTextLabels" : [ "Face colour", "Hair style", "Chest style", "Legwear style", "Eyes colour", "Goo flavor", "Chest colour", "Legwear colour", "SHOGGOTH", "Personality" ],
   "skull" : "/humanoid/shoggoth/dead.png",
   "effectDirectives" : "?replace=FFFFFFFF=000000FF?replace=FEFFFFFF=000000FF?replace=9bd4ffFF=301565FF?replace=31a6ffFF=472193FF",
   "defaultBlueprints" : {
@@ -28,6 +28,17 @@
 	  { "item" : "brokenprotectoratebroadsword" },
 	  { "item" : "srm_shoggothtarballtech" },
 	  { "item" : "srm_skindye" },
+	  
+// Modded Stuff - Runes
+	  { "item" : "srm_runestone_air" },
+	  { "item" : "srm_runestone_earth" },
+	  { "item" : "srm_runestone_fire" },
+	  { "item" : "srm_runestone_water" },
+	  { "item" : "srm_runestone_void" },
+	  { "item" : "srm_runestone_copper" },
+	  { "item" : "srm_runestone_iron" },
+	  { "item" : "srm_runestone_silver" },
+	  { "item" : "srm_runestone_gold" },
 	  
 // Modded Stuff - Racial Gear
 	  { "item" : "srm_breathlungs" },

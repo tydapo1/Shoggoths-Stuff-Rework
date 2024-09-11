@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "srm_organblueprint",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "shoggothrunestones" ]
+}

@@ -2,7 +2,7 @@
   "input" : [
 	{ "item" : "srm_golemcore", "count" : 1 },
 	{ "item" : "srm_runestone_iron", "count" : 5 },
-	{ "item" : "srm_runestone_lead", "count" : 5 }
+	{ "item" : "srm_runestone_void", "count" : 5 }
   ],
   "output" : {
     "item" : "srm_ruddycateye",
@@ -18,9 +18,9 @@
 	{ "item" : "srm_runestone_water", "count" : 5 },
 	{ "item" : "srm_runestone_air", "count" : 5 },
 	{ "item" : "srm_runestone_earth", "count" : 5 },
-	{ "item" : "srm_runestone_sulphur", "count" : 5 },
-	{ "item" : "srm_runestone_iron", "count" : 5 },
-	{ "item" : "srm_runestone_mercury", "count" : 5 },
 	{ "item" : "srm_runestone_gold", "count" : 5 },
-	{ "item" : "srm_runestone_lead", "count" : 5 }
+	{ "item" : "srm_runestone_iron", "count" : 5 },
+	{ "item" : "srm_runestone_silver", "count" : 5 },
+	{ "item" : "srm_runestone_copper", "count" : 5 },
+	{ "item" : "srm_runestone_void", "count" : 5 }
 */

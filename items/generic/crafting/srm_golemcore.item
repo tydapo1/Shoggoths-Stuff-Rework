@@ -1,6 +1,6 @@
 {
   "itemName" : "srm_golemcore",
-  "price" : 1000,
+  "price" : 5000,
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "srm_golemcore.png",

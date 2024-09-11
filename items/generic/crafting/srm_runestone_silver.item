@@ -1,0 +1,10 @@
+{
+  "itemName" : "srm_runestone_silver",
+  "price" : 1000,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "srm_runestone_silver.png",
+  "description" : "A magical slate, imprinted with the element of silver.",
+  "shortdescription" : "Silver Runestone",
+  "itemTags" : [ "t7organ", "reagent" ]
+}
