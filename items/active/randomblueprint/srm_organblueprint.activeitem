@@ -1,0 +1,28 @@
+{
+  "itemName" : "srm_organblueprint",
+  "level" : 1,
+  "price" : 150,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A blueprint for a simple mech part.",
+  "shortdescription" : "Organ Blueprint",
+  "tooltipKind" : "base",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "srm_organblueprint.png",
+
+  "animation" : "randomblueprint.animation",
+
+  "scripts" : ["randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0,
+  "recipes" : [
+    ["srm_goldeneye", "srm_goldencateye", "srm_goldenstarchildeye", "srm_cyaneye", "srm_cyancateye", "srm_cyanstarchildeye", "srm_viridianeye", "srm_viridiancateye", "srm_viridianstarchildeye", "srm_magentaeye", "srm_magentacateye", "srm_magentastarchildeye", "srm_royalblueeye", "srm_royalbluecateye", "srm_royalbluestarchildeye", "srm_ruddyeye", "srm_ruddycateye", "srm_ruddystarchildeye", "srm_starchildcataracteye", "srm_observereye", "srm_othellosskull", "srm_shadowhoundfang", "srm_biomechanicalbrain", "srm_aggravatingbrain", "srm_thebrainofduketheris", "srm_ennervatingbrain", "srm_brainfromafar"],
+    ["srm_curseofgluttony", "srm_curseofgreed", "srm_curseofwrath", "srm_vembraxslungs", "srm_thebruteslungs", "srm_tumerichanslungs", "srm_humansoul", "srm_butterflylung"],
+    ["srm_biomechanicalheart", "srm_causticheart", "srm_elinbergsheart", "srm_icepiercedheart", "srm_modroncore", "srm_soulreactor", "srm_spicefedheart", "srm_starthingsheart", "srm_unstableheart"],
+    ["srm_bejeweledspleen", "srm_biliousslimebag", "srm_biomechanicalgut", "srm_brutalgugstomach", "srm_gibberingbladder", "srm_robustgut", "srm_saintathenabrysguts", "srm_slimyskull"]
+  ]
+}

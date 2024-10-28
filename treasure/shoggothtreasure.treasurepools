@@ -100,37 +100,6 @@
   ],
   
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
-VAULT STUFF
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-  
-  "runestoneTreasure" : [
-    [0, {
-      "pool" : [
-        {"weight" : 1.00, "item" : "srm_runestone_air"},
-		{"weight" : 1.00, "item" : "srm_runestone_earth"},
-		{"weight" : 1.00, "item" : "srm_runestone_fire"},
-		{"weight" : 1.00, "item" : "srm_runestone_water"},
-        {"weight" : 1.00, "item" : "srm_runestone_gold"},
-		{"weight" : 1.00, "item" : "srm_runestone_iron"},
-		{"weight" : 1.00, "item" : "srm_runestone_lead"},
-		{"weight" : 1.00, "item" : "srm_runestone_mercury"},
-		{"weight" : 1.00, "item" : "srm_runestone_sulphur"}
-      ]
-    }]
-  ],
-  
-  "blueprintRunestoneTreasure" : [
-    [0, {
-      "poolRounds" : [
-        [1.0, 3]
-      ],
-      "pool" : [
-        {"weight" : 1.0, "pool" : "runestoneTreasure"}
-      ]
-    }]
-  ],
-  
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
 FOOD
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 

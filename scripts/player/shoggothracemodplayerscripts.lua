@@ -26,7 +26,6 @@ function update(dt)
 	
 	organEffects()
 	organTech()
-	uniqueBlueprint()
 end
 
 
@@ -63,25 +62,6 @@ function organTech()
 		switchEquippedTech("srm_organtech")
 	else
 		removeTech("srm_organtech")
-	end
-end
-
--- This handles organ blueprints
-function uniqueBlueprint()
-	if (player.currency("srm_organblueprint") > 0) then
-		player.consumeCurrency("srm_organblueprint", 1)
-		localAnimator.playAudio("/sfx/objects/absorbblueprint.ogg")
-		notOwnedOrgans = {}
-		for i=1,#organsConfig do
-			if (not player.blueprintKnown(organsConfig[i].name)) then
-				notOwnedOrgans[#notOwnedOrgans+1] = organsConfig[i].name
-			end
-		end
-		if (#notOwnedOrgans>0) then
-			player.giveBlueprint(notOwnedOrgans[math.random(#notOwnedOrgans)])
-		else
-			world.spawnTreasure(world.entityPosition(player.id()), "blueprintRunestoneTreasure", 1)
-		end
 	end
 end
 

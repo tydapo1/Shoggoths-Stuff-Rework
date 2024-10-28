@@ -2,7 +2,7 @@
   "projectileName" : "srm_observereyeradar",
   "image" : "srm_observereyeradar.png",
   "animationCycle" : 1.0,
-  "timeToLive" : 1.0,
+  "timeToLive" : 0.99,
   "frameNumber" : 1,
   "speed" : 0,
   "power" : 0,
