@@ -5,7 +5,7 @@
   "price" : 90,
   "printable" : false,
   
-  "description" : "Cooks food to an edible state. Don't count on it, however.",
+  "description" : "A living oven that cooks food to an edible state. If it doesn't eat it first.",
   "shortdescription" : "Shoggoth Oven",
   "race" : "shoggoth",
   "colonyTags" : ["shoggoth","cooking"],

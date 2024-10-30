@@ -5,19 +5,19 @@
   "category" : "light",
   "price" : 125,
 
-  "description" : "A tar candle set.",
-  "shortdescription" : "Shoggoth Candles",
+  "description" : "A tarry floor candelabra.",
+  "shortdescription" : "Shoggoth Floor Candelabra",
   "race" : "shoggoth",
 
   "maximumLiquidLevel" : 0.2,
 
   "apexDescription" : "A solid tar candlestick.",
-  "avianDescription" : "How does this possibly hold up on a candlestick.",
-  "floranDescription" : "Why slime people place fire on tar sstick? Hsss.",
-  "glitchDescription" : "Sympathetic. A solid tar candlestick. Atleast, it lights up the way, even if ominous.",
-  "humanDescription" : "This candlestick mustn't be worth a whole lot.",
-  "hylotlDescription" : "The way this is functionning baffles me.",
-  "novakidDescription" : "I feel bad for the guy who has to keep all these candlesticks alight.",
+  "avianDescription" : "How does this tar thing hold up the candles?",
+  "floranDescription" : "Why slime people place fire on tar sstick?",
+  "glitchDescription" : "Sympathetic. A solid tar candlestick. At least it lights up the way, even if it is quite ominous.",
+  "humanDescription" : "This candlestick can't be worth much.",
+  "hylotlDescription" : "The decision to make this candlestick out of tar is baffling to me.",
+  "novakidDescription" : "I feel bad for the guy who has to keep all these candles lit.",
 
   "statusEffects" : [ ],
   

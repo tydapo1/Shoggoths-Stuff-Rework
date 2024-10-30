@@ -15,13 +15,13 @@
     "srm_shoggothslimed"
   ],
 
-  "apexDescription" : "A odd little bath. What is that purple liquid even?",
+  "apexDescription" : "An odd little bath. What is that slimy liquid?",
   "avianDescription" : "A bath with a shower. I don't think I'd bathe myself in this, however.",
   "floranDescription" : "Very big ssswimming thing.",
   "glitchDescription" : "Concerned. This entire bath is very strange.",
-  "humanDescription" : "A lukewarm, tarry bath. this pink liquid is very thick.",
-  "hylotlDescription" : "Usually, these are for washing oneself, but I belive there may be health hazards within this one.",
-  "novakidDescription" : "Woah! Pre-bubbled water, sick!",
+  "humanDescription" : "A lukewarm, tarry bath. The liquid is very thick.",
+  "hylotlDescription" : "Usually baths are for washing oneself, but I belive the liquid in this one might be hazardous to my health.",
+  "novakidDescription" : "Whoa! Pre-bubbled water!",
   
   "soundEffect" : "/sfx/objects/shoggothbath.ogg",
   "soundEffectRangeMultiplier" : 0.5,

@@ -5,16 +5,16 @@
   "category" : "decorative",
   "price" : 70,
 
-  "description" : "Thin hanging tarry drapes. Quite classy. (Alt 3)",
-  "shortdescription" : "Classic Thin Shoggoth Drape",
+  "description" : "A thin tarry end drape. Quite classy.",
+  "shortdescription" : "Shoggoth End Drape (Alt)",
   "race" : "shoggoth",
 
   "apexDescription" : "Thick, heavy curtains.",
   "avianDescription" : "Squishy to the touch.",
   "floranDescription" : "Shoggoth make curtain from flessssh, Floran do the sssame.",
-  "glitchDescription" : "Grossed. Few objects are as unpleasurable to caress.",
+  "glitchDescription" : "Repulsed. Few objects are as unpleasant to caress.",
   "humanDescription" : "This feels like a page of the Necronomicon.",
-  "hylotlDescription" : "These curtains stick really hard to Hylotl skin.",
+  "hylotlDescription" : "These repulsive curtains stick to Hylotl skin.",
   "novakidDescription" : "These curtains look uncanny, they move too much.",
 
   "inventoryIcon" : "srm_shoggoththindrape4icon.png",

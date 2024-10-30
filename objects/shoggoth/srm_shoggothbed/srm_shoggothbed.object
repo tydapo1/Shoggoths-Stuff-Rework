@@ -3,18 +3,20 @@
   "colonyTags" : ["shoggoth"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "A tarry shoggoth bed.",
+  "description" : "A tarry Shoggoth bed.",
   "shortdescription" : "Shoggoth Bed",
   "race" : "shoggoth",
   "category" : "furniture",
   "price" : 45,
+  
   "apexDescription" : "A tarry bed, nice and squishy.",
   "avianDescription" : "A tarry frame and a squishy mattress. What more could you need?",
   "floranDescription" : "Floran rarely ssleep in ssuch terrible bed.",
   "glitchDescription" : "Drowsy. My power levels are low. This bed looks inviting.",
-  "humanDescription" : "Your strange, squishy bed.",
+  "humanDescription" : "A strange, squishy bed.",
   "hylotlDescription" : "A good place to close one's eyes.",
   "novakidDescription" : "A decent place to get some shut-eye.",
+  
   "inventoryIcon" : "srm_shoggothbedicon.png",
   "orientations" : [
     {

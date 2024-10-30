@@ -5,7 +5,7 @@
   "price" : 160,
   "printable" : false,
   
-  "description" : "A very tarry wardrobe.",
+  "description" : "A very tarry wardrobe. Open its mouth to store stuff inside!",
   "shortdescription" : "Shoggoth Wardrobe",
   "race" : "shoggoth",
   "colonyTags" : ["shoggoth","storage"],

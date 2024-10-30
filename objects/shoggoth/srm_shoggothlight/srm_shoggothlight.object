@@ -3,7 +3,7 @@
   "colonyTags" : ["light"],
   "rarity" : "Common",
   "description" : "A hanging ceiling light made from tar.",
-  "shortdescription" : "Shoggoth Light",
+  "shortdescription" : "Shoggoth Ceiling Light",
   "race" : "shoggoth",
   "category" : "light",
   "price" : 30,

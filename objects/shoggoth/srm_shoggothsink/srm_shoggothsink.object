@@ -12,11 +12,11 @@
   "race" : "shoggoth",
 
   "apexDescription" : "This sink isn't really that suitable for a kitchen or bathroom.",
-  "avianDescription" : "Why is it leaking purple?.",
+  "avianDescription" : "Why is it leaking purple?",
   "floranDescription" : "Turn handle, weird ssslime comess out!",
   "glitchDescription" : "Disgusted. Hot and cold slime, if you somehow need slime.",
   "humanDescription" : "A gross sink. It's staring at me.",
-  "hylotlDescription" : "I don't really want to that at all.",
+  "hylotlDescription" : "I don't really want to touch that at all.",
   "novakidDescription" : "Oh, this smells awful!",
 
   "inventoryIcon" : "srm_shoggothsinkicon.png",

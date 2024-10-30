@@ -8,6 +8,7 @@
   "race" : "shoggoth",
   "category" : "furniture",
   "price" : 45,
+  
   "apexDescription" : "What manner of horrendous worshippers gather here?",
   "avianDescription" : "The god this altar pays tribute to does not bear thinking of.",
   "floranDescription" : "Floran only worship ssstabbing. Floran like table though.",
@@ -15,6 +16,7 @@
   "humanDescription" : "What eldritch horrors are worshipped here? And when did I learn the word eldritch?",
   "hylotlDescription" : "This horrifying altar of the damned has such basic, crude construction. Shameful.",
   "novakidDescription" : "Yikesey-doodles, this is mighty gross!",
+  
   "inventoryIcon" : "srm_shoggothaltaricon.png",
   "orientations" : [
     {

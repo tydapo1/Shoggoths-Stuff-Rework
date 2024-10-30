@@ -4,7 +4,7 @@
   "race" : "shoggoth",
   "objectType" : "teleporter",
   "rarity" : "Legendary",
-  "description" : "A personal henta-- teleporter, yes...",
+  "description" : "A tarry, seemingly organic teleporter surrounded by teeth and tentacles. \n^green;Not destroyed when broken.",
   "shortdescription" : "Shoggoth Teleporter",
   "price" : 3000,
   "printable" : false,

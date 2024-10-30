@@ -3,8 +3,8 @@
   "colonyTags" : ["shoggoth"],
   "rarity" : "Common",
 
-  "description" : "An eldritch looking toilet. (Alt 1)",
-  "shortdescription" : "Shoggoth Toilet",
+  "description" : "An eldritch-looking toilet. This one doesn't seem safe to use.",
+  "shortdescription" : "Shoggoth Teeth Toilet",
   "race" : "shoggoth",
   "category" : "furniture",
   "price" : 75,
@@ -13,9 +13,9 @@
   "avianDescription" : "A spooky place for droppings.",
   "floranDescription" : "Ssslimy place for sssmelly business.",
   "glitchDescription" : "Disdain. A scary toilet.",
-  "humanDescription" : "An eldritch toilet. I feel watched.",
+  "humanDescription" : "An eldritch toilet. I don't think I can use this.",
   "hylotlDescription" : "A tarry toilet.",
-  "novakidDescription" : "I would not use this, no matter how much I'm payed.",
+  "novakidDescription" : "I would not use this, no matter how much I'm paid.",
 
   "inventoryIcon" : "srm_shoggothtoilet2icon.png",
   "orientations" : [

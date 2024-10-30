@@ -2,7 +2,7 @@
   "objectName" : "srm_shoggothicpainting",
   "colonyTags" : ["shoggoth","pretty","valuable"],
   "rarity" : "Rare",
-  "description" : "A portrait of an Shoggoth couple.",
+  "description" : "A portrait of an eldritch couple.",
   "shortdescription" : "Gothic Shoggoth Painting",
   "race" : "shoggoth",
   "category" : "decorative",
@@ -13,7 +13,7 @@
   "avianDescription" : "These are the faces of people without Kluex in their lives.",
   "floranDescription" : "How can Squid man be sssad when he has a big ssstabbing fork?",
   "glitchDescription" : "Impressed. This Shoggoth couple have futuristic clothing.",
-  "humanDescription" : "I don't remember this classic painting featuring Cthuluh.",
+  "humanDescription" : "I don't remember this classic painting featuring Cthulhu.",
   "hylotlDescription" : "Unnerving emotions are depicted here.",
   "novakidDescription" : "A couple Shoggoth farmers dressed like humans. Strange.",
 

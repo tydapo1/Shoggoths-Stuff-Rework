@@ -2,7 +2,7 @@
   "objectName" : "srm_venusdeshoggoth",
   "colonyTags" : ["shoggoth","pretty","valuable"],
   "rarity" : "Legendary",
-  "description" : "Ancient Eldritch tarr sculpture, Ve'nus De Shoggothe. Sculptor Unknown.",
+  "description" : "Ancient Eldritch tar sculpture, Ve'nus De Shoggothe. Sculptor Unknown.",
   "shortdescription" : "Ve'nus de Shoggothe",
   "race" : "glitch",
   "category" : "decorative",
@@ -10,12 +10,12 @@
   "printable" : false,
 
   "apexDescription" : "An unusual, sticky statue. It seems to be trembling...",
-  "avianDescription" : "A tarr shoggoth. It doesn't really feel like a statue.",
-  "floranDescription" : "Floran not like thisss. Feel stared...",
-  "glitchDescription" : "Impressed. This shoggoth specialises at standing still.",
-  "humanDescription" : "Too bad I don't have any jar that large.",
+  "avianDescription" : "A tarry Shoggoth. It doesn't really feel like a statue.",
+  "floranDescription" : "Floran not like thisss. Feels alive...",
+  "glitchDescription" : "Impressed. This Shoggoth is talented standing still.",
+  "humanDescription" : "This statue is so lifelike!... Wait, do I hear breathing?",
   "hylotlDescription" : "... Hello? How long have you been standing on that podium?",
-  "novakidDescription" : "Damn, that lack of arms must suck.",
+  "novakidDescription" : "Damn... The lack of arms must suck.",
 
   "inventoryIcon" : "srm_venusdeshoggothicon.png",
   "orientations" : [

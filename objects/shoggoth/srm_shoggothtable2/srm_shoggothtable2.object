@@ -3,7 +3,7 @@
   "colonyTags" : ["shoggoth"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "A tarry table. (Alt 1)",
+  "description" : "A basic tarry table.",
   "shortdescription" : "Shoggoth Table",
   "race" : "shoggoth",
   "category" : "furniture",
@@ -11,7 +11,7 @@
 
   "apexDescription" : "A very tarry table.",
   "avianDescription" : "The goopiest of tables.",
-  "floranDescription" : "Tarrrrry table. Grossssss.",
+  "floranDescription" : "Tarry table. Grossssss.",
   "glitchDescription" : "Disgusted. A very tarry table.",
   "humanDescription" : "An odd table.",
   "hylotlDescription" : "A table, very tarry in every way.",

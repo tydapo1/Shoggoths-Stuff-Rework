@@ -5,19 +5,19 @@
   "category" : "light",
   "price" : 105,
   
-  "description" : "The tar frame of this candle holder curls like fingers.",
-  "shortdescription" : "Shoggoth Melted Candles",
+  "description" : "The tarry frame of this candelabra curls like fingers.",
+  "shortdescription" : "Melted Shoggoth Candelabra",
   "race" : "shoggoth",
 
   "maximumLiquidLevel" : 0.2,
 
-  "apexDescription" : "Candles. Low tech, and a staple in every culture in history.",
+  "apexDescription" : "This candlestick has seen better days.",
   "avianDescription" : "Hmm, I believe this would be nicer if it didn't exist.",
   "floranDescription" : "Floran not want to ssstand so close...",
   "glitchDescription" : "Approving. A tar candle holder.",
-  "humanDescription" : "A tar candle holder. How quaint.",
-  "hylotlDescription" : "This probably wouldn't work at the bottom of the sea...",
-  "novakidDescription":  "Candles - A good source of light if you ain't got a gas lamp.",
+  "humanDescription" : "How is this thing still standing?",
+  "hylotlDescription" : "Of course, it's only logical that a candlestick made of tar would end up melted like this.",
+  "novakidDescription":  "Something about this ain't lookin' quite right.",
   
   "lightColor" : [213, 255, 146],
   "lightPosition" : [0, 4],

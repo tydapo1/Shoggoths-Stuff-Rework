@@ -3,7 +3,7 @@
   "colonyTags" : ["shoggoth"],
   "rarity" : "Common",
 
-  "description" : "An eldritch looking toilet.",
+  "description" : "An eldritch-looking toilet.",
   "shortdescription" : "Shoggoth Toilet",
   "race" : "shoggoth",
   "category" : "furniture",
@@ -15,7 +15,7 @@
   "glitchDescription" : "Disdain. A scary toilet.",
   "humanDescription" : "An eldritch toilet. I feel watched.",
   "hylotlDescription" : "A tarry toilet.",
-  "novakidDescription" : "I would not use this, no matter how much I'm payed.",
+  "novakidDescription" : "I would not use this, no matter how much I'm paid.",
 
   "inventoryIcon" : "srm_shoggothtoileticon.png",
   "orientations" : [

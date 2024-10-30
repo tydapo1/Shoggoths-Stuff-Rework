@@ -12,16 +12,16 @@
   "flickerPeriodVariance" : 0,
   "flickerIntensityVariance" : 0,
   
-  "description" : "The pod is empty.",
+  "description" : "An empty tarry pod.",
   "shortdescription" : "Shoggoth Support Pod",
   "race" : "shoggoth",
 
-  "apexDescription" : "Thankfully this pod is empty. Is this how the Miniknog attempt to return us to our natural state?",
+  "apexDescription" : "This pod appears to be unoccupied. I was afraid something might jump out at me.",
   "avianDescription" : "This is dark science...",
-  "floranDescription" : "Sssuch machines are unnatural.",
-  "glitchDescription" : "Attentive. Machine appears to attempt to alter Apex DNA.",
+  "floranDescription" : "Fleshy pod isss unnatural.",
+  "glitchDescription" : "Attentive. Pod appears to be partly organic.",
   "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
-  "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
+  "hylotlDescription" : "This pod seems to be almost entirely organic... How disturbing.",
   "novakidDescription" : "I ain't going near that.",
 
   "objectType" : "loungeable",

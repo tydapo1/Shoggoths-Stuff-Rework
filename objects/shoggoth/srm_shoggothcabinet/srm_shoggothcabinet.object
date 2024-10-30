@@ -10,13 +10,13 @@
   "shortdescription" : "Shoggoth Cabinet",
   "race" : "shoggoth",
 
-  "apexDescription" : "Creepy and functional.",
+  "apexDescription" : "Creepy, but functional.",
   "avianDescription" : "A bad place to store food.",
   "floranDescription" : "Floran not want ssshare food with weird thing.",
   "glitchDescription" : "Cautious. I do not want to risk putting my hands in there.",
-  "humanDescription" : "Looks like a kitchen counter, minus the teeth and eyes.",
-  "hylotlDescription" : "If I search for food inside, I fear I might become myself the diner.",
-  "novakidDescription" : "My kitchen counter pet! Their name is Becky!",
+  "humanDescription" : "Looks like a kitchen counter... with added teeth and eyes.",
+  "hylotlDescription" : "If I search for food inside, I fear I might become the dinner.",
+  "novakidDescription" : "My kitchen counter pet! Their name is Betty!",
 
   "inventoryIcon" : "srm_shoggothcabineticon.png",
   "orientations" : [

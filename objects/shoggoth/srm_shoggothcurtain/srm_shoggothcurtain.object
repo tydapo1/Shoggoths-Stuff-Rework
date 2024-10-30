@@ -5,16 +5,16 @@
   "category" : "decorative",
   "price" : 60,
 
-  "description" : "The classiest tarry curtain.",
-  "shortdescription" : "Classic Shoggoth Curtain",
+  "description" : "A classy tarry curtain.",
+  "shortdescription" : "Shoggoth Curtain",
   "race" : "shoggoth",
 
   "apexDescription" : "Thick, heavy curtains.",
   "avianDescription" : "Squishy to the touch.",
   "floranDescription" : "Shoggoth make curtain from flessssh, Floran do the sssame.",
-  "glitchDescription" : "Grossed. Few objects are as unpleasurable to caress.",
+  "glitchDescription" : "Repulsed. Few objects are as unpleasant to caress.",
   "humanDescription" : "This feels like a page of the Necronomicon.",
-  "hylotlDescription" : "These curtains stick really hard to Hylotl skin.",
+  "hylotlDescription" : "These repulsive curtains stick to Hylotl skin.",
   "novakidDescription" : "These curtains look uncanny, they move too much.",
 
   "inventoryIcon" : "srm_shoggothcurtainicon.png",

@@ -5,7 +5,7 @@
   "objectType" : "container",
   "tooltipKind" : "container",
   "category" : "storage",
-  "description" : "A garbage bin. Any garbage that makes it in vanishes into the bin's eternal void.",
+  "description" : "A garbage bin. Any garbage that makes it in vanishes into the eternal void.",
   "shortdescription" : "Shoggoth Trash Can",
   "race" : "shoggoth",
   "price" : 60,

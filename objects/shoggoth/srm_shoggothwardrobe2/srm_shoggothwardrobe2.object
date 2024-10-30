@@ -5,8 +5,8 @@
   "price" : 160,
   "printable" : false,
   
-  "description" : "A very tarry wardrobe. (Alt 1)",
-  "shortdescription" : "Shoggoth Wardrobe",
+  "description" : "A very tarry wardrobe.",
+  "shortdescription" : "Basic Shoggoth Wardrobe",
   "race" : "shoggoth",
   "colonyTags" : ["shoggoth","storage"],
 
