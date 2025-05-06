@@ -15,7 +15,7 @@
 
   "renderTemplate" : "/tiles/srm_shoggothbrick.config",
   "renderParameters" : {
-    "texture" : "srm_shoggothbrick.png?replace;515384=fcd1ec;41446f=efb9de;323660=e0a9cf;242952=cd96bb;5b4a7e=febde8;503e70=f0addb;41325f=df9dca;35274e=cf8fbb;644078=ffabe4;5f3770=f2a2d9;4f2e5d=df92c7;45244a=cb82b4;bcbce0=ffe9fa;acacd2=fde1f6;8686aa=f3cce8;75759c=e9bada;3f3f7d=b8deef;2f3465=9fc3de;242957=8eaace;1e2251=7a94bc;3f3777=a6ceea;302c5f=91b6dc;282454=7e9cc3;221f4d=7291b9;3f2f70=99c1e8;33265b=84aadb;2d2152=7698c4;261c48=6586b1;c3c6df=dbf0fb;b3b6d1=c9e6f6;8c8db2=b5d5e9;7a7ea1=a2c5dc",
+    "texture" : "srm_shoggothbrick.png?replace;515384=fcd1ec;41446f=efb9de;323660=e0a9cf;242952=cd96bb;5b4a7e=febde8;503d6f=f0addb;40325f=df9dca;35274e=cf8fbb;644078=ffabe4;5f3770=f2a2d9;4f2e5d=df92c7;45244a=cb82b4;bcbce0=ffe9fa;acacd2=fde1f6;8686aa=f3cce8;75759c=e9bada;3f3f7d=b8deef;2f3465=9fc3de;242957=8eaace;1e2251=7a94bc;3f3777=a6ceea;302c5f=91b6dc;282454=7e9cc3;221f4d=7291b9;3f2f70=99c1e8;33265b=84aadb;2d2152=7698c4;261c48=6586b1;c3c6df=dbf0fb;b3b6d1=c9e6f6;8c8db2=b5d5e9;7a7ea1=a2c5dc",
     "variants" : 6,
     "lightTransparent" : false,
     "multiColored" : true,
@@ -32,8 +32,8 @@
 //	242952=cd96bb;
 //  Body Mid 1
 //	5b4a7e=febde8;
-//	503e70=f0addb;
-//	41325f=df9dca;
+//	503d6f=f0addb;
+//	40325f=df9dca;
 //	35274e=cf8fbb;
 //  Body Bottom 1
 //	644078=ffabe4;

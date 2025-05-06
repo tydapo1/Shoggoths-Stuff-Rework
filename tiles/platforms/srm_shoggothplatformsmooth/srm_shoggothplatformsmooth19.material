@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/srm_shoggothplatformsmooth.config",
   "renderParameters" : {
-    "texture" : "srm_shoggothplatformsmooth.png?replace;515384=fff8c9;41446f=fbd978;323660=dca956;242952=b98440;5b4a7e=fdbb61;503e70=e89c4a;41325f=d3873e;35274e=b85f29;644078=d86241;5f3770=a9401c;4f2e5d=892810;45244a=6d1709;bcbce0=fff8dc;acacd2=f9e89c;8686aa=dcb872;75759c=ca9b5d;3f3f7d=ffea6d;2f3465=fdcc18;242957=e0990d;1e2251=ca780e;3f3777=ffb196;302c5f=fc8a6c;282454=ef6c4f;221f4d=cf4b3a;3f2f70=ee2478;33265b=cc1658;2d2152=a90841;261c48=7b0022;c3c6df=fff2a3;b3b6d1=ffe53c;8c8db2=f2b31b;7a7ea1=e7960b",
+    "texture" : "srm_shoggothplatformsmooth.png?replace;515384=fff8c9;41446f=fbd978;323660=dca956;242952=b98440;5b4a7e=fdbb61;503d6f=e89c4a;40325f=d3873e;35274e=b85f29;644078=d86241;5f3770=a9401c;4f2e5d=892810;45244a=6d1709;bcbce0=fff8dc;acacd2=f9e89c;8686aa=dcb872;75759c=ca9b5d;3f3f7d=ffea6d;2f3465=fdcc18;242957=e0990d;1e2251=ca780e;3f3777=ffb196;302c5f=fc8a6c;282454=ef6c4f;221f4d=cf4b3a;3f2f70=ee2478;33265b=cc1658;2d2152=a90841;261c48=7b0022;c3c6df=fff2a3;b3b6d1=ffe53c;8c8db2=f2b31b;7a7ea1=e7960b",
     "variants" : 1,
     "lightTransparent" : true,
     "occludesBelow" : false,
@@ -31,8 +31,8 @@
 //	242952=b98440;
 //  Body Mid 1
 //	5b4a7e=fdbb61;
-//	503e70=e89c4a;
-//	41325f=d3873e;
+//	503d6f=e89c4a;
+//	40325f=d3873e;
 //	35274e=b85f29;
 //  Body Bottom 1
 //	644078=d86241;

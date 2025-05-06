@@ -13,7 +13,7 @@
 
   "renderTemplate" : "/tiles/srm_shoggothplatformmelting.config",
   "renderParameters" : {
-    "texture" : "srm_shoggothplatformmelting.png?replace;515384=2d2d2d;41446f=1e1e1e;323660=0f0f0f;242952=000000;5b4a7e=2d2d2d;503e70=1e1e1e;41325f=0f0f0f;35274e=000000;644078=2d2d2d;5f3770=1e1e1e;4f2e5d=0f0f0f;45244a=000000;bcbce0=2d2d2d;acacd2=1e1e1e;8686aa=0f0f0f;75759c=000000;3f3f7d=fefefe;2f3465=f0f0f0;242957=d7d7d7;1e2251=c8c8c8;3f3777=fefefe;302c5f=f0f0f0;282454=d7d7d7;221f4d=c8c8c8;3f2f70=fefefe;33265b=f0f0f0;2d2152=d7d7d7;261c48=c8c8c8;c3c6df=fefefe;b3b6d1=f0f0f0;8c8db2=d7d7d7;7a7ea1=c8c8c8",
+    "texture" : "srm_shoggothplatformmelting.png?replace;515384=2d2d2d;41446f=1e1e1e;323660=0f0f0f;242952=000000;5b4a7e=2d2d2d;503d6f=1e1e1e;40325f=0f0f0f;35274e=000000;644078=2d2d2d;5f3770=1e1e1e;4f2e5d=0f0f0f;45244a=000000;bcbce0=2d2d2d;acacd2=1e1e1e;8686aa=0f0f0f;75759c=000000;3f3f7d=fefefe;2f3465=f0f0f0;242957=d7d7d7;1e2251=c8c8c8;3f3777=fefefe;302c5f=f0f0f0;282454=d7d7d7;221f4d=c8c8c8;3f2f70=fefefe;33265b=f0f0f0;2d2152=d7d7d7;261c48=c8c8c8;c3c6df=fefefe;b3b6d1=f0f0f0;8c8db2=d7d7d7;7a7ea1=c8c8c8",
     "variants" : 1,
     "lightTransparent" : true,
     "occludesBelow" : false,
@@ -31,8 +31,8 @@
 //	242952=000000;
 //  Body Mid 1
 //	5b4a7e=2d2d2d;
-//	503e70=1e1e1e;
-//	41325f=0f0f0f;
+//	503d6f=1e1e1e;
+//	40325f=0f0f0f;
 //	35274e=000000;
 //  Body Bottom 1
 //	644078=2d2d2d;

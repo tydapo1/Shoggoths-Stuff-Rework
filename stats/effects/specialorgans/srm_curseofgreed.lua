@@ -1,3 +1,5 @@
+require "/scripts/util.lua"
+
 function init()
 	queryDamageSince = 0
 	lastMoney = 999999999
@@ -15,8 +17,7 @@ function randomInteger()
 end
 
 function update(dt)
-	player = math.srm_player
-	if lastMoney < player.currency("money") then
+	if (lastMoney < player.currency("money")) then
 		status.giveResource("health", (player.currency("money")-lastMoney))
 	end
 	lastMoney = player.currency("money")

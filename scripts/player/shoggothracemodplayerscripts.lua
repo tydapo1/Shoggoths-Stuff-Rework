@@ -69,7 +69,7 @@ end
 function switchEquippedTech(tech)
 	oldTech = player.equippedTech("body") or "nothing"
 	if ((tech ~= oldTech) and (oldTech ~= "nothing")) then
-		techdisk = Deathstate{
+		techdisk = {
 			parameters= {
 				description = "Using this disk will give back the '" .. oldTech .. "' tech.",
 				tech_to_unlock = oldTech

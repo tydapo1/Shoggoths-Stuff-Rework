@@ -15,7 +15,7 @@
 
   "renderTemplate" : "/tiles/srm_shoggothmucus.config",
   "renderParameters" : {
-    "texture" : "srm_shoggothmucus.png?replace;515384=5ebbed;41446f=4ea5d9;323660=3d93c5;242952=2f7fae;5b4a7e=50a3e7;503e70=4491d2;41325f=3882be;35274e=2f72a9;644078=418be0;5f3770=3c7fcd;4f2e5d=3572b8;45244a=2e65a3;bcbce0=91d6f4;acacd2=8acdec;8686aa=79badf;75759c=69a9cf;3f3f7d=2899d0;2f3465=1d7abe;242957=1266aa;1e2251=0c5092;3f3777=237cc8;302c5f=1a66b4;282454=155ca8;221f4d=0f4486;3f2f70=1d5ebf;33265b=1951a8;2d2152=144392;261c48=113779;c3c6df=66bae2;b3b6d1=51a3d6;8c8db2=3d88bd;7a7ea1=2d6da9",
+    "texture" : "srm_shoggothmucus.png?replace;515384=5ebbed;41446f=4ea5d9;323660=3d93c5;242952=2f7fae;5b4a7e=50a3e7;503d6f=4491d2;40325f=3882be;35274e=2f72a9;644078=418be0;5f3770=3c7fcd;4f2e5d=3572b8;45244a=2e65a3;bcbce0=91d6f4;acacd2=8acdec;8686aa=79badf;75759c=69a9cf;3f3f7d=2899d0;2f3465=1d7abe;242957=1266aa;1e2251=0c5092;3f3777=237cc8;302c5f=1a66b4;282454=155ca8;221f4d=0f4486;3f2f70=1d5ebf;33265b=1951a8;2d2152=144392;261c48=113779;c3c6df=66bae2;b3b6d1=51a3d6;8c8db2=3d88bd;7a7ea1=2d6da9",
     "variants" : 13,
     "lightTransparent" : true,
     "occludesBelow" : false,
@@ -33,8 +33,8 @@
 //	242952=2f7fae;
 //  Body Mid 1
 //	5b4a7e=50a3e7;
-//	503e70=4491d2;
-//	41325f=3882be;
+//	503d6f=4491d2;
+//	40325f=3882be;
 //	35274e=2f72a9;
 //  Body Bottom 1
 //	644078=418be0;

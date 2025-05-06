@@ -96,14 +96,14 @@
 		
 		"rarity" : "Rare",
 
-        "apexDescription" : "Great power could be extracted from this realm.",
-        "avianDescription" : "Is this... Where Kluex resides?",
+        "apexDescription" : "This portal seems like it held immense power once.",
+        "avianDescription" : "Is this... Where Kluex resides? Oh, wait, no, it's broken.",
         "floranDescription" : "Floran like light, feelss nice... Really... Niccce...",
-        "glitchDescription" : "Staggered! This place is beyond!",
-        "humanDescription" : "I... Should not go in there.",
-        "hylotlDescription" : "This light, this power, this essence... There's no way..",
-        "novakidDescription" : "Where in tarnation does this goes?!",
-        "shoggothDescription" : "My home."
+        "glitchDescription" : "Disappointed. This portal seems to not be functioning.",
+        "humanDescription" : "Cool crystal portal thing. Sucks that it doesn't work any more.",
+        "hylotlDescription" : "An awe-inspiring sight. Too bad it's just a light display now.",
+        "novakidDescription" : "Where in tarnation does this go?!... Oh wait, it doesn't work any more...",
+        "shoggothDescription" : "What cruel being replaced my home portal with a light fixture?!"
       },
 
       "interactData" : {
