@@ -178,7 +178,7 @@ end
 function findEyesColorIndex()
 	local directives = root.assetJson("/species/shoggoth.species:undyColor")
 	local a = "f9f0c5fe" --this value is present in all possible color options
-	return findColorIndex(directives, a)
+	return (findColorIndex(directives, a) - 1)
 end
 
 -- This hurts but it works trust me
@@ -186,7 +186,7 @@ end
 function findFaceColorIndex()
 	local directives = root.assetJson("/species/shoggoth.species:bodyColor")
 	local a = "bcbce0" --this value is present in all possible color options
-	return findColorIndex(directives, a)
+	return (findColorIndex(directives, a) - 1)
 end
 
 -- This hurts but it works trust me
@@ -194,7 +194,7 @@ end
 function findBodyColorIndex()
 	local directives = root.assetJson("/species/shoggoth.species:hairColor")
 	local a = "515384" --this value is present in all possible color options
-	return findColorIndex(directives, a)
+	return (findColorIndex(directives, a) - 1)
 end
 
 -- Gets the player directives from the portraits
